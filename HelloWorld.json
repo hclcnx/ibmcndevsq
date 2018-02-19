@@ -1,0 +1,26 @@
+{
+  "name": "SQ Homepage Customization",
+  "title": "Introductory Customizer App",
+  "description": "Inserts text into IBM Connections Homepage",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "payload": {
+	      "match": {
+		      "user name":["Jovanny Martis"]
+	      },
+        "include-files": [
+          "helloWorld.user.js"
+        ],
+	      "include-repo":{
+	       "name": "ibmcndevsq"
+	     }
+      },
+      "name": "SQ Hello World Extension",
+      "type": "com.ibm.customizer.ui",
+      "path": "homepage"
+    }
+  ]
+}
