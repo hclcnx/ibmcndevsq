@@ -1,19 +1,53 @@
-/* Common */
+/* Global */
+/* navigation bar */
+
 .ics-scbanner{
     background-color: white;
     transition: none;
-}
-.lotusliveui .lotusTitleBar, #nav, .scloud3 .lotusTitleBar2, .scloud3 .lotusTitleBar2, .scloud3 .lotusTitleBar, .scloud3 .lotusTitleBar2.lotusTitleBar2Tabs {
-    background: white repeat-x 0 0 !important;
-   }
-/* left side navigation */
-.lotusMenu li a.lotusSelected, .lotusMenu li.lotusSelected a, .lotusMenu li.lotusSelected a:visited, .lotusMenu li.lotusSelected a:active, .lotusMenu h3.lotusSelected, .scloud3 .lotusMenu li.lotusSelected a, .scloud3 .lotusMenu li.lotusSelected a:hover, .scloud3 .lotusMenu li.lotusSelected a:focus, .scloud3 .lotusMenu li.lotusSelected a:active, .scloud3 .lotusMenu .lotusHeaderSelected, .lotusliveui .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .scloud3 .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .content_wrap .side_bar .current {
-    background: #75263b;
-       text-decoration:none;
+    color: #75263b !important;
 }
 
-.lotusui30 .lotusMenu .lotusUnreadBadge {
-    background-color: #df6f07;
+.hikari.ics-scbanner > a, .hikari.ics-scbanner > a:visited, .hikari.ics-scbanner > a:hover, .hikari.ics-scbanner > a:focus, .hikari.ics-scbanner > a:active, .gen4.ics-scbanner > a, .gen4.ics-scbanner > a:visited, .gen4.ics-scbanner > a:hover, .gen4.ics-scbanner > a:focus, .gen4.ics-scbanner > a:active, .colour.ics-scbanner > a, .colour.ics-scbanner > a:visited, .colour.ics-scbanner > a:hover, .colour.ics-scbanner > a:focus, .colour.ics-scbanner > a:active {
+color:#75263b !important;
+}
+
+.ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after {
+border-bottom: 0.125rem solid #df6f07;
+}
+
+/* navigation bar::chat.logout.button */
+.stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
+    background: #75263b;
+    border: 1px solid #75263b;
+    box-shadow: 0 0 0 3px #75263b;
+}
+
+.lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
+    color: #db8193;
+}
+
+.lotusui30 a, .lotusui30 a:visited {
+    color: #75263b;
+}
+
+.icBanner-badge {
+    background: none repeat scroll 0 0 #df6f07;
+}
+
+.icBanner-notif-center .icBanner-popover-notificationReadAll {
+    color: #75263b;
+}
+
+.icBanner-notif-center .icBanner-popover-notificationReadAll:hover {
+    color: #75263b;
+}
+.lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
+    color: #75263b;
+}
+
+.icNote-message .bluedot {
+    background-color: #db8193;
+    border: 1px solid #db8193;
 }
 
  /* search menu  */  
@@ -54,342 +88,26 @@
     background-color: #f4f5f6;
 }
 
-/* navigation :: hover */
-.ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after {
-    border-bottom: 0.125rem solid #df6f07;
+/* left side navigation */
+.lotusMenu li a.lotusSelected, .lotusMenu li.lotusSelected a, .lotusMenu li.lotusSelected a:visited, .lotusMenu li.lotusSelected a:active, .lotusMenu h3.lotusSelected, .scloud3 .lotusMenu li.lotusSelected a, .scloud3 .lotusMenu li.lotusSelected a:hover, .scloud3 .lotusMenu li.lotusSelected a:focus, .scloud3 .lotusMenu li.lotusSelected a:active, .scloud3 .lotusMenu .lotusHeaderSelected, .lotusliveui .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .scloud3 .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .content_wrap .side_bar .current {
+  
+       text-decoration:none;
 }
 
-.stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
-    background: #75263b;
-    border: 1px solid #75263b;
-    box-shadow: 0 0 0 3px #75263b;
+.lotusui30 .lotusMenu li.lotusSelected, .lotusui30 .lotusMenu li.lotusSelected:active {
+border-top: none;
+    border-bottom: none;
+    color: #000;
+    border-left: 4px solid #75263b;
+}
+.lotusui30 .lotusMenu li.lotusSelected:hover {
+border-left: 4px solid #75263b;
+}
+.lotusui30 .lotusColLeft .lotusMenu li a:focus {
+border-top: 1px solid #75263b!important;
+    border-bottom: 1px solid #75263b!important;
 }
 
-.lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
-    color: #db8193;
+.lotusui30 .lotusMenu .lotusUnreadBadge {
+    background-color: #df6f07;
 }
-
-.lotusui30 a, .lotusui30 a:visited {
-    color: #75263b;
-}
-
-.icBanner-badge {
-    background: none repeat scroll 0 0 #df6f07;
-}
-
-.icBanner-notif-center .icBanner-popover-notificationReadAll {
-    color: #75263b;
-}
-
-.icBanner-notif-center .icBanner-popover-notificationReadAll:hover {
-    color: #75263b;
-}
-.lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
-    color: #75263b;
-}
-
-.icNote-message .bluedot {
-    background-color: #db8193;
-    border: 1px solid #db8193;
-}
-
-
-/* Newsfeed */
-.lotusui30 .lotusBoard .lotusStream .lotusPostHover, .lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
-    background-color:#f4f5f6;
-}
-
-:focus-within {outline:none;}
-/* Newsfeed > activity stream > share something */
-.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
-    border:1px solid #a75365 !important;
-    box-shadow: 0 0 3px rgba(167, 83, 101, 0.9);
-   }
-   
-.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover .lotusInlinelist a {
-    color: #75263b;
-    /* text-decoration: underline; */
-}
-
-.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a {
-    color: #75263b;
-}
-.lotusui30 .streamMore:hover, .lotusui30 .streamMore a:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore a:focus, .lotusui30 .streamMore:active, .lotusui30 .streamMore a:active {
-    color: #75263b;
-    background: #e8e8e8;
-}
-
-.lotusui30 a:hover {
-    color: #df6f07;
-    }
-    .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover .lotusInlinelist a:hover {
-    color: #df6f07;
-    }
-    
-    .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:hover {
-    color: #df6f07;
-    }
-    
-    .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:focus, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:hover, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .lotusLike a:focus, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .lotusLike a:hover, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .lotusLike a:active {
-    color: #df6f07;
-    }
-    
-    .lotusui30 .lotusFlyout .lotusFlyoutHeader .vcard > a {
-    color: #75263b; }
-    
-    .lotusui30 .lotusFlyout .lotusFlyoutHeader .vcard > a:hover {
-    color: #df6f07; }
-
-
-
-
-.lotusui30_body .lotusMain {
-    background-color: white;
-}
-   
-   
-   /* Home */
-
-
-
-/* Profiles */
-
-
-
-/* Communities */
-
-
-.lotusui30 #widget-container-palette {
-display: block;
-
-margin: 0 -5px;
-}
-
-.lotusWidget_3columnsWithBannerTopMenuLayout #lotusColBanner {
-margin-bottom: 0;
-}
-
-#lotusColBanner {
-min-height: 25px;
-background-color: transparent;
-border: none;
- padding: 0;   
-}
-
-.lotusWidget_3columnsWithBannerTopMenuLayout .lotusColLeft .lotusWidget2, .lotusWidget_3columnsWithBannerTopMenuLayout #lotusContent .lotusWidget2, .lotusWidget_3columnsWithBannerTopMenuLayout .lotusColRight .lotusWidget2, .lotusWidget_3columnsWithBannerTopMenuLayout #lotusColBanner .lotusWidget2 {
-margin: 0 0 30px 0;
-}
-
-.lotusui30 .lotusWidget2 h2 a.lotusActionMenu {
- background: url("/connections/resources/web/com.ibm.social.hikari.theme/sprite/svg/more.svg?etag=20171103.132249") center center no-repeat;
-        background-size: auto auto;
-    background-size: contain;
-    width: 15px;
-    height: 20px;
-    margin: 0;
-    padding: 0;
-    border:0;
-}
-
-.communities-widget-appearance .lotusui30 div:not(#profilePaneLeft):not(#profilePaneRight):not(#profileBody):not(#tabsWidget1_widgetId_container) > .lotusWidget2 h2:first-child {
-
-font-weight: 700;
-
-font-size: 18px;
-
-color: #121212;
-
-line-height: 20px;
-
-min-height: 20px;
-
-border-bottom: solid 1px #ccc;
-
-margin: 0 -20px;
-
-padding: 15px 20px;
-}
-
-
-
-.lotusui30 .tabNavBar {
-height: 110px;
-    padding: 15px 20px 15px 20px;
-    background-color: white;
-    background-image: none;
-    z-index: 850;
-    box-shadow: 0 1px 4px 0 rgba(40,40,40,0.2);
-
-}
-
-.lotusui30 .tabNavFixed {
-height: 110px;
-
-padding: 11px 20px 11px 20px;
-
-position: fixed;
-
-left: 0;
-
-top: 0;
-
-width: 100%;
-
-background-color: white;
-
-background-image: none;
-
-z-index: 850;
-
-box-shadow: 2px 2px #e8e8e8;
-}
-
-
-.lotusui30 .lotusWidget2 h2 {
-padding: 5px 1px;
-
-font-family: "Helvetica Neue Bold",Helvetica,Arial,sans-serif;
-
-font-size: 1.5em;
-
-color: #292929;
-
-background: 0 0;
-
-border-width: 0;
-
-    border-bottom-width: 0px;
-
-min-height: 19px;
-}
-
-
-
-.lotusui30 .tabNavBar .lotusPlaceBar .tabNavTabBar {
-position: relative;
-left: 0px;
-margin: 1px 1px 0;
-}
-
-.lotusui30 ul.lotusTabs {
-bottom: -1px;
-list-style: none;
-margin: 0;
-overflow: hidden;
-padding: 0;
-position: relative;
-}
-
-.lotusui30 .lotusTabs .lotusAllCapsAllowed li {
-text-transform: uppercase;
-}
-
-.lotusui30 div.lotusPlaceBar .lotusInner {
-white-space: normal;
-width: 100%;
-right: 10px;
-}
-
-
-.lotusui30 div.lotusPlaceBar .lotusInner {
-    padding: 0;
-    background-color: transparent;
-    zoom: 1;
-    border: 0;
-    position: relative;
-
-}
-
-.lotusui30 .tabNavBar .lotusPlaceBar .tabNavMenu {
-padding-left: 20px;
-background-color: white;
-height: 30px;
-}
-
-.lotusui30 .tabNavBar .tabNavItemInBlk {
-display:inline-block;
-}
-
-.lotusui30 .tabNavBar .lotusTabs li.lotusSelected {
-
-color: green;
-    padding-bottom: 3px;
-    border-bottom: 4px solid #4178be;
-}
-
-.lotusui30 .lotusTabs li.lotusSelected {
-background-color: #fff;
-
-border-bottom: 2px solid #4178be;
-
-font-weight: 400;
-    
-    background-color: #fff;
-
-border-color: #ccc #ccc #fff;
-
-    border-bottom-color: rgb(255, 255, 255);
-}
-
-.lotusui30 .lotusTabs li {
-border-color: #ccc;
-
-padding: 1px;
-
-    padding-bottom: 1px;
-
-border-width: 0;
-
-    border-bottom-width: 0px;
-
-margin-right: 15px;
-
-margin-bottom: 0;
-}
-
-.lotusui30 .lotusTabs li.lotusSelected a {
-padding-bottom: 4px;
-}
-
-.lotusui30 .lotusTabs a {
-padding: 6px 8px;
-display: block;
-text-decoration: none;
-line-height: 1;
-white-space: nowrap;
-}
-
-
-
-.lotusui30 .tabNavBar div#lotusTitleBar {
-padding-right: 20px;
-background-color: white;
-background-image: none;
-height: 80px;
-border-bottom-width: 0px;
-}
-
-
-/* Files */
-
-
-/* Meetings */
-.bannerBg {
-    background: #75263b;
-}
-
-#mainSection .joinBtn {
-    background: #75263b;
-    border: 4px double #75263b;
-}
-
-#mainSection .joinBtn:hover, #mainSection .joinBtn:focus {
-    background: #75263b;
-    border: 4px double #ffffff;
-}
-/* Activities */
-
-
-/* Forums */
-
-
