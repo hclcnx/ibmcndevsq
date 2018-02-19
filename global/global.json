@@ -1,0 +1,25 @@
+{
+    "extensions": [
+      {
+        "application": "Global Customization",
+        "payload": {
+          "include-repo":{
+             "name":"ibmcndevsq"
+          },
+          "include-files": [
+            "global/globalCustomization.js",
+            "global/globalCustomization.css"
+          ]
+        },
+        "name": "Global Customization Extension",
+        "type": "com.ibm.customizer.ui",
+        "path": "global"
+      }
+    ],
+    "name": "Global Customization",
+    "description": "Global Customization",
+    "services": [
+      "Customizer"
+    ],
+    "title": "Global Customization"
+  }
