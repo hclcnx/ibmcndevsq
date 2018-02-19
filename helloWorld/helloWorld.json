@@ -13,7 +13,7 @@
           "helloWorld/helloWorld.user.js"
         ],
 	      "include-repo":{
-	       "name": "global-samples"
+	       "name": "ibmcndevsq"
 	     }
       },
       "name": "Hello World Extension",
