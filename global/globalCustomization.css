@@ -1,10 +1,10 @@
 /* Global */
 /* navigation bar */
 
-.ics-scbanner{
-    background-color: white;
-    transition: none;
+.ics-scbanner {
     color: #75263b !important;
+    background-color: white !important;
+    transition: none;
 }
 
 .hikari.ics-scbanner > a, .hikari.ics-scbanner > a:visited, .hikari.ics-scbanner > a:hover, .hikari.ics-scbanner > a:focus, .hikari.ics-scbanner > a:active, .gen4.ics-scbanner > a, .gen4.ics-scbanner > a:visited, .gen4.ics-scbanner > a:hover, .gen4.ics-scbanner > a:focus, .gen4.ics-scbanner > a:active, .colour.ics-scbanner > a, .colour.ics-scbanner > a:visited, .colour.ics-scbanner > a:hover, .colour.ics-scbanner > a:focus, .colour.ics-scbanner > a:active {
