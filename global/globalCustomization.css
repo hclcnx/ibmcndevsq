@@ -7,20 +7,23 @@
     transition: none;
 }
 
+
 .hikari.ics-scbanner > a, .hikari.ics-scbanner > a:visited, .hikari.ics-scbanner > a:hover, .hikari.ics-scbanner > a:focus, .hikari.ics-scbanner > a:active, .gen4.ics-scbanner > a, .gen4.ics-scbanner > a:visited, .gen4.ics-scbanner > a:hover, .gen4.ics-scbanner > a:focus, .gen4.ics-scbanner > a:active, .colour.ics-scbanner > a, .colour.ics-scbanner > a:visited, .colour.ics-scbanner > a:hover, .colour.ics-scbanner > a:focus, .colour.ics-scbanner > a:active {
 color:#75263b !important;
 }
 
 .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after {
-border-bottom: 0.125rem solid #df6f07;
+border-bottom: 0.125rem solid #df6f07 !important;
 }
 
 /* navigation bar::chat.logout.button */
 .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
-    background: #75263b;
-    border: 1px solid #75263b;
-    box-shadow: 0 0 0 3px #75263b;
+    background: #75263b !important;
+    border: 1px solid #75263b !important;
+    box-shadow: 0 0 0 3px #75263b !important;
 }
+
+
 
 .lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
     color: #db8193;
