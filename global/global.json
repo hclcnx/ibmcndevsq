@@ -7,8 +7,7 @@
              "name":"ibmcndevsq"
           },
           "include-files": [
-            "global/globalCustomization.js",
-            "global/globalCustomization.css"
+            "global/globalCustomization.js"
           ]
         },
         "name": "Global Customization Extension",
