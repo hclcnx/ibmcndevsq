@@ -1,4 +1,5 @@
 /* Global */
+
 /* navigation bar */
 
 .ics-scbanner {
@@ -7,39 +8,41 @@
     transition: none;
 }
 
-
-.hikari.ics-scbanner > a, .hikari.ics-scbanner > a:visited, .hikari.ics-scbanner > a:hover, .hikari.ics-scbanner > a:focus, .hikari.ics-scbanner > a:active, .gen4.ics-scbanner > a, .gen4.ics-scbanner > a:visited, .gen4.ics-scbanner > a:hover, .gen4.ics-scbanner > a:focus, .gen4.ics-scbanner > a:active, .colour.ics-scbanner > a, .colour.ics-scbanner > a:visited, .colour.ics-scbanner > a:hover, .colour.ics-scbanner > a:focus, .colour.ics-scbanner > a:active {
-color:#75263b !important;
+.hikari.ics-scbanner>a, .hikari.ics-scbanner>a:visited, .hikari.ics-scbanner>a:hover, .hikari.ics-scbanner>a:focus, .hikari.ics-scbanner>a:active, .gen4.ics-scbanner>a, .gen4.ics-scbanner>a:visited, .gen4.ics-scbanner>a:hover, .gen4.ics-scbanner>a:focus, .gen4.ics-scbanner>a:active, .colour.ics-scbanner>a, .colour.ics-scbanner>a:visited, .colour.ics-scbanner>a:hover, .colour.ics-scbanner>a:focus, .colour.ics-scbanner>a:active {
+    color: #75263b !important;
 }
 
 #ics-scbanner-home {
-color:#75263b !important;
+    color: #75263b !important;
 }
 
 #communitiesMenu_container {
-color:#75263b !important;
+    color: #75263b !important;
 }
 
 #nav_bar_include .files {
-color:#75263b !important;
+    color: #75263b !important;
 }
 
 #nav_bar_include .activities {
-color:#75263b !important;
+    color: #75263b !important;
 }
 
-.ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after {
-border-bottom: 0.125rem solid #df6f07 !important;
+body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.ics-scbanner>a:focus, body .hikari.ics-scbanner>a:active, body .gen4.ics-scbanner>a, body .gen4.ics-scbanner>a:visited, body .gen4.ics-scbanner>a:focus, body .gen4.ics-scbanner>a:active, body .colour.ics-scbanner>a, body .colour.ics-scbanner>a:visited, body .colour.ics-scbanner>a:focus, body .colour.ics-scbanner>a:active {
+    color: #75263b !important;
+}
+
+.ics-scbanner>a:hover::after, .ics-scbanner>button:hover::after, .ics-scbanner>.navmenu:hover::after {
+    border-bottom: 0.125rem solid #df6f07 !important;
 }
 
 /* navigation bar::chat.logout.button */
+
 .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
     background: #75263b !important;
     border: 1px solid #75263b !important;
     box-shadow: 0 0 0 3px #75263b !important;
 }
-
-
 
 .lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
     color: #db8193;
@@ -60,6 +63,7 @@ border-bottom: 0.125rem solid #df6f07 !important;
 .icBanner-notif-center .icBanner-popover-notificationReadAll:hover {
     color: #75263b;
 }
+
 .lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
     color: #75263b;
 }
@@ -69,38 +73,160 @@ border-bottom: 0.125rem solid #df6f07 !important;
     border: 1px solid #db8193;
 }
 
- /* search menu  */  
-.search-history-view-ui .lotusui30 .icSearchPaneButton {
-    background-color:#75263b;
-    outline: 1px solid #75263b;
+/* search menu  */
+
+.icSearchBar a.icSearchIcon {
+    width: 16px !important;
+    height: 16px !important;
+    margin-top: 31px !important;
+    margin-left: 9px !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%2375263b%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E") !important;
+    background-size: 18px 18px !important;
 }
 
-.search-history-view-ui .lotusui30 .icSearchPaneButton.icSearchBarMode .icSearchBar .dijitTextBox, .search-history-view-ui .lotusui30 .icSearchPane .icTopSection .icSearchBar .dijitTextBox {
-   border-bottom-color: #75263b;
+.icSearchBar a.icSearchIcon svg {
+    display: none;
 }
 
-.search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover .lconn_title {
-    color: #df6f07;
+.icSearchBar .dijitTextBox {
+    line-height: 1.5 !important;
+    min-width: 10rem !important;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    border-bottom: 1px solid #d8d8d8 !important;
+    font-size: 12.8px !important;
+    padding-right: 2rem !important;
+    padding-bottom: .375rem !important;
+    box-sizing: border-box !important;
+    height: auto !important;
 }
 
-.search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover  {
-    color: #75263b;
+.icSearchBar .dijitTextBox:focus, .icSearchBar .dijitTextBox .dijitTextBoxFocused {
+    outline: none !important;
+    border-color: #75263b !important;
+    box-shadow: 0 1px 0 #75263b !important;
 }
 
-.lconn_title, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover .lconn_gray {
-    color: #75263b;
+.icSearchBar .dijitTextBoxFocused {
+    box-shadow: 0 1px 0 #75263b !important;
+    outline: none !important;
+    border-bottom: 1px solid #75263b !important;
 }
 
-.search-history-view-ui .lotusui30 .icSearchPane .pfEntry .lconn_title {
-    color:#222;
+.search-history-view-ui .icSearchPane .pfEntry:hover, .search-history-view-ui .icSearchPane .pfEntry.spSelected {
+    border-color: #75263b !important;
 }
 
-.search-history-view-ui .lotusui30 .icSearchPaneButton.icSearchBarMode .icSearchBar .icSearchIcon svg, .search-history-view-ui .lotusui30 .icSearchPane .icTopSection .icSearchBar .icSearchIcon svg {
-    fill: #75263b;
+.search-history-view-ui .icSearchPane .pfEntry:hover .lconn_gray, .search-history-view-ui .icSearchPane .pfEntry.spSelected .lconn_gray {
+    color: #595859 !important;
 }
 
-.search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry.spSelected {
-    border-color: #75263b;
+.icSearchPaneButton {
+    border-radius: 50% !important;
+    background-color: #75263b !important;
+    border: 1px solid #75263b !important;
+    outline: none !important;
+    right: 23px !important;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+.icSearchPaneButton a {
+    width: 16px !important;
+    height: 16px !important;
+    margin-top: -9px !important;
+    margin-left: 8px !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E");
+    background-size: 18px 18px !important;
+}
+
+.icSearchPaneButton a svg {
+    display: none;
+}
+
+.icSearchPaneButton:hover, .icSearchPaneButton.icSearchFocused {
+    border-color: #75263b !important;
+    background-color: #FFFFFF !important;
+    cursor: pointer !important;
+}
+
+.icSearchPaneButton:hover a, .icSearchPaneButton.icSearchFocused a {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%2375263b%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E");
+}
+
+.icSearchPaneButton#bhc_com_searchForm {
+    top: 56px !important;
+}
+
+.icSearchPaneButton.icSearchBarMode {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.icSearchPaneButton.icSearchBarMode .icSearchIcon {
+    top: -20px !important;
+}
+
+.icSearchPaneButton.icSearchBarMode .icSearchBar {
+    padding-top: 0px !important;
+}
+
+/*========================*/
+
+select {
+    font-size: 12.8px !important;
+    -webkit-appearance: none !important;
+    display: block !important;
+    width: auto !important;
+    min-width: 50% !important;
+    max-width: 100% !important;
+    padding: 0 2.75rem 0.75rem 0 !important;
+    color: #000000 !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #d8d8d8 !important;
+    border-radius: 0 !important;
+    cursor: pointer !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%2375263b%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
+    background-size: 0.75rem !important;
+    background-position: right .4rem !important;
+    background-repeat: no-repeat !important;
+    height: auto !important;
+}
+
+select:focus {
+    border-bottom: 2px solid #75263b !important;
+    outline: none !important;
+}
+
+select[disabled] {
+    cursor: not-allowed !important;
+    color: #969696 !important;
+}
+
+.lotusui30 .lotusStream .filterAreaInner {
+    border-style: none;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.lotusLoading {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 41.2 41.2%22%3E%3Cpath fill=%22%2375263b%22 d=%22M38.7,10.7l-3.3,1.8c1.4,2.5,2.1,5.2,2.1,8.1c0,9.3-7.6,16.9-16.9,16.9c-9.3,0-16.8-7.6-16.8-16.9 c0-9.3,7.5-16.8,16.8-16.8V0C9.3,0,0,9.3,0,20.6C0,32,9.3,41.3,20.6,41.3c11.4,0,20.7-9.3,20.7-20.7C41.3,17.1,40.4,13.7,38.7,10.7z%22/%3E%3C/svg%3E") !important;
+    animation-name: rotate;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 16px !important;
+    height: 16px !important;
+    position: absolute !important;
+    left: calc(50% - 8px) !important;
 }
 
 .scloud3 .lotusMenu li a:hover {
@@ -108,25 +234,182 @@ border-bottom: 0.125rem solid #df6f07 !important;
 }
 
 /* left side navigation */
+
 .lotusMenu li a.lotusSelected, .lotusMenu li.lotusSelected a, .lotusMenu li.lotusSelected a:visited, .lotusMenu li.lotusSelected a:active, .lotusMenu h3.lotusSelected, .scloud3 .lotusMenu li.lotusSelected a, .scloud3 .lotusMenu li.lotusSelected a:hover, .scloud3 .lotusMenu li.lotusSelected a:focus, .scloud3 .lotusMenu li.lotusSelected a:active, .scloud3 .lotusMenu .lotusHeaderSelected, .lotusliveui .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .scloud3 .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .content_wrap .side_bar .current {
-  
-       text-decoration:none;
+    text-decoration: none;
 }
 
 .lotusui30 .lotusMenu li.lotusSelected, .lotusui30 .lotusMenu li.lotusSelected:active {
-border-top: none;
+    border-top: none;
     border-bottom: none;
     color: #000;
     border-left: 4px solid #75263b;
 }
+
 .lotusui30 .lotusMenu li.lotusSelected:hover {
-border-left: 4px solid #75263b;
+    border-left: 4px solid #75263b;
 }
+
 .lotusui30 .lotusColLeft .lotusMenu li a:focus {
-border-top: 1px solid #75263b!important;
+    border-top: 1px solid #75263b!important;
     border-bottom: 1px solid #75263b!important;
 }
 
 .lotusui30 .lotusMenu .lotusUnreadBadge {
     background-color: #df6f07;
+    color: white;
+}
+
+/* stream main content*/
+
+.lotusui30 .lotusBoard .lotusStream .lotusPostHover, .lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
+    background-color: #f4f5f6;
+}
+
+:focus-within {
+    outline: none;
+}
+
+/* Newsfeed > activity stream > share something */
+
+.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
+    border: 1px solid #a75365 !important;
+    box-shadow: 0 0 3px rgba(167, 83, 101, 0.9);
+}
+
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover .lotusInlinelist a {
+    color: #75263b;
+    /* text-decoration: underline; */
+}
+
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a {
+    color: #75263b;
+}
+
+.lotusui30 .streamMore:hover, .lotusui30 .streamMore a:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore a:focus, .lotusui30 .streamMore:active, .lotusui30 .streamMore a:active {
+    color: #75263b;
+    background: #e8e8e8;
+}
+
+.lotusui30 a:hover {
+    color: #df6f07;
+}
+
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover .lotusInlinelist a:hover {
+    color: #df6f07;
+}
+
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:hover {
+    color: #df6f07;
+}
+
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:focus, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:hover, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .lotusLike a:focus, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .lotusLike a:hover, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .lotusLike a:active {
+    color: #df6f07;
+}
+
+.lotusui30 .lotusFlyout .lotusFlyoutHeader .vcard>a {
+    color: #75263b;
+}
+
+.lotusui30 .lotusFlyout .lotusFlyoutHeader .vcard>a:hover {
+    color: #df6f07;
+}
+
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
+    background: #75263b;
+    border: 0;
+    border-radius: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+}
+
+.lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight {
+    background: #75263b;
+}
+
+.lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky .streamHeaderInner {
+    background: #75263b;
+}
+
+body.lotusui:before {
+    /*optional banner */
+    /*background-size: 100% 105px;
+	display: inline-block;
+	width: 100%; 
+    height: 105px;
+    content:"";*/
+}
+
+.streamHeaderWrapper a {
+    color: #75263b !important;
+}
+
+.streamHeaderWrapper .otherActivityStream14-asKnockedfin14 {
+    width: 10px !important;
+    background-position: 0 -50px !important;
+}
+
+#lconn_news_microblogging_sharebox_InputForm_0_myactions .lotusActions lotusMeta {
+    color: #75263b !important;
+}
+
+a[dojoattachpoint~="attachActionButtonNode"] {
+    color: #75263b !important;
+}
+
+a[dojoattachpoint~="postButtonNode"] {
+    color: #75263b !important;
+}
+
+a[dojoattachpoint~="resetButtonNode"] {
+    color: #75263b !important;
+}
+
+body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .icStream-search {
+    background-color: rgba(33, 31, 66, .55);
+    border-color: rgba(33, 31, 66, .55);
+}
+
+body .hikari.ics-scbanner>a.selected, body .gen4.ics-scbanner>a.selected, body .colour.ics-scbanner>a.selected {
+    color: #444!important;
+}
+
+body.lotusui30 .lotusTitleBar, body .lotusui30_layout .lotusColLeft, .lotusui30_layout .lotusColLeft:after {
+    background: #f9f9fb;
+}
+
+body .lotusui30_layout .lotusColLeft:after {
+    /* main area of left column background */
+    border-left: 1000px solid #f9f9fb;
+    background: #f9f9fb;
+    width: 1px;
+    border-right: 240px solid #f9f9fb;
+    content: "";
+    margin-left: -1001px;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    z-index: -2;
+}
+
+body.lotusui30 .lotusPostContent .lotusPostAction .activityStreamSummary .vcard, body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusCommentItem .lotusPostContent .vcard * {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
+    /* border: none!important; */
+}
+
+body.lotusui30 .lotusInlinelist {
+    margin: 0;
+    padding: 0 0 10px;
+    list-style-type: none;
+}
+
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a:hover {
+    font-weight: 500;
+}
+
+ul[dojoattachpoint~="filterHolderNode"] li>a {
+    color: white !important;
 }
