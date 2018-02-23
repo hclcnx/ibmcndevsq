@@ -1,5 +1,24 @@
 /* Global */
 
+#lotusFrame .lotusWrapper, #lotusFrame .activityStreamPage {
+    background: #f1f1f1;
+}
+
+.lotusui30 .tabNavBar div.lotusTitleBar2 .lotusWrapper .tabNavInner {
+    background: white;
+}
+
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .icStream-search {
+    background: white;
+    border: 0;
+}
+
+.lotusui30_body {
+    background-color: #f1f1f1;
+}
+
+body.lotusui30 .lotusTitleBar, body .lotusui30_layout .lotusColLeft, .lotusui30_layout .lotusColLeft:after {}
+
 /* navigation bar */
 
 .ics-scbanner {
@@ -68,9 +87,55 @@ body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.i
     color: #75263b;
 }
 
+.lotusui30_layout .lotusColLeft .lotusSection, .lotusui30_layout .lotusColLeft .lotusTips, .lotusui30_layout .lotusColLeft .lotusWidget, .lotusui30_layout .lotusColLeft .lotusWidget2, .lotusui30_layout .lotusColRight .lotusInfoBox, .lotusui30_layout .lotusColRight .lotusSection, .lotusui30_layout .lotusColRight .lotusSection2, .lotusui30_layout .lotusColRight .lotusTips, .lotusui30_layout .lotusColRight .lotusWidget, .lotusui30_layout .lotusColRight .lotusWidget2 {
+    margin: 0;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .icStream-search {
+    border: 0;
+}
+
 .icNote-message .bluedot {
     background-color: #db8193;
     border: 1px solid #db8193;
+}
+
+.cke_editable.cke_editable_themed.lconnShareboxCke {
+    background: #f6f9fc !important;
+}
+
+.lotusui30_body.cke_editable {
+    background: #f6f9fc !important;
+}
+
+.streamHeaderWrapper.isSticky.isExpanded .lotusStreamUpdate .lotusActions .lotusInlinelist a {
+    color: white !important;
+}
+
+.lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky.isExpanded .lotusBoard .lotusStreamUpdate {
+    border-bottom: none !important;
+}
+
+.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
+    border: none !important;
+}
+
+div[dojoattachpoint~="inputFormNode"] {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .1);
+}
+
+div[dojoattachpoint~="inputFormNode"]>div[role~="region"] {
+    margin-top: -5px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .1);
+}
+
+.lotusui30 .lotusBoard .lotusStream {
+    margin-top: -5px;
 }
 
 /* search menu  */
@@ -365,7 +430,7 @@ a[dojoattachpoint~="resetButtonNode"] {
 }
 
 body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .icStream-search {
-    background-color: rgba(33, 31, 66, .55);
+    background-color: #FFFFFF;
     border-color: rgba(33, 31, 66, .55);
 }
 
@@ -374,15 +439,15 @@ body .hikari.ics-scbanner>a.selected, body .gen4.ics-scbanner>a.selected, body .
 }
 
 body.lotusui30 .lotusTitleBar, body .lotusui30_layout .lotusColLeft, .lotusui30_layout .lotusColLeft:after {
-    background: #f9f9fb;
+    background: #f1f1f1 !important;
 }
 
 body .lotusui30_layout .lotusColLeft:after {
     /* main area of left column background */
-    border-left: 1000px solid #f9f9fb;
-    background: #f9f9fb;
+    border-left: 1000px solid #f1f1f1 !important;
+    background: #f1f1f1 !important;
     width: 1px;
-    border-right: 240px solid #f9f9fb;
+    border-right: 240px solid #f1f1f1 !important;
     content: "";
     margin-left: -1001px;
     position: fixed;
@@ -394,10 +459,6 @@ body .lotusui30_layout .lotusColLeft:after {
 body.lotusui30 .lotusPostContent .lotusPostAction .activityStreamSummary .vcard, body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusCommentItem .lotusPostContent .vcard * {
     font-size: 14px;
     font-weight: 400;
-}
-
-body.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
-    /* border: none!important; */
 }
 
 body.lotusui30 .lotusInlinelist {
@@ -412,4 +473,35 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
 
 ul[dojoattachpoint~="filterHolderNode"] li>a {
     color: white !important;
+}
+
+img[dojoattachpoint~="filterSharkFinImg"] {
+    background-image: url("https://github.com/google/material-design-icons/raw/master/sprites/css-sprite/sprite-navigation-white.png");
+}
+
+.lotusStream .lotusWidgetBody#activityStreamMain .stream-finLeft {
+    width: 1000px;
+}
+
+.lotusStream .lotusWidgetBody#activityStreamMain .stream-finRight {
+    width: 1190px;
+}
+
+.streamHeaderWrapper .otherActivityStream14-asKnockedfin14 {
+    width: 13px !important;
+    height: 8px !important;
+    background-position: -74px -42px !important;
+    background-color: #75263b;
+}
+
+#gadgetDiv {
+    background: white;
+}
+
+.lotusui30_body .lotusMain {
+    background: #f1f1f1 !important;
+}
+
+.lotusui30 .tabNavBar {
+    box-shadow: none;
 }
