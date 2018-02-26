@@ -364,11 +364,9 @@ select[disabled] {
 }
 
 .cke_editable.cke_editable_themed.lconnShareboxCke {
-    padding: 6px 0px 3px 20px;
+    padding: 6px 0px 3px 6px;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid lightgray;
-    /* border-top: 1px solid; */
     margin-top: 3px;
 }
 
