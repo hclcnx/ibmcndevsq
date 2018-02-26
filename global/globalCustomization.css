@@ -122,16 +122,20 @@ body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.i
 }
 
 .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
-    border: none !important;
+    /*border: none !important;*/
 }
 
 div[dojoattachpoint~="inputFormNode"] {
-    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .1);
+    /* box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .1); */
+    box-shadow: none !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0;
 }
 
 div[dojoattachpoint~="inputFormNode"]>div[role~="region"] {
     margin-top: -5px;
-    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .1);
+    /* box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .1); */
 }
 
 .lotusui30 .lotusBoard .lotusStream {
@@ -331,15 +335,41 @@ select[disabled] {
     background-color: #f4f5f6;
 }
 
+.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.lotusui30 .lotusBoard .lotusStreamUpdate .lotusActions {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 :focus-within {
     outline: none;
 }
 
 /* Newsfeed > activity stream > share something */
 
+.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
+    border-radius: 0;
+}
+
 .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
-    border: 1px solid #a75365 !important;
-    box-shadow: 0 0 3px rgba(167, 83, 101, 0.9);
+    box-shadow: none !important;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0;
+    border: 1px solid #ccc !important;
+}
+
+.cke_editable.cke_editable_themed.lconnShareboxCke {
+    padding: 6px 0px 3px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid lightgray;
+    /* border-top: 1px solid; */
+    margin-top: 3px;
 }
 
 .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover .lotusInlinelist a {
@@ -504,4 +534,52 @@ img[dojoattachpoint~="filterSharkFinImg"] {
 
 .lotusui30 .tabNavBar {
     box-shadow: none;
+}
+
+.lotusHeader .shareSome-desc {
+    background: white;
+    padding: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+}
+
+.lotusui30_layout .lotusColLeft {
+    padding-right: 0px;
+}
+
+.lotusui30 .lotusPaging .lotusInlinelist li {
+    border-left: 1px solid #749cc0;
+}
+
+.lotusui30 .lotusPagingBottom a {
+    margin-right: 0px;
+    margin-left: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+}
+
+.lotusui30 .streamMore {
+    border-radius: 0px;
+}
+
+div[dojoattachpoint~=“commentInputTextBox”] {
+    border: 1px solid #dddddd;
+}
+
+div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
+    border-radius: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke_inner {
+    background-color: transparent;
+    box-shadow: 0 4px 4px #f7f9fc, inset;
+}
+
+.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke_contents {
+    border: none !important;
+    background: #f7f9fc;
+    transition: all 0.2s ease 0s;
 }
