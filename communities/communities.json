@@ -1,1 +1,24 @@
-
+{
+  "extensions": [
+    {
+      "application": "Communities Customization SQ",
+      "payload": {
+        "include-files": [
+          "profiles/communities.js"
+        ],
+	"include-repo":{
+	  "name": "ibmcndevsq"
+	}
+      },
+      "name": "Communities Customization Extension",
+      "type": "com.ibm.customizer.ui",
+	  "path": "communities"
+    }
+  ],
+  "name": "Communities Customization SQ",
+  "description": "Alternative Communities Page Design & Layout",
+  "title": "Communities Customization SQ",
+  "services": [
+    "Customizer"
+  ]
+}
