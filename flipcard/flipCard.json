@@ -4,7 +4,7 @@
       "application": "Flip Card SQ",
       "payload": {
         "include-files": [
-          "flipCard/commListCardsFlipStyle.user.js"
+          "flipcard/commListCardsFlipStyle.user.js"
         ],
 	"include-repo":{
 	  "name": "global-samples"
