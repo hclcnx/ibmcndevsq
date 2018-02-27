@@ -7,7 +7,7 @@
           "flipcard/commListCardsFlipStyle.user.js"
         ],
 	"include-repo":{
-	  "name": "global-samples"
+	  "name": "ibmcndevsq"
 	}
       },
       "name": "Communities FlipCard Extension",
