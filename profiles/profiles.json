@@ -1,0 +1,24 @@
+{
+  "extensions": [
+    {
+      "application": "Profiles Customization SQ",
+      "payload": {
+        "include-files": [
+          "profiles/profiles.js"
+        ],
+	"include-repo":{
+	  "name": "ibmcndevsq"
+	}
+      },
+      "name": "Profiles Customization Extension",
+      "type": "com.ibm.customizer.ui",
+	  "path": "profiles"
+    }
+  ],
+  "name": "Profiles Customization SQ",
+  "description": "Alternative Profiles Page Design & Layout",
+  "title": "Profiles Customization SQ",
+  "services": [
+    "Customizer"
+  ]
+}
