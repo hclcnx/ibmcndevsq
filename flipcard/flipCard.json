@@ -1,0 +1,24 @@
+{
+  "extensions": [
+	{
+      "application": "Flip Card SQ",
+      "payload": {
+        "include-files": [
+          "flipCard/commListCardsFlipStyle.user.js"
+        ],
+	"include-repo":{
+	  "name": "global-samples"
+	}
+      },
+      "name": "Communities FlipCard Extension",
+      "type": "com.ibm.customizer.ui",
+      "path": "communities"
+    }
+  ],
+  "name": "Flip Card SQ",
+  "description": "Renders Communities as flip cards rather than lists",
+  "services": [
+    "Customizer"
+  ],
+  "title": "FlipCard Customization Sample"
+}
