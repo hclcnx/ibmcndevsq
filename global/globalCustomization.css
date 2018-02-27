@@ -55,6 +55,10 @@ body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.i
     border-bottom: 0.125rem solid #df6f07 !important;
 }
 
+.ics-scbanner>.selected::after {
+    border-bottom: 0.125rem solid #df6f07 !important;
+}
+
 /* navigation bar::chat.logout.button */
 
 .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
@@ -284,6 +288,31 @@ select[disabled] {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.lotusui30 .lotusBoard .lotusStream .lotusPostHover .lotusInlinelist a {
+    color: #75263b !important;
+}
+
+.lotusui30 .lotusBoard .lotusStream .lotusPostHover .lotusInlinelist a:hover {
+    color: #df6f07 !important;
+}
+
+ul[dojoattachpoint="commentListNode"] .vcard a.fn.url {
+    color: #75263b !important;
+    font-weight: bold !important;
+}
+
+div[dojoattachpoint="flyoutHeader"] {
+    background-color: #f2f2f2 !important;
+}
+
+.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleInner {
+    color: black;
+}
+
+.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleContainer td.flyoutTime {
+    color: black;
 }
 
 .lotusLoading {
@@ -581,3 +610,153 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
     background: #f7f9fc;
     transition: all 0.2s ease 0s;
 }
+
+/***** PROFILES *****/
+
+.lotusBtn, .lotusFormButton, .ics-dialog-action #ok, .ics-dialog-action .cancel.neutral, .filesList .lotusDetails .lotusBtnSmallGray, .qkrEdit .lotusBtnSmall, .entryEditTable .lotusBtnSmall, .entryEditTable .lotusBtnSmallGray, .wikiHeader .lotusBtnSmall, #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction, .blog .lotusBtn a, .wikiHeader .lotusBtn a, #topicList .lotusBtn a, #forum .lotusBtn a, #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a {
+    border-radius: 2rem !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    box-shadow: none !important;
+    transform: translateZ(0) !important;
+    -webkit-font-smoothing: antialiased !important;
+    cursor: pointer !important;
+    -webkit-box-align: center !important;
+    -webkit-box-pack: center !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+    white-space: nowrap !important;
+    padding: 9px 20px !important;
+    font-weight: 500 !important;
+    background-color: #74273b !important;
+    border-color: #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+
+#photoUploadFileSelectorButtonSpan, #photoUploadFileSelectorButtonSpan:hover {
+    background-color: transparent! important;
+    border: 0 !important;
+}
+
+#audioUploadFileSelectorButtonSpan, #audioUploadFileSelectorButtonSpan:hover {
+    background-color: transparent! important;
+    border: 0 !important;
+}
+
+.lotusBtn:hover, .lotusFormButton:hover {
+    background-color: #FFFFFF !important;
+    border-color: #74273b !important;
+    color: #74273b !important;
+}
+
+/* PROFILES > TABS */
+
+.lotusTabContainer {
+    border-bottom: 1px solid #d8d8d8 !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+}
+
+.lotusTabContainer .lotusTabs li {
+    margin: 0 !important;
+    padding: 0.625rem 0 0.375rem !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+}
+
+.lotusTabContainer .lotusTabs li:hover, .lotusTabContainer .lotusTabs li:hover a, .lotusTabContainer .lotusTabs li:focus, .lotusTabContainer .lotusTabs li:focus a, .lotusTabContainer .lotusTabs li:active, .lotusTabContainer .lotusTabs li:active a {
+    text-decoration: none !important;
+}
+
+.lotusTabContainer .lotusTabs li a {
+    transition: none !important;
+}
+
+.lotusTabContainer .lotusTabs li #about_link:hover, .lotusTabContainer .lotusTabs li #share_link:hover, .lotusTabContainer .lotusTabs li a._linkHolder.lotusLeft:hover {
+    color: #74273b !important;
+    background: transparent !important;
+}
+
+.lotusTabContainer .lotusTabs li #about_link:hover, .lotusTabContainer .lotusTabs li #about_link:active, .lotusTabContainer .lotusTabs li #about_link:focus, .lotusTabContainer .lotusTabs li #share_link:hover, .lotusTabContainer .lotusTabs li #share_link:focus, .lotusTabContainer .lotusTabs li a._linkHolder.lotusLeft:hover, .lotusTabContainer .lotusTabs li a._linkHolder.lotusLeft:focus {
+    font-weight: 500 !important;
+}
+
+.lotusTabContainer .lotusTabs li a._linkHolder.lotusLeft:active, .lotusTabContainer .lotusTabs li #share_link:active {
+    color: #000000 !important;
+}
+
+.lotusTabContainer .lotusTabs li.lotusSelected {
+    border-bottom: 4px solid #74273b !important;
+    background: transparent;
+}
+
+.lotusTabContainer .lotusTabs li.lotusSelected a {
+    color: #000000 !important;
+}
+
+.lotusTabContainer .lotusTabs li.lotusSelected a:hover {
+    color: #74273b !important;
+    background-color: transparent !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+}
+
+.lotusTabContainer .lotusTabs li.lotusSelected a:focus {
+    color: #000000 !important;
+    background-color: transparent !important;
+}
+
+.lotusTabContainer .lotusTabs li.lotusSelected a:active, .lotusTabContainer .lotusTabs li.lotusSelected a:focus {
+    text-decoration: none !important;
+}
+
+.lotusTabContainer .lotusTabs li.lotusSelected #about_link:focus, .lotusTabContainer .lotusTabs li.lotusSelected #share_link:focus, .lotusTabContainer .lotusTabs li.lotusSelected a._linkHolder.lotusLeft:focus {
+    color: #000000 !important;
+}
+
+.lotusTabContainer .lotusTabs li:focus {
+    outline: none !important;
+}
+
+.lotusTabContainer .lotusTabs li:focus a {
+    color: #000000 !important;
+    background-color: transparent !important;
+}
+
+.lotusTabContainer .lotusTabs li a {
+    padding: 0.5rem 1rem !important;
+    margin: 0 !important;
+    font-size: inherit !important;
+    color: #595859 !important;
+    border-radius: 2px !important;
+    border: 1px solid transparent !important;
+    font-weight: 500 !important;
+}
+
+.lotusTabContainer .lotusTabs li a:hover {
+    color: #74273b !important;
+    font-weight: 500 !important;
+}
+
+.lotusTabContainer .lotusTabs li a:focus {
+    color: #000000 !important;
+    background-color: transparent !important;
+}
+
+/* PROFILE > VCARD */
+
+a.lotusPerson, a:visited.lotusPerson, .vcard {
+    color: #000000 !important;
+}
+
+.vcard a.menu_drop_icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23595859%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
+    background-size: 0.65rem !important;
+    background-position: 2px !important;
+    background-repeat: no-repeat !important;
+    margin-left: 0px !important;
+    margin-right: 5px !important;
+}
+
+/* TAGS | CLOUD */
