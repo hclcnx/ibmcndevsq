@@ -1,4 +1,13 @@
 /* Global */
+@font-face {
+    font-family: avenir;
+    src: url("/files/customizer/global/AvenirLTStd-Book.otf?repoName=ibmcndevsq");
+}
+
+* {
+ font-size: 100%;
+ font-family: avenir !important;
+}
 
 #lotusFrame .lotusWrapper, #lotusFrame .activityStreamPage {
     background: #f1f1f1;
