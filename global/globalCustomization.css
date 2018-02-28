@@ -83,7 +83,13 @@ body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.i
     transform: translateX(-50%);
     width: 85%;
 }
+.lotusui30 .ics-scbanner.isfixed .joinmeeting {
+   display:none;
+}
 
+.lotusSection2.homepage-widget:first-child {
+   display:none;
+}
 /* navigation bar::chat.logout.button */
 
 .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
