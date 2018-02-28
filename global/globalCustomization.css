@@ -862,3 +862,5 @@ a.lotusPerson, a:visited.lotusPerson, .vcard {
 .lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemSelected td.dijitMenuItemIconCell {
     border-left: 4px solid #75263b!important
 }
+
+#lotusMain .lotusContent.lotusBoard  {box-shadow: 0 -15px 10px 0 rgba(0, 0, 0, 0.1);}
