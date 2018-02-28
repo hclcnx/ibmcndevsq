@@ -59,6 +59,22 @@ body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.i
     border-bottom: 0.125rem solid #df6f07 !important;
 }
 
+.ics-scbanner .navsimplelist > li a:focus {
+    border-bottom: 0.0625rem solid #75263b;
+    border-top: 0.0625rem solid #75263b;
+}
+
+.ics-scbanner .navsimplelist > li a:hover:before, .ics-scbanner .navsimplelist > li a:hover::after {
+    background-color: #e5e5e5;
+    content: "";
+    height: 0.0625rem;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 85%;
+}
+
 /* navigation bar::chat.logout.button */
 
 .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
