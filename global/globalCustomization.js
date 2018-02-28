@@ -1,5 +1,17 @@
 dojo.require("dojo.NodeList-manipulate");
 
+if (document.getElementsByClassName("orglogo").length == 0) {
+
+var insertAt = document.getElementsByClassName("org _myorg")[0];
+var elem = document.createElement("img");
+
+elem.src = "/files/customizer/global/2031825077012.png?repoName=ibmcndevsq"
+elem.setAttribute("height", "38");
+elem.setAttribute("width", "90");
+elem.setAttribute("alt", "Sanquin");
+insertAt.parentNode.insertBefore(elem, insertAt);
+}
+
 if(typeof(dojo) != "undefined") {
 
   dojo.ready(function(){
