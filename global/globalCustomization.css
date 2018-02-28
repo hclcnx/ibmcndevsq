@@ -2,6 +2,11 @@
 @font-face {
     font-family: avenir;
     src: url("/files/customizer/global/AvenirLTStd-Book.otf?repoName=ibmcndevsq");
+    src: url('/files/customizer/global/AvenirLTStd-Book.eot'); /* IE9 Compat Modes */
+    src: url('/files/customizer/global/AvenirLTStd-Book.eot?#iefix&repoName=ibmcndevsq') format('embedded-opentype'), /* IE6-IE8 */
+       url('/files/customizer/global/AvenirLTStd-Book.woff?repoName=ibmcndevsq') format('woff'), /* Pretty Modern Browsers */
+       url('/files/customizer/global/AvenirLTStd-Book.ttf?repoName=ibmcndevsq')  format('truetype'), /* Safari, Android, iOS */
+       url('/files/customizer/global/AvenirLTStd-Book.svg#svgFontName?repoName=ibmcndevsq') format('svg'); /* Legacy iOS */
 }
 
 * {
@@ -83,7 +88,13 @@ body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.i
     transform: translateX(-50%);
     width: 85%;
 }
+.lotusui30 .ics-scbanner.isfixed .joinmeeting {
+   display:none;
+}
 
+.lotusSection2.homepage-widget:first-child {
+   display:none;
+}
 /* navigation bar::chat.logout.button */
 
 .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
@@ -851,3 +862,5 @@ a.lotusPerson, a:visited.lotusPerson, .vcard {
 .lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemSelected td.dijitMenuItemIconCell {
     border-left: 4px solid #75263b!important
 }
+
+#lotusMain .lotusContent.lotusBoard  {box-shadow: 0 -15px 10px 0 rgba(0, 0, 0, 0.1);}
