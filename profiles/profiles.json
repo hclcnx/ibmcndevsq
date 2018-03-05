@@ -13,7 +13,7 @@
       },
       "name": "Profiles Customization Extension",
       "type": "com.ibm.customizer.ui",
-	  "path": "profiles | mycontacts"
+	  "path": "mycontacts"
     }
   ],
   "name": "Profiles Customization SQ",
