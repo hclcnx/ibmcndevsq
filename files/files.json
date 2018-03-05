@@ -1,1 +1,25 @@
 
+{
+  "extensions": [
+    {
+      "application": "Files Customization SQ",
+      "payload": {
+        "include-files": [
+          "files/files.js"
+        ],
+	"include-repo":{
+	  "name": "ibmcndevsq"
+	}
+      },
+      "name": "Files Customization Extension",
+      "type": "com.ibm.customizer.ui",
+	  "path": "files"
+    }
+  ],
+  "name": "Files Customization SQ",
+  "description": "Alternative Files Page Design & Layout",
+  "title": "Files Customization SQ",
+  "services": [
+    "Customizer"
+  ]
+}
