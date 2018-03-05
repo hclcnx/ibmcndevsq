@@ -5,7 +5,7 @@
       "application": "Files Customization SQ",
       "payload": {
         "include-files": [
-          "files/files.js"
+          "files/files.css"
         ],
 	"include-repo":{
 	  "name": "ibmcndevsq"
