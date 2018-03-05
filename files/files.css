@@ -1,1 +1,37 @@
+/* FILES */
 
+.lconnFiles .lotusui30_layout .lotusTopNav .lotusTitleBar .lotusColLeft {
+    background-color: white !important;
+}
+
+.lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected] {
+    border-left: 4px solid #75263b;
+}
+
+.lotusui30 .lotusDetailsOn, .lotusui30 .lotusFolderOn, .lotusui30 .lotusSummaryOn, .lotusui30 .lotusTileOn, .lotusui30 .lotusTreeOn {
+    border-color: #75263b;
+}
+
+.lotusui30 .lotusPaging .lotusInlinelist li {
+    border-left: none;
+}
+
+.lotusui30 .lotusDialog .lotusDialogHeader {
+    background-color: #75263b;
+}
+
+.ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-splitmenu .dijitButtonNode, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-roundtripedit a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-upload a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-login a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-edit a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-templateCreate a {
+    background-color: #75263b;
+}
+
+.fileviewer-panels-textnav .ics-viewer ul.ics-viewer-tabs>li.selected a {
+    border-bottom: 6px solid #FF7000;
+}
+
+.fileviewer-panels-textnav .ics-viewer .panelContent a {
+    color: #75263b !important;
+}
+
+.ics-viewer .ics-panel-entry-container .ics-sharing-panel.multiAdd-active .multiAddContainer .ics-typeaheadboxmulti-container .manualAdd, .ics-viewer .ics-panel-entry-container .ics-sharing-panel.multiAdd-active .multiAddContainer .ics-typeaheadboxmulti-container .manualCancel {
+    border: 1px solid #75263b;
+}
