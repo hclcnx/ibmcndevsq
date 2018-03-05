@@ -4,6 +4,7 @@
       "application": "Profiles Customization SQ",
       "payload": {
         "include-files": [
+	  "profiles/profiles.js",	
           "profiles/profiles.css"
         ],
 	"include-repo":{
