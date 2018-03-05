@@ -1,0 +1,24 @@
+{
+  "extensions": [
+    {
+      "application": "Activities Customization SQ",
+      "payload": {
+        "include-files": [
+          "activities/activities.min.css"
+        ],
+	"include-repo":{
+	  "name": "ibmcndevsq"
+	}
+      },
+      "name": "Activities Customization Extension",
+      "type": "com.ibm.customizer.ui",
+	  "path": "activities"
+    }
+  ],
+  "name": "Activities Customization SQ",
+  "description": "Alternative Activities Page Design & Layout",
+  "title": "Activities Customization SQ",
+  "services": [
+    "Customizer"
+  ]
+}
