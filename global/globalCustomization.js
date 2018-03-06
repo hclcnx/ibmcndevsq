@@ -1,22 +1,26 @@
+if (typeof (dojo) != "undefined") {
+    dojo.ready(function () {
+        dojo.query("head").append("<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/global/globalCustomization.css?repoName=ibmcndevsq\"></link>");
 
-if(typeof(dojo) != "undefined") {
-  dojo.ready(function(){
-    dojo.query("head").append("<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/global/globalCustomization.css?repoName=ibmcndevsq\"></link>");
-  
-  if (document.getElementsByClassName("orglogo").length == 0) {
+        try {
+            var waitFor = function (callback, elXpath, maxInter, waitTime) {
+                if (!maxInter) var maxInter = 100; // number of intervals before expiring
+                if (!waitTime) var waitTime = 10; // 1000=1 second
+                if (!elXpath) return;
 
-var insertAt = document.getElementsByClassName("org _myorg")[0];
-var elem = document.createElement("img");
+                var waitInter = 0; // current interval
+                var intId = setInterval(function () {
+                    if (++waitInter < maxInter && !dojo.query(elXpath).length) return;
+                    clearInterval(intId);
+                    callback();
+                }, waitTime);
+            };
 
-elem.src = "/files/customizer/global/2031825077012.png?repoName=ibmcndevsq";
-elem.setAttribute("height", "38");
-elem.setAttribute("width", "90");
-elem.setAttribute("alt", "Sanquin");
-insertAt.parentNode.insertBefore(elem, insertAt);
+            waitFor(function () { document.querySelector('.orglogo').src = '/files/customizer/global/2031825077012.png?repoName=ibmcndevsq'; }, '.orglogo');
+        } catch (e) {
+            console.log("Exception occurred in globalJs: " + e);
+        }
+    });
 }
-    
-    console.log("dojo test 1");
-  });
-}
 
-console.log("dojo test");
+console.log("dojo test123");
