@@ -1,4 +1,4 @@
-if (typeof (dojo) != "undefined") {
+
     require(["dojo/dom-construct", "dojo/query", "dojo/dom-style", "dojo/domReady!"], function (domConstruct, query, domStyle) {
         console.log("profiles js loaded");
         try {
@@ -38,4 +38,4 @@ if (typeof (dojo) != "undefined") {
         }
 
     });
-}
+
