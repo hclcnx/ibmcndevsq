@@ -1,1 +1,46 @@
+/* PROFILES CSS */
 
+.ics-scbanner .navmenu.rd .navsimplelist>li a.selected {
+    border-left: 4px solid #75263b;
+}
+
+.lotusui30 .lotusDialog .lotusDialogHeader {
+    background: no-repeat #75263b;
+    border-bottom: 0;
+    padding: 15px 20px;
+}
+
+.sc.hikari .contactSelected, .sc.hikari .itemHover .sccontact, .sc.hikari .itemHover .ccMember .lotusFloat img {
+    border-color: #75263b;
+}
+
+.sc .contactSelected, .sc .itemHover .sccontact, .sc .itemHover .ccMember .lotusFloat img {
+    border: 2px solid #75263b;
+}
+
+.lotusui30 .lotusMenu .lotusMenuSection li.subNavItem.lotusSelected a span {
+    border-color: transparent;
+}
+
+.lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemFocused td.dijitMenuItemLabel {
+    border-bottom: 1px solid #75263b!important;
+    border-top: 1px solid #75263b!important;
+}
+
+.sc.hikari .dijitMenuPopup .dijitMenuItemHover td, .sc.hikari .dijitMenuPopup .dijitMenuItemSelected td {
+    border-bottom-color: #75263b;
+    border-top-color: #75263b;
+    color: #75263b;
+}
+
+.sc.hikari .sccontact .lotusFloatContent .lotusPerson span:hover {
+    color: #75263b !important;
+}
+
+.sc.hikari .contactSelected .ccMember {
+    background-color: #75263b24;
+}
+
+.lotusui30 .lotusPaging .lotusInlinelist li {
+    border-left:none !important;
+}
