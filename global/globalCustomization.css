@@ -1000,3 +1000,34 @@ a.lotusPerson, a:visited.lotusPerson, .vcard {
 .lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleContainer td.flyoutTime {
     color: white;
 }
+
+.lotusui30 .lotusColLeft a.lotusF1, .lotusui30 .lotusColLeft a.lotusF1:visited, .lotusui30 .lotusColLeft a.lotusF2, .lotusui30 .lotusColLeft a.lotusF2:visited, .lotusui30 .lotusColLeft a.lotusF3, .lotusui30 .lotusColLeft a.lotusF3:visited, .lotusui30 .lotusColLeft a.lotusF4, .lotusui30 .lotusColLeft a.lotusF4:visited, .lotusui30 .lotusColLeft a.lotusF5, .lotusui30 .lotusColLeft a.lotusF5:visited {
+    color: #75263b;
+}
+
+#connectionIndicator {
+    background-color: #75263b;
+}
+
+.personMenu .topActionHolder {
+    background: #75263b;
+}
+
+span[dojoattachpoint="displayNameNode"] {
+    display: none;
+}
+
+.personMenu .personMenuActionsCompact, .personMenu .personMenuActions a {
+    color: #75263b !important;
+}
+
+.personMenu .personMenuActions a.disabledLink {
+    color: gray !important;
+}
+
+#javlinAwarenessStatusMsg {
+    color: transparent;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
