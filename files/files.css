@@ -40,3 +40,8 @@
     border-bottom: 1px solid #75263b!important;
     border-top: 1px solid #75263b!important;
 }
+
+
+.lotusui30 .lotusPaging .lotusInlinelist li {
+    border-left:none;
+}
