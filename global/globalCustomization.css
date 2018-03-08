@@ -1129,3 +1129,22 @@ body.oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHov
     border-right: 1px solid #999;
     display: block;
 }
+
+.ics-scbanner .navmenu.rd .navsimplelist>li a.selected {
+    border-left: 4px solid #74273b;
+}
+
+.ics-scbanner .submenu:focus {
+    border-bottom: 0.0625rem solid #74273b;
+    border-top: 0.0625rem solid #74273b;
+}
+
+.lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:hover {
+    color: #74273b;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.lotusui30 .lotusFooter a:active, .lotusui30 .lotusFooter a:focus, .lotusui30 .lotusFooter a:hover {
+    color: #ff7000;
+}
