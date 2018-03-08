@@ -79,6 +79,10 @@ body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.i
     display: none;
 }
 
+.lotusui30 .ics-scbanner.isfixed .org._myorg {
+    display: none;
+}
+
 .lotusSection2.homepage-widget:first-child {
     display: none;
 }
@@ -405,14 +409,14 @@ div[dojoattachpoint="flyoutHeader"] {
 /* Newsfeed > activity stream > share something */
 
 .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
-    border-radius: 0;
+    /* border-radius: 0; */
 }
 
 .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
     box-shadow: none !important;
     margin-left: 0px;
     margin-right: 0px;
-    border-radius: 0;
+    /* border-radius: 0; */
     border: 1px solid #ccc !important;
 }
 
@@ -599,7 +603,7 @@ img[dojoattachpoint~="filterSharkFinImg"] {
 }
 
 .lotusui30 .lotusPaging .lotusInlinelist li {
-    border-left: 1px solid #749cc0;
+    border-left: none;
 }
 
 .lotusui30 .lotusPagingBottom a {
@@ -630,7 +634,7 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
 }
 
 .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke_contents {
-    border: none !important;
+    /* border: none !important; */
     background: #f7f9fc;
     transition: all 0.2s ease 0s;
 }
@@ -999,4 +1003,148 @@ a.lotusPerson, a:visited.lotusPerson, .vcard {
 
 .lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleContainer td.flyoutTime {
     color: white;
+}
+
+.lotusui30 .lotusColLeft a.lotusF1, .lotusui30 .lotusColLeft a.lotusF1:visited, .lotusui30 .lotusColLeft a.lotusF2, .lotusui30 .lotusColLeft a.lotusF2:visited, .lotusui30 .lotusColLeft a.lotusF3, .lotusui30 .lotusColLeft a.lotusF3:visited, .lotusui30 .lotusColLeft a.lotusF4, .lotusui30 .lotusColLeft a.lotusF4:visited, .lotusui30 .lotusColLeft a.lotusF5, .lotusui30 .lotusColLeft a.lotusF5:visited {
+    color: #75263b;
+}
+
+#connectionIndicator {
+    background-color: #75263b;
+}
+
+.personMenu .topActionHolder {
+    background: #75263b;
+}
+
+span[dojoattachpoint="displayNameNode"] {
+    display: none;
+}
+
+.personMenu .personMenuActionsCompact, .personMenu .personMenuActions a {
+    color: #75263b !important;
+}
+
+.personMenu .personMenuActions a.disabledLink {
+    color: gray !important;
+}
+
+#javlinAwarenessStatusMsg {
+    color: transparent;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icSelected, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr:hover .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover .lotusMeta .icGreyText, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover:not(.icLastPageMessage) .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .lotusPerson {
+    color: #75263b;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch {
+    border-bottom-color: #75263b;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected {
+    border-color: #75263b;
+}
+
+.search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchTitle a, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover:not(.icLastPageMessage) .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover .lotusMeta .icGreyText, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta .icGreyText, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchDetails a, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr:hover .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .lotusPerson, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnStatusUpdateTitle .lotusPerson, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lconnSearchBookmarkUrl {
+    color: #75263b;
+}
+
+.lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemFocused td.dijitMenuItemLabel {
+    border-bottom: 1px solid #75263b!important;
+    border-top: 1px solid #75263b!important;
+}
+
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPagingTop.lotusPaging {
+    margin-top: 0px;
+}
+
+.lotusui30 .lotusDialog .lotusDialogHeader {
+    background: no-repeat #75263b;
+}
+
+.lconnPicker .tabbedSwitch .pickerSourceChecked .lconnPickerSourceLabel {
+    border-bottom: 3px solid #75263b;
+}
+
+.lconnPicker .tabbedSwitch .lconnPickerSourceLabel {
+    color: #75263b;
+}
+
+.lconnPicker .tabbedSwitch .lconnPickerSourceLabel:focus, .lconnPicker .tabbedSwitch .lconnPickerSourceLabel:hover {
+    border-top: 1px solid #75263b;
+    border-left: 1px solid #75263b;
+    border-right: 1px solid #75263b;
+}
+
+.lconnPicker .tabbedSwitch .switchContainer {
+    border-bottom: 1px solid #75263b;
+}
+
+/* docs  */
+
+#doc_header_outer {
+    background: none repeat scroll 0 0 #75263b !important;
+}
+
+.onpremise.lotusui30 .lotusTitleBar2 .lotusBtn.dijitButtonNode {
+    background-color: #FF7000 !important;
+    background-image: none !important;
+    border: 0 none;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: none !important;
+    color: #FFFFFF;
+    margin: 0;
+    outline: medium none;
+    padding: 9px 23px;
+    text-shadow: none !important;
+}
+
+.onpremise.lotusui30 .lotusTitleBar2 .lotusBtn.dijitButtonNode:focus, .onpremise.lotusui30 .lotusTitleBar2 .lotusBtn.dijitButtonNode:hover {
+    outline: 1px solid #74273b;
+}
+
+body.oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), body.oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled), body.oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), body.oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled) {
+    background-color: #74273b !important;
+    color: #FFFFFF !important;
+}
+
+.onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemHover .dijitMenuItemSelected, .onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemSelected {
+    background-color: #74273b;
+    color: black;
+    border: 0px solid white;
+}
+
+.personMenu .topActionHolder .topAction a {
+    display: block;
+    float: left;
+    font-size: 1em;
+    margin-top: 0.2em;
+    color: white;
+}
+
+.personMenu .topActionHolder .topAction {
+    border-right: 1px solid #999;
+    display: block;
+}
+
+.ics-scbanner .navmenu.rd .navsimplelist>li a.selected {
+    border-left: 4px solid #74273b;
+}
+
+.ics-scbanner .submenu:focus {
+    border-bottom: 0.0625rem solid #74273b;
+    border-top: 0.0625rem solid #74273b;
+}
+
+.lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:hover {
+    color: #74273b;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.lotusui30 .lotusFooter a:active, .lotusui30 .lotusFooter a:focus, .lotusui30 .lotusFooter a:hover {
+    color: #ff7000;
 }

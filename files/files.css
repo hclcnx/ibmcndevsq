@@ -35,3 +35,13 @@
 .ics-viewer .ics-panel-entry-container .ics-sharing-panel.multiAdd-active .multiAddContainer .ics-typeaheadboxmulti-container .manualAdd, .ics-viewer .ics-panel-entry-container .ics-sharing-panel.multiAdd-active .multiAddContainer .ics-typeaheadboxmulti-container .manualCancel {
     border: 1px solid #75263b;
 }
+
+.lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemFocused td.dijitMenuItemLabel {
+    border-bottom: 1px solid #75263b!important;
+    border-top: 1px solid #75263b!important;
+}
+
+
+.lotusui30 .lotusPaging .lotusInlinelist li {
+    border-left:none;
+}
