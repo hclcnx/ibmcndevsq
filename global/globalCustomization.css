@@ -599,7 +599,7 @@ img[dojoattachpoint~="filterSharkFinImg"] {
 }
 
 .lotusui30 .lotusPaging .lotusInlinelist li {
-    border-left: 1px solid #749cc0;
+    border-left: none;
 }
 
 .lotusui30 .lotusPagingBottom a {
@@ -1030,4 +1030,25 @@ span[dojoattachpoint="displayNameNode"] {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icSelected, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr:hover .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover .lotusMeta .icGreyText, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover:not(.icLastPageMessage) .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .lotusPerson {
+    color: #75263b;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch {
+    border-bottom-color: #75263b;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected {
+    border-color: #75263b;
+}
+
+.search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchTitle a, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover:not(.icLastPageMessage) .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover .lotusMeta .icGreyText, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta .icGreyText, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchDetails a, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr:hover .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .lotusPerson, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnStatusUpdateTitle .lotusPerson, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lconnSearchBookmarkUrl {
+    color: #75263b;
+}
+
+.lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemFocused td.dijitMenuItemLabel {
+    border-bottom: 1px solid #75263b!important;
+    border-top: 1px solid #75263b!important;
 }
