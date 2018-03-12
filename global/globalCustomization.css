@@ -1148,3 +1148,7 @@ body.oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHov
 .lotusui30 .lotusFooter a:active, .lotusui30 .lotusFooter a:focus, .lotusui30 .lotusFooter a:hover {
     color: #ff7000;
 }
+
+.lotusui30 .lotusFeeds a.lotusFeed {
+    color: #74273b;
+}
