@@ -1,0 +1,26 @@
+
+{
+  "extensions": [
+    {
+      "application": "Skype extension",
+      "payload": {
+        "include-repo":{
+          "name":"ibmcndevsq"
+        },
+        "include-files": [
+          "skype/skype.css",
+          "skype/skype.js"
+        ]
+      },
+      "name": "Skype Extension",
+      "type": "com.ibm.customizer.ui",
+      "path": "global"
+    }
+  ],
+  "name": "Skype Extension",
+  "description": "Skype Extension",
+  "services": [
+    "Customizer"
+  ],
+  "title": "Skype Extension"
+}

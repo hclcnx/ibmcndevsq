@@ -158,7 +158,6 @@ body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.i
 }
 
 div[dojoattachpoint~="inputFormNode"] {
-    /* box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .1); */
     box-shadow: none !important;
     margin-left: 10px;
     margin-right: 10px;
@@ -167,7 +166,6 @@ div[dojoattachpoint~="inputFormNode"] {
 
 div[dojoattachpoint~="inputFormNode"]>div[role~="region"] {
     margin-top: -5px;
-    /* box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .1); */
 }
 
 .lotusui30 .lotusBoard .lotusStream {
@@ -407,16 +405,10 @@ div[dojoattachpoint="flyoutHeader"] {
 }
 
 /* Newsfeed > activity stream > share something */
-
-.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
-    /* border-radius: 0; */
-}
-
 .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
     box-shadow: none !important;
     margin-left: 0px;
     margin-right: 0px;
-    /* border-radius: 0; */
     border: 1px solid #ccc !important;
 }
 
@@ -429,7 +421,6 @@ div[dojoattachpoint="flyoutHeader"] {
 
 .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover .lotusInlinelist a {
     color: #75263b;
-    /* text-decoration: underline; */
 }
 
 .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a {
@@ -480,14 +471,6 @@ div[dojoattachpoint="flyoutHeader"] {
     background: #75263b;
 }
 
-body.lotusui:before {
-    /*optional banner */
-    /*background-size: 100% 105px;
-	display: inline-block;
-	width: 100%; 
-    height: 105px;
-    content:"";*/
-}
 
 .streamHeaderWrapper a {
     color: #75263b !important;
@@ -634,7 +617,6 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
 }
 
 .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke_contents {
-    /* border: none !important; */
     background: #f7f9fc;
     transition: all 0.2s ease 0s;
 }
@@ -1147,4 +1129,8 @@ body.oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHov
 
 .lotusui30 .lotusFooter a:active, .lotusui30 .lotusFooter a:focus, .lotusui30 .lotusFooter a:hover {
     color: #ff7000;
+}
+
+.lotusui30 .lotusFeeds a.lotusFeed {
+    color: #74273b;
 }
