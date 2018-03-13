@@ -157,6 +157,10 @@ body .hikari.ics-scbanner>a, body .hikari.ics-scbanner>a:visited, body .hikari.i
     /*border: none !important;*/
 }
 
+a[dojoattachpoint="icalFeedLink"],a[dojoattachpoint="icalFeedLink"]:active,a[dojoattachpoint="icalFeedLink"]:focus,a[dojoattachpoint="icalFeedLink"]:hover {
+    color:#74273b !important;
+}
+
 div[dojoattachpoint~="inputFormNode"] {
     box-shadow: none !important;
     margin-left: 10px;
