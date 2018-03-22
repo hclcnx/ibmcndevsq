@@ -1,0 +1,23 @@
+{
+  "extensions": [
+    {
+      "path": "global",
+      "application": "HideUserActivity App",
+      "payload": {
+        "include-files": [
+          "GuestModel/commonTools.js",
+          "GuestModel/HideUserActivity.js"
+        ]
+      },
+      "name": "HideUserActivity Extension",
+      "description": "Prevents selectively showing who liked or downloaded a given file",
+      "type": "com.ibm.customizer.ui"
+    }
+  ],
+  "name": "HideUserActivity App",
+  "description": "Prevents selectively showing who liked or downloaded a given file",
+  "services": [
+    "Customizer"
+  ],
+  "title": "Hide User Activity"
+}
