@@ -37,19 +37,19 @@ if ((document.location.pathname === '/homepage/orgadmin/orgadmin.jsp') || (docum
                     //
                     //  create the new <LI> element
                     //
-                    let inviteLI = dojo.create('li', { class: 'invite' })
-                    __cBill_logger('AddInviteGuest.giveAccess : LI element created...');
+                   // let inviteLI = dojo.create('li', { class: 'invite' })
+                  //  __cBill_logger('AddInviteGuest.giveAccess : LI element created...');
                     //
                     //  Create the new <A> element
                     //  Depending on your region, you may need to use apps.ce or apps.ap instead of apps.na URL below
                     //
-                    let inviteA = dojo.create('a', { innerHTML: 'Invite GUEST', class: 'invite', target: '_parent', role: 'menuitem', tabindex: '0', href: '/manage/subscribers/showInviteGuestDialog/input' }, inviteLI);
-                    __cBill_logger('AddInviteGuest.giveAccess : A element created...');
+                   // let inviteA = dojo.create('a', { innerHTML: 'Invite GUEST', class: 'invite', target: '_parent', role: 'menuitem', tabindex: '0', href: '/manage/subscribers/showInviteGuestDialog/input' }, inviteLI);
+                   // __cBill_logger('AddInviteGuest.giveAccess : A element created...');
                     //
                     //  Now place the LI in the menu
                     //
-                    dojo.place(inviteLI, logoutWidget[0], 'before');
-                    __cBill_logger('AddInviteGuest.giveAccess : LI element placed in menu...');
+                   // dojo.place(inviteLI, logoutWidget[0], 'before');
+                  //  __cBill_logger('AddInviteGuest.giveAccess : LI element placed in menu...');
                 } else {
                     alert('AddInviteGuest.giveAccess : strange situation. LOGOUT element not found !!!');
                 }
