@@ -10,6 +10,14 @@ function Skype() {
         console.log("Skype::need to login.");
     };
 
+    this.setStatus = function(status) {
+        user.status = status;
+    };
+
+    this.getStatus = function() {
+        return user.status;
+    };
+
     this.authenticate = function () {
         loggedIn = true;
         console.log("Skype::authenticating user...");
@@ -30,6 +38,8 @@ function User() {
     this.status = "unknown";
 }
 
+
+let skype = new Skype();
 
 if (typeof (dojo) != "undefined") {
     require(["dojo/domReady!"], function (d) {
@@ -59,8 +69,6 @@ if (typeof (dojo) != "undefined") {
             waitFor(function () {
                     // wait until the "loading..." node has been hidden
                     // indicating that we have loaded content.
-
-                    let skype = new Skype();
 
                     skype.getPresence();
                     skype.authenticate();
@@ -194,6 +202,10 @@ require(["dojo/on", "dojo/mouse", "dojo/NodeList-manipulate"], function (on, mou
                 "away": {"nl": "Ik ben afwezig", "en": "I am away", color: "#FCD116"},
                 "busy": {"nl": "Ik ben bezet", "en": "I am busy", color: "#E81123"},
                 "meeting": {"nl": "Ik zit in een meeting", "en": "In a meeting", color: "#FCD116"}
+            },
+
+            changeStatus : function(status) {
+                skype.setStatus(status);
             }
         };
 
@@ -263,7 +275,8 @@ require(["dojo/on", "dojo/mouse", "dojo/NodeList-manipulate"], function (on, mou
 
                     dojo.place(newStatus, currentStatus[0], "replace");
 
-                    console.log(`Skype::change status to ${selectedState}`);
+                    skypeProperties.changeStatus(skypeProperties.status[index][userLanguage]);
+                    console.log(`Skype::change status to ${skype.getStatus()}`);
                 });
             }
         }
