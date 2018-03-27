@@ -177,54 +177,97 @@ require(["dojo/request/xhr", "dojo/request/iframe", "dojo/request"], function (x
 });
 
 
-require(["dojo/on", "dojo/mouse"], function (on, mouse) {
+require(["dojo/on", "dojo/mouse", "dojo/NodeList-manipulate"], function (on, mouse) {
+
     // Find the notification menu item
     let notificationMenuItem = dojo.query("#notificationsMenu_container");
-
     let skypeStatusAsset = [];
 
     if (notificationMenuItem[0]) {
 
-        let skypeMenuOpts;
+        // get UI language
+        let userLanguage = lconn.core.locale.getLanguage();
 
-        // Determine UI language
-        if (lconn.core.locale.getLanguage() === "nl") {
-            skypeMenuOpts = ["Bereikbaar", "Afwezig", "Bezet", "Vergadering"];
-        } else {
-            skypeMenuOpts = ["Available", "Away", "Busy", "Meeting"];
-        }
+        let skypeProperties = {
+            status: {
+                "available": {"nl": "Ik ben beschikbaar", "en": "I am available", color: "#7FBA00"},
+                "away": {"nl": "Ik ben afwezig", "en": "I am away", color: "#FCD116"},
+                "busy": {"nl": "Ik ben bezet", "en": "I am busy", color: "#E81123"},
+                "meeting": {"nl": "Ik zit in een meeting", "en": "In a meeting", color: "#FCD116"}
+            }
+        };
+
+        // Skype last known status
+        skypeStatusAsset[0] = '<div class="skype current status" style="color: #7FBA00;background-color:#7FBA00;position:absolute;z-index:3;margin-top:6px;margin-left:-5px;border-radius:50%;width:14px;height:14px;"></div>';
 
         // Create a new Skype menu
         let skypeMenuItem = dojo.create("div", {
             class: "chat rd navmenu nav-tooltip",
-            innerHTML: '<svg class="help-image nomirror" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><g transform="matrix(1 0 0 -1 0 200)"><path fill="#75263b" d="M193 83c4 -8 7 -17 7 -27c0 -31 -25 -56 -56 -56c-10 0 -19 3 -27 7c-5 -1 -11 -2 -17 -2c-53 0 -95 43 -95 95c0 6 1 11 2 17c-4 8 -7 17 -7 27c0 31 25 56 56 56c10 0 19 -3 27 -7c5 1 11 2 17 2c53 0 95 -43 95 -95c0 -6 -1 -11 -2 -17zM100 40c32 0 48 16 46 35c0 13 -6 28 -30 33l-22 5c-8 2 -18 4 -18 12s7 14 19 14c25 0 23 -17 35 -17c6 0 12 3 12 10c0 16 -24 27 -45 27c-22 0 -46 -10 -46 -35c0 -12 4 -25 28 -31l30 -7c9 -2 11 -7 11 -12c0 -8 -7 -15 -21 -15c-26 0 -23 21 -37 21c-6 0 -11 -5 -11 -11c0 -12 15 -29 49 -29z"></path></g></svg><svg class="menu-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.959 2.844"><polygon class="cls-1" points="2.046 2.421 2.046 2.421 2.479 2.844 2.479 2.844 2.479 2.844 2.913 2.421 2.913 2.421 4.959 0.424 4.494 0 2.479 1.997 0.434 0 0 0.424 2.046 2.421"></polygon></svg><ul role="menu" aria-labelledby="bsscom-chatMenu" title="" class="navsimplelist">' +
-            '<li class="skype ss_available" style="padding:6px;margin-left:10px;margin-right:30px;min-width:70px"><div style="color: #7FBA00;background-color:#7FBA00;content:f109;border-radius:50%;width:14px;height:14px;"><a class="ss_available" role="menuitem" style="margin-left:10px; margin-right:10px;"  tabindex="0">' + skypeMenuOpts[0] + '</a></div></li>' +
-            '<li class="skype ss_away" style="padding:6px;margin-left:10px;margin-right:30px;min-width:70px"><div style="color: #FCD116;background-color:#FCD116;content:f109;border-radius:50%;width:14px;height:14px;"><a class="ss_away" role="menuitem" style="margin-left:10px; margin-right:10px;"  tabindex="0">' + skypeMenuOpts[1] + '</a></div></li>' +
-            '<li class="skype ss_busy" style="padding:6px;margin-left:10px;margin-right:30px;min-width:70px"><div style="color: #E81123;background-color:#E81123;content:f109;border-radius:50%;width:14px;height:14px;"><a class="ss_busy" role="menuitem" style="margin-left:10px; margin-right:10px;"  tabindex="0">' + skypeMenuOpts[2] + '</a></div></li>' +
-            '<li class="skype ss_meeting" style="padding:6px;margin-left:10px;margin-right:30px;min-width:70px"><div style="color: #FCD116;background-color:#FCD116;content:f109;border-radius:50%;width:14px;height:14px;"><a class="ss_meeting" role="menuitem" style="margin-left:10px; margin-right:10px;"  tabindex="0">' + skypeMenuOpts[3] + '</a></div></li>'
+            innerHTML: '<div class="skype current status"></div><svg class="help-image nomirror" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><g transform="matrix(1 0 0 -1 0 200)"><path fill="#75263b" d="M193 83c4 -8 7 -17 7 -27c0 -31 -25 -56 -56 -56c-10 0 -19 3 -27 7c-5 -1 -11 -2 -17 -2c-53 0 -95 43 -95 95c0 6 1 11 2 17c-4 8 -7 17 -7 27c0 31 25 56 56 56c10 0 19 -3 27 -7c5 1 11 2 17 2c53 0 95 -43 95 -95c0 -6 -1 -11 -2 -17zM100 40c32 0 48 16 46 35c0 13 -6 28 -30 33l-22 5c-8 2 -18 4 -18 12s7 14 19 14c25 0 23 -17 35 -17c6 0 12 3 12 10c0 16 -24 27 -45 27c-22 0 -46 -10 -46 -35c0 -12 4 -25 28 -31l30 -7c9 -2 11 -7 11 -12c0 -8 -7 -15 -21 -15c-26 0 -23 21 -37 21c-6 0 -11 -5 -11 -11c0 -12 15 -29 49 -29z"></path></g></svg><svg class="menu-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.959 2.844"><polygon class="cls-1" points="2.046 2.421 2.046 2.421 2.479 2.844 2.479 2.844 2.479 2.844 2.913 2.421 2.913 2.421 4.959 0.424 4.494 0 2.479 1.997 0.434 0 0 0.424 2.046 2.421"></polygon></svg><ul role="menu" aria-labelledby="bsscom-chatMenu" title="" class="navsimplelist">' +
+            '<li class="skype status available">' +
+            '<a class="ss_available" role="menuitem" tabindex="0">' +
+            '<div style="color:' + skypeProperties.status["available"].color + ';background-color:' + skypeProperties.status["available"].color + ';content:f109;border-radius:50%;width:14px;height:14px;margin-right:6px;"></div>' + skypeProperties.status["available"][userLanguage] +
+            '</a></li>' +
+            '<li class="skype status away">' +
+            '<a class="ss_away" role="menuitem" tabindex="0">' +
+            '<div style="color:' + skypeProperties.status["away"].color + ';background-color:' + skypeProperties.status["away"].color + ';content:f109;border-radius:50%;width:14px;height:14px;margin-right:6px;"></div>' + skypeProperties.status["away"][userLanguage]
+            + '</a></li>' +
+            '<li class="skype status busy">' +
+            '<a class="ss_busy" role="menuitem" tabindex="0">' +
+            '<div style="color: ' + skypeProperties.status["busy"].color + ';background-color:' + skypeProperties.status["busy"].color + ';content:f109;border-radius:50%;width:14px;height:14px;margin-right:6px;"></div>' + skypeProperties.status["busy"][userLanguage] +
+            '</a></li>' +
+            '<li class="skype status meeting">' +
+            '<a class="ss_meeting" role="menuitem" tabindex="0">' +
+            '<div style="color: ' + skypeProperties.status["meeting"].color + ';background-color:' + skypeProperties.status["meeting"].color + ';content:f109;border-radius:50%;width:14px;height:14px;margin-right:6px;"></div>' + skypeProperties.status["meeting"][userLanguage] +
+            '</a></li>'
         });
-        console.log(skypeMenuItem);
+
 
         // Add click event to skype menu item
         on(skypeMenuItem, "click", function (evt) {
             dojo.attr(skypeMenuItem, {class: "chat rd navmenu nav-tooltip show"});
         });
 
+        on(skypeMenuItem, mouse.enter, function (evt) {
+            dojo.attr(skypeMenuItem, {class: "chat rd navmenu nav-tooltip show"});
+        });
+
+        on(skypeMenuItem, mouse.leave, function (evt) {
+            dojo.attr(skypeMenuItem, {class: "chat rd navmenu nav-tooltip"});
+        });
+
         dojo.place(skypeMenuItem, notificationMenuItem[0], 'after');
-        console.log("Skype component created…");
+        console.log("Skype::component created…");
+        console.log("Skype::get current status");
 
-        let skypeStatus = dojo.query(".skype");
+        // Query skype current state
+        let initialState = dojo.query(".skype.current.status");
 
-        if (skypeStatus[0]) {
+        if (initialState[0]) {
+            dojo.place(skypeStatusAsset[0], initialState[0], "replace");
+            console.log("Skype::set initial state");
+        }
 
-            for (let i = 0; i < skypeStatus.length; i++) {
-                on(skypeStatus[i], "click", function (evt) {
-                    console.log(`Skype::change status to ${skypeStatus[i].getElementsByTagName("a")[0].innerHTML}`);
+        let skypeState = dojo.query(".skype");
+
+        if (skypeState[0]) {
+            for (let i = 0; i < skypeState.length; i++) {
+                on(skypeState[i], "click", function (evt) {
+                    let selectedState = skypeState[i].getElementsByTagName("a")[0].innerHTML;
+
+                    selectedState = selectedState.split(" ");
+                    let index = selectedState[selectedState.length - 1];
+                    let skypeStateColor = skypeProperties.status[index].color;
+                    let newStatus = '<div class="skype current status" style="color:' + skypeStateColor + ';background-color:' + skypeStateColor + ';position:absolute;z-index:3;margin-top:6px;margin-left:-5px;border-radius:50%;width:14px;height:14px;"></div>';
+                    let currentStatus = dojo.query(".skype.current.status");
+
+                    dojo.place(newStatus, currentStatus[0], "replace");
+
+                    console.log(`Skype::change status to ${selectedState}`);
                 });
             }
-
         }
-        
+
     }
 
 });
