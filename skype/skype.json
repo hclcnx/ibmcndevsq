@@ -1,11 +1,15 @@
-
 {
   "extensions": [
     {
       "application": "Skype extension",
       "payload": {
-        "include-repo":{
-          "name":"ibmcndevsq"
+        "match": {
+          "user-name": [
+            "Jovanny Martis"
+          ]
+        },
+        "include-repo": {
+          "name": "ibmcndevsq"
         },
         "include-files": [
           "skype/skype.css",
