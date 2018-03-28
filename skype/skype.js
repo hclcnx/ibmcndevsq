@@ -261,8 +261,20 @@ require(["dojo/on", "dojo/mouse", "dojo/NodeList-manipulate"], function (on, mou
             skypeProperties.status["meeting"].icon.menu + skypeProperties.status["meeting"][userLanguage] +
             '</a></li>'
         });
+        
+        // Select container of network contacts
+        let networkContactCard = dojo.query(".sccontact .ccMember .lotusRight.memberRightWrap .lotusLeft.lotusFloatContent .lotusInlinelist.scFontItalic span");
+        let skypeChatIcon = '<i class="fas fa-comment fa-lg" style="margin-left: 3px;color: #00aff0;margin-top: 7px;"></i>';
 
+        if (networkContactCard[0]) {
 
+            networkContactCard.forEach(function(tag) {
+                //TODO: check if user has Skype
+                dojo.place(skypeChatIcon, tag, "before");
+            });
+
+        }
+        
         // Add click event to skype menu item
         on(skypeMenuItem, "click", function (evt) {
             dojo.attr(skypeMenuItem, {class: "chat rd navmenu nav-tooltip show"});
@@ -311,3 +323,5 @@ require(["dojo/on", "dojo/mouse", "dojo/NodeList-manipulate"], function (on, mou
     }
 
 });
+
+
