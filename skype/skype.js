@@ -202,32 +202,32 @@ require(["dojo/on", "dojo/mouse", "dojo/NodeList-manipulate"], function (on, mou
                     "nl": "Ik ben beschikbaar",
                     "en": "I am available",
                     icon: {
-                            indicator :'<i class="skype current status fas fa-check-circle" style="background-color: white;color: #7FBA00;border-radius: 50%;position: absolute;z-index: 3;margin-top: 6px;margin-left: -5px;"></i>',
-                            menu: '<i class="fas fa-check-circle fa-lg" style="background-color: white;color: #7FBA00;border-radius: 50%;margin-right:6px;"></i>'
+                            indicator :'<i class="skype current status fas fa-check-circle" data-skype-status="available" style="background-color: white;color: #7FBA00;border-radius: 50%;position: absolute;z-index: 3;margin-top: 6px;margin-left: -5px;"></i>',
+                            menu: '<i class="fas fa-check-circle fa-lg" data-skype-status="available" style="background-color: white;color: #7FBA00;border-radius: 50%;margin-right:6px;"></i>'
                         }
                      },
                 "away": {
                     "nl": "Ik ben afwezig",
                     "en": "I am away",
                     icon: {
-                        indicator :'<i class="skype current status fas fa-clock" style="background-color: white;color: #FCD116;border-radius: 50%;position: absolute;z-index: 3;margin-top: 6px;margin-left: -5px;"></i>',
-                        menu: '<i class="fas fa-clock fa-lg" style="background-color: white;color: #FCD116;border-radius: 50%;margin-right:6px;"></i>'
+                        indicator :'<i class="skype current status fas fa-clock" data-skype-status="away" style="background-color: white;color: #FCD116;border-radius: 50%;position: absolute;z-index: 3;margin-top: 6px;margin-left: -5px;"></i>',
+                        menu: '<i class="fas fa-clock fa-lg" data-skype-status="away" style="background-color: white;color: #FCD116;border-radius: 50%;margin-right:6px;"></i>'
                     }
                     },
                 "busy": {
                     "nl": "Ik ben bezet",
                     "en": "I am busy",
                     icon: {
-                        indicator :'<i class="skype current status fas fa-minus-circle" style="background-color: white;color: #E81123;border-radius: 50%;position: absolute;z-index: 3;margin-top: 6px;margin-left: -5px;"></i>',
-                        menu: '<i class="fas fa-minus-circle fa-lg" style="background-color: white;color: #E81123;border-radius: 50%;margin-right:6px;"></i>'
+                        indicator :'<i class="skype current status fas fa-minus-circle" data-skype-status="busy" style="background-color: white;color: #E81123;border-radius: 50%;position: absolute;z-index: 3;margin-top: 6px;margin-left: -5px;"></i>',
+                        menu: '<i class="fas fa-minus-circle fa-lg" data-skype-status="busy" style="background-color: white;color: #E81123;border-radius: 50%;margin-right:6px;"></i>'
                     }
                     },
                 "meeting": {
                     "nl": "Ik zit in een meeting",
                     "en": "In a meeting",
                     icon: {
-                        indicator :'<i class="skype current status fas fa-clock" style="background-color: white;color: #FCD116;border-radius: 50%;position: absolute;z-index: 3;margin-top: 6px;margin-left: -5px;"></i>',
-                        menu: '<i class="fas fa-clock fa-lg" style="background-color: white;color: #FCD116;border-radius: 50%;margin-right:6px;"></i>'
+                        indicator :'<i class="skype current status fas fa-clock" data-skype-status="meeting" style="background-color: white;color: #FCD116;border-radius: 50%;position: absolute;z-index: 3;margin-top: 6px;margin-left: -5px;"></i>',
+                        menu: '<i class="fas fa-clock fa-lg" data-skype-status="meeting" style="background-color: white;color: #FCD116;border-radius: 50%;margin-right:6px;"></i>'
                     }
                 }
             },
@@ -261,7 +261,7 @@ require(["dojo/on", "dojo/mouse", "dojo/NodeList-manipulate"], function (on, mou
             skypeProperties.status["meeting"].icon.menu + skypeProperties.status["meeting"][userLanguage] +
             '</a></li>'
         });
-        
+
         // Select container of network contacts
         let networkContactCard = dojo.query(".sccontact .ccMember .lotusRight.memberRightWrap .lotusLeft.lotusFloatContent .lotusInlinelist.scFontItalic span");
         let skypeChatIcon = '<i class="fas fa-comment fa-lg" style="margin-left: 3px;color: #00aff0;margin-top: 7px;"></i>';
@@ -274,7 +274,7 @@ require(["dojo/on", "dojo/mouse", "dojo/NodeList-manipulate"], function (on, mou
             });
 
         }
-        
+
         // Add click event to skype menu item
         on(skypeMenuItem, "click", function (evt) {
             dojo.attr(skypeMenuItem, {class: "chat rd navmenu nav-tooltip show"});
@@ -305,16 +305,13 @@ require(["dojo/on", "dojo/mouse", "dojo/NodeList-manipulate"], function (on, mou
         if (skypeState[0]) {
             for (let i = 0; i < skypeState.length; i++) {
                 on(skypeState[i], "click", function (evt) {
-                    let selectedState = skypeState[i].getElementsByTagName("a")[0].innerHTML;
+                    let selectedState = skypeState[i].getElementsByTagName("i")[0].getAttribute("data-skype-status");
+                    let newStatus = skypeProperties.status[selectedState].icon.indicator;
+                    let currentIndicatorStatus = dojo.query(".chat.rd.navmenu.nav-tooltip i");
 
-                    selectedState = selectedState.split(" ");
-                    let index = selectedState[selectedState.length - 1];
-                    let newStatus = skypeProperties.status[index].icon.indicator;
-                    let currentStatus = dojo.query(".chat.rd.navmenu.nav-tooltip i");
+                    dojo.place(newStatus, currentIndicatorStatus[0], "replace");
 
-                    dojo.place(newStatus, currentStatus[0], "replace");
-
-                    skypeProperties.changeStatus(skypeProperties.status[index][userLanguage]);
+                    skypeProperties.changeStatus(skypeProperties.status[selectedState][userLanguage]);
                     console.log(`Skype::change status to ${skype.getStatus()}`);
                 });
             }
