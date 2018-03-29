@@ -5,7 +5,8 @@
       "payload": {
         "match": {
           "user-name": [
-            "Jovanny Martis"
+            "Jovanny Martis",
+            "Michel Wigbers"
           ]
         },
         "include-repo": {
