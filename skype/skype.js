@@ -95,7 +95,7 @@
     require(["dojo/request/xhr", "dojo/request/iframe", "dojo/request"], function (xhr, iframe, request) {
         const baseUrl = "sanquin.nl";
 
-        let promise = xhr.get("https://webdir1e.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=${baseUrl}", {
+        let promise = xhr.get(`https://webdir1e.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=${baseUrl}`, {
             handleAs: "xml",
             preventCache: true
         });
