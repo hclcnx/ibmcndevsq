@@ -625,6 +625,30 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
     transition: all 0.2s ease 0s;
 }
 
+a[dojoattachpoint="icalFeedLink"] {
+    color: #75263B;
+} 
+
+
+body.lotusui30 .lotusPostContent .lotusPostAction .activityStreamSummary .vcard,
+body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusCommentItem .lotusPostContent .vcard *,
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusCommentItem .lotusPostContent .vcard {
+    font-size: 12px;
+}
+
+.lotusui30 .lotusFlyoutInner .lotusTabCondensed .lotusTabs li.lotusSelected { 
+    border-bottom: 2px solid #75263B;
+}
+.lotusui30 .lotusFlyoutInner .lotusTabCondensed { 
+    border-bottom: 1px solid #75263B;
+} 
+.lotusPostContent .vcard a.fn,
+.eeHeaderDescription .vcard a.fn,
+.lotusHeadingChunk .bidiAware {
+    color: #75263B !important;
+} 
+
+
 /***** PROFILES *****/
 
 .lotusBtn, .lotusFormButton, .ics-dialog-action #ok, .ics-dialog-action .cancel.neutral, .filesList .lotusDetails .lotusBtnSmallGray, .qkrEdit .lotusBtnSmall, .entryEditTable .lotusBtnSmall, .entryEditTable .lotusBtnSmallGray, .wikiHeader .lotusBtnSmall, #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction, .blog .lotusBtn a, .wikiHeader .lotusBtn a, #topicList .lotusBtn a, #forum .lotusBtn a, #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a {
@@ -756,6 +780,13 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
 .lotusTabContainer .lotusTabs li a:focus {
     color: #000000 !important;
     background-color: transparent !important;
+}
+
+#editProfile .disabled,
+#tableEditProfileContactInfo .lotusFormPlain .lotusTable, 
+#tableEditProfileContactInfo .lotusFormPlain .lotusFormTable td,
+#tableEditProfileContactInfo {
+    background-color: #F1F1F1;
 }
 
 /* PROFILE > VCARD */
