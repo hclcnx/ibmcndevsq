@@ -770,6 +770,13 @@ body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentLis
     background-color: transparent !important;
 }
 
+#editProfile .disabled,
+#tableEditProfileContactInfo .lotusFormPlain .lotusTable, 
+#tableEditProfileContactInfo .lotusFormPlain .lotusFormTable td,
+#tableEditProfileContactInfo {
+    background-color: #F1F1F1;
+}
+
 /* PROFILE > VCARD */
 
 a.lotusPerson, a:visited.lotusPerson, .vcard {
