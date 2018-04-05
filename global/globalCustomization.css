@@ -636,6 +636,18 @@ body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentLis
     font-size: 12px;
 }
 
+.lotusui30 .lotusFlyoutInner .lotusTabCondensed .lotusTabs li.lotusSelected { 
+    border-bottom: 2px solid #75263B;
+}
+.lotusui30 .lotusFlyoutInner .lotusTabCondensed { 
+    border-bottom: 1px solid #75263B;
+} 
+.lotusPostContent .vcard a.fn,
+.eeHeaderDescription .vcard a.fn,
+.lotusHeadingChunk .bidiAware {
+    color: #75263B !important;
+} 
+
 
 /***** PROFILES *****/
 
