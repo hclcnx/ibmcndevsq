@@ -625,6 +625,11 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
     transition: all 0.2s ease 0s;
 }
 
+a[dojoattachpoint="icalFeedLink"] {
+    color: #75263B;
+} 
+
+
 /***** PROFILES *****/
 
 .lotusBtn, .lotusFormButton, .ics-dialog-action #ok, .ics-dialog-action .cancel.neutral, .filesList .lotusDetails .lotusBtnSmallGray, .qkrEdit .lotusBtnSmall, .entryEditTable .lotusBtnSmall, .entryEditTable .lotusBtnSmallGray, .wikiHeader .lotusBtnSmall, #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction, .blog .lotusBtn a, .wikiHeader .lotusBtn a, #topicList .lotusBtn a, #forum .lotusBtn a, #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a {
