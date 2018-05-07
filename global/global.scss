@@ -1,0 +1,414 @@
+// Theme colors of Sanquin
+$background: #f1f1f1;
+$bordeauxRed: #75263b;
+$orange: #FF7000;
+$pink: #db8193;
+
+// Common
+
+%sq-text-color {
+  color: $bordeauxRed !important;
+}
+
+%sq-disable-feature {
+  display: none;
+}
+
+%sq-option-selected {
+  border-bottom: 0.125rem solid $orange !important;
+}
+
+%sq-option-focus {
+  border-bottom: 0.0625rem solid $bordeauxRed;
+  border-top: 0.0625rem solid $bordeauxRed;
+}
+
+// Section: Global*
+#lotusFrame {
+  .lotusWrapper {
+    background: $background;
+  }
+
+  .activityStreamPage {
+    background: $background;
+  }
+
+}
+
+.lotusui30_body {
+
+  background: $background;
+
+  .lotusMain {
+    background: $background !important;
+  }
+}
+
+// Section: Global > Navigation bar
+.ics-scbanner {
+  color: $bordeauxRed !important;
+  background-color: white !important;
+  transition: none;
+}
+
+body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
+  > a {
+    @extend %sq-text-color;
+  }
+
+  > a:visited {
+    @extend %sq-text-color;
+  }
+
+  > a:hover {
+    @extend %sq-text-color;
+  }
+
+  > a:active {
+    @extend %sq-text-color;
+  }
+
+  > a:focus {
+    @extend %sq-text-color;
+  }
+}
+
+#ics-scbanner-home {
+  @extend %sq-text-color;
+}
+
+#communitiesMenu_container {
+  @extend %sq-text-color;
+}
+
+#nav_bar_include .files {
+  @extend %sq-text-color;
+}
+
+#nav_bar_include .activities {
+  @extend %sq-text-color;
+}
+
+.icBanner-badge {
+  background: none repeat scroll 0 0 $orange;
+}
+
+.ics-scbanner {
+  > a:hover::after {
+    @extend %sq-option-selected;
+  }
+
+  > button:hover::after {
+    @extend %sq-option-selected;
+  }
+
+  > .navmenu:hover::after {
+    @extend %sq-option-selected;
+  }
+
+  > .selected::after {
+    @extend %sq-option-selected;
+  }
+
+  .navsimplelist {
+    > li {
+      a:focus {
+        @extend %sq-option-focus;
+      }
+
+      a:hover::before, a:hover::after {
+        background-color: #e5e5e5;
+        content: "";
+        height: 0.0625rem;
+        left: 50%;
+        position: absolute;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 85%;
+      }
+    }
+  }
+
+  .navmenu.rd {
+    .navsimplelist {
+      > li {
+        a.selected {
+          border-left: 4px solid $bordeauxRed;
+        }
+      }
+    }
+  }
+
+  .submenu:focus {
+    @extend %sq-option-focus;
+  }
+}
+
+.icBanner-notif-center {
+  .icBanner-popover-notificationReadAll {
+    color: $bordeauxRed;
+  }
+
+  .icBanner-popover-notificationReadAll:hover {
+    color: $bordeauxRed;
+  }
+}
+
+.icNote-message .bluedot {
+  background-color: $orange;
+  border: 1px solid $orange;
+}
+
+.icNote-time {
+  color: dimgray;
+}
+
+.lotusui30 {
+  a {
+    color: $bordeauxRed;
+  }
+
+  a:visited {
+    color: $bordeauxRed;
+  }
+
+  a:hover {
+    color: $orange;
+  }
+
+  a:focus {
+    color: $pink;
+  }
+
+  a:active {
+    color: $pink;
+  }
+
+  a.icBanner-footer-link, a.icBanner-footer-link:active, a.icBanner-footer-link:visited {
+    color: $bordeauxRed;
+
+    cursor: pointer;
+  }
+
+  a.icBanner-footer-link:hover {
+    color: $orange;
+  }
+
+  .ics-scbanner.isfixed {
+    .joinmeeting {
+      @extend %sq-disable-feature;
+    }
+
+    .org._myorg {
+      @extend %sq-disable-feature;
+    }
+  }
+
+  .lotusStream {
+    .lotusWidgetBody#activityStreamMain {
+      .icStream-search {
+        border: 0;
+      }
+    }
+
+    .filterAreaInner {
+      border-style: none;
+    }
+
+  }
+
+  .lotusBoard {
+    .lotusStream {
+      margin-top: -5px;
+
+      .lotusPostHover {
+
+        background-color: #f4f5f6;
+
+        .lotusInlinelist {
+          a {
+            @extend %sq-text-color;
+          }
+
+          a:hover {
+            color: $orange !important;
+          }
+
+        }
+      }
+
+      .lotusPostSelected {
+        background-color: #f4f5f6;
+      }
+
+      #activityStreamMain.lotusWidgetBody {
+        .lotusPost {
+          margin-right: 0;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .lotusStreamUpdate {
+      .lotusActions {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      .lconnRTE {
+        .cke.cke_focus {
+          box-shadow: none !important;
+          margin-left: 0;
+          margin-right: 0;
+          border: 1px solid #ccc !important;
+        }
+      }
+    }
+  }
+
+  .tabNavBar {
+    .lotusTabs {
+      li.lotusSelected{
+        color: black;
+        padding-bottom: 15px;
+        border-bottom: 4px solid $orange;
+      }
+    }
+  }
+
+  .lotusMain {
+    span.lotusBtn {
+
+      background: transparent !important;
+      border: 0 !important;
+
+      a {
+        border-radius: 2rem !important;
+        border-width: 1px !important;
+        border-style: solid !important;
+        box-shadow: none !important;
+        transform: translateZ(0) !important;
+        -webkit-font-smoothing: antialiased !important;
+        cursor: pointer !important;
+        -webkit-box-align: center !important;
+        -webkit-box-pack: center !important;
+        text-align: center !important;
+        text-decoration: none !important;
+        white-space: nowrap !important;
+        padding: 9px 20px !important;
+        font-weight: 500 !important;
+        background-color: #74273b !important;
+        color: #FFFFFF !important;
+        //transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+      }
+
+
+      a:hover {
+        background-color: #ffffff !important;
+        color: $bordeauxRed !important;
+        border: 1px solid $bordeauxRed !important;
+      }
+    }
+  }
+
+  .lotusPlaceBar {
+    .lotusInlinelist {
+      li {
+        a {
+          color: $bordeauxRed;
+        }
+
+        a:visited {
+          color: $bordeauxRed;
+        }
+      }
+    }
+  }
+
+  .lotusFlyout {
+    .lotusFlyoutHeader {
+      .flyoutTitleInner {
+        color: black;
+      }
+
+      .flyoutTitleContainer {
+        td.flyoutTime {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .lotusMenu {
+    li.lotusSelected, li.lotusSelected:active {
+      border-top: none;
+      border-bottom: none;
+      color: black;
+      border-left: 4px solid $bordeauxRed;
+    }
+
+    li.lotusSelected:hover {
+      border-left: 4px solid $bordeauxRed;
+    }
+
+    .lotusUnreadBadge {
+      background-color: $orange;
+      color: white;
+    }
+
+  }
+
+  .lotusColLeft {
+    .lotusMenu {
+      li {
+        a:focus {
+          @extend %sq-option-focus;
+        }
+      }
+    }
+  }
+
+  .lotusFeeds {
+    a.lotusFeed {
+      color: $bordeauxRed;
+    }
+  }
+
+  .lotusFooter {
+    a:active {
+      color:$orange;
+    }
+    a:hover {
+      color:$orange;
+    }
+    a:focus {
+      color:$orange;
+    }
+
+  }
+
+}
+
+.stproxy_navbarMenuNonVerse {
+  ul.navsimplelist {
+    .stproxy_navbarMenuNonVerse_buttonContainer {
+      button {
+        background: $bordeauxRed !important;
+        border: 1px solid $bordeauxRed !important;
+        box-shadow: 0 0 0 3px $bordeauxRed !important;
+      }
+    }
+  }
+}
+
+// Section: homepage > widgets
+.lotusSection2.homepage-widget {
+  :first-child {
+    @extend %sq-disable-feature;
+  }
+}
+
+// Section: Activities
+#activitiesMain {
+  background: $background;
+}
