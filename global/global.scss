@@ -235,178 +235,186 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
         }
       }
 
+    }
+
   }
 
-}
+  .lotusBoard {
+    .lotusStream {
+      margin-top: -5px;
 
-.lotusBoard {
-  .lotusStream {
-    margin-top: -5px;
+      .lotusPostHover {
 
-    .lotusPostHover {
+        background-color: #f4f5f6;
 
-      background-color: #f4f5f6;
+        .lotusInlinelist {
+          a {
+            @extend %sq-text-color;
+          }
 
-      .lotusInlinelist {
-        a {
-          @extend %sq-text-color;
+          a:hover {
+            color: $orange !important;
+          }
+
         }
+      }
 
-        a:hover {
-          color: $orange !important;
+      .lotusPostSelected {
+        background-color: #f4f5f6;
+      }
+
+      #activityStreamMain.lotusWidgetBody {
+        .lotusPost {
+          margin-right: 0;
+          margin-left: 0;
         }
-
       }
     }
 
-    .lotusPostSelected {
-      background-color: #f4f5f6;
-    }
+    .lotusStreamUpdate {
+      .lotusActions {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
 
-    #activityStreamMain.lotusWidgetBody {
-      .lotusPost {
-        margin-right: 0;
-        margin-left: 0;
+      .lconnRTE {
+        .cke.cke_focus {
+          box-shadow: none !important;
+          margin-left: 0;
+          margin-right: 0;
+          border: 1px solid #ccc !important;
+        }
       }
     }
   }
 
-  .lotusStreamUpdate {
-    .lotusActions {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-
-    .lconnRTE {
-      .cke.cke_focus {
-        box-shadow: none !important;
-        margin-left: 0;
-        margin-right: 0;
-        border: 1px solid #ccc !important;
+  .tabNavBar {
+    .lotusTabs {
+      li.lotusSelected {
+        color: black;
+        padding-bottom: 15px;
+        border-bottom: 4px solid $orange;
       }
     }
   }
-}
 
-.tabNavBar {
-  .lotusTabs {
-    li.lotusSelected {
-      color: black;
-      padding-bottom: 15px;
-      border-bottom: 4px solid $orange;
-    }
-  }
-}
+  .lotusMain {
+    span.lotusBtn {
 
-.lotusMain {
-  span.lotusBtn {
+      background: transparent !important;
+      border: 0 !important;
 
-    background: transparent !important;
-    border: 0 !important;
-
-    a {
-      border-radius: 2rem !important;
-      border-width: 1px !important;
-      border-style: solid !important;
-      box-shadow: none !important;
-      transform: translateZ(0) !important;
-      -webkit-font-smoothing: antialiased !important;
-      cursor: pointer !important;
-      -webkit-box-align: center !important;
-      -webkit-box-pack: center !important;
-      text-align: center !important;
-      text-decoration: none !important;
-      white-space: nowrap !important;
-      padding: 9px 20px !important;
-      font-weight: 500 !important;
-      background-color: #74273b !important;
-      color: #FFFFFF !important;
-      //transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
-    }
-
-    a:hover {
-      background-color: #ffffff !important;
-      color: $bordeauxRed !important;
-      border: 1px solid $bordeauxRed !important;
-    }
-  }
-}
-
-.lotusPlaceBar {
-  .lotusInlinelist {
-    li {
       a {
-        color: $bordeauxRed;
+        border-radius: 2rem !important;
+        -moz-border-radius: 2rem !important;
+        -webkit-border-radius: 2rem !important;
+        border: 1px solid transparent !important;
+        box-shadow: none !important;
+        transform: translateZ(0) !important;
+        font-smooth: antialiased !important;
+        -moz-osx-font-smoothing: antialiased !important;
+        -webkit-font-smoothing: antialiased !important;
+        cursor: pointer !important;
+        -webkit-box-align: center !important;
+        -webkit-box-pack: center !important;
+        text-align: center !important;
+        text-decoration: none !important;
+        white-space: nowrap !important;
+        padding: 9px 20px !important;
+        font-weight: 800 !important;
+        background-color: #74273b !important;
+        color: #FFFFFF !important;
+        //transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
       }
 
-      a:visited {
-        color: $bordeauxRed;
+      a:hover {
+        background-color: #ffffff !important;
+        color: $bordeauxRed !important;
+        border: 1px solid $bordeauxRed !important;
       }
     }
   }
-}
 
-.lotusFlyout {
-  .lotusFlyoutHeader {
-    .flyoutTitleInner {
-      color: black;
+  .lotusPlaceBar {
+    .lotusInlinelist {
+      li {
+        a {
+          color: $bordeauxRed;
+        }
+
+        a:visited {
+          color: $bordeauxRed;
+        }
+      }
     }
+  }
 
-    .flyoutTitleContainer {
-      td.flyoutTime {
+  .lotusFlyout {
+    .lotusFlyoutHeader {
+      .flyoutTitleInner {
         color: black;
       }
-    }
-  }
-}
 
-.lotusMenu {
-  li.lotusSelected, li.lotusSelected:active {
-    border-top: none;
-    border-bottom: none;
-    color: black;
-    border-left: 4px solid $bordeauxRed;
-  }
-
-  li.lotusSelected:hover {
-    border-left: 4px solid $bordeauxRed;
-  }
-
-  .lotusUnreadBadge {
-    background-color: $orange;
-    color: white;
-  }
-
-}
-
-.lotusColLeft {
-  .lotusMenu {
-    li {
-      a:focus {
-        @extend %sq-option-focus;
+      .flyoutTitleContainer {
+        td.flyoutTime {
+          color: black;
+        }
       }
     }
   }
-}
 
-.lotusFeeds {
-  a.lotusFeed {
-    color: $bordeauxRed;
-  }
-}
+  .lotusMenu {
+    li.lotusSelected, li.lotusSelected:active {
+      border-top: none;
+      border-bottom: none;
+      color: black;
+      border-left: 4px solid $bordeauxRed;
+    }
 
-.lotusFooter {
-  a:active {
-    color: $orange;
-  }
-  a:hover {
-    color: $orange;
-  }
-  a:focus {
-    color: $orange;
+    li.lotusSelected:hover {
+      border-left: 4px solid $bordeauxRed;
+    }
+
+    .lotusUnreadBadge {
+      background-color: $orange;
+      color: white;
+    }
+
   }
 
-}
+  .lotusColLeft {
+    .lotusMenu {
+      li {
+        a:focus {
+          @extend %sq-option-focus;
+        }
+      }
+    }
+  }
+
+  .lotusFeeds {
+    a.lotusFeed {
+      color: $bordeauxRed;
+    }
+  }
+
+  .lotusFooter {
+    a:active {
+      color: $orange;
+    }
+    a:hover {
+      color: $orange;
+    }
+    a:focus {
+      color: $orange;
+    }
+
+  }
+
+  // Section: Communities
+  .lotusTitleBar, .lotusTitleBar2 {
+    background: $background;
+  }
 
 }
 

@@ -109,10 +109,13 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   border: 0 !important; }
   .lotusui30 .lotusMain span.lotusBtn a {
     border-radius: 2rem !important;
-    border-width: 1px !important;
-    border-style: solid !important;
+    -moz-border-radius: 2rem !important;
+    -webkit-border-radius: 2rem !important;
+    border: 1px solid transparent !important;
     box-shadow: none !important;
     transform: translateZ(0) !important;
+    font-smooth: antialiased !important;
+    -moz-osx-font-smoothing: antialiased !important;
     -webkit-font-smoothing: antialiased !important;
     cursor: pointer !important;
     -webkit-box-align: center !important;
@@ -121,7 +124,7 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
     text-decoration: none !important;
     white-space: nowrap !important;
     padding: 9px 20px !important;
-    font-weight: 500 !important;
+    font-weight: 800 !important;
     background-color: #74273b !important;
     color: #FFFFFF !important; }
   .lotusui30 .lotusMain span.lotusBtn a:hover {
@@ -154,6 +157,8 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   color: #FF7000; }
 .lotusui30 .lotusFooter a:focus {
   color: #FF7000; }
+.lotusui30 .lotusTitleBar, .lotusui30 .lotusTitleBar2 {
+  background: #f1f1f1; }
 
 .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
   background: #75263b !important;
