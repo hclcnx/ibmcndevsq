@@ -72,6 +72,15 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   border: 0; }
 .lotusui30 .lotusStream .filterAreaInner {
   border-style: none; }
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
+  background: #75263b;
+  border: 0;
+  border-radius: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)"; }
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight {
+  background: #75263b; }
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky .streamHeaderInner {
+  background: #75263b; }
 .lotusui30 .lotusBoard .lotusStream {
   margin-top: -5px; }
   .lotusui30 .lotusBoard .lotusStream .lotusPostHover {
