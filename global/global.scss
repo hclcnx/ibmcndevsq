@@ -10,6 +10,10 @@ $pink: #db8193;
   color: $bordeauxRed !important;
 }
 
+%sq-background {
+  background: $bordeauxRed !important;
+}
+
 %sq-disable-feature {
   display: none;
 }
@@ -21,6 +25,10 @@ $pink: #db8193;
 %sq-option-focus {
   border-bottom: 0.0625rem solid $bordeauxRed;
   border-top: 0.0625rem solid $bordeauxRed;
+}
+
+:focus-within {
+  outline: none;
 }
 
 // Section: Global*
@@ -324,7 +332,6 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
         font-weight: 800 !important;
         background-color: #74273b !important;
         color: #FFFFFF !important;
-        //transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
       }
 
       a:hover {
@@ -351,16 +358,50 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
   .lotusFlyout {
     .lotusFlyoutHeader {
-      .flyoutTitleInner {
-        color: black;
+      table {
+        tbody {
+          .flyoutTitle {
+            .flyoutTitleOuter {
+              .flyoutTitleInner {
+
+                color:black;
+
+                span {
+                  color: $bordeauxRed;
+
+                  input[dojoattachpoint="metaCloseInput"] {
+                    color:black;
+                  }
+
+                  a, a:active {
+                    color: $bordeauxRed;
+                    font-weight: bold;
+                    text-decoration: none;
+                  }
+
+                  a:hover, a:focus {
+                    color: $orange;
+                    font-weight: bold;
+                  }
+
+                }
+              }
+            }
+          }
+        }
       }
 
       .flyoutTitleContainer {
         td.flyoutTime {
-          color: black;
+          color: dimgray;
+          border-left:0;
         }
       }
+
+      background-color: #f2f2f2 !important;
     }
+
+
   }
 
   .lotusMenu {

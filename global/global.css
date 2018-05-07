@@ -11,6 +11,9 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   border-bottom: 0.0625rem solid #75263b;
   border-top: 0.0625rem solid #75263b; }
 
+:focus-within {
+  outline: none; }
+
 #lotusFrame .lotusWrapper {
   background: #f1f1f1; }
 #lotusFrame .activityStreamPage {
@@ -135,10 +138,24 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   color: #75263b; }
 .lotusui30 .lotusPlaceBar .lotusInlinelist li a:visited {
   color: #75263b; }
-.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleInner {
-  color: black; }
-.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleContainer td.flyoutTime {
-  color: black; }
+.lotusui30 .lotusFlyout .lotusFlyoutHeader {
+  background-color: #f2f2f2 !important; }
+  .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner {
+    color: black; }
+    .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span {
+      color: #75263b; }
+      .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span input[dojoattachpoint="metaCloseInput"] {
+        color: black; }
+      .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:active {
+        color: #75263b;
+        font-weight: bold;
+        text-decoration: none; }
+      .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:hover, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:focus {
+        color: #FF7000;
+        font-weight: bold; }
+  .lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleContainer td.flyoutTime {
+    color: dimgray;
+    border-left: 0; }
 .lotusui30 .lotusMenu li.lotusSelected, .lotusui30 .lotusMenu li.lotusSelected:active {
   border-top: none;
   border-bottom: none;
