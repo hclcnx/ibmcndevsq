@@ -4,7 +4,25 @@ $bordeauxRed: #75263b;
 $orange: #FF7000;
 $pink: #db8193;
 
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file +'.eot');
+    src: url($font-file +'.eot?#iefix') format('embedded-opentype'),
+    url($font-file +'.woff') format('woff'),
+    url($font-file +'.ttf') format('truetype'),
+    url($font-file +'.svg#aller') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font('AvenirLTStd-Book', 'AvenirLTStd-Book');
+
 // Common
+body {
+  font-family: AvenirLTStd-Book, Helvetica, Arial, sans-serif !important;
+}
 
 %sq-text-color {
   color: $bordeauxRed !important;
@@ -23,8 +41,8 @@ $pink: #db8193;
 }
 
 %sq-option-focus {
-  border-bottom: 0.0625rem solid $bordeauxRed;
-  border-top: 0.0625rem solid $bordeauxRed;
+  border-bottom: 0.0625rem solid $bordeauxRed !important;
+  border-top: 0.0625rem solid $bordeauxRed !important;
 }
 
 :focus-within {
@@ -43,9 +61,20 @@ $pink: #db8193;
 
 }
 
-.lotusui30_body {
+.lotusLoading {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 41.2 41.2%22%3E%3Cpath fill=%22%2375263b%22 d=%22M38.7,10.7l-3.3,1.8c1.4,2.5,2.1,5.2,2.1,8.1c0,9.3-7.6,16.9-16.9,16.9c-9.3,0-16.8-7.6-16.8-16.9 c0-9.3,7.5-16.8,16.8-16.8V0C9.3,0,0,9.3,0,20.6C0,32,9.3,41.3,20.6,41.3c11.4,0,20.7-9.3,20.7-20.7C41.3,17.1,40.4,13.7,38.7,10.7z%22/%3E%3C/svg%3E") !important;
+  animation-name: rotate;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 16px !important;
+  height: 16px !important;
+  position: absolute !important;
+  left: calc(50% - 8px) !important;
+}
 
-  background: $background;
+.lotusui30_body {
+  background: $background !important;
 
   .lotusMain {
     background: $background !important;
@@ -98,7 +127,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 }
 
 .icBanner-badge {
-  background: none repeat scroll 0 0 $orange;
+  background: none repeat scroll 0 0 $orange !important;
 }
 
 .ics-scbanner {
@@ -125,7 +154,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
 
       a:hover::before, a:hover::after {
-        background-color: #e5e5e5;
+        background-color: #e5e5e5 !important;
         content: "";
         height: 0.0625rem;
         left: 50%;
@@ -141,7 +170,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     .navsimplelist {
       > li {
         a.selected {
-          border-left: 4px solid $bordeauxRed;
+          border-left: 4px solid $bordeauxRed !important;
         }
       }
     }
@@ -154,52 +183,171 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
 .icBanner-notif-center {
   .icBanner-popover-notificationReadAll {
-    color: $bordeauxRed;
+    @extend %sq-text-color;
   }
 
   .icBanner-popover-notificationReadAll:hover {
-    color: $bordeauxRed;
+    @extend %sq-text-color;
   }
 }
 
 .icNote-message .bluedot {
-  background-color: $orange;
-  border: 1px solid $orange;
+  background-color: $orange !important;
+  border: 1px solid $orange !important;
 }
 
 .icNote-time {
-  color: dimgray;
+  color: dimgray !important;
+}
+
+// Section: homepage > search menu
+.icSearchBar {
+  a.icSearchIcon {
+    width: 16px !important;
+    height: 16px !important;
+    margin-top: 31px !important;
+    margin-left: 9px !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%2375263b%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E") !important;
+    background-size: 18px 18px !important;
+
+    svg {
+      display: none !important;
+    }
+
+    .dijitTextBox {
+      line-height: 1.5 !important;
+      min-width: 10rem !important;
+      padding: 0 !important;
+      background: none !important;
+      border: none !important;
+      border-bottom: 1px solid #d8d8d8 !important;
+      font-size: 12.8px !important;
+      padding-right: 2rem !important;
+      padding-bottom: .375rem !important;
+      box-sizing: border-box !important;
+      height: auto !important;
+    }
+
+    .dijitTextBox:focus, .dijitTextBox .dijitTextBoxFocused {
+      outline: none !important;
+      border-color: $bordeauxRed !important;
+      box-shadow: 0 1px 0 $bordeauxRed !important;
+    }
+
+    .dijitTextBoxFocused {
+      box-shadow: 0 1px 0 $bordeauxRed !important;
+      outline: none !important;
+      border-bottom: 1px solid $bordeauxRed !important;
+    }
+
+  }
+}
+
+.icSearchPaneButton {
+  border-radius: 50% !important;
+  background-color: $bordeauxRed !important;
+  border: 1px solid $bordeauxRed !important;
+  outline: none !important;
+  right: 23px !important;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2) !important;
+
+  a {
+    width: 16px !important;
+    height: 16px !important;
+    margin-top: -9px !important;
+    margin-left: 8px !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E");
+    background-size: 18px 18px !important;
+
+    svg {
+      display: none !important;
+    }
+  }
+
+  &:hover, &.icSearchFocused {
+    border-color: $bordeauxRed !important;
+    background-color: #FFFFFF !important;
+    cursor: pointer !important;
+
+    a {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%2375263b%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E");
+    }
+  }
+  &#bhc_com_searchForm {
+    top: 56px !important;
+  }
+
+  &.icSearchBarMode {
+    background-color: transparent !important;
+    box-shadow: none !important;
+
+    .icSearchIcon {
+      top: -20px !important;
+    }
+
+    .icSearchBar {
+      padding-top: 0 !important;
+    }
+  }
+}
+
+.search-history-view-ui {
+  .icSearchPane {
+    .pfEntry {
+      &:hover, &.spSelected {
+        border-color: $bordeauxRed !important;
+
+        .lconn_gray {
+          color: #595859 !important;
+        }
+      }
+    }
+  }
 }
 
 .lotusui30 {
   a {
-    color: $bordeauxRed;
+    @extend %sq-text-color;
   }
 
   a:visited {
-    color: $bordeauxRed;
+    @extend %sq-text-color;
   }
 
   a:hover {
-    color: $orange;
+    color: $orange !important;
   }
 
   a:focus {
-    color: $pink;
+    color: $bordeauxRed !important;
   }
 
   a:active {
-    color: $pink;
+    color: $pink !important;
   }
 
   a.icBanner-footer-link, a.icBanner-footer-link:active, a.icBanner-footer-link:visited {
-    color: $bordeauxRed;
-
+    @extend %sq-text-color;
     cursor: pointer;
   }
 
   a.icBanner-footer-link:hover {
-    color: $orange;
+    color: $orange !important;
+  }
+
+  .dijitMenuPopup {
+    .dijitMenuTable {
+      .dijitMenuItemFocused {
+        td.dijitMenuItemLabel {
+          @extend %sq-option-focus;
+        }
+      }
+    }
+  }
+
+  .streamMore:hover, .streamMore:focus, .streamMore:active {
+    @extend %sq-text-color;
+    background: #e8e8e8 !important;
   }
 
   .ics-scbanner.isfixed {
@@ -212,10 +360,95 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     }
   }
 
+  .lotusContent {
+    .lotusStream {
+      #activityStreamMain.lotusWidgetBody {
+        .lotusPagingTop.lotusPaging {
+          ul.lotusInlinelist {
+            li {
+              a.filterSelected {
+                color: white !important;
+              }
+
+              a {
+                color: white !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   .lotusStream {
     .lotusWidgetBody#activityStreamMain {
       .icStream-search {
         border: 0;
+        background: white;
+      }
+
+      .lotusInlinelist.lotusActions {
+        .vcard {
+          a {
+            @extend %sq-text-color;
+          }
+
+          a:hover {
+            color: $orange !important;
+          }
+
+          a:focus {
+            color: $orange !important;
+          }
+
+          a:active {
+            color: $orange !important;
+          }
+        }
+
+        .lotusLike {
+          a:hover {
+            color: $orange !important;
+          }
+
+          a:focus {
+            color: $orange !important;
+          }
+
+          a:active {
+            color: $orange !important;
+          }
+        }
+      }
+
+      .lotusCommentList {
+        .lotusInlinelist {
+          .lotusLike {
+            a {
+              @extend %sq-text-color;
+            }
+          }
+        }
+      }
+
+      .lotusPostHover {
+        .lotusInlinelist {
+          a:hover {
+            color: $orange !important;
+          }
+        }
+      }
+
+      .lotusPagingTop.lotusPaging {
+        margin-top: 0 !important;
+
+        ul.lotusInlinelist {
+          li {
+            a {
+              color: white;
+            }
+          }
+        }
       }
     }
 
@@ -226,7 +459,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     #activityStreamMain.lotusWidgetBody {
       .streamHeaderWrapper {
         .lotusPaging {
-          background: $bordeauxRed;
+          @extend %sq-background;
           border: 0;
           border-radius: 0;
           -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
@@ -234,13 +467,22 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
 
       .stream-finLeft, .stream-finRight {
-        background: $bordeauxRed;
+        @extend %sq-background;
       }
 
       .streamHeaderWrapper.isSticky {
         .streamHeaderInner {
-          background: $bordeauxRed;
+          @extend %sq-background;
         }
+      }
+
+      .lotusPost {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+      }
+
+      .lotusPagingTop.lotusPaging ul.lotusInlinelist li a.filterSelected {
+        color: white;
       }
 
     }
@@ -253,7 +495,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
       .lotusPostHover {
 
-        background-color: #f4f5f6;
+        background-color: #f4f5f6 !important;
 
         .lotusInlinelist {
           a {
@@ -268,7 +510,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
 
       .lotusPostSelected {
-        background-color: #f4f5f6;
+        background-color: #f4f5f6 !important;
       }
 
       #activityStreamMain.lotusWidgetBody {
@@ -301,7 +543,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       li.lotusSelected {
         color: black;
         padding-bottom: 15px;
-        border-bottom: 4px solid $orange;
+        border-bottom: 4px solid $orange !important;
       }
     }
   }
@@ -364,23 +606,23 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
             .flyoutTitleOuter {
               .flyoutTitleInner {
 
-                color:black;
+                color: black !important;
 
                 span {
-                  color: $bordeauxRed;
+                  @extend %sq-text-color;
 
                   input[dojoattachpoint="metaCloseInput"] {
-                    color:black;
+                    color: black;
                   }
 
                   a, a:active {
-                    color: $bordeauxRed;
+                    @extend %sq-text-color;
                     font-weight: bold;
                     text-decoration: none;
                   }
 
                   a:hover, a:focus {
-                    color: $orange;
+                    color: $orange !important;
                     font-weight: bold;
                   }
 
@@ -393,14 +635,18 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
       .flyoutTitleContainer {
         td.flyoutTime {
-          color: dimgray;
-          border-left:0;
+          color: dimgray !important;
+          border-left: 0;
+        }
+      }
+
+      .vcard {
+        > a {
         }
       }
 
       background-color: #f2f2f2 !important;
     }
-
 
   }
 
@@ -421,6 +667,12 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       color: white;
     }
 
+    li {
+      a {
+        color: black !important;
+      }
+    }
+
   }
 
   .lotusColLeft {
@@ -435,7 +687,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
   .lotusFeeds {
     a.lotusFeed {
-      color: $bordeauxRed;
+      @extend %sq-text-color;
     }
   }
 
@@ -459,16 +711,28 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
 }
 
+.cke_editable.cke_editable_themed.lconnShareboxCke {
+  padding: 6px 0px 3px 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+  background: #f6f9fc !important;
+}
+
 .stproxy_navbarMenuNonVerse {
   ul.navsimplelist {
     .stproxy_navbarMenuNonVerse_buttonContainer {
       button {
-        background: $bordeauxRed !important;
+        @extend %sq-background;
         border: 1px solid $bordeauxRed !important;
         box-shadow: 0 0 0 3px $bordeauxRed !important;
       }
     }
   }
+}
+
+.lotusui30_body.cke_editable {
+  background: #f6f9fc !important;
 }
 
 // Section: homepage > widgets
