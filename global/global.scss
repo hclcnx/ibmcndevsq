@@ -1,28 +1,6 @@
-@import "../scss/common/vars";
+@import "../scss/common/template";
 @import "../scss/common/font";
 
-
-// Common
-%sq-text-color {
-  color: $bordeaux !important;
-}
-
-%sq-background {
-  background: $bordeaux !important;
-}
-
-%sq-disable-feature {
-  display: none;
-}
-
-%sq-option-selected {
-  border-bottom: 0.125rem solid $orange !important;
-}
-
-%sq-option-focus {
-  border-bottom: 0.0625rem solid $bordeaux !important;
-  border-top: 0.0625rem solid $bordeaux !important;
-}
 
 :focus-within {
   outline: none;
