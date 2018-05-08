@@ -4,7 +4,25 @@ $bordeauxRed: #75263b;
 $orange: #FF7000;
 $pink: #db8193;
 
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file +'.eot');
+    src: url($font-file +'.eot?#iefix') format('embedded-opentype'),
+    url($font-file +'.woff') format('woff'),
+    url($font-file +'.ttf') format('truetype'),
+    url($font-file +'.svg#aller') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font('AvenirLTStd-Book', 'AvenirLTStd-Book');
+
 // Common
+body {
+  font-family: AvenirLTStd-Book, Helvetica, Arial, sans-serif !important;
+}
 
 %sq-text-color {
   color: $bordeauxRed !important;
@@ -193,7 +211,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     background-size: 18px 18px !important;
 
     svg {
-      display:none !important;
+      display: none !important;
     }
 
     .dijitTextBox {
@@ -222,7 +240,6 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       border-bottom: 1px solid $bordeauxRed !important;
     }
 
-
   }
 }
 
@@ -247,7 +264,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     }
   }
 
-  &:hover, &.icSearchFocused  {
+  &:hover, &.icSearchFocused {
     border-color: $bordeauxRed !important;
     background-color: #FFFFFF !important;
     cursor: pointer !important;
@@ -288,7 +305,6 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   }
 }
 
-
 .lotusui30 {
   a {
     @extend %sq-text-color;
@@ -321,7 +337,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
   .dijitMenuPopup {
     .dijitMenuTable {
-      .dijitMenuItemFocused{
+      .dijitMenuItemFocused {
         td.dijitMenuItemLabel {
           @extend %sq-option-focus;
         }
@@ -346,16 +362,16 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
   .lotusContent {
     .lotusStream {
-      #activityStreamMain.lotusWidgetBody  {
+      #activityStreamMain.lotusWidgetBody {
         .lotusPagingTop.lotusPaging {
-          ul.lotusInlinelist{
-            li{
+          ul.lotusInlinelist {
+            li {
               a.filterSelected {
-                color:white !important;
+                color: white !important;
               }
 
               a {
-                color:white !important;
+                color: white !important;
               }
             }
           }
@@ -368,7 +384,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     .lotusWidgetBody#activityStreamMain {
       .icStream-search {
         border: 0;
-        background:white;
+        background: white;
       }
 
       .lotusInlinelist.lotusActions {
@@ -416,8 +432,8 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
 
       .lotusPostHover {
-        .lotusInlinelist{
-          a:hover{
+        .lotusInlinelist {
+          a:hover {
             color: $orange !important;
           }
         }
@@ -466,7 +482,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
 
       .lotusPagingTop.lotusPaging ul.lotusInlinelist li a.filterSelected {
-        color:white;
+        color: white;
       }
 
     }
@@ -590,13 +606,13 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
             .flyoutTitleOuter {
               .flyoutTitleInner {
 
-                color:black !important;
+                color: black !important;
 
                 span {
                   @extend %sq-text-color;
 
                   input[dojoattachpoint="metaCloseInput"] {
-                    color:black;
+                    color: black;
                   }
 
                   a, a:active {
@@ -620,18 +636,17 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       .flyoutTitleContainer {
         td.flyoutTime {
           color: dimgray !important;
-          border-left:0;
+          border-left: 0;
         }
       }
 
-
       .vcard {
-        > a {}
+        > a {
+        }
       }
 
       background-color: #f2f2f2 !important;
     }
-
 
   }
 
@@ -654,7 +669,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
     li {
       a {
-        color:black !important;
+        color: black !important;
       }
     }
 
