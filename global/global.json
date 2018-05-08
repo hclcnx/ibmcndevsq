@@ -1,24 +1,29 @@
 {
-    "extensions": [
-      {
-        "application": "Global Customization",
-        "payload": {
-          "include-repo":{
-             "name":"ibmcndevsq"
-          },
-          "include-files": [
-            "global/globalCustomization.js"
-          ]
+  "extensions": [
+    {
+      "application": "Global Customization",
+      "payload": {
+        "include-repo": {
+          "name": "ibmcndevsq"
         },
-        "name": "Global Customization Extension",
-        "type": "com.ibm.customizer.ui",
-        "path": "global"
-      }
-    ],
-    "name": "Global Customization",
-    "description": "Global Customization",
-    "services": [
-      "Customizer"
-    ],
-    "title": "Global Customization"
-  }
+        "include-files": [
+          "global/AvenirLTStd-Book.eot",
+          "global/AvenirLTStd-Book.otf",
+          "global/AvenirLTStd-Book.svg",
+          "global/AvenirLTStd-Book.ttf",
+          "global/AvenirLTStd-Book.woff",
+          "global/global.css"
+        ]
+      },
+      "name": "Global Customization Extension",
+      "type": "com.ibm.customizer.ui",
+      "path": "global"
+    }
+  ],
+  "name": "Global Customization",
+  "description": "Global Customization",
+  "services": [
+    "Customizer"
+  ],
+  "title": "Global Customization"
+}
