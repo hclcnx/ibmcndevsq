@@ -185,7 +185,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   }
 
   a:focus {
-    color: $pink !important;
+    color: $bordeauxRed !important;
   }
 
   a:active {
@@ -194,12 +194,26 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
   a.icBanner-footer-link, a.icBanner-footer-link:active, a.icBanner-footer-link:visited {
     @extend %sq-text-color;
-
     cursor: pointer;
   }
 
   a.icBanner-footer-link:hover {
     color: $orange !important;
+  }
+
+  .dijitMenuPopup {
+    .dijitMenuTable {
+      .dijitMenuItemFocused{
+        td.dijitMenuItemLabel {
+          @extend %sq-option-focus;
+        }
+      }
+    }
+  }
+
+  .streamMore:hover, .streamMore:focus, .streamMore:active {
+    @extend %sq-text-color;
+    background: #e8e8e8 !important;
   }
 
   .ics-scbanner.isfixed {
@@ -212,10 +226,94 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     }
   }
 
+  .lotusContent {
+    .lotusStream {
+      #activityStreamMain.lotusWidgetBody  {
+        .lotusPagingTop.lotusPaging {
+          ul.lotusInlinelist{
+            li{
+              a.filterSelected {
+                color:white !important;
+              }
+
+              a {
+                color:white !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   .lotusStream {
     .lotusWidgetBody#activityStreamMain {
       .icStream-search {
         border: 0;
+      }
+
+      .lotusInlinelist.lotusActions {
+        .vcard {
+          a {
+            @extend %sq-text-color;
+          }
+
+          a:hover {
+            color: $orange !important;
+          }
+
+          a:focus {
+            color: $orange !important;
+          }
+
+          a:active {
+            color: $orange !important;
+          }
+        }
+
+        .lotusLike {
+          a:hover {
+            color: $orange !important;
+          }
+
+          a:focus {
+            color: $orange !important;
+          }
+
+          a:active {
+            color: $orange !important;
+          }
+        }
+      }
+
+      .lotusCommentList {
+        .lotusInlinelist {
+          .lotusLike {
+            a {
+              @extend %sq-text-color;
+            }
+          }
+        }
+      }
+
+      .lotusPostHover {
+        .lotusInlinelist{
+          a:hover{
+            color: $orange !important;
+          }
+        }
+      }
+
+      .lotusPagingTop.lotusPaging {
+        margin-top: 0 !important;
+
+        ul.lotusInlinelist {
+          li {
+            a {
+              color: white;
+            }
+          }
+        }
       }
     }
 
@@ -241,6 +339,15 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
         .streamHeaderInner {
           @extend %sq-background;
         }
+      }
+
+      .lotusPost {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+      }
+
+      .lotusPagingTop.lotusPaging ul.lotusInlinelist li a.filterSelected {
+        color:white;
       }
 
     }
@@ -398,6 +505,11 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
         }
       }
 
+
+      .vcard {
+        > a {}
+      }
+
       background-color: #f2f2f2 !important;
     }
 
@@ -419,6 +531,12 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     .lotusUnreadBadge {
       background-color: $orange;
       color: white;
+    }
+
+    li {
+      a {
+        color:black !important;
+      }
     }
 
   }
@@ -459,6 +577,15 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
 }
 
+
+.cke_editable.cke_editable_themed.lconnShareboxCke {
+  padding: 6px 0px 3px 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+  background: #f6f9fc !important;
+}
+
 .stproxy_navbarMenuNonVerse {
   ul.navsimplelist {
     .stproxy_navbarMenuNonVerse_buttonContainer {
@@ -469,6 +596,10 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
     }
   }
+}
+
+.lotusui30_body.cke_editable {
+  background: #f6f9fc !important;
 }
 
 // Section: homepage > widgets
