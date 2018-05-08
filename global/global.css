@@ -1,4 +1,4 @@
-body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scbanner > a, body .hikari.ics-scbanner > a:visited, body .gen4.ics-scbanner > a:visited, body .colour.ics-scbanner > a:visited, body .hikari.ics-scbanner > a:hover, body .gen4.ics-scbanner > a:hover, body .colour.ics-scbanner > a:hover, body .hikari.ics-scbanner > a:active, body .gen4.ics-scbanner > a:active, body .colour.ics-scbanner > a:active, body .hikari.ics-scbanner > a:focus, body .gen4.ics-scbanner > a:focus, body .colour.ics-scbanner > a:focus, #ics-scbanner-home, #communitiesMenu_container, #nav_bar_include .files, #nav_bar_include .activities, .icBanner-notif-center .icBanner-popover-notificationReadAll, .icBanner-notif-center .icBanner-popover-notificationReadAll:hover, .lotusui30 a, .lotusui30 a:visited, .lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:visited, .lotusui30 .streamMore:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a, .lotusui30 .lotusBoard .lotusStream .lotusPostHover .lotusInlinelist a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:active, .lotusui30 .lotusFeeds a.lotusFeed {
+body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scbanner > a, body .hikari.ics-scbanner > a:visited, body .gen4.ics-scbanner > a:visited, body .colour.ics-scbanner > a:visited, body .hikari.ics-scbanner > a:hover, body .gen4.ics-scbanner > a:hover, body .colour.ics-scbanner > a:hover, body .hikari.ics-scbanner > a:active, body .gen4.ics-scbanner > a:active, body .colour.ics-scbanner > a:active, body .hikari.ics-scbanner > a:focus, body .gen4.ics-scbanner > a:focus, body .colour.ics-scbanner > a:focus, #ics-scbanner-home, #communitiesMenu_container, #nav_bar_include .files, #nav_bar_include .activities, .icBanner-notif-center .icBanner-popover-notificationReadAll, .icBanner-notif-center .icBanner-popover-notificationReadAll:hover, .lotusui30 a, .lotusui30 a:visited, .lotusui30 a:focus, .lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:visited, .lotusui30 .streamMore:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a, .lotusui30 .lotusBoard .lotusStream .lotusPostHover .lotusInlinelist a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:active, .lotusui30 .lotusFeeds a.lotusFeed {
   color: #75263b !important; }
 
 .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky .streamHeaderInner, .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button, .onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemSelected, .onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemHover .dijitMenuItemSelected, .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled) {
@@ -190,8 +190,6 @@ html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient 
 
 .lotusui30 a:hover {
   color: #FF7000 !important; }
-.lotusui30 a:focus {
-  color: #75263b !important; }
 .lotusui30 a:active {
   color: #db8193 !important; }
 .lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:visited {
@@ -255,10 +253,28 @@ html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient 
   margin-left: 0;
   margin-right: 0;
   border: 1px solid #ccc !important; }
-.lotusui30 .tabNavBar .lotusTabs li.lotusSelected {
-  color: black;
-  padding-bottom: 15px;
-  border-bottom: 4px solid #FF7000 !important; }
+.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke_inner {
+  background-color: transparent;
+  box-shadow: 0 4px 4px #f7f9fc, inset; }
+.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke_contents {
+  background: #f7f9fc;
+  transition: all 0.2s ease 0s; }
+.lotusui30 .lotusPaging .lotusInlinelist li {
+  border-left: none !important; }
+.lotusui30 .tabNavBar {
+  box-shadow: none; }
+  .lotusui30 .tabNavBar .lotusTabs li.lotusSelected {
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #FF7000 !important; }
+.lotusui30 .lotusPagingBottom a {
+  margin-right: 0;
+  margin-left: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0; }
+.lotusui30 .streamMore {
+  border-radius: 0; }
 .lotusui30 .lotusMain span.lotusBtn {
   background: transparent !important;
   border: 0 !important; }
@@ -309,12 +325,12 @@ html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient 
   border-top: none;
   border-bottom: none;
   color: black;
-  border-left: 4px solid #75263b; }
+  border-left: 4px solid #75263b !important; }
 .lotusui30 .lotusMenu li.lotusSelected:hover {
-  border-left: 4px solid #75263b; }
+  border-left: 4px solid #75263b !important; }
 .lotusui30 .lotusMenu .lotusUnreadBadge {
-  background-color: #FF7000;
-  color: white; }
+  background-color: #FF7000 !important;
+  color: white !important; }
 .lotusui30 .lotusMenu li a {
   color: black !important; }
 .lotusui30 .lotusFooter a:active {
@@ -342,6 +358,17 @@ html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient 
 
 #activitiesMain {
   background: #f1f1f1; }
+
+.lconnPicker .tabbedSwitch .pickerSourceChecked .lconnPickerSourceLabel {
+  border-bottom: 3px solid #75263b; }
+.lconnPicker .tabbedSwitch .lconnPickerSourceLabel {
+  color: #75263b; }
+  .lconnPicker .tabbedSwitch .lconnPickerSourceLabel:focus, .lconnPicker .tabbedSwitch .lconnPickerSourceLabel:hover {
+    border-top: 1px solid #75263b;
+    border-left: 1px solid #75263b;
+    border-right: 1px solid #75263b; }
+.lconnPicker .tabbedSwitch .switchContainer {
+  border-bottom: 1px solid #75263b; }
 
 #doc_header_outer {
   background: none repeat scroll 0 0 #75263b !important; }

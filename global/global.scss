@@ -275,20 +275,12 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 }
 
 .lotusui30 {
-  a {
-    @extend %sq-text-color;
-  }
-
-  a:visited {
+  a, a:visited, a:focus, a:visited {
     @extend %sq-text-color;
   }
 
   a:hover {
     color: $orange !important;
-  }
-
-  a:focus {
-    color: $bordeaux !important;
   }
 
   a:active {
@@ -503,11 +495,30 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
           margin-right: 0;
           border: 1px solid #ccc !important;
         }
+        .cke_inner {
+          background-color: transparent;
+          box-shadow: 0 4px 4px #f7f9fc, inset;
+        }
+        .cke_contents {
+          background: #f7f9fc;
+          transition: all 0.2s ease 0s;
+        }
+
+      }
+    }
+  }
+
+  .lotusPaging {
+    .lotusInlinelist {
+      li {
+        border-left:none !important;
       }
     }
   }
 
   .tabNavBar {
+    box-shadow:none;
+
     .lotusTabs {
       li.lotusSelected {
         color: black;
@@ -515,6 +526,20 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
         border-bottom: 4px solid $orange !important;
       }
     }
+  }
+
+  .lotusPagingBottom {
+    a {
+      margin-right: 0;
+      margin-left: 0;
+      border-right-width: 0;
+      border-left-width: 0;
+      border-bottom-width: 0;
+    }
+  }
+
+  .streamMore {
+    border-radius: 0;
   }
 
   .lotusMain {
@@ -624,16 +649,16 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       border-top: none;
       border-bottom: none;
       color: black;
-      border-left: 4px solid $bordeaux;
+      border-left: 4px solid $bordeaux !important;
     }
 
     li.lotusSelected:hover {
-      border-left: 4px solid $bordeaux;
+      border-left: 4px solid $bordeaux !important;
     }
 
     .lotusUnreadBadge {
-      background-color: $orange;
-      color: white;
+      background-color: $orange !important;
+      color: white !important;
     }
 
     li {
@@ -714,6 +739,29 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 // Section: Activities
 #activitiesMain {
   background: $background;
+}
+
+.lconnPicker {
+  .tabbedSwitch{
+    .pickerSourceChecked{
+      .lconnPickerSourceLabel{
+        border-bottom: 3px solid $bordeaux;
+      }
+    }
+    .lconnPickerSourceLabel{
+      color: $bordeaux;
+
+      &:focus, &:hover {
+        border-top: 1px solid $bordeaux;
+        border-left: 1px solid $bordeaux;
+        border-right: 1px solid $bordeaux;
+      }
+    }
+
+    .switchContainer{
+      border-bottom: 1px solid $bordeaux;
+    }
+  }
 }
 
 //Section: Docs
