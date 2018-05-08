@@ -1,0 +1,68 @@
+body {
+  font-family: inherit !important;
+  * {
+    font-family: inherit;
+  }
+}
+
+html {
+  .lotusui30 .lotusDialog .lotusHeading,
+  .lotusui30 .lotusTitleBar2 .lotusHeading,
+  .lotusui30 .lotusTitleBar2 .lotusHeading a,
+  .lotusui30 div.lotusTitleBar h2,
+  .lotusui30 div.lotusPlaceBar h2,
+  .lotusui30 .lotusPlaceBar .lotusBtn,
+  .lotusui30 .dijitTitlePaneTitle,
+  .lotusui30 .lotusSection h2,
+  .lotusui30 .lotusWidget h2,
+  .lotusui30 .lotusWidget2 h2,
+  .lotusui30 .lotusMeta,
+  .lotusui30 .lotusWidget2 .lotusTable h4,
+  .lotusui30 .lotusTable h4,
+  .lotusui30 .lotusMeta,
+  .lotusui30 .lotusWidget2 .lotusTable h4
+  .ics-viewer .ics-panel-entry-container,
+  .lotusui30 .lotusBtn,
+  .lotusui30 button,
+  .lotusui30 input,
+  .lotusui30 select,
+  .lotusui30 .lotusBtnSmallGray,
+  .lotusui30 button.lotusFormButton,
+  .lotusui30 .lconnUploadContainer .lotusBtn,
+  .lotusui30 input.lotusFormButton,
+  .ics-viewer .ics-panel-entry-container,
+  .ics-viewer .ics-viewer-details .ics-viewer-details-shelf,
+  .scloud3,
+  .lotusui30_fonts,
+  .lotusui30 .lotusSymbol,
+  .lotusui30 .lotusFlyoutInner .lotusStatus,
+  .lotusui30dojo textarea,
+  .lotusui30_fonts,
+  .lotusui30 .lotusMain span.lotusBtn a,
+  .lotusui30 .lotusBtnSmall,
+  .lotusui30 .lotusPaletteHeader ul.lotusTabs li a strong,
+  .lotusui30 .lotusWelcomeBox li,
+  .lotusui30 .lotusWelcomeBox p,
+  .lotusui30 .lotusWelcomeBox .lotusHeading,
+  .lotusui30_layout .lotusWelcomeBox h2,
+  .lotusliveui, .lotusliveui30, .scloud3,
+  .ic-orient, .ic-orient button, .ic-orient input, .ic-orient select, .ic-orient textarea, .ocs-nav-bar-wrapper {
+    font-family: inherit;
+  }
+}
+
+$font-path: '../fonts/AvenirLTStd-Book' !default;
+@import "../common/repoName";
+
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  font-style: normal;
+  font-weight: normal;
+  src: url('#{$font-path}.eot?repoName=#{$repo-name}') format('eot'),
+  url('#{$font-path}.eot?repoName=#{$repo-name}#iefix') format('embedded-opentype'),
+  url('#{$font-path}.woff?repoName=#{$repo-name}') format('woff'),
+  url('#{$font-path}.ttf?repoName=#{$repo-name}') format('truetype'),
+  url('#{$font-path}.svg?repoName=#{$repo-name}#aller') format('svg');
+}
+
+

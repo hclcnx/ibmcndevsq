@@ -1,49 +1,6 @@
-// Theme colors of Sanquin
-$background: #f1f1f1;
-$bordeauxRed: #75263b;
-$orange: #FF7000;
-$pink: #db8193;
+@import "../scss/common/template";
+@import "../scss/common/font";
 
-@mixin font($font-family, $font-file) {
-  @font-face {
-    font-family: $font-family;
-    src: url($font-file +'.eot');
-    src: url($font-file +'.eot?#iefix') format('embedded-opentype'),
-    url($font-file +'.woff') format('woff'),
-    url($font-file +'.ttf') format('truetype'),
-    url($font-file +'.svg#aller') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }
-}
-
-@include font('AvenirLTStd-Book', 'AvenirLTStd-Book');
-
-// Common
-body {
-  font-family: AvenirLTStd-Book, Helvetica, Arial, sans-serif !important;
-}
-
-%sq-text-color {
-  color: $bordeauxRed !important;
-}
-
-%sq-background {
-  background: $bordeauxRed !important;
-}
-
-%sq-disable-feature {
-  display: none;
-}
-
-%sq-option-selected {
-  border-bottom: 0.125rem solid $orange !important;
-}
-
-%sq-option-focus {
-  border-bottom: 0.0625rem solid $bordeauxRed !important;
-  border-top: 0.0625rem solid $bordeauxRed !important;
-}
 
 :focus-within {
   outline: none;
@@ -83,7 +40,7 @@ body {
 
 // Section: Global > Navigation bar
 .ics-scbanner {
-  color: $bordeauxRed !important;
+  color: $bordeaux !important;
   background-color: white !important;
   transition: none;
 }
@@ -170,7 +127,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     .navsimplelist {
       > li {
         a.selected {
-          border-left: 4px solid $bordeauxRed !important;
+          border-left: 4px solid $bordeaux !important;
         }
       }
     }
@@ -230,14 +187,14 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
     .dijitTextBox:focus, .dijitTextBox .dijitTextBoxFocused {
       outline: none !important;
-      border-color: $bordeauxRed !important;
-      box-shadow: 0 1px 0 $bordeauxRed !important;
+      border-color: $bordeaux !important;
+      box-shadow: 0 1px 0 $bordeaux !important;
     }
 
     .dijitTextBoxFocused {
-      box-shadow: 0 1px 0 $bordeauxRed !important;
+      box-shadow: 0 1px 0 $bordeaux !important;
       outline: none !important;
-      border-bottom: 1px solid $bordeauxRed !important;
+      border-bottom: 1px solid $bordeaux !important;
     }
 
   }
@@ -245,8 +202,8 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
 .icSearchPaneButton {
   border-radius: 50% !important;
-  background-color: $bordeauxRed !important;
-  border: 1px solid $bordeauxRed !important;
+  background-color: $bordeaux !important;
+  border: 1px solid $bordeaux !important;
   outline: none !important;
   right: 23px !important;
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2) !important;
@@ -265,7 +222,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   }
 
   &:hover, &.icSearchFocused {
-    border-color: $bordeauxRed !important;
+    border-color: $bordeaux !important;
     background-color: #FFFFFF !important;
     cursor: pointer !important;
 
@@ -295,7 +252,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   .icSearchPane {
     .pfEntry {
       &:hover, &.spSelected {
-        border-color: $bordeauxRed !important;
+        border-color: $bordeaux !important;
 
         .lconn_gray {
           color: #595859 !important;
@@ -305,21 +262,25 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   }
 }
 
-.lotusui30 {
-  a {
-    @extend %sq-text-color;
+.scloud3 {
+  .lotusMenu {
+    li {
+      a {
+        &:hover {
+          background-color: #f4f5f6;
+        }
+      }
+    }
   }
+}
 
-  a:visited {
+.lotusui30 {
+  a, a:visited, a:focus, a:visited {
     @extend %sq-text-color;
   }
 
   a:hover {
     color: $orange !important;
-  }
-
-  a:focus {
-    color: $bordeauxRed !important;
   }
 
   a:active {
@@ -534,11 +495,30 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
           margin-right: 0;
           border: 1px solid #ccc !important;
         }
+        .cke_inner {
+          background-color: transparent;
+          box-shadow: 0 4px 4px #f7f9fc, inset;
+        }
+        .cke_contents {
+          background: #f7f9fc;
+          transition: all 0.2s ease 0s;
+        }
+
+      }
+    }
+  }
+
+  .lotusPaging {
+    .lotusInlinelist {
+      li {
+        border-left:none !important;
       }
     }
   }
 
   .tabNavBar {
+    box-shadow:none;
+
     .lotusTabs {
       li.lotusSelected {
         color: black;
@@ -546,6 +526,20 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
         border-bottom: 4px solid $orange !important;
       }
     }
+  }
+
+  .lotusPagingBottom {
+    a {
+      margin-right: 0;
+      margin-left: 0;
+      border-right-width: 0;
+      border-left-width: 0;
+      border-bottom-width: 0;
+    }
+  }
+
+  .streamMore {
+    border-radius: 0;
   }
 
   .lotusMain {
@@ -578,8 +572,8 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
       a:hover {
         background-color: #ffffff !important;
-        color: $bordeauxRed !important;
-        border: 1px solid $bordeauxRed !important;
+        color: $bordeaux !important;
+        border: 1px solid $bordeaux !important;
       }
     }
   }
@@ -588,11 +582,11 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     .lotusInlinelist {
       li {
         a {
-          color: $bordeauxRed;
+          color: $bordeaux;
         }
 
         a:visited {
-          color: $bordeauxRed;
+          color: $bordeaux;
         }
       }
     }
@@ -655,16 +649,16 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       border-top: none;
       border-bottom: none;
       color: black;
-      border-left: 4px solid $bordeauxRed;
+      border-left: 4px solid $bordeaux !important;
     }
 
     li.lotusSelected:hover {
-      border-left: 4px solid $bordeauxRed;
+      border-left: 4px solid $bordeaux !important;
     }
 
     .lotusUnreadBadge {
-      background-color: $orange;
-      color: white;
+      background-color: $orange !important;
+      color: white !important;
     }
 
     li {
@@ -724,8 +718,8 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     .stproxy_navbarMenuNonVerse_buttonContainer {
       button {
         @extend %sq-background;
-        border: 1px solid $bordeauxRed !important;
-        box-shadow: 0 0 0 3px $bordeauxRed !important;
+        border: 1px solid $bordeaux !important;
+        box-shadow: 0 0 0 3px $bordeaux !important;
       }
     }
   }
@@ -745,4 +739,100 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 // Section: Activities
 #activitiesMain {
   background: $background;
+}
+
+.lconnPicker {
+  .tabbedSwitch{
+    .pickerSourceChecked{
+      .lconnPickerSourceLabel{
+        border-bottom: 3px solid $bordeaux;
+      }
+    }
+    .lconnPickerSourceLabel{
+      color: $bordeaux;
+
+      &:focus, &:hover {
+        border-top: 1px solid $bordeaux;
+        border-left: 1px solid $bordeaux;
+        border-right: 1px solid $bordeaux;
+      }
+    }
+
+    .switchContainer{
+      border-bottom: 1px solid $bordeaux;
+    }
+  }
+}
+
+//Section: Docs
+#doc_header_outer {
+  background: none repeat scroll 0 0 $bordeaux !important;
+}
+
+.onpremise {
+  &.lotusui30 {
+    .lotusTitleBar2 {
+      .lotusBtn {
+        &.dijitButtonNode {
+          background: $orange none !important;
+          border: 0 none;
+          border-radius: 0 0 0 0;
+          box-shadow: none !important;
+          color: #FFFFFF;
+          margin: 0;
+          outline: medium none;
+          padding: 9px 23px;
+          text-shadow: none !important;
+
+          &:focus, &:hover {
+            outline: 1px solid $bordeaux;
+          }
+        }
+      }
+    }
+  }
+
+  .dijitMenuPopup {
+    .dijitMenuActive {
+      .dijitMenuItemSelected, .dijitMenuItemHover .dijitMenuItemSelected {
+        @extend %sq-background;
+        color: black !important;
+        border: 0 solid white !important;
+      }
+    }
+  }
+}
+
+.personMenu {
+  .topActionHolder {
+    .topAction {
+      border-right: 1px solid #999;
+      display: block;
+
+      a {
+        display: block;
+        float: left;
+        font-size: 1em;
+        margin-top: 0.2em;
+        color: white;
+      }
+    }
+  }
+}
+
+
+.oneui30 {
+  .dijitMenu, .lotusActionMenu  {
+    &:not(.toolbarMenu) {
+      &:not(.dijitMenuTable) {
+        .dijitMenuItemHover, .dijitMenuItemSelected {
+          &:not(.dijitMenuItemDisabled) {
+              @extend %sq-background;
+            color: white !important;
+          }
+        }
+      }
+    }
+  }
+
 }
