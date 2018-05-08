@@ -23,8 +23,8 @@ $pink: #db8193;
 }
 
 %sq-option-focus {
-  border-bottom: 0.0625rem solid $bordeauxRed;
-  border-top: 0.0625rem solid $bordeauxRed;
+  border-bottom: 0.0625rem solid $bordeauxRed !important;
+  border-top: 0.0625rem solid $bordeauxRed !important;
 }
 
 :focus-within {
@@ -45,7 +45,7 @@ $pink: #db8193;
 
 .lotusui30_body {
 
-  background: $background;
+  background: $background !important;
 
   .lotusMain {
     background: $background !important;
@@ -98,7 +98,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 }
 
 .icBanner-badge {
-  background: none repeat scroll 0 0 $orange;
+  background: none repeat scroll 0 0 $orange !important;
 }
 
 .ics-scbanner {
@@ -125,7 +125,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
 
       a:hover::before, a:hover::after {
-        background-color: #e5e5e5;
+        background-color: #e5e5e5 !important;
         content: "";
         height: 0.0625rem;
         left: 50%;
@@ -141,7 +141,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     .navsimplelist {
       > li {
         a.selected {
-          border-left: 4px solid $bordeauxRed;
+          border-left: 4px solid $bordeauxRed !important;
         }
       }
     }
@@ -154,52 +154,52 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
 .icBanner-notif-center {
   .icBanner-popover-notificationReadAll {
-    color: $bordeauxRed;
+    @extend %sq-text-color;
   }
 
   .icBanner-popover-notificationReadAll:hover {
-    color: $bordeauxRed;
+    @extend %sq-text-color;
   }
 }
 
 .icNote-message .bluedot {
-  background-color: $orange;
-  border: 1px solid $orange;
+  background-color: $orange !important;
+  border: 1px solid $orange !important;
 }
 
 .icNote-time {
-  color: dimgray;
+  color: dimgray !important;
 }
 
 .lotusui30 {
   a {
-    color: $bordeauxRed;
+    @extend %sq-text-color;
   }
 
   a:visited {
-    color: $bordeauxRed;
+    @extend %sq-text-color;
   }
 
   a:hover {
-    color: $orange;
+    color: $orange !important;
   }
 
   a:focus {
-    color: $pink;
+    color: $pink !important;
   }
 
   a:active {
-    color: $pink;
+    color: $pink !important;
   }
 
   a.icBanner-footer-link, a.icBanner-footer-link:active, a.icBanner-footer-link:visited {
-    color: $bordeauxRed;
+    @extend %sq-text-color;
 
     cursor: pointer;
   }
 
   a.icBanner-footer-link:hover {
-    color: $orange;
+    color: $orange !important;
   }
 
   .ics-scbanner.isfixed {
@@ -226,7 +226,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     #activityStreamMain.lotusWidgetBody {
       .streamHeaderWrapper {
         .lotusPaging {
-          background: $bordeauxRed;
+          @extend %sq-background;
           border: 0;
           border-radius: 0;
           -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
@@ -234,12 +234,12 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
 
       .stream-finLeft, .stream-finRight {
-        background: $bordeauxRed;
+        @extend %sq-background;
       }
 
       .streamHeaderWrapper.isSticky {
         .streamHeaderInner {
-          background: $bordeauxRed;
+          @extend %sq-background;
         }
       }
 
@@ -253,7 +253,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
       .lotusPostHover {
 
-        background-color: #f4f5f6;
+        background-color: #f4f5f6 !important;
 
         .lotusInlinelist {
           a {
@@ -268,7 +268,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
 
       .lotusPostSelected {
-        background-color: #f4f5f6;
+        background-color: #f4f5f6 !important;
       }
 
       #activityStreamMain.lotusWidgetBody {
@@ -301,7 +301,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       li.lotusSelected {
         color: black;
         padding-bottom: 15px;
-        border-bottom: 4px solid $orange;
+        border-bottom: 4px solid $orange !important;
       }
     }
   }
@@ -364,23 +364,23 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
             .flyoutTitleOuter {
               .flyoutTitleInner {
 
-                color:black;
+                color:black !important;
 
                 span {
-                  color: $bordeauxRed;
+                  @extend %sq-text-color;
 
                   input[dojoattachpoint="metaCloseInput"] {
                     color:black;
                   }
 
                   a, a:active {
-                    color: $bordeauxRed;
+                    @extend %sq-text-color;
                     font-weight: bold;
                     text-decoration: none;
                   }
 
                   a:hover, a:focus {
-                    color: $orange;
+                    color: $orange !important;
                     font-weight: bold;
                   }
 
@@ -393,7 +393,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
       .flyoutTitleContainer {
         td.flyoutTime {
-          color: dimgray;
+          color: dimgray !important;
           border-left:0;
         }
       }
@@ -435,7 +435,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
   .lotusFeeds {
     a.lotusFeed {
-      color: $bordeauxRed;
+      @extend %sq-text-color;
     }
   }
 
@@ -463,7 +463,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   ul.navsimplelist {
     .stproxy_navbarMenuNonVerse_buttonContainer {
       button {
-        background: $bordeauxRed !important;
+        @extend %sq-background;
         border: 1px solid $bordeauxRed !important;
         box-shadow: 0 0 0 3px $bordeauxRed !important;
       }
