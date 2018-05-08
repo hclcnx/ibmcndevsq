@@ -100,6 +100,26 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
     background-size: 18px 18px !important; }
     .icSearchPaneButton a svg {
       display: none !important; }
+  .icSearchPaneButton:hover, .icSearchPaneButton.icSearchFocused {
+    border-color: #75263b !important;
+    background-color: #FFFFFF !important;
+    cursor: pointer !important; }
+    .icSearchPaneButton:hover a, .icSearchPaneButton.icSearchFocused a {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%2375263b%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E"); }
+  .icSearchPaneButton#bhc_com_searchForm {
+    top: 56px !important; }
+  .icSearchPaneButton.icSearchBarMode {
+    background-color: transparent !important;
+    box-shadow: none !important; }
+    .icSearchPaneButton.icSearchBarMode .icSearchIcon {
+      top: -20px !important; }
+    .icSearchPaneButton.icSearchBarMode .icSearchBar {
+      padding-top: 0 !important; }
+
+.search-history-view-ui .icSearchPane .pfEntry:hover, .search-history-view-ui .icSearchPane .pfEntry.spSelected {
+  border-color: #75263b !important; }
+  .search-history-view-ui .icSearchPane .pfEntry:hover .lconn_gray, .search-history-view-ui .icSearchPane .pfEntry.spSelected .lconn_gray {
+    color: #595859 !important; }
 
 .lotusui30 a:hover {
   color: #FF7000 !important; }
