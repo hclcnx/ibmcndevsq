@@ -43,8 +43,19 @@ $pink: #db8193;
 
 }
 
-.lotusui30_body {
+.lotusLoading {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 41.2 41.2%22%3E%3Cpath fill=%22%2375263b%22 d=%22M38.7,10.7l-3.3,1.8c1.4,2.5,2.1,5.2,2.1,8.1c0,9.3-7.6,16.9-16.9,16.9c-9.3,0-16.8-7.6-16.8-16.9 c0-9.3,7.5-16.8,16.8-16.8V0C9.3,0,0,9.3,0,20.6C0,32,9.3,41.3,20.6,41.3c11.4,0,20.7-9.3,20.7-20.7C41.3,17.1,40.4,13.7,38.7,10.7z%22/%3E%3C/svg%3E") !important;
+  animation-name: rotate;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 16px !important;
+  height: 16px !important;
+  position: absolute !important;
+  left: calc(50% - 8px) !important;
+}
 
+.lotusui30_body {
   background: $background !important;
 
   .lotusMain {
@@ -357,6 +368,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     .lotusWidgetBody#activityStreamMain {
       .icStream-search {
         border: 0;
+        background:white;
       }
 
       .lotusInlinelist.lotusActions {
