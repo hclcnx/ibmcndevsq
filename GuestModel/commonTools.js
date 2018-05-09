@@ -33,7 +33,7 @@ if (__cBill_debug !== undefined) {
     //  These are global functions and classes
     //  ======================================
     //
-   //
+    //
     //  Class which defines a function that asynchronously returns an ELEMENT by its ID
     //  'onluWhenVisible', 'onlyWhenParentVisible' and 'parentToBeVisible' need to be set manaualy onece the instance has been created
     //
@@ -49,15 +49,15 @@ if (__cBill_debug !== undefined) {
         //  Main function of this class
         //  When the related DOM element is found, it executes the 'callback' passing, as parameter, the reference to the element that was found
         //
-        this.do = function(callback, elXpath, maxInter, waitTime) {
+        this.do = function (callback, elXpath, maxInter, waitTime) {
             var n = this;
             __cBill_logger(this.label + '.__cBill_waitById : executing !');
-            if(!maxInter) maxInter = 50;  // number of intervals before expiring
-            if(!waitTime) waitTime = 100;  // 1000=1 second
-            if(!elXpath) return;
+            if (!maxInter) maxInter = 50;  // number of intervals before expiring
+            if (!waitTime) waitTime = 100;  // 1000=1 second
+            if (!elXpath) return;
 
             var waitInter = 0;  // current interval
-            var intId = setInterval( function(){
+            var intId = setInterval(function () {
                 __cBill_logger(n.label + '.__cBill_waitById.do : waiting ' + elXpath + ' for the ' + waitInter + 'th time...');
                 //
                 //  Perform the query
@@ -113,7 +113,7 @@ if (__cBill_debug !== undefined) {
                         } else {
                             __cBill_logger(n.label + '.__cBill_waitById : skipping visibility of a NULL element');
                         }
-                        if (theResult !== null){
+                        if (theResult !== null) {
                             //
                             //  We have found the candidates..
                             //  Stopping the Interval, logging and issuing the callback....
@@ -144,8 +144,9 @@ if (__cBill_debug !== undefined) {
                 }
             }, waitTime);
         };
-        
+
     }
+
     //
     //  Class which defines a function that asynchronously returns an ARRAY of ELEMENTS resulting from a dojo QUERY
     //  'onluWhenVisible', 'onlyWhenParentVisible' and 'parentToBeVisible' need to be set manaualy onece the instance has been created
@@ -155,22 +156,22 @@ if (__cBill_debug !== undefined) {
         this.onlyWhenVisible = false;    // When set to TRUE, a positive result is returned only if the widget is ALSO VISIBLE
         this.onlyWhenParentVisible = false;  // When set to TRUE, a positive result is returned only if the 'parentToBeVisible' is VISIBLE
         this.parentToBeVisible = ""; // Definition of the parent that needs to be valid for the 'closest' method on a DOM element
-        
+
         if (label) this.label = label;
         __cBill_logger(this.label + '.__cBill_waitByQuery : initialising !');
         //
         //  Main function of this class
         //  When the related DOM elements are found, it executes the 'callback' passing, as parameter, the array containing the elements that were found
         //
-        this.do = function(callback, elXpath, maxInter, waitTime) {
+        this.do = function (callback, elXpath, maxInter, waitTime) {
             var n = this;
             __cBill_logger(this.label + '.__cBill_waitByQuery : executing !');
-            if(!maxInter) maxInter = 50;  // number of intervals before expiring
-            if(!waitTime) waitTime = 100;  // 1000=1 second
-            if(!elXpath) return;
+            if (!maxInter) maxInter = 50;  // number of intervals before expiring
+            if (!waitTime) waitTime = 100;  // 1000=1 second
+            if (!elXpath) return;
 
             var waitInter = 0;  // current interval
-            var intId = setInterval( function(){
+            var intId = setInterval(function () {
                 __cBill_logger(n.label + '.__cBill_waitByQuery.do : waiting ' + elXpath + ' for the ' + waitInter + 'th time...');
                 //
                 //  Perform the query
@@ -201,7 +202,7 @@ if (__cBill_debug !== undefined) {
                         //
                         __cBill_logger(n.label + '.__cBill_waitByQuery : checking for visibility of ' + theQuery.length + ' candidates....');
                         let theResult = [];
-                        theQuery.forEach(function(elem) {
+                        theQuery.forEach(function (elem) {
                             let newElem = elem;
                             if (n.onlyWhenParentVisible) {
                                 //
@@ -228,7 +229,7 @@ if (__cBill_debug !== undefined) {
                                 __cBill_logger(n.label + '.__cBill_waitByQuery : skipping visibility of a NULL element');
                             }
                         });
-                        if (theResult.length > 0){
+                        if (theResult.length > 0) {
                             //
                             //  We have found the candidates..
                             //  Stopping the Interval, logging and issuing the callback....
@@ -260,6 +261,7 @@ if (__cBill_debug !== undefined) {
             }, waitTime);
         };
     }
+
     //
     //  Class which defines a function that asynchronously returns when DOJO has been loaded on the page (checking the Dojo version also)
     //
@@ -271,14 +273,14 @@ if (__cBill_debug !== undefined) {
         //  Main function of this class
         //  When DOJO is loaded on the page, it executes the 'callback' 
         //
-        this.do = function(callback, maxInter, waitTime) {
+        this.do = function (callback, maxInter, waitTime) {
             var n = this;
             __cBill_logger(this.label + '.__cBill_waitForDojo.do : executing !');
-            if(!maxInter) maxInter = 50;  // number of intervals before expiring
-            if(!waitTime) waitTime = 100;  // 1000=1 second
+            if (!maxInter) maxInter = 50;  // number of intervals before expiring
+            if (!waitTime) waitTime = 100;  // 1000=1 second
 
             var waitInter = 0;  // current interval
-            var intId = setInterval(function() {
+            var intId = setInterval(function () {
                 __cBill_logger(n.label + '.__cBill_waitForDojo.do : waiting for the ' + waitInter + 'th time...');
                 if ((++waitInter < maxInter) && (typeof dojo === "undefined")) return;
                 clearInterval(intId);
@@ -302,12 +304,13 @@ if (__cBill_debug !== undefined) {
                         dojo.require("dojo.cookie");
                         require(["dojo/domReady!"], callback());
                     } else {
-                        alert(n.label + '.__cBill_waitForDojo.do : BAD DOJO version !');
+                        __cBill_logger(n.label + '.__cBill_waitForDojo.do : BAD DOJO version !');
                     }
                 }
             }, waitTime);
         };
     }
+
     function __cBill_uncheckBox(theWidget) {
         //
         //  Makes sure the checkBox is really UNCHECKED by dispatching all the related events
@@ -331,6 +334,7 @@ if (__cBill_debug !== undefined) {
             __cBill_logger('__cBill_uncheckBox : checkbox already UNCHECKED. Nothing to do...');
         }
     }
+
     function __cBill_uncheckBox2(theWidget) {
         //
         //  Makes sure the checkBox is really UNCHECKED by dispatching all the related events
@@ -345,7 +349,7 @@ if (__cBill_debug !== undefined) {
             myEvent.synthetic = true;
             theWidget.dispatchEvent(myEvent, true);
             __cBill_logger('__cBill_uncheckBox2 : event dispatched to uncheck...');
-            if (dojo.isChrome || (navigator.appVersion.indexOf("Trident")!= -1)) {
+            if (dojo.isChrome || (navigator.appVersion.indexOf("Trident") != -1)) {
                 dojo.setAttr(theWidget, "value", false);
                 dojo.setAttr(theWidget, "checked", false);
                 dojo.removeAttr(theWidget, "disabled");
@@ -355,19 +359,22 @@ if (__cBill_debug !== undefined) {
             __cBill_logger('__cBill_uncheckBox2 : checkbox already UNCHECKED. Nothing to do...');
         }
     }
+
     //
     //
     //
     function __cBill_alert(theString) {
         if (__cBill_debug) alert(theString);
     }
+
     function __cBill_logger(theString) {
         if (__cBill_debug) console.log(theString);
     }
+
     function __cBill_getCookie(cname) {
         var name = cname + "=";
         var ca = document.cookie.split(';');
-        for(var i = 0; i < ca.length; i++) {
+        for (var i = 0; i < ca.length; i++) {
             var c = ca[i];
             while (c.charAt(0) == ' ') {
                 c = c.substring(1);

@@ -80,6 +80,6 @@ dojoNoGuestUser.do(function () {
             alert("NoGuestUser error: MAIN: " + ex);
         }
     } else {
-        alert('NoGuestUser: BAD DOJO version !');
+        __cBill_logger('NoGuestUser: BAD DOJO version !');
     }
 });

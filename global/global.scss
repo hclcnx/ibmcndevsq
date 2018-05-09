@@ -1,6 +1,4 @@
 @import "../scss/common/template";
-@import "../scss/common/font";
-
 
 :focus-within {
   outline: none;
@@ -262,6 +260,43 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   }
 }
 
+.search-global-search-restyle {
+  .lotusui30 {
+    .icSearchResultsPage {
+      .lconnSearchHeader {
+        .lotusSearch {
+          border-bottom-color: $bordeaux;
+
+          .icSearchInputBox input {
+            color: $bordeaux;
+          }
+
+        }
+      }
+
+      div {
+        &.lconnSearchResults {
+          .lotusTable {
+            tr {
+              &:hover, &.icSearchResultSelected {
+                border-color: $bordeaux;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icSelected, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr:hover .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover .lotusMeta .icGreyText, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover:not(.icLastPageMessage) .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .lotusPerson {
+  color: #75263b;
+}
+
+.search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchTitle a, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover:not(.icLastPageMessage) .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover .lotusMeta .icGreyText, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta .icGreyText, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchDetails a, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr:hover .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .lotusPerson, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnStatusUpdateTitle .lotusPerson, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lconnSearchBookmarkUrl {
+  color: #75263b;
+}
+
 .scloud3 {
   .lotusMenu {
     li {
@@ -511,13 +546,13 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   .lotusPaging {
     .lotusInlinelist {
       li {
-        border-left:none !important;
+        border-left: none !important;
       }
     }
   }
 
   .tabNavBar {
-    box-shadow:none;
+    box-shadow: none;
 
     .lotusTabs {
       li.lotusSelected {
@@ -540,6 +575,12 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 
   .streamMore {
     border-radius: 0;
+  }
+  .lotusHeader .shareSome-desc {
+    background: white;
+    padding: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
   }
 
   .lotusMain {
@@ -652,6 +693,10 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       border-left: 4px solid $bordeaux !important;
     }
 
+    li.lotusSelected a {
+      text-decoration:none !important;
+    }
+
     li.lotusSelected:hover {
       border-left: 4px solid $bordeaux !important;
     }
@@ -742,13 +787,13 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
 }
 
 .lconnPicker {
-  .tabbedSwitch{
-    .pickerSourceChecked{
-      .lconnPickerSourceLabel{
+  .tabbedSwitch {
+    .pickerSourceChecked {
+      .lconnPickerSourceLabel {
         border-bottom: 3px solid $bordeaux;
       }
     }
-    .lconnPickerSourceLabel{
+    .lconnPickerSourceLabel {
       color: $bordeaux;
 
       &:focus, &:hover {
@@ -758,7 +803,7 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
       }
     }
 
-    .switchContainer{
+    .switchContainer {
       border-bottom: 1px solid $bordeaux;
     }
   }
@@ -820,14 +865,13 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   }
 }
 
-
 .oneui30 {
-  .dijitMenu, .lotusActionMenu  {
+  .dijitMenu, .lotusActionMenu {
     &:not(.toolbarMenu) {
       &:not(.dijitMenuTable) {
         .dijitMenuItemHover, .dijitMenuItemSelected {
           &:not(.dijitMenuItemDisabled) {
-              @extend %sq-background;
+            @extend %sq-background;
             color: white !important;
           }
         }
@@ -836,3 +880,76 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
   }
 
 }
+
+//External
+img[dojoattachpoint~="filterSharkFinImg"] {
+  background-image: url("https://github.com/google/material-design-icons/raw/master/sprites/css-sprite/sprite-navigation-white.png");
+
+}
+
+.streamHeaderWrapper .otherActivityStream14-asKnockedfin14 {
+  width: 13px !important;
+  height: 8px !important;
+  background-position: -74px -42px !important;
+  background-color: $bordeaux;
+}
+
+
+select {
+  font-size: 12.8px !important;
+  -webkit-appearance: none !important;
+  display: block !important;
+  width: auto !important;
+  min-width: 50% !important;
+  max-width: 100% !important;
+  padding: 0 2.75rem 0.75rem 0 !important;
+  color: #000000 !important;
+  border: none !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+  border-radius: 0 !important;
+  cursor: pointer !important;
+  background-size: 0.75rem !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%2375263b%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
+  background-size: 0.75rem !important;
+  background-position: right .4rem !important;
+  background-repeat: no-repeat !important;
+  height: auto !important;
+}
+
+select:focus {
+  border-bottom: 2px solid #75263b !important;
+  outline: none !important;
+}
+
+select[disabled] {
+  cursor: not-allowed !important;
+  color: #969696 !important;
+}
+
+
+//TODO: Refactor this
+
+/* left side navigation */
+.lotusMenu li a.lotusSelected, .lotusMenu li.lotusSelected a, .lotusMenu li.lotusSelected a:visited, .lotusMenu li.lotusSelected a:active, .lotusMenu h3.lotusSelected, .scloud3 .lotusMenu li.lotusSelected a, .scloud3 .lotusMenu li.lotusSelected a:hover, .scloud3 .lotusMenu li.lotusSelected a:focus, .scloud3 .lotusMenu li.lotusSelected a:active, .scloud3 .lotusMenu .lotusHeaderSelected, .lotusliveui .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .scloud3 .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .content_wrap .side_bar .current {
+  text-decoration: underline;
+}
+
+.lotusui30 .lotusBoard .lotusStream .lotusPostHover, .lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
+  background-color: #f4f5f6;
+}
+
+ul[dojoattachpoint~="filterHolderNode"] li > a {
+  color: white !important;
+}
+
+div[dojoattachpoint~=“commentInputTextBox”] {
+  border: 1px solid #dddddd;
+}
+
+div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
+  border-radius: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+

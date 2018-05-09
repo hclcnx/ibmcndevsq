@@ -26,7 +26,7 @@ function __HideUserActivity_UserDetails() {
         sync: false,
         //user:      NO Need since same Domain,
         //password:  NO Need since same Domain,
-        content: { userid: null }
+        content: {userid: null}
     }
 
     var n = this;
@@ -69,6 +69,7 @@ function __HideUserActivity_UserDetails() {
                 return false;
             }
         }
+
         //
         //  Hides the element representing the user to be hidden
         //
@@ -76,6 +77,7 @@ function __HideUserActivity_UserDetails() {
             dojo.setStyle(element, 'display', 'none');
             __cBill_logger(label + '_UserDetails: Element corresponding to user ' + email + ' has been hidden');
         }
+
         //
         //  Processing....
         //
@@ -141,7 +143,8 @@ function __HideUserActivity_UserDetails() {
             }
         }
     }
-}   
+}
+
 //
 //  Checks if on the right page
 //
@@ -168,6 +171,7 @@ function __HideUserActivity_CheckPath() {
         return 0;
     }
 }
+
 //
 //  Main Function
 //
@@ -259,6 +263,7 @@ function __HideUserActivity() {
         __cBill_logger('__HideUserActivity : NOTHING TO DO for ' + document.location + ' !');
     }
 }
+
 //
 //  This code allows the script to be invoked when you access a File Preview from a reference to it which is posted in a different Connections Page
 //  We observe the dynamic change of the BODY element and, in case a change in document.location is found, it invokes the script related to
@@ -266,7 +271,7 @@ function __HideUserActivity() {
 //
 var __HideUserActivity_blackList = new __HideUserActivity_UserDetails();
 var __HideUserActivity_WikiExp = new RegExp('/wikis/home/wiki/');
-if ((document.location.pathname === "/files/")  || (__HideUserActivity_WikiExp.test(document.location.pathname))) {
+if ((document.location.pathname === "/files/") || (__HideUserActivity_WikiExp.test(document.location.pathname))) {
     __cBill_logger('__HideUserActivity : DANGER ZONE ...... /files/ .....');
 } else {
     if (__HideUserActivity_CheckPath() > 0) {
