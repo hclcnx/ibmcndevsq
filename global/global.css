@@ -15,59 +15,6 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   border-bottom: 0.0625rem solid #75263b !important;
   border-top: 0.0625rem solid #75263b !important; }
 
-body {
-  font-family: inherit !important; }
-  body * {
-    font-family: inherit; }
-
-html .lotusui30 .lotusDialog .lotusHeading,
-html .lotusui30 .lotusTitleBar2 .lotusHeading,
-html .lotusui30 .lotusTitleBar2 .lotusHeading a,
-html .lotusui30 div.lotusTitleBar h2,
-html .lotusui30 div.lotusPlaceBar h2,
-html .lotusui30 .lotusPlaceBar .lotusBtn,
-html .lotusui30 .dijitTitlePaneTitle,
-html .lotusui30 .lotusSection h2,
-html .lotusui30 .lotusWidget h2,
-html .lotusui30 .lotusWidget2 h2,
-html .lotusui30 .lotusMeta,
-html .lotusui30 .lotusWidget2 .lotusTable h4,
-html .lotusui30 .lotusTable h4,
-html .lotusui30 .lotusMeta,
-html .lotusui30 .lotusWidget2 .lotusTable h4
-.ics-viewer .ics-panel-entry-container,
-html .lotusui30 .lotusBtn,
-html .lotusui30 button,
-html .lotusui30 input,
-html .lotusui30 select,
-html .lotusui30 .lotusBtnSmallGray,
-html .lotusui30 button.lotusFormButton,
-html .lotusui30 .lconnUploadContainer .lotusBtn,
-html .lotusui30 input.lotusFormButton,
-html .ics-viewer .ics-panel-entry-container,
-html .ics-viewer .ics-viewer-details .ics-viewer-details-shelf,
-html .scloud3,
-html .lotusui30_fonts,
-html .lotusui30 .lotusSymbol,
-html .lotusui30 .lotusFlyoutInner .lotusStatus,
-html .lotusui30dojo textarea,
-html .lotusui30_fonts,
-html .lotusui30 .lotusMain span.lotusBtn a,
-html .lotusui30 .lotusBtnSmall,
-html .lotusui30 .lotusPaletteHeader ul.lotusTabs li a strong,
-html .lotusui30 .lotusWelcomeBox li,
-html .lotusui30 .lotusWelcomeBox p,
-html .lotusui30 .lotusWelcomeBox .lotusHeading,
-html .lotusui30_layout .lotusWelcomeBox h2,
-html .lotusliveui, html .lotusliveui30, html .scloud3,
-html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient select, html .ic-orient textarea, html .ocs-nav-bar-wrapper {
-  font-family: inherit; }
-
-@font-face {
-  font-family: 'AvenirLTStd-Book';
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/AvenirLTStd-Book.eot?repoName=ibmcndevsq") format("eot"), url("../fonts/AvenirLTStd-Book.eot?repoName=ibmcndevsq#iefix") format("embedded-opentype"), url("../fonts/AvenirLTStd-Book.woff?repoName=ibmcndevsq") format("woff"), url("../fonts/AvenirLTStd-Book.ttf?repoName=ibmcndevsq") format("truetype"), url("../fonts/AvenirLTStd-Book.svg?repoName=ibmcndevsq#aller") format("svg"); }
 :focus-within {
   outline: none; }
 
