@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scbanner > a, body .hikari.ics-scbanner > a:visited, body .gen4.ics-scbanner > a:visited, body .colour.ics-scbanner > a:visited, body .hikari.ics-scbanner > a:hover, body .gen4.ics-scbanner > a:hover, body .colour.ics-scbanner > a:hover, body .hikari.ics-scbanner > a:active, body .gen4.ics-scbanner > a:active, body .colour.ics-scbanner > a:active, body .hikari.ics-scbanner > a:focus, body .gen4.ics-scbanner > a:focus, body .colour.ics-scbanner > a:focus, #ics-scbanner-home, #communitiesMenu_container, #nav_bar_include .files, #nav_bar_include .activities, .icBanner-notif-center .icBanner-popover-notificationReadAll, .icBanner-notif-center .icBanner-popover-notificationReadAll:hover, .lotusui30 a, .lotusui30 a:visited, .lotusui30 a:focus, .lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:visited, .lotusui30 .streamMore:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a, .lotusui30 .lotusBoard .lotusStream .lotusPostHover .lotusInlinelist a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:active, .lotusui30 .lotusFeeds a.lotusFeed {
   color: #75263b !important; }
 
@@ -185,6 +186,19 @@ html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient 
   .search-history-view-ui .icSearchPane .pfEntry:hover .lconn_gray, .search-history-view-ui .icSearchPane .pfEntry.spSelected .lconn_gray {
     color: #595859 !important; }
 
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch {
+  border-bottom-color: #75263b; }
+  .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input {
+    color: #75263b; }
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected {
+  border-color: #75263b; }
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icSelected, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr:hover .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover .lotusMeta .icGreyText, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover:not(.icLastPageMessage) .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .lotusPerson {
+  color: #75263b; }
+
+.search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchTitle a, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover:not(.icLastPageMessage) .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover .lotusMeta .icGreyText, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta .icGreyText, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchDetails a, .search-global-search-restyle .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .icSearchDetails a, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr:hover .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .lotusPerson, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnStatusUpdateTitle .lotusPerson, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lconnSearchBookmarkUrl {
+  color: #75263b; }
+
 .scloud3 .lotusMenu li a:hover {
   background-color: #f4f5f6; }
 
@@ -275,6 +289,11 @@ html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient 
   border-bottom-width: 0; }
 .lotusui30 .streamMore {
   border-radius: 0; }
+.lotusui30 .lotusHeader .shareSome-desc {
+  background: white;
+  padding: 8px;
+  margin-bottom: 0px;
+  padding-bottom: 16px; }
 .lotusui30 .lotusMain span.lotusBtn {
   background: transparent !important;
   border: 0 !important; }
@@ -326,6 +345,8 @@ html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient 
   border-bottom: none;
   color: black;
   border-left: 4px solid #75263b !important; }
+.lotusui30 .lotusMenu li.lotusSelected a {
+  text-decoration: none !important; }
 .lotusui30 .lotusMenu li.lotusSelected:hover {
   border-left: 4px solid #75263b !important; }
 .lotusui30 .lotusMenu .lotusUnreadBadge {
@@ -401,5 +422,51 @@ html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient 
 
 .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled) {
   color: white !important; }
+
+img[dojoattachpoint~="filterSharkFinImg"] {
+  background-image: url("https://github.com/google/material-design-icons/raw/master/sprites/css-sprite/sprite-navigation-white.png"); }
+
+select {
+  font-size: 12.8px !important;
+  -webkit-appearance: none !important;
+  display: block !important;
+  width: auto !important;
+  min-width: 50% !important;
+  max-width: 100% !important;
+  padding: 0 2.75rem 0.75rem 0 !important;
+  color: #000000 !important;
+  border: none !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+  border-radius: 0 !important;
+  cursor: pointer !important;
+  background-size: 0.75rem !important;
+  background: transparent url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%2375263b%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") no-repeat right 0.4rem !important;
+  height: auto !important; }
+
+select:focus {
+  border-bottom: 2px solid #75263b !important;
+  outline: none !important; }
+
+select[disabled] {
+  cursor: not-allowed !important;
+  color: #969696 !important; }
+
+/* left side navigation */
+.lotusMenu li a.lotusSelected, .lotusMenu li.lotusSelected a, .lotusMenu li.lotusSelected a:visited, .lotusMenu li.lotusSelected a:active, .lotusMenu h3.lotusSelected, .scloud3 .lotusMenu li.lotusSelected a, .scloud3 .lotusMenu li.lotusSelected a:hover, .scloud3 .lotusMenu li.lotusSelected a:focus, .scloud3 .lotusMenu li.lotusSelected a:active, .scloud3 .lotusMenu .lotusHeaderSelected, .lotusliveui .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .scloud3 .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .content_wrap .side_bar .current {
+  text-decoration: underline; }
+
+.lotusui30 .lotusBoard .lotusStream .lotusPostHover, .lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
+  background-color: #f4f5f6; }
+
+ul[dojoattachpoint~="filterHolderNode"] li > a {
+  color: white !important; }
+
+div[dojoattachpoint~=“commentInputTextBox”] {
+  border: 1px solid #dddddd; }
+
+div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
+  border-radius: 0;
+  margin-left: 0px;
+  margin-right: 0px; }
 
 /*# sourceMappingURL=global.css.map */
