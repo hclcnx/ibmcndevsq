@@ -54,7 +54,7 @@ function ActivityNoExternalHashChanged() {
         //
         let dojoActivityNoExternal = new __cBill_waitForDojo('ActivityNoExternal');
         dojoActivityNoExternal.do(function () {
-            __cBill_logger('ActivityNoExternal : Dojo is defined !');        
+            __cBill_logger('ActivityNoExternal : Dojo is defined !');
             try {
                 let removeAccess = function (externalCheckBox, externalLabel, isAllowed) {
                     //

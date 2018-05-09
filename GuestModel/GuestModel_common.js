@@ -24,50 +24,51 @@ if (__GuestModel_serviceDeskURL !== undefined) {
             //        if (gllConnectionsData && gllConnectionsData.userId) {
             //            return gllConnectionsData.userId;
             //        } else {
-                        //
-                        //
-                        //  Getting "thisUser" from the Cookie since "gllConnectionsData" is not available on all pages
-                        //  for instance it is not available on the "meetings" page
-                        //
-                        let theCookiesStr = __cBill_getCookie('ids');
-                        let theCookies = theCookiesStr.split(":");
-                        return theCookies[0];
+            //
+            //
+            //  Getting "thisUser" from the Cookie since "gllConnectionsData" is not available on all pages
+            //  for instance it is not available on the "meetings" page
+            //
+            let theCookiesStr = __cBill_getCookie('ids');
+            let theCookies = theCookiesStr.split(":");
+            return theCookies[0];
             //      }
         }
+
         //
         //  Initialization
         //  ---------------
         //
         var thisUser = getConnectionsUser();
-        var cookieName    = "Customizer-" + thisUser + "-" + uuid;
-        this.retrieving   = false;
-        this.communityArgs= {
-            url          : __cBill_connectionsServer + "/communities/service/json/v1/community/activepersonmembers",
-            handleAs     : "json",
-            preventCache : false,
-            sync         : false,
+        var cookieName = "Customizer-" + thisUser + "-" + uuid;
+        this.retrieving = false;
+        this.communityArgs = {
+            url: __cBill_connectionsServer + "/communities/service/json/v1/community/activepersonmembers",
+            handleAs: "json",
+            preventCache: false,
+            sync: false,
             //user:      NO Need since same Domain,
             //password:  NO Need since same Domain,
-            content      :  {communityUuid: uuid, limit: '500'},
+            content: {communityUuid: uuid, limit: '500'},
         }
         if (__cBill_getCookie(cookieName) !== "") {
             //
             //  The User's Cookie for this ACL is present. Initialize values with infos coming from that cookie
             //
-            this.isAllowed    = __cBill_getCookie(cookieName) == 0 ? false : true;
-            this.retrieved    = true;
+            this.isAllowed = __cBill_getCookie(cookieName) == 0 ? false : true;
+            this.retrieved = true;
             __cBill_logger('__GuestModel_UserAllowed.init for (' + uuid + ') : cookie exists and has value ' + this.isAllowed);
         } else {
             //
             //  Cookie is not defined 
             //  this means we need to go and check the current user
             //
-            this.isAllowed    = false;
-            this.retrieved    = false;
+            this.isAllowed = false;
+            this.retrieved = false;
             __cBill_logger('__GuestModel_UserAllowed.init for (' + uuid + ') : cookie does not exist...');
         }
-        
-        this.setCommunityId = function(uuid) {
+
+        this.setCommunityId = function (uuid) {
             this.communityArgs.content.communityUuid = uuid;
         }
 
@@ -94,7 +95,7 @@ if (__GuestModel_serviceDeskURL !== undefined) {
                     deferred.then(
                         function (data) {
                             if (data && data.items && (data.items.length > 0)) {
-                                for (var i=0; i < data.items.length; i++) {
+                                for (var i = 0; i < data.items.length; i++) {
                                     if (data.items[i].directory_uuid === thisUser) {
                                         //
                                         //  Hey, the current user is a member of the ACL community !!!
@@ -168,7 +169,7 @@ if (__GuestModel_serviceDeskURL !== undefined) {
                     var waitTime = 100;  // 1000=1 second
                     var maxInter = 50;  // number of intervals before expiring
                     var waitInter = 0;  // current interval
-                    var intId = setInterval( function(){
+                    var intId = setInterval(function () {
                         __cBill_logger(label + '.__GuestModel_UserAllowed : waiting RETRIEVING for the ' + waitInter + 'th time...');
                         if (++waitInter < maxInter && n.retrieving) return;
                         clearInterval(intId);
@@ -193,8 +194,9 @@ if (__GuestModel_serviceDeskURL !== undefined) {
                 callback(this.isAllowed);
             }
         }
-    }   
-     //
+    }
+
+    //
     //  These are global variables reused throughout the scripts
     //  =========================================================
 

@@ -13,7 +13,7 @@
  * implied. See the License for the specific language governing 
  * permissions and limitations under the License.
  */
-    
+
 
 //
 //  A special Custom cookie allows overriding the default behavior of ST Autologin
@@ -53,7 +53,7 @@ if ((document.location.pathname === '/homepage/orgadmin/orgadmin.jsp') || (docum
         //  So we FORCE REMOVE the Sametime AutoLogin cookie
         //
         document.cookie = __stdSametimeCookie + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-    }    
+    }
     //
     //  Since this script is applied to GLOBAL, there are some pages (mycontacts, mynetork) which load Dojo very lazily.
     //  So we need to wait until Dojo is fully loaded before testing and using it
