@@ -429,16 +429,6 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
   margin-left: 0px;
   margin-right: 0px; }
 
-/*DOCS file viewer*/
-.ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-splitmenu .dijitButtonNode, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-roundtripedit a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-upload a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-login a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-edit a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-templateCreate a {
-  background-color: #75263b; }
-
-.ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-splitmenu .dijitButtonNode {
-  margin-left: -1px !important; }
-
-.ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-splitmenu .dijitButtonNode, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-roundtripedit a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-upload a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-login a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-edit a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-templateCreate a {
-  line-height: 18px; }
-
 .ics-viewer .ics-viewer-banner {
   background-color: white !important;
   color: black !important; }
@@ -446,9 +436,91 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
     background: none;
     color: black;
     display: none; }
-.ics-viewer .ics-viewer-splitbutton .actionLink,
-.ics-viewer .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink,
-.ics-viewer .ics-viewer-action-splitmenu span.dijitButtonNode {
+  .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action.ics-viewer-action-splitmenu .dijitButtonNode {
+    height: 16px !important; }
+  .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-splitmenu .dijitButtonNode {
+    margin-left: -1px !important;
+    line-height: 14px !important; }
+  .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-roundtripedit a {
+    background-color: #75263b;
+    line-height: 14px !important; }
+  .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-edit a {
+    line-height: 16px !important; }
+  .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-upload a {
+    line-height: 14px !important;
+    border-radius: 2rem !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    box-shadow: none !important;
+    transform: translateZ(0) !important;
+    -webkit-font-smoothing: antialiased !important;
+    cursor: pointer !important;
+    -webkit-box-align: center !important;
+    -webkit-box-pack: center !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+    white-space: nowrap !important;
+    padding: 9px 20px !important;
+    font-weight: 500 !important;
+    background-image: none !important;
+    background-color: #75263b !important;
+    border-color: #75263b !important;
+    color: #FFFFFF !important;
+    margin: 0 1px !important; }
+  .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-upload.ics-viewer-splitbutton a {
+    border-top-left-radius: 2rem !important;
+    border-bottom-left-radius: 2rem !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    box-shadow: none !important;
+    transform: translateZ(0) !important;
+    -webkit-font-smoothing: antialiased !important;
+    cursor: pointer !important;
+    -webkit-box-align: center !important;
+    -webkit-box-pack: center !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+    white-space: nowrap !important;
+    font-weight: 500 !important;
+    background-image: none !important;
+    background-color: #75263b !important;
+    border-color: #75263b !important;
+    color: #FFFFFF !important;
+    margin: 0px 1px !important; }
+  .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-login a {
+    background-color: #75263b;
+    line-height: 14px !important; }
+  .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-templateCreate a {
+    background-color: #75263b;
+    line-height: 14px !important; }
+.ics-viewer .ics-viewer-splitbutton .actionLink:focus, .ics-viewer .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:focus {
+  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
+  outline: none !important; }
+.ics-viewer .ics-viewer-splitbutton .actionLink:hover, .ics-viewer .ics-viewer-splitbutton .actionLink:active {
+  text-decoration: none !important;
+  outline: none; }
+.ics-viewer .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:hover, .ics-viewer .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:active {
+  text-decoration: none !important;
+  outline: none; }
+.ics-viewer .ics-viewer-action-splitmenu span.dijitButtonNode:focus {
+  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
+  outline: none !important; }
+.ics-viewer .ics-viewer-action-splitmenu span.dijitButtonNode:hover, .ics-viewer .ics-viewer-action-splitmenu span.dijitButtonNode:active {
+  text-decoration: none !important;
+  outline: none; }
+
+.lotusui30_body .ics-viewer .ics-viewer-toolbar .ics-viewer-action.dropdown-menu:not(.ics-viewer-more-actions) .dropdown-menu-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
+  background-position: 3px 1px !important;
+  background-size: 9px 9px !important; }
+
+.ics-viewer-splitbutton .actionLink,
+.ics-viewer-splitbutton.ics-viewer-action-upload .actionLink,
+.ics-viewer-action-splitmenu span.dijitButtonNode {
   border-radius: 2rem !important;
   border-width: 1px !important;
   border-style: solid !important;
@@ -470,20 +542,6 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
   border-color: #75263b !important;
   color: #FFFFFF !important;
   margin: 0px 1px !important; }
-
-.ics-viewer .ics-viewer-splitbutton .actionLink:hover, .ics-viewer .ics-viewer-splitbutton .actionLink:active,
-.ics-viewer .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:hover,
-.ics-viewer .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:active,
-.ics-viewer .ics-viewer-action-splitmenu span.dijitButtonNode:hover,
-.ics-viewer .ics-viewer-action-splitmenu span.dijitButtonNode:active {
-  text-decoration: none !important;
-  outline: none; }
-
-.ics-viewer .ics-viewer-splitbutton .actionLink:focus,
-.ics-viewer .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:focus,
-.ics-viewer .ics-viewer-action-splitmenu span.dijitButtonNode:focus {
-  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
-  outline: none !important; }
 
 .dj_a11y .ics-viewer .ics-viewer-splitbutton .actionLink:focus, .dijit_a11y .ics-viewer .ics-viewer-splitbutton .actionLink:focus,
 .dj_a11y .ics-viewer .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:focus,
@@ -530,11 +588,6 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
   padding-top: 7px !important;
   padding-bottom: 7px !important;
   top: -1px !important; }
-
-.lotusui30_body .ics-viewer .ics-viewer-toolbar .ics-viewer-action.dropdown-menu:not(.ics-viewer-more-actions) .dropdown-menu-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
-  background-position: 3px 1px !important;
-  background-size: 9px 9px !important; }
 
 .lotusui30_body .ics-viewer .ics-viewer-toolbar .ics-viewer-action.dropdown-menu:not(.ics-viewer-more-actions):hover .dropdown-menu-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%#75263b%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
