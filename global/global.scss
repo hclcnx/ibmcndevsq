@@ -591,6 +591,24 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     padding-bottom: 16px;
   }
 
+  .lotusTitleBar2 {
+    .lotusNavTabs {
+      border-bottom: 0 !important;
+
+      li {
+        &.lotusSelected {
+          .lotusTab {
+            border-bottom: 4px solid $orange !important;
+          }
+
+          .lotusTabInner {
+            font-weight:bold;
+          }
+        }
+      }
+    }
+  }
+
   .lotusMain {
     span.lotusBtn {
 

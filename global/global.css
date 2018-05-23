@@ -245,6 +245,12 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   padding: 8px;
   margin-bottom: 0px;
   padding-bottom: 16px; }
+.lotusui30 .lotusTitleBar2 .lotusNavTabs {
+  border-bottom: 0 !important; }
+  .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab {
+    border-bottom: 4px solid #FF7000 !important; }
+  .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTabInner {
+    font-weight: bold; }
 .lotusui30 .lotusMain span.lotusBtn {
   background: transparent !important;
   border: 0 !important; }
