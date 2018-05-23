@@ -543,6 +543,15 @@ body .hikari.ics-scbanner, body .gen4.ics-scbanner, body .colour.ics-scbanner {
     }
   }
 
+  .streamHeaderWrapper.isSticky.isExpanded .lotusStreamUpdate .lotusActions .lotusInlinelist a {
+    color: white !important;
+  }
+
+  .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky.isExpanded .lotusBoard .lotusStreamUpdate {
+    border-bottom: none !important;
+  }
+
+
   .lotusPaging {
     .lotusInlinelist {
       li {
@@ -939,7 +948,7 @@ select[disabled] {
 }
 
 ul[dojoattachpoint~="filterHolderNode"] li > a {
-  color: white !important;
+  color: blue !important;
 }
 
 div[dojoattachpoint~=“commentInputTextBox”] {
@@ -952,4 +961,8 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
   margin-right: 0px;
 }
 
+
+.ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-splitmenu .dijitButtonNode, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-roundtripedit a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-upload a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-login a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-edit a, .ics-viewer .ics-viewer-banner .ics-viewer-toolbar .ics-viewer-action-templateCreate a {
+  background-color: $bordeaux;
+}
 
