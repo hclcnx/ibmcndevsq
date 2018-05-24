@@ -8619,7 +8619,7 @@ div[dojoattachpoint="zeroResultsNode"] {
 	background-size: 300px 300px;
 	padding-top: 350px;
 	padding-bottom: 70px;
-	background-color: #FFFFFF;
+	background-color: transparent;
 	position: relative;
 	z-index: 90;
 	text-align: center;
@@ -9672,7 +9672,7 @@ input[type="file"]:focus, input[type="file"] .dijitTextBoxFocused {
 	margin-top: -5px !important; }
 
 #lotusFrame .lotusWrapper {
-	background: #ffffff;
+	background: #ffffff !important;
 }
 
 .lotusPerson.vcard .menu_drop_icon {
