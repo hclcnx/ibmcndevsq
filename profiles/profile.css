@@ -4127,7 +4127,8 @@ select[id^="compactpicker_select_"] {
 .app_palette_modal_header .lotusTabs li.lotusSelected,
 .app_palette_modal_header .app_palette_modal_tabs_ul li.lotusSelected {
     border-bottom: 4px solid #75263b !important;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1 !important;
+
 }
 .lotusTabContainer .lotusTabs li.lotusSelected a strong,
 .lotusTabContainer .app_palette_modal_tabs_ul li.lotusSelected a strong,
