@@ -9399,4 +9399,9 @@ body.meetingBody,
   font-weight: 700 !important;
   border-left: 4px solid #75263b !important; }
 
+a.menu_drop_icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23595859%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
+  background-position-x: 0px !important;
+  background-position-y: 2px; }
+
 /*# sourceMappingURL=global.css.map */
