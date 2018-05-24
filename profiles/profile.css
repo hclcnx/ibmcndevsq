@@ -14,15 +14,6 @@
 	 * implied. See the License for the specific language governing
 	 * permissions and limitations under the License.
 */
-/*FILES STYLE SHEET*/
-/* Variable and mixin Imports*/
-/* Border radius */
-/* Box Shadows */
-/* Link Mix-ins */
-/* Large close icon */
-/* Note - May also need to include a display:none on an existing button img */
-/* Tag mixin */
-/*Component Imports*/
 #notificationsMenu #headerPopupNode, #notificationsMenu .icBanner-popover-footer ul {
     padding: 18px 24px 18px 24px !important; }
 #notificationsMenu .header-left {
@@ -4136,7 +4127,8 @@ select[id^="compactpicker_select_"] {
 .app_palette_modal_header .lotusTabs li.lotusSelected,
 .app_palette_modal_header .app_palette_modal_tabs_ul li.lotusSelected {
     border-bottom: 4px solid #75263b !important;
-background-color:transparent !important;}
+    background-color: #f1f1f1;
+}
 .lotusTabContainer .lotusTabs li.lotusSelected a strong,
 .lotusTabContainer .app_palette_modal_tabs_ul li.lotusSelected a strong,
 .app_palette_modal_header .lotusTabs li.lotusSelected a strong,
@@ -5651,467 +5643,1690 @@ div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] .dijitC
 div[id^="widget_com_ibm_sc_lotuslive_PeopleTypeAhead_"][id$="_dropdown"] .dijitComboBoxMenu.bhcPeopleTypeAheadMenu .containerNode .dijitMenuItem .bhcBizCardText .bhcBizCardEllipsis {
     max-width: 199px !important; }
 
-.lotusSort ul li {
-    border: none !important; }
-.lotusSort ul li a {
-    color: #595859 !important; }
+div[class$="directory"] a[href="javascript:;"]:not(.company):focus,
+div[class$="directory"] a[href="javascript:void(0);"]:focus,
+div[class$="directory"] div:focus {
+    outline: 1px solid #595859 !important;
+    outline-offset: -1px; }
 
-#body #list ul[dojoattachpoint="topPageNavigateNode"] li > a.numShape,
-#body #list ul[dojoattachpoint="bottomPageNavigateNode"] li > a.numShape {
-    color: #75263b !important;
-    text-decoration: none !important; }
-#body #list ul[dojoattachpoint="topPageNavigateNode"] li > a.numShape:hover,
-#body #list ul[dojoattachpoint="bottomPageNavigateNode"] li > a.numShape:hover {
-    text-decoration: underline !important; }
+.networkAction a:focus {
+    outline: none !important; }
 
-#body #list ul[dojoattachpoint="topPageNavigateNode"] li > a.numShape:focus, #body #list ul[dojoattachpoint="bottomPageNavigateNode"] li > a.numShape:focus {
-    text-decoration: underline !important; }
-
-#body #lotusContentSceneActions a.lotusSprite.lotusView {
-    margin: 3px; }
-#body #lotusContentSceneActions a.lotusSprite.lotusView:focus {
-    outline: 1px solid #75263b !important; }
-
-.card-front,
-.card-back {
-    border-radius: 6px !important;
-    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.15) !important; }
-
-#body span[data-dojo-attach-point="feedLinkSpan"] {
-    color: #000 !important; }
-
-#body .lconnPinnedToggle {
-    display: inline-block !important; }
-#body .lconnPinnedToggle img {
-    background-position: 0 !important;
-    background-size: 20px !important;
-    width: 18px;
-    height: 18px; }
-#body .lconnPinnedToggle img.lconnSprite-iconPinned16-off {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23000000%22 d=%22M15.9,4.9c0.3,0,0.5,0.1,0.7,0.3l2.1,2.1c0.4,0.4,0.4,1,0,1.4L14.5,13l-0.7,0.7l0.7,0.7c0.2,0.2,0.3,0.4,0.3,0.7 c0,0.3-0.1,0.5-0.3,0.7l-0.7,0.7l-0.7-0.7L11,13.7L10.3,13l0,0l0,0l-2.1-2.1l-0.7-0.7l0.7-0.7c0.2-0.2,0.4-0.3,0.7-0.3 c0.3,0,0.5,0.1,0.7,0.3l0.7,0.7L11,9.5l4.2-4.3C15.4,5,15.7,4.9,15.9,4.9 M15.9,3.9c-0.5,0-1,0.2-1.4,0.6c0,0,0,0,0,0l-4.2,4.2 C9.9,8.4,9.4,8.2,8.9,8.2c-0.5,0-1,0.2-1.4,0.6c0,0,0,0,0,0l-1.4,1.4l1.4,1.4l2.1,2.1l-5.6,5.7l0.7,0.7l5.7-5.7l2.1,2.1l1.4,1.4 l1.4-1.4c0.8-0.8,0.8-2,0-2.8c0,0,0,0,0,0l4.2-4.2c0.8-0.8,0.8-2,0-2.8l-2.1-2.1C17,4.1,16.5,3.9,15.9,3.9L15.9,3.9z%22/%3E%3C/svg%3E") !important; }
-#body .lconnPinnedToggle img.lconnSprite-iconPinned16-on {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23000000%22 d=%22M19.49,6.64,17.36,4.51a2,2,0,0,0-2.83,0L10.29,8.76a2,2,0,0,0-2.83,0L6.05,10.17l1.41,1.41,2.12,2.12L3.93,19.36l.71.71,5.66-5.66,2.12,2.12,1.41,1.41,1.41-1.41a2,2,0,0,0,0-2.83l4.24-4.24A2,2,0,0,0,19.49,6.64Z%22/%3E%3C/svg%3E") !important; }
-#body .lconnPinnedToggle:focus {
-    outline: 1px solid black !important;
-    outline-offset: 1px !important; }
-#body .lotusLikeCount.lotusLikeSimple img {
-    background-position: 0px;
-    background-size: 18px !important;
-    width: 18px;
-    height: 18px;
-    position: absolute !important;
-    left: -8px !important; }
-#body .lotusLikeCount.lotusLikeSimple img {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23000000%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important; }
-#body .qkrDropAvatar .DropAvatarBadge > div {
-    background-color: #75263b !important; }
-#body .qkrDropAvatar .DropAvatarContainer {
-    background-color: #FFFFFF !important;
-    color: #000000 !important;
-    border-color: #75263b !important;
-    border-width: 2px !important; }
-#body .qkrDropAvatar .DropAvatarContainer img {
-    margin-right: 4px !important;
-    background-repeat: no-repeat !important;
-    background-position: 0 0 !important;
-    margin-top: 0px !important; }
-#body .qkrDropAvatar .DropAvatarContainer img.dndFolderIcon {
-    margin-top: -5px !important; }
-
-.lotusPerson.vcard .menu_drop_icon {
-    background-position-x: 2px !important; }
-
-#body #lotusContentHeaderTitleBar #scene-title .lconnPinnedToggle._folderPinned {
-    margin-top: 1px; }
-#body #lotusContentHeaderTitleBar #scene-title .lconnPinnedToggle._folderPinned:focus {
-    outline: 1px solid #595859 !important; }
-#body div[id^="lconn_files_action_title_more"] img,
-#body .lconnBreadcrumbitem.lconnBreadcrumbnode img {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23595859%22 d=%22M12,0C5.4,0,0,5.4,0,12s5.4,12,12,12s12-5.4,12-12S18.6,0,12,0z M12,22C6.5,22,2,17.5,2,12S6.5,2,12,2s10,4.5,10,10 S17.5,22,12,22z%22/%3E%3Cpolygon fill=%22%23595859%22 points=%2218.1,9.1 12,15.2 5.9,9.1 4.5,10.5 12,18 13.4,16.6 13.4,16.6 19.5,10.5%22/%3E%3C/svg%3E");
-    background-size: 18px !important;
-    margin-top: 1px !important; }
-#body div[id^="lconn_files_action_title_more"]:focus,
-#body .lconnBreadcrumbitem.lconnBreadcrumbnode:focus {
-    outline: none !important;
-    text-decoration: underline !important; }
-#body div[id^="lconn_files_action_title_more"]:focus img,
-#body .lconnBreadcrumbitem.lconnBreadcrumbnode:focus img {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23595859%22 d=%22M12,0C5.4,0,0,5.4,0,12s5.4,12,12,12s12-5.4,12-12S18.6,0,12,0z M13.4,16.6L12,18l-7.5-7.5l1.4-1.4l6.1,6.1l6.1-6.1 l1.4,1.4L13.4,16.6L13.4,16.6z%22/%3E%3C/svg%3E"); }
-
-#scene-body a[href$="section=share"]:focus {
-    outline: 1px solid black !important;
-    outline-offset: 1px !important; }
-
-.lotusMain #lotusColLeft #menu_allfolders,
-.lotusMain #lotusColLeft #menu_allfiles {
-    margin-top: 0 !important; }
-.lotusMain #lotusColLeft .lotusMenuSection > .lotusClickable:first-child,
-.lotusMain #lotusColLeft .lotusMenuSection .subNavigationMenu {
-    padding: 14px 24px !important;
-    margin-top: 0 !important; }
-.lotusMain #lotusColLeft .lotusMenuSection > .lotusClickable:first-child.lotusSelected, .lotusMain #lotusColLeft .lotusMenuSection > .lotusClickable:first-child:focus,
-.lotusMain #lotusColLeft .lotusMenuSection .subNavigationMenu.lotusSelected,
-.lotusMain #lotusColLeft .lotusMenuSection .subNavigationMenu:focus {
-    padding-left: calc(24px - 4px) !important;
-    border-left: 4px solid #75263b !important;
-    transition: border 0.23s ease, padding 0.23s ease; }
-.lotusMain #lotusColLeft .lotusMenuSubsection .lotusClickable {
-    margin-left: 0 !important;
+.sc .lotusStream .scdirectory {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+.sc .lotusStream .scdirectory > a:focus {
+    outline-color: #75263b !important; }
+.sc .lotusStream .scdirectory .lotusFloatContent div:not(.scFontItalic) {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+.sc .lotusStream .scdirectory .lotusFloatContent div:not(.scFontItalic) .jobTitle, .sc .lotusStream .scdirectory .lotusFloatContent div:not(.scFontItalic) .company {
+    flex-shrink: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto; }
+.sc .lotusStream .scdirectory .lotusFloatContent div:not(.scFontItalic) .company {
+    flex-shrink: 0;
+    padding: 0 .25em;
+    display: inline-block; }
+.sc .lotusStream .scdirectory > a {
+    padding: .5rem !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    font-weight: normal !important; }
+@media only screen and (min-width: 0px) {
+    .sc .lotusStream .scdirectory > a {
+        width: 50% !important; } }
+@media screen and (min-width: 1360px) {
+    .sc .lotusStream .scdirectory > a {
+        width: 33.33% !important; } }
+.sc .lotusStream .scdirectory > a.itemHover .sccontact,
+.sc .lotusStream .scdirectory > a.itemHover .lotusPhoto img {
+    border-color: #75263b !important; }
+.sc .lotusStream .scdirectory > a.itemHover .actionGroup {
+    opacity: 1 !important;
+    background: transparent !important; }
+.sc .lotusStream .scdirectory > a .sccontact {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); }
+.sc .lotusStream .scdirectory > a .lotusPhoto {
+    height: 64px !important;
+    width: 64px !important; }
+.sc .lotusStream .scdirectory > a .lotusPhoto img {
+    border-radius: 50% !important;
+    background-color: #FFFFFF; }
+.sc .lotusStream .scdirectory > a .lotusPhoto a:first-child img {
+    width: 64px !important;
+    height: 64px !important; }
+.sc .lotusStream .scdirectory .sccontact.contactSelected {
+    border-color: #75263b !important; }
+.sc .lotusStream .scdirectory .sccontact.contactSelected .ccMember {
+    background-color: #F3F3F3 !important; }
+.sc .lotusStream .scdirectory .sccontact.contactSelected .lotusPhoto a:first-child img {
+    border: 2px solid #75263b !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+    box-sizing: border-box;
+    position: relative; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .lotusFloatContent,
+.sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap,
+.sc .lotusStream .scdirectory .sccontact .ccMember .lotusPhoto {
+    float: none !important;
+    margin: 0 !important;
+    display: block; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .lotusInlinelist.scFontItalic {
+    display: inline-block;
+    width: auto; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .lotusFloatContent {
+    height: 3.75rem !important;
+    width: calc(100% - 2rem) !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .lotusFloatContent .lotusPerson span:hover {
+    color: #000000 !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap {
+    order: 2;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+    width: auto !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap div, .sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap span {
+    color: #000000 !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap * {
+    max-width: 100% !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap div.lotusLeft {
+    margin-left: 1rem !important;
     margin-top: 0 !important;
-    padding-left: calc(24px + 15px) !important;
-    padding-top: 14px !important;
-    padding-bottom: 14px !important;
-    padding-right: 24px !important; }
-.lotusMain #lotusColLeft .lotusMenuSubsection .lotusClickable#label_sharedfolders {
-    padding-left: calc((24px + 15px) + 19px) !important; }
-.lotusMain #lotusColLeft .lotusMenuSubsection .lotusClickable#label_sharedfolders.lotusSelected {
-    padding-left: calc(((24px - 4px) + 15px) + 19px) !important;
-    transition: border 0.23s ease, padding 0.23s ease; }
-.lotusMain #lotusColLeft .lotusMenuSubsection .lotusClickable.lotusSelected {
-    padding-left: calc((24px + 15px) - 4px) !important;
-    border-left: 4px solid #75263b !important;
-    transition: border 0.23s ease, padding 0.23s ease; }
-.lotusMain #lotusColLeft .lotusMenuSubsection .lotusMenuSubsection {
-    margin-top: 0 !important; }
-.lotusMain #lotusColLeft .lotusMenuSubsection .lotusMenuSubsection .node > .headerOuter {
-    margin-top: 0 !important;
-    border: none !important; }
-.lotusMain #lotusColLeft .lotusMenuSubsection .lotusMenuSubsection .node > .headerOuter .headerSelector {
-    border: none !important; }
-
-.files-independent-scrollbars-compatible,
-.lotusStyledScroll {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important; }
-
-.headerOuter:hover {
-    background: none !important; }
-
-.node {
+    padding: 0; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap .lotusPerson {
+    font-weight: bold !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap .lotusPerson:hover, .sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap .lotusPerson:hover span, .sc .lotusStream .scdirectory .sccontact .ccMember .memberRightWrap .lotusPerson span:hover {
+    color: #000000 !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .lotusPhoto {
+    order: 1;
+    flex-grow: 0;
+    flex-shrink: 0; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .actionGroup {
+    float: none !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .actionGroup .lotusBtnContainer {
+    position: relative;
+    position: absolute;
+    bottom: 1.5rem;
+    top: 1.5rem;
+    right: 1.5rem;
+    left: auto;
+    height: auto;
+    width: 1.5rem; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .actionGroup .lotusBtnContainer .scActionIcon {
+    margin: 0 auto 10px !important;
+    padding: 0 !important;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20px !important;
+    height: 20px !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .actionGroup .lotusBtnContainer .scActionIcon:nth-child(2) img {
+    background-position: -46px -32px !important; }
+.sc .lotusStream .scdirectory .sccontact .ccMember .actionGroup .lotusBtnContainer .scActionIcon img {
     margin: 0 !important; }
 
-.headerSelector {
-    padding-top: 14px !important;
-    padding-bottom: 14px !important; }
-.headerSelector .header {
-    height: 20px !important;
-    line-height: 1.25em; }
-.headerSelector .icon span img {
-    height: 20px !important;
-    width: 20px !important; }
+.lotusDialogContent .scAddToGroup .lotusIndent10 {
+    padding: 0 0 .5rem !important; }
 
-.headerSelector:hover::before {
-    background-color: #d8d8d8 !important; }
+.iconAdd:focus {
+    outline: 1px solid #75263b !important; }
 
-.headerSelector::before {
-    content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    height: 48px;
-    margin-top: -14px;
-    display: block;
-    z-index: -1;
-    transition: border 0.23s ease-in; }
+div:not(#_profileEditScene_div) .profileDataTable .icon30:not(.iconLocation30) {
+    margin-top: .85rem; }
+div:not(#_profileEditScene_div) .profileDataTable li.lotusFirst.iconNode {
+    margin-top: .85rem !important; }
+div:not(#_profileEditScene_div) .profileDataTable input.lotusText {
+    margin-top: .85rem !important; }
+div:not(#_profileEditScene_div) .profileDataTable .profileFields .addressFormLi {
+    border-bottom: none !important; }
+div:not(#_profileEditScene_div) .profileDataTable .profileFields .addressFormLi + .addressFormLi {
+    border-top: 1px solid #F3F3F3; }
 
-.headerSelector.selected::before {
-    transition: border 0.23s ease-in;
-    border-left: 4px solid #75263b !important; }
+.lotusPaging span.endWithSpace + a img {
+    margin-left: .25rem; }
 
-#menu_myfolders_childContainer {
-    margin-left: 55px !important; }
-#menu_myfolders_childContainer > div .lconnFilesTree {
-    margin-left: 6px !important; }
+#report-chain-reportStructure {
+    font-size: 0.9rem; }
+#report-chain-reportStructure .lotusChunk.lotusLast a {
+    font-weight: normal !important; }
 
-#menu_allfiles_childContainer > div {
-    margin: 0 !important;
-    padding-top: 14px !important;
-    padding-bottom: 14px !important;
-    padding-left: calc((15px + 24px) + 21px) !important;
-    border: none !important; }
-#menu_allfiles_childContainer > div a {
-    margin-left: 0 !important; }
-#menu_allfiles_childContainer > div.lotusSelected {
-    padding-left: calc(((15px + 24px) - 4px) + 21px) !important;
-    transition: border 0.23s ease, padding 0.23s ease;
-    border-left: 4px solid #75263b !important; }
-#menu_allfiles_childContainer > div.lotusSelected a {
-    margin-left: 0 !important; }
-
-#menu_fileSync_childContainer .headerOuter {
-    border: none !important; }
-#menu_fileSync_childContainer .headerSelector {
-    border: none !important; }
-#menu_fileSync_childContainer > .lconnFilesTree {
-    margin-left: calc(15px + 24px) !important;
-    padding-right: 8px !important; }
-#menu_fileSync_childContainer > .lconnFilesTree .lconnFilesTree {
-    margin-left: 6px !important; }
-#menu_fileSync_childContainer > .lconnFilesTree .node .title {
-    float: none !important; }
-
-.myDriveNormalItem > div {
-    padding-top: calc(14px) !important;
-    padding-bottom: calc(14px) !important;
-    padding-left: calc((15px + 24px)) !important;
-    border-color: #75263b !important;
-    height: 20px !important; }
-.myDriveNormalItem > div a {
-    border-top: none !important;
-    border-bottom: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 1.5 !important; }
-.myDriveNormalItem > div a span {
-    line-height: 1.5 !important;
+div[id^="lconn_sand_ImageStream_"] img {
+    border-radius: 50% !important; }
+div[id^="lconn_sand_ImageStream_"] > div {
+    padding-top: 4px !important; }
+div[id^="lconn_sand_ImageStream_"] span {
+    z-index: 1;
+    position: relative; }
+div[id^="lconn_sand_ImageStream_"] span img {
+    height: 56px;
+    width: 56px;
+    padding: 0 !important; }
+div[id^="lconn_sand_ImageStream_"] span:nth-child(2) {
+    margin: 0 -1.25rem;
+    z-index: 2; }
+div[id^="lconn_sand_ImageStream_"] span:nth-child(2) img {
+    height: 80px;
+    width: 80px; }
+div[id^="lconn_sand_ImageStream_"] a {
     color: #000000 !important; }
-.myDriveNormalItem > div.lotusSelected {
-    padding-left: calc((((15px + 24px) - 4px))) !important;
-    transition: border 0.23s ease, padding 0.23s ease; }
-.myDriveNormalItem > div.lotusSelected a {
+
+#sand_socialPath img {
+    border-radius: 50% !important; }
+#sand_socialPath div[dojoattachpoint="msgPersonSelf"],
+#sand_socialPath p[role="img"] {
+    font-size: 0.875rem; }
+#sand_socialPath .vcard a {
+    font-size: 1rem; }
+#sand_socialPath div:not(.lotusCenter) + p[role="presentation"] {
+    margin: 0 auto;
+    width: 1px;
+    overflow: hidden;
+    border-right: 1px dotted #777677;
+    height: .875rem; }
+#sand_socialPath div:not(.lotusCenter) + p[role="presentation"] img {
+    opacity: 0; }
+#sand_socialPath div[dojoattachpoint="evidenceContainer"] {
+    border-top: 0 !important; }
+#sand_socialPath div[dojoattachpoint="evidenceContainer"] img {
+    margin-bottom: 1.5rem; }
+#sand_socialPath div[dojoattachpoint="evidenceContainer"] a, #sand_socialPath div[dojoattachpoint="evidenceContainer"] b {
+    color: #000000 !important;
+    font-weight: normal !important;
+    font-size: 0.875rem; }
+
+#_sand_thingsInCommon_root .lotusList li a {
+    font-weight: normal !important; }
+
+#friends .lotusNetworkPerson img {
+    height: 56px;
+    width: 56px;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    margin-left: -28px; }
+#friends .lotusNetworkPerson img:focus {
+    outline: 1px solid #75263b !important;
+    outline-offset: 1px; }
+#friends .lotusNetworkPerson .x-lconn-userid + .lotusAltText {
+    display: block;
+    color: #000000;
+    font-weight: normal !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+#friends .lotusNetworkPerson .x-lconn-userid + .lotusAltText:hover {
+    text-decoration-color: #000000 !important; }
+#friends .lotusNetworkPerson .menu_drop_icon {
+    margin-bottom: 4px; }
+
+#recent-friends-container .lotusChunk {
+    margin: 0 -3px; }
+#recent-friends-container .lotusChunk .lotusNetworkPerson {
+    padding: 1rem 3px 0 !important;
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative; }
+#recent-friends-container .lotusChunk .lotusNetworkPerson .vcard {
+    padding-top: 56px;
+    display: block; }
+#recent-friends-container .lotusChunk .lotusNetworkPerson .vcard a:first-child {
+    display: inline-block;
+    max-width: calc(100% - 1.25rem); }
+
+.claro.scloud3 .lotusTitleBar2 .lotusTitleBarContent {
+    padding-left: 256px; }
+.claro.scloud3 .lotusTitleBar2 .lotusTitleBarContent a {
+    color: #000000 !important; }
+
+#partnerPageBody .lotusColLeft {
+    padding: 14px 20px 14px 0px;
+    margin: 0px !important;
+    width: 240px; }
+#partnerPageBody .lotusColLeft #showPhoto {
+    margin: 0 0 20px 0;
+    padding-left: 18px; }
+#partnerPageBody .lotusColLeft li a {
+    padding: 14px 24px; }
+#partnerPageBody .lotusColLeft li.lotusSelected a {
+    border-left: 4px solid #75263b !important; }
+
+#contactInfoSection {
+    padding-top: 2rem; }
+#contactInfoSection:focus {
+    outline: none !important; }
+#contactInfoSection .lotusVertTable tr, #contactInfoSection .lotusVertTable th, #contactInfoSection .lotusVertTable td {
+    display: block; }
+#contactInfoSection .lotusVertTable tr {
+    border-bottom: 1px solid #d8d8d8;
+    padding: .75rem 0 .5rem; }
+#contactInfoSection .lotusVertTable tr:last-child {
+    border-bottom: none; }
+#contactInfoSection .lotusVertTable th {
+    font-size: 0.75rem; }
+#contactInfoSection .lotusVertTable td {
+    font-size: 1rem; }
+
+#filesReaderSection {
+    padding-top: 2rem; }
+#filesReaderSection .lotusui30 .lotusContent .lotusHeader .lotusMeta {
+    padding-top: 0px !important; }
+#filesReaderSection #lotusContentHeaderTitleBar {
+    margin-left: 3px;
+    padding-left: 48px; }
+#filesReaderSection #lotusContentHeaderTitleBar #scene-title {
+    padding-top: 9px !important; }
+#filesReaderSection .lotusui30_layout .lotusContent .filesList > div {
+    padding-left: 3px !important;
+    margin-left: 0 !important; }
+#filesReaderSection .filesList div[dojoattachpoint="streamNode"] > div {
+    margin-left: -4px !important; }
+#filesReaderSection .filesList div[dojoattachpoint="streamNode"] table {
+    margin-left: -14px !important; }
+#filesReaderSection .filesList div[dojoattachpoint="streamNode"] table:not(.lotusTable) {
+    margin-left: -4px !important;
+    background-color: white; }
+#filesReaderSection .lotusPlaceBar {
+    margin-right: 0 !important;
+    width: 100% !important; }
+#filesReaderSection .lotusPlaceBar div[role="toolbar"] {
+    text-align: center;
+    width: 100% !important; }
+#filesReaderSection .lotusColLeft {
+    margin-right: 0 !important;
+    width: 240px !important;
+    padding: 0 !important; }
+#filesReaderSection .widgetContainer[style] + div .lotusContent.wpthemeNarrow.wpthemeNarrowPlus {
+    padding-left: 48px !important; }
+#filesReaderSection .lotusRightCorner {
+    padding-left: 0 !important; }
+#filesReaderSection #lotusContentSceneActions {
+    margin-bottom: 3px !important; }
+#filesReaderSection #lotusContentSceneActions .lotusBtn:not(.lotusBtnDisabled) {
+    margin-bottom: 0px !important;
+    margin-left: 0 !important;
+    margin-right: 12px !important; }
+#filesReaderSection #lotusContentSceneActions .lotusBtn:not(.lotusBtnDisabled):last-child {
+    margin-right: 0 !important; }
+#filesReaderSection #qkrViewControl a.lotusView {
+    border-color: #75263b !important; }
+#filesReaderSection .lconnFilesGridItem {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+    margin-right: 22px !important; }
+#filesReaderSection .lotusPaging[dojoattachpoint="bottomPageNode"] {
+    border-top: 1px solid #d8d8d8 !important;
+    padding-top: 40px !important; }
+#filesReaderSection .card-back .title, #filesReaderSection .card-back .desc {
+    position: relative !important;
+    top: 8px !important; }
+#filesReaderSection .lotusFeed.lotusAction {
+    margin-left: 3px !important; }
+#filesReaderSection .lotusTileOn, #filesReaderSection .lotusDetailsOn, #filesReaderSection .lotusSummaryOn {
+    border: none !important;
+    border-bottom: 2px solid !important;
+    position: relative !important;
+    top: 1px !important; }
+#filesReaderSection .lotusTable tr[id^="dojoUnique"], #filesReaderSection .lotusTable#filesByUserFeedContentContainerFeedTableContainer tr {
+    border-top: 1px solid #d8d8d8 !important; }
+#filesReaderSection .lotusTable tr[id^="dojoUnique"] td, #filesReaderSection .lotusTable#filesByUserFeedContentContainerFeedTableContainer tr td {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important; }
+#filesReaderSection div[dojoattachpoint="streamNode"] {
+    position: relative;
+    top: 1px; }
+#filesReaderSection div[dojoattachpoint="streamNode"] > div {
+    padding-bottom: 12px !important; }
+#filesReaderSection #listcustomizer > div {
+    padding-left: 0px !important; }
+#filesReaderSection #listcustomizer .lotusFormFooter input[role="button"] {
+    margin-right: 8px !important;
+    margin-left: 0px !important; }
+#filesReaderSection .filesList .lotusPerson.vcard .menu_drop_icon {
+    position: relative !important;
+    top: 2px !important;
+    left: 2px !important; }
+#filesReaderSection div[dojoattachpoint="streamNode"] {
+    margin-top: 1rem !important; }
+#filesReaderSection .lotusTable tr.hentry:nth-child(2) {
+    border-top: 1px solid #75263b !important; }
+#filesReaderSection tr.lotusSort {
+    text-transform: uppercase !important; }
+#filesReaderSection tr.lotusSort span:not(.lotusAltText), #filesReaderSection tr.lotusSort a, #filesReaderSection tr.lotusSort ul li {
+    color: #595859 !important;
+    font-weight: normal !important;
+    border: 1px solid transparent !important; }
+#filesReaderSection tr.lotusSort span[hastooltip^="dijit"]:not(.lotusAltText), #filesReaderSection tr.lotusSort a {
+    padding: 0.5rem 1.2rem !important; }
+#filesReaderSection tr.lotusSort span:not(.lotusAltText) {
+    display: inline-block !important; }
+#filesReaderSection tr.lotusSort ul li:nth-child(1) {
+    padding-left: 0 !important; }
+#filesReaderSection tr.lotusSort a {
+    background-position: calc(100% - 10px) 13px !important;
+    padding-right: 1.5rem !important;
+    padding-left: 0.9rem !important; }
+#filesReaderSection tr.lotusSort a:hover {
+    background-color: #75263b !important;
+    color: white !important;
+    border-radius: 2px !important;
+    text-decoration: none !important; }
+#filesReaderSection tr.lotusSort a:focus {
+    text-decoration: none !important;
+    border: 1px solid #75263b !important;
+    border-radius: 2px !important; }
+#filesReaderSection tr.lotusSort a.lotusDescending, #filesReaderSection tr.lotusSort a.lotusAscending {
+    background-size: 8px 8px !important; }
+#filesReaderSection tr.lotusSort a.lotusDescending {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23595859%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
+#filesReaderSection tr.lotusSort a.lotusDescending:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
+#filesReaderSection tr.lotusSort a.lotusAscending {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23595859%22 d=%22M1.4,7.5L6,2.8l4.6,4.7L12,6.1L6,0L0,6.1L1.4,7.5z%22/%3E%3C/svg%3E") !important; }
+#filesReaderSection tr.lotusSort a.lotusAscending:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M1.4,7.5L6,2.8l4.6,4.7L12,6.1L6,0L0,6.1L1.4,7.5z%22/%3E%3C/svg%3E") !important; }
+#filesReaderSection tr.lotusSort td.lotusFirstCell {
+    position: relative !important;
+    top: 5px !important;
+    padding-bottom: 24px !important; }
+#filesReaderSection tr.hentry td.lotusAlignRight {
+    padding-right: 1.5rem !important; }
+#filesReaderSection tr.hentry td:not(.lotusFirstCell):not(.lotusAlignRight) {
+    padding-left: 0.9rem !important; }
+#filesReaderSection div[dojoattachpoint="streamNode"] ul > li:nth-child(1) {
+    padding-right: 1rem !important; }
+#filesReaderSection .lotusTable tbody tr.dojoDndItem:not(.hentry):not(.lotusDetails) td:nth-child(4) {
+    padding-top: 19px !important; }
+#filesReaderSection .lotusTable tbody tr.dojoDndItem:not(.hentry):not(.lotusDetails) td:nth-child(5),
+#filesReaderSection .lotusTable tbody tr.dojoDndItem:not(.hentry):not(.lotusDetails) td:nth-child(6),
+#filesReaderSection .lotusTable tbody tr.dojoDndItem:not(.hentry):not(.lotusDetails) td:nth-child(7) {
+    padding-top: 22px !important; }
+#filesReaderSection a#withme {
+    color: #292929 !important; }
+#filesReaderSection .filesList .lotusPaging + div[dojoattachpoint="streamNode"] > div,
+#filesReaderSection .filesList .lotusPaging + div[dojoattachpoint="streamNode"] table.lotusTable {
+    margin-left: 0 !important; }
+#filesReaderSection #multiFeedReaderContentContainer > .lotusTabContainer {
+    border-bottom: 0 !important; }
+#filesReaderSection tr {
+    border-bottom: 1px solid #d8d8d8; }
+#filesReaderSection tr:first-child {
+    border-top: 1px solid #d8d8d8; }
+#filesReaderSection tr td {
+    padding: .75rem 0 .75rem .75rem; }
+#filesReaderSection tr h4 a {
+    color: #000000 !important; }
+#filesReaderSection table + a {
+    padding: 1rem 0;
+    display: inline-block; }
+
+#activityStream:focus {
+    outline: none !important; }
+#activityStream .filterArea {
+    border-top: 1px solid #d8d8d8;
+    border-color: #d8d8d8;
+    padding: 0 !important; }
+#activityStream .filterArea select {
+    display: inline-block !important;
+    margin-left: .25rem; }
+#activityStream .filterArea .filterAreaInner {
+    padding: .75rem !important; }
+#activityStream .lotusPostHover {
+    background: #F3F3F3 !important; }
+#activityStream .activityStreamNewsItemContainer:focus {
+    outline: 1px solid #75263b !important; }
+#activityStream .lotusCommentList {
+    margin-right: 0 !important; }
+#activityStream .lotusCommentList li.lotusCommentItem {
+    background: #F3F3F3 !important; }
+#activityStream .lotusCommentList li.lotusCommentItem .lotusPost {
+    padding: 1rem !important; }
+#activityStream .lotusCommentList .lotusPostAuthorInfo {
+    padding: 0 .5rem 0 0 !important; }
+#activityStream .lotusCommentList .lotusPostAuthorInfo .lotusPostAvatar {
+    padding: 0 !important; }
+#activityStream .lotusCommentList .lotusCommentItem .lotusActions a {
+    font-weight: normal !important; }
+#activityStream .lotusPostContent .lotusPostAction {
+    padding-right: 2rem; }
+#activityStream .lotusPostContent div[dojoattachpoint="footerSummary"] .lotusActions a {
+    font-weight: normal !important;
+    color: #595859 !important; }
+#activityStream .lotusPostContent,
+#activityStream .lotusCommentList {
+    font-size: 0.875rem; }
+#activityStream .lotusPostContent .vcard a,
+#activityStream .lotusCommentList .vcard a {
+    color: #000000 !important; }
+#activityStream abbr[id*="timeago"],
+#activityStream a.timeago {
+    text-decoration: none !important;
+    font-weight: normal !important; }
+#activityStream abbr[id*="timeago"]:hover,
+#activityStream a.timeago:hover {
+    text-decoration: underline !important; }
+#activityStream abbr[id*="timeago"] + img,
+#activityStream a.timeago + img {
+    display: none; }
+
+#centerWidgetContainer:focus, #centerWidgetContainer div:focus, #centerWidgetContainer ul:not(.lotusTabs) > li:focus {
+    outline: 1px solid #75263b !important; }
+
+.lotusStreamUpdate .lotusHidden.ublogWarningMessage + .lotusActions:after {
+    content: '';
+    display: block;
+    clear: both; }
+.lotusStreamUpdate .lotusHidden.ublogWarningMessage + .lotusActions .lotusRight {
+    float: right !important; }
+.lotusStreamUpdate .lotusHidden.ublogWarningMessage + .lotusActions .lotusLeft {
+    float: left !important;
+    margin-top: .25rem !important; }
+.lotusStreamUpdate .lotusHidden.ublogWarningMessage + .lotusActions + .lotusMessage2 {
+    margin: .75rem 0 !important;
+    padding: .3rem !important; }
+
+div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_textBoxContainer"] + div[dojoattachpoint="actionAreaNode"] .lotusActions .lotusInlinelist li:not[dojoattachpoint="remainingCharsLabelNode"] {
+    display: inline-block !important;
+    vertical-align: middle; }
+
+#shareboxContainer a[dojoattachpoint="removeAttachmentNode"] {
+    border: 0 !important;
+    padding: 0 !important; }
+#shareboxContainer a[dojoattachpoint="removeAttachmentNode"]:hover {
+    background: transparent !important; }
+#shareboxContainer div[dojoattachpoint="actionAreaNode"] {
+    height: auto !important; }
+#shareboxContainer a[dojoattachpoint="attachActionButtonNode"] {
+    padding: 0 !important;
+    border: 0 !important;
+    font-weight: 500 !important;
+    background: #f1f1f1 !important;
+}
+#shareboxContainer a[dojoattachpoint="attachActionButtonNode"]:hover, #shareboxContainer a[dojoattachpoint="attachActionButtonNode"]:focus {
+    background: transparent !important;
+    border: 0 !important;
+    color: #75263b !important;
+    text-decoration: underline !important; }
+#shareboxContainer span[dojoattachpoint="fileAttachmentDetailsNode"] {
+    font-size: 0.75rem; }
+#shareboxContainer span[dojoattachpoint="fileAttachmentDetailsNode"] span {
+    display: inline-block;
+    padding: 0 .75rem 0 0;
+    position: relative; }
+#shareboxContainer span[dojoattachpoint="fileAttachmentDetailsNode"] span + span:before {
+    content: '|';
+    display: block;
+    position: absolute;
+    left: -7px;
+    top: 0; }
+#shareboxContainer span[dojoattachpoint="fileAttachmentDetailsNode"] span:last-child {
+    padding: 0; }
+
+#backgroundInfoSection {
+    padding-top: 2rem;
+    font-size: 1rem; }
+
+#_profileEditScene_div .lotusMeta.lotusSection {
+    margin-bottom: 4px !important;
+    margin-top: 24px !important; }
+#_profileEditScene_div .lotusMeta.lotusSection p {
+    font-size: 0.75rem !important; }
+#_profileEditScene_div #tableEditProfileContactInfo {
+    width: 100% !important; }
+#_profileEditScene_div #tableEditProfileContactInfo td {
+    display: block !important; }
+#_profileEditScene_div #displayName_ro {
+    font-size: 12.8px !important;
+    line-height: 1.5 !important;
+    min-width: 10rem !important;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    border-bottom: 1px solid #d8d8d8 !important;
+    font-size: 12.8px !important;
+    padding-right: 2rem !important;
+    padding-bottom: .375rem !important;
+    box-sizing: border-box !important;
+    width: 350px !important;
+    display: inline-block;
+    color: #595859;
+    cursor: not-allowed; }
+#_profileEditScene_div #displayName_ro:focus, #_profileEditScene_div #displayName_ro .dijitTextBoxFocused {
+    outline: none !important;
+    border-color: #75263b !important;
+    box-shadow: 0 1px 0 #75263b !important; }
+#_profileEditScene_div label {
+    font-weight: 500 !important; }
+#_profileEditScene_div textarea {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 5rem !important; }
+#_profileEditScene_div input[type="text"] {
+    min-width: 350px !important;
+    width: auto !important;
+    max-width: 100% !important; }
+#_profileEditScene_div .lotusFormLabel + td {
+    margin-top: 4px !important; }
+#_profileEditScene_div .lotusFormLabel select {
+    font-size: 0.75rem !important;
+    padding-bottom: 0 !important;
+    font-weight: 500 !important;
+    margin-bottom: 6px;
+    width: auto !important;
+    min-width: 0 !important;
+    color: #000000 !important; }
+
+#tableEditProfileAboutMe tr:nth-child(even) td {
+    margin-top: 14px !important; }
+
+#tableEditPronunciation .lotusFormFieldRow:first-child {
+    height: 0;
+    display: block;
+    line-height: 0; }
+#tableEditPronunciation .lotusFormFieldRow:first-child td {
+    margin: 0 !important; }
+#tableEditPronunciation .lotusFormFieldRow:first-child label {
+    display: block;
+    height: 0;
+    text-indent: -9999px; }
+#tableEditPronunciation .lotusFormFieldRow:first-child + .lotusFormFieldRow td {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 14px !important; }
+#tableEditPronunciation #audioUploadFileSelectFieldsDiv {
+    order: 2; }
+#tableEditPronunciation #audioUploadDesc {
+    order: 1;
+    margin: 0 0 24px !important;
+    font-size: 0.75rem !important; }
+#tableEditPronunciation #audioUploadDesc i {
+    font-style: normal !important; }
+#tableEditPronunciation #audioUploadFileSelected {
+    cursor: pointer;
+    color: #595859; }
+#tableEditPronunciation #audioUploadFileSelected:focus {
+    border-bottom: 1px solid #d8d8d8 !important;
+    box-shadow: none !important; }
+#tableEditPronunciation #audioUploadFileSelectorButtonSpan {
+    margin-right: 1rem; }
+
+#tableEditPhoto input[name="lastMod"] + div {
+    line-height: 0; }
+#tableEditPhoto input[name="lastMod"] + div label {
+    text-indent: -9999px;
+    line-height: 0;
+    display: block; }
+#tableEditPhoto .lotusFormFieldRow:first-child td {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 14px !important; }
+#tableEditPhoto #photoUploadDesc {
+    order: 1;
+    margin: 0 0 24px !important;
+    font-size: 0.75rem !important; }
+#tableEditPhoto #photoUploadDesc i {
+    font-style: normal !important; }
+#tableEditPhoto #photoUploadDesc i, #tableEditPhoto #photoUploadDesc p {
+    font-size: 0.75rem !important; }
+#tableEditPhoto #photoUploadDesc p + p {
+    margin-top: 0 !important; }
+#tableEditPhoto #photoUploadFileSelectFieldsDiv {
+    order: 2; }
+#tableEditPhoto #photoDiv label {
+    margin-bottom: 6px;
+    display: block; }
+#tableEditPhoto #photoDiv label + br {
+    display: none !important; }
+#tableEditPhoto #photoUploadFileSelectorButtonSpan {
+    margin-right: 1rem; }
+
+#imgProfilePhoto {
+    width: 152px !important;
+    height: 152px !important; }
+
+#smallBizCardInfoPhotoDiv > a:focus {
+    outline: 1px solid #75263b !important;
+    outline-offset: 2px;
+    display: inline-block;
+    position: relative; }
+
+#businessCardActions {
+    padding: 1.75rem 0 .275rem !important; }
+#businessCardActions .lotusActionBar {
+    font-size: 0.9rem; }
+
+#businessCardContent a {
+    color: #000000 !important;
+    font-size: 2.375rem;
+    font-weight: normal !important; }
+#businessCardContent + #businessCardDetails strong, #businessCardContent + #businessCardDetails a, #businessCardContent + #businessCardDetails span {
+    line-height: 1.375em !important; }
+#businessCardContent + #businessCardDetails strong, #businessCardContent + #businessCardDetails span {
+    font-weight: normal !important; }
+#businessCardContent > div {
+    float: none !important;
+    display: inline-block;
+    vertical-align: middle; }
+#businessCardContent #connectionIndicator {
+    color: #595859 !important;
+    background-color: transparent !important;
+    margin-top: 0 !important;
+    font-size: 0.9rem; }
+
+#StatusIMAwarenessDisplayedUser img {
+    position: relative !important;
+    left: auto !important; }
+
+#profilePaneLeft {
+    margin: 0 !important; }
+
+#profilePaneRight {
+    width: 300px;
+    margin-left: 3.25rem;
+    box-sizing: border-box; }
+
+.lotusWidget2 {
+    margin-bottom: 3rem !important; }
+.lotusWidget2 h2 {
+    border-bottom: 1px solid #d8d8d8 !important;
+    margin-bottom: .75rem !important; }
+
+div[id^="tabsWidget"] .lotusWidget2 h2 {
+    border-bottom: none !important; }
+
+#socialTagsSubArea {
+    padding-top: 0 !important; }
+
+#sand_thingsInCommon li.lotusBorderBottom:before {
+    display: none !important; }
+
+#socialTags #tagsYouAddedList_div, #socialTags #tagsListTags_div {
+    max-height: 12.75rem;
+    overflow: auto; }
+#socialTags #tagsYouAddedView h3, #socialTags #tagsList h3 {
+    border: 0 !important;
+    font-weight: bold;
+    margin: 1rem 0 0; }
+#socialTags #tagsYouAddedView .lotusTags > li, #socialTags #tagsList .lotusTags > li {
+    display: flex !important;
+    margin: 0;
+    padding: 0 !important;
+    margin: .75rem 0;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap; }
+#socialTags #tagsYouAddedView .lotusTags > li > span, #socialTags #tagsYouAddedView .lotusTags > li > a, #socialTags #tagsList .lotusTags > li > span, #socialTags #tagsList .lotusTags > li > a {
+    float: none !important; }
+#socialTags #tagsYouAddedView .lotusTags > li a:focus, #socialTags #tagsList .lotusTags > li a:focus {
+    outline: none !important; }
+#socialTags #tagsYouAddedView .lotusTags .lotusCommentBubbleBody, #socialTags #tagsList .lotusTags .lotusCommentBubbleBody {
+    padding-top: 0 !important; }
+#socialTags #tagsYouAddedView .lotusTags .lotusCommentBubbleBody .lotusMeta, #socialTags #tagsList .lotusTags .lotusCommentBubbleBody .lotusMeta {
+    font-size: 0.75rem; }
+#socialTags #tagsYouAddedView .lotusTags .lotusCommentBubbleBody .lotusTags > li, #socialTags #tagsList .lotusTags .lotusCommentBubbleBody .lotusTags > li {
+    display: block !important;
     margin: 0 !important;
+    text-align: left; }
+#socialTags #tagsYouAddedView .lotusTags .lotusCommentBubbleBody .lotusTags > li:before, #socialTags #tagsList .lotusTags .lotusCommentBubbleBody .lotusTags > li:before {
+    content: '\2022';
+    margin: 0 .5rem;
+    display: inline-block; }
+#socialTags #tagsYouAddedView .lotusTags .lotusCommentBubbleBody .lotusTags > li a, #socialTags #tagsList .lotusTags .lotusCommentBubbleBody .lotusTags > li a {
+    padding: 0 !important;
+    background: none !important; }
+#socialTags #tagsYouAddedView .lotusTags a, #socialTags #tagsList .lotusTags a {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #FFFFFF !important; }
+#socialTags #tagsYouAddedView .lotusTags a a, #socialTags #tagsList .lotusTags a a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+#socialTags #tagsYouAddedView .lotusTags a:hover, #socialTags #tagsList .lotusTags a:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+#socialTags #tagsYouAddedView .lotusTags a:focus, #socialTags #tagsList .lotusTags a:focus {
+    text-decoration: underline !important; }
+#socialTags #tagsYouAddedView .lotusTags a:focus img, #socialTags #tagsList .lotusTags a:focus img {
+    border-bottom: 1px solid currentColor; }
+#socialTags #tagsYouAddedView .lotusTags .profileTag, #socialTags #tagsList .lotusTags .profileTag {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    order: 1;
+    position: relative !important;
+    left: auto !important;
+    padding-right: .5rem !important;
+    max-width: calc(100% - 58px) !important;
+    box-sizing: border-box; }
+#socialTags #tagsYouAddedView .lotusTags span.lotusRight, #socialTags #tagsList .lotusTags span.lotusRight {
+    order: 2; }
+#socialTags #tagsYouAddedView .lotusTags span.lotusRight .lotusDelete img, #socialTags #tagsList .lotusTags span.lotusRight .lotusDelete img {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 height=%2212px%22 width=%2212px%22 viewBox=%220 0 12 12%22%3E%3Cpath fill=%22%23595859%22 d=%22M7.7,6l3.4-3.4c0.4-0.4,0.4-1.1,0-1.5l-0.2-0.2c-0.4-0.4-1.1-0.4-1.5,0L6,4.3L2.6,0.9c-0.4-0.4-1.1-0.4-1.5,0 L0.9,1.1c-0.4,0.4-0.4,1.1,0,1.5L4.3,6L0.9,9.4c-0.4,0.4-0.4,1.1,0,1.5l0.2,0.2c0.4,0.4,1.1,0.4,1.5,0L6,7.7l3.4,3.4 c0.4,0.4,1.1,0.4,1.5,0l0.2-0.2c0.4-0.4,0.4-1.1,0-1.5L7.7,6z%22/%3E%3C/svg%3E") !important;
+    background-position: 0px 0px !important;
+    height: 9px;
+    width: 9px;
+    opacity: 1;
+    background-size: contain !important; }
+#socialTags #tagsYouAddedView .lotusTags span.lotusRight .lotusDelete, #socialTags #tagsYouAddedView .lotusTags span.lotusRight .lconnTagCount, #socialTags #tagsList .lotusTags span.lotusRight .lotusDelete, #socialTags #tagsList .lotusTags span.lotusRight .lconnTagCount {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    padding-left: .5rem !important;
+    order: 2;
+    position: relative;
+    overflow: visible;
+    z-index: 2; }
+#socialTags #tagsYouAddedView .lotusTags span.lotusRight .lotusDelete:before, #socialTags #tagsYouAddedView .lotusTags span.lotusRight .lconnTagCount:before, #socialTags #tagsList .lotusTags span.lotusRight .lotusDelete:before, #socialTags #tagsList .lotusTags span.lotusRight .lconnTagCount:before {
+    content: '\2022';
+    display: block;
+    position: absolute;
+    left: -.15rem;
+    top: 0; }
+#socialTags #tagsYouAddedView .lotusTags span.lotusRight .lconnTagCount + .lotusDelete, #socialTags #tagsList .lotusTags span.lotusRight .lconnTagCount + .lotusDelete {
+    margin-left: -.45rem !important; }
+#socialTags #tagsYouAddedView .lotusTags span.lotusRight .lconnTagCount + .lotusDelete:after, #socialTags #tagsList .lotusTags span.lotusRight .lconnTagCount + .lotusDelete:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -.25rem;
+    z-index: -10;
+    width: 2em;
+    background: #FFFFFF;
+    height: 100%;
+    display: block; }
+#socialTags #tagsYouAddedView .lotusTags span.lotusRight .lconnTagCount {
+    padding-left: 0 !important; }
+#socialTags #tagsYouAddedView .lotusTags span.lotusRight .lconnTagCount:before {
+    display: none; }
+#socialTags #add-tag-view #tagInputForm > .lotusBtnImg {
+    padding: 0 !important;
+    height: auto !important;
+    padding: .75rem 0 !important; }
+#socialTags #add-tag-view #addTagButtonId {
+    display: block;
+    padding: 2px; }
+#socialTags #add-tag-view #addTagButtonId img {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 16 16%22%3E%3Cpath fill=%22%2375263b%22 d=%22M8,0C3.6,0,0,3.6,0,8c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8C16,3.6,12.4,0,8,0z M8,15.1c-3.9,0-7.1-3.2-7.1-7.1S4.1,0.9,8,0.9 s7.1,3.2,7.1,7.1S11.9,15.1,8,15.1z%22/%3E%3Cpolygon fill=%22%2375263b%22 points=%228.5,3.9 7.5,3.9 7.5,7.5 3.9,7.5 3.9,8.5 7.5,8.5 7.5,12.1 8.5,12.1 8.5,8.5 12.1,8.5 12.1,7.5 8.5,7.5%22/%3E%3C/svg%3E") !important;
+    opacity: 1 !important;
+    margin: 0 !important; }
+#socialTags #add-tag-view #addTagButtonId:hover img {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 16 16%22%3E%3Cpath fill=%22%231D3458%22 d=%22M8,0C3.6,0,0,3.6,0,8c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8C16,3.6,12.4,0,8,0z M8,15.1c-3.9,0-7.1-3.2-7.1-7.1S4.1,0.9,8,0.9 s7.1,3.2,7.1,7.1S11.9,15.1,8,15.1z%22/%3E%3Cpolygon fill=%22%231D3458%22 points=%228.5,3.9 7.5,3.9 7.5,7.5 3.9,7.5 3.9,8.5 7.5,8.5 7.5,12.1 8.5,12.1 8.5,8.5 12.1,8.5 12.1,7.5 8.5,7.5%22/%3E%3C/svg%3E") !important; }
+#socialTags div[id^="SocialTaggerList"] {
+    width: 100%;
+    order: 3; }
+
+.contactsSearch > span,
+#searchInfo > span,
+.lotusMeta > span,
+.lotusSearchFilterSection > span {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: .25rem;
+    font-size: .75rem; }
+.contactsSearch a.lotusFilter,
+#searchInfo a.lotusFilter,
+.lotusMeta a.lotusFilter,
+.lotusSearchFilterSection a.lotusFilter {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #F3F3F3 !important;
+    vertical-align: top !important;
+    max-width: 100rem !important;
+    margin: .5rem .5rem 0 0 !important; }
+.contactsSearch a.lotusFilter a,
+#searchInfo a.lotusFilter a,
+.lotusMeta a.lotusFilter a,
+.lotusSearchFilterSection a.lotusFilter a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+.contactsSearch a.lotusFilter:hover,
+#searchInfo a.lotusFilter:hover,
+.lotusMeta a.lotusFilter:hover,
+.lotusSearchFilterSection a.lotusFilter:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+.contactsSearch a.lotusFilter:focus,
+#searchInfo a.lotusFilter:focus,
+.lotusMeta a.lotusFilter:focus,
+.lotusSearchFilterSection a.lotusFilter:focus {
+    text-decoration: underline !important; }
+.contactsSearch a.lotusFilter:focus img,
+#searchInfo a.lotusFilter:focus img,
+.lotusMeta a.lotusFilter:focus img,
+.lotusSearchFilterSection a.lotusFilter:focus img {
+    border-bottom: 1px solid currentColor; }
+.contactsSearch a.lotusFilter span.name,
+#searchInfo a.lotusFilter span.name,
+.lotusMeta a.lotusFilter span.name,
+.lotusSearchFilterSection a.lotusFilter span.name {
+    vertical-align: middle;
+    width: auto !important; }
+.contactsSearch a.lotusFilter img.lotusDelete,
+#searchInfo a.lotusFilter img.lotusDelete,
+.lotusMeta a.lotusFilter img.lotusDelete,
+.lotusSearchFilterSection a.lotusFilter img.lotusDelete {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 height=%2212px%22 width=%2212px%22 viewBox=%220 0 12 12%22%3E%3Cpath fill=%22%23595859%22 d=%22M7.7,6l3.4-3.4c0.4-0.4,0.4-1.1,0-1.5l-0.2-0.2c-0.4-0.4-1.1-0.4-1.5,0L6,4.3L2.6,0.9c-0.4-0.4-1.1-0.4-1.5,0 L0.9,1.1c-0.4,0.4-0.4,1.1,0,1.5L4.3,6L0.9,9.4c-0.4,0.4-0.4,1.1,0,1.5l0.2,0.2c0.4,0.4,1.1,0.4,1.5,0L6,7.7l3.4,3.4 c0.4,0.4,1.1,0.4,1.5,0l0.2-0.2c0.4-0.4,0.4-1.1,0-1.5L7.7,6z%22/%3E%3C/svg%3E") !important;
+    height: 9px;
+    width: 9px;
+    opacity: 1 !important;
+    margin: 0 5px !important;
+    vertical-align: middle !important;
+    background-size: contain !important;
+    background-position: 0px 0px !important; }
+.contactsSearch .lotusFilters2,
+#searchInfo .lotusFilters2,
+.lotusMeta .lotusFilters2,
+.lotusSearchFilterSection .lotusFilters2 {
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    width: 100% !important; }
+
+#searchInfo a.lotusFilter {
+    margin: 0 .5rem !important; }
+
+#lconnTagWidget_tagList > li,
+ul[id*="_tagList"] > li {
+    display: flex !important;
+    padding: 0 !important;
+    margin: .75rem 0 !important;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap; }
+#lconnTagWidget_tagList > li wbr,
+ul[id*="_tagList"] > li wbr {
+    display: none !important; }
+#lconnTagWidget_tagList > li > span, #lconnTagWidget_tagList > li > a,
+ul[id*="_tagList"] > li > span,
+ul[id*="_tagList"] > li > a {
+    float: none !important;
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #FFFFFF !important; }
+#lconnTagWidget_tagList > li > span a, #lconnTagWidget_tagList > li > a a,
+ul[id*="_tagList"] > li > span a,
+ul[id*="_tagList"] > li > a a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+#lconnTagWidget_tagList > li > span:hover, #lconnTagWidget_tagList > li > a:hover,
+ul[id*="_tagList"] > li > span:hover,
+ul[id*="_tagList"] > li > a:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+#lconnTagWidget_tagList > li > span:focus, #lconnTagWidget_tagList > li > a:focus,
+ul[id*="_tagList"] > li > span:focus,
+ul[id*="_tagList"] > li > a:focus {
+    text-decoration: underline !important; }
+#lconnTagWidget_tagList > li > span:focus img, #lconnTagWidget_tagList > li > a:focus img,
+ul[id*="_tagList"] > li > span:focus img,
+ul[id*="_tagList"] > li > a:focus img {
+    border-bottom: 1px solid currentColor; }
+#lconnTagWidget_tagList > li .lotusLeft,
+ul[id*="_tagList"] > li .lotusLeft {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    order: 1;
+    position: relative !important;
+    left: auto !important;
+    padding-right: .5rem !important;
+    max-width: calc(100% - 58px) !important;
+    box-sizing: border-box; }
+#lconnTagWidget_tagList > li .lotusRight,
+ul[id*="_tagList"] > li .lotusRight {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    padding-left: .5rem !important;
+    order: 2;
+    position: relative;
+    overflow: visible;
+    z-index: 2; }
+#lconnTagWidget_tagList > li .lotusRight:before,
+ul[id*="_tagList"] > li .lotusRight:before {
+    content: '\2022';
+    display: block;
+    position: absolute;
+    left: -.15rem;
+    top: 0; }
+#lconnTagWidget_tagList > li .lotusDelete img,
+ul[id*="_tagList"] > li .lotusDelete img {
+    margin: 6px 0; }
+
+ul.lotusRelatedTags a {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #FFFFFF !important;
+    box-sizing: border-box; }
+ul.lotusRelatedTags a a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+ul.lotusRelatedTags a:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+ul.lotusRelatedTags a:focus {
+    text-decoration: underline !important; }
+ul.lotusRelatedTags a:focus img {
+    border-bottom: 1px solid currentColor; }
+ul.lotusRelatedTags a wbr {
+    display: none !important; }
+
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li {
+    display: flex !important;
+    margin: 0;
+    padding: 0 !important;
+    margin: .75rem 0 !important;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li > span, div[dojoattachpoint="_selectedTagsSection"] .lotusList > li > a,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li > span,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li > a {
+    float: none !important; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li a,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li a {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #FFFFFF !important; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li a a,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li a a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li a:hover,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li a:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li a:focus,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li a:focus {
+    text-decoration: underline !important; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li a:focus img,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li a:focus img {
+    border-bottom: 1px solid currentColor; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li span.lotusLeft,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li span.lotusLeft {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #FFFFFF !important;
+    display: inline-block;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    order: 1;
+    position: relative !important;
+    left: auto !important;
+    padding-right: .5rem !important;
+    max-width: calc(100% - 58px) !important;
+    box-sizing: border-box; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li span.lotusLeft a,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li span.lotusLeft a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li span.lotusLeft:hover,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li span.lotusLeft:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li span.lotusLeft:focus,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li span.lotusLeft:focus {
+    text-decoration: underline !important; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li span.lotusLeft:focus img,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li span.lotusLeft:focus img {
+    border-bottom: 1px solid currentColor; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li a.lotusDelete,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li a.lotusDelete {
+    order: 2;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    padding-left: 0 !important; }
+div[dojoattachpoint="_selectedTagsSection"] .lotusList > li a.lotusDelete img,
+div[data-dojo-attach-point="_selectedTagsSection"] .lotusList > li a.lotusDelete img {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 height=%2212px%22 width=%2212px%22 viewBox=%220 0 12 12%22%3E%3Cpath fill=%22%23595859%22 d=%22M7.7,6l3.4-3.4c0.4-0.4,0.4-1.1,0-1.5l-0.2-0.2c-0.4-0.4-1.1-0.4-1.5,0L6,4.3L2.6,0.9c-0.4-0.4-1.1-0.4-1.5,0 L0.9,1.1c-0.4,0.4-0.4,1.1,0,1.5L4.3,6L0.9,9.4c-0.4,0.4-0.4,1.1,0,1.5l0.2,0.2c0.4,0.4,1.1,0.4,1.5,0L6,7.7l3.4,3.4 c0.4,0.4,1.1,0.4,1.5,0l0.2-0.2c0.4-0.4,0.4-1.1,0-1.5L7.7,6z%22/%3E%3C/svg%3E") !important;
+    height: 9px;
+    width: 9px;
+    opacity: 1;
+    background-size: contain !important;
+    background-position: 0px 0px !important; }
+
+#lconnTagWidget > div > div {
+    margin-bottom: 1rem; }
+
+#lconnTagWidgetcommonTagsTypeAhead {
+    font-size: 0.875rem !important; }
+
+.contactsSearch {
+    position: relative;
+    display: flex !important;
+    align-items: flex-start;
+    margin-bottom: 0 !important;
+    flex-direction: column;
+    float: none !important;
+    position: relative; }
+.contactsSearch .contactsSearchIconDiv {
+    position: absolute;
+    top: .35rem; }
+.contactsSearch .contactsSearchIcon {
+    margin: 0 !important; }
+.contactsSearch .inputWrap {
+    min-width: 30rem !important;
+    padding-left: 0 !important; }
+.contactsSearch .scSearchInput {
+    margin-left: 0 !important; }
+.contactsSearch .lotusFilters2 {
+    order: 3;
+    padding: 0 !important;
+    margin: .25rem 0 0 0 !important; }
+
+.commonTags #lconnTagWidget ul.lotusList.lotusRelatedTags {
+    max-height: 12.75rem;
+    overflow: auto; }
+
+input.lotusText.scTagTypeahead {
+    max-width: calc(100% - 24px);
+    min-width: 100px !important; }
+input.lotusText.scTagTypeahead + span.lotusBtnImg {
+    margin: 6px 0; }
+
+.lotusHeader .lotusMeta {
+    line-height: 2.5rem; }
+.lotusHeader .lotusMeta .lotusFilter {
+    margin-top: 0 !important;
+    margin-bottom: .5rem !important;
+    vertical-align: middle !important; }
+.lotusHeader .lotusMeta ul {
+    line-height: 1.25em; }
+
+.lotusChunk.lotusSearch {
+    width: 100%; }
+
+.lotusContent .lotusTags.lotusMeta > ul, .lotusContent .lotusTags.lotusMeta > span:not(.lotusHidden), .lotusContent .lotusTags.lotusMeta > form,
+.lotusContent .lotusTags > ul,
+.lotusContent .lotusTags > span:not(.lotusHidden),
+.lotusContent .lotusTags > form {
+    display: inline-block;
+    vertical-align: middle; }
+.lotusContent .lotusTags.lotusMeta ul,
+.lotusContent .lotusTags ul {
+    margin-top: -1px; }
+.lotusContent .lotusTags.lotusMeta span[role="list"],
+.lotusContent .lotusTags.lotusMeta ul[role="listbox"],
+.lotusContent .lotusTags span[role="list"],
+.lotusContent .lotusTags ul[role="listbox"] {
+    position: relative !important; }
+.lotusContent .lotusTags.lotusMeta span[role="separator"],
+.lotusContent .lotusTags span[role="separator"] {
+    display: none !important; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"],
+.lotusContent .lotusTags.lotusMeta li.lotusTag,
+.lotusContent .lotusTags span[role="listitem"],
+.lotusContent .lotusTags li.lotusTag {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #F3F3F3 !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    vertical-align: middle; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"] a,
+.lotusContent .lotusTags.lotusMeta li.lotusTag a,
+.lotusContent .lotusTags span[role="listitem"] a,
+.lotusContent .lotusTags li.lotusTag a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"]:hover,
+.lotusContent .lotusTags.lotusMeta li.lotusTag:hover,
+.lotusContent .lotusTags span[role="listitem"]:hover,
+.lotusContent .lotusTags li.lotusTag:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"]:focus,
+.lotusContent .lotusTags.lotusMeta li.lotusTag:focus,
+.lotusContent .lotusTags span[role="listitem"]:focus,
+.lotusContent .lotusTags li.lotusTag:focus {
+    text-decoration: underline !important; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"]:focus img,
+.lotusContent .lotusTags.lotusMeta li.lotusTag:focus img,
+.lotusContent .lotusTags span[role="listitem"]:focus img,
+.lotusContent .lotusTags li.lotusTag:focus img {
+    border-bottom: 1px solid currentColor; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"] a.bidiAware,
+.lotusContent .lotusTags.lotusMeta li.lotusTag a.bidiAware,
+.lotusContent .lotusTags span[role="listitem"] a.bidiAware,
+.lotusContent .lotusTags li.lotusTag a.bidiAware {
+    color: #000000 !important;
+    font-weight: normal !important; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"] a.bidiAware:hover,
+.lotusContent .lotusTags.lotusMeta li.lotusTag a.bidiAware:hover,
+.lotusContent .lotusTags span[role="listitem"] a.bidiAware:hover,
+.lotusContent .lotusTags li.lotusTag a.bidiAware:hover {
+    color: #75263b !important; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"] a[role="button"],
+.lotusContent .lotusTags.lotusMeta span[role="listitem"] a.qkrRemove,
+.lotusContent .lotusTags.lotusMeta li.lotusTag a[role="button"],
+.lotusContent .lotusTags.lotusMeta li.lotusTag a.qkrRemove,
+.lotusContent .lotusTags span[role="listitem"] a[role="button"],
+.lotusContent .lotusTags span[role="listitem"] a.qkrRemove,
+.lotusContent .lotusTags li.lotusTag a[role="button"],
+.lotusContent .lotusTags li.lotusTag a.qkrRemove {
+    position: relative;
+    height: 100%;
+    margin: 0 3px;
+    padding: .45rem 0;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"] a[role="button"] img,
+.lotusContent .lotusTags.lotusMeta span[role="listitem"] a.qkrRemove img,
+.lotusContent .lotusTags.lotusMeta li.lotusTag a[role="button"] img,
+.lotusContent .lotusTags.lotusMeta li.lotusTag a.qkrRemove img,
+.lotusContent .lotusTags span[role="listitem"] a[role="button"] img,
+.lotusContent .lotusTags span[role="listitem"] a.qkrRemove img,
+.lotusContent .lotusTags li.lotusTag a[role="button"] img,
+.lotusContent .lotusTags li.lotusTag a.qkrRemove img {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 height=%2212px%22 width=%2212px%22 viewBox=%220 0 12 12%22%3E%3Cpath fill=%22%23000000%22 d=%22M7.7,6l3.4-3.4c0.4-0.4,0.4-1.1,0-1.5l-0.2-0.2c-0.4-0.4-1.1-0.4-1.5,0L6,4.3L2.6,0.9c-0.4-0.4-1.1-0.4-1.5,0 L0.9,1.1c-0.4,0.4-0.4,1.1,0,1.5L4.3,6L0.9,9.4c-0.4,0.4-0.4,1.1,0,1.5l0.2,0.2c0.4,0.4,1.1,0.4,1.5,0L6,7.7l3.4,3.4 c0.4,0.4,1.1,0.4,1.5,0l0.2-0.2c0.4-0.4,0.4-1.1,0-1.5L7.7,6z%22/%3E%3C/svg%3E") !important;
+    background-position: 0px 0px !important;
+    width: 9px;
+    height: 9px;
+    background-size: contain; }
+.lotusContent .lotusTags.lotusMeta span[role="listitem"] a[role="button"]:after,
+.lotusContent .lotusTags.lotusMeta span[role="listitem"] a.qkrRemove:after,
+.lotusContent .lotusTags.lotusMeta li.lotusTag a[role="button"]:after,
+.lotusContent .lotusTags.lotusMeta li.lotusTag a.qkrRemove:after,
+.lotusContent .lotusTags span[role="listitem"] a[role="button"]:after,
+.lotusContent .lotusTags span[role="listitem"] a.qkrRemove:after,
+.lotusContent .lotusTags li.lotusTag a[role="button"]:after,
+.lotusContent .lotusTags li.lotusTag a.qkrRemove:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    width: 13px;
+    height: 60%;
+    background-color: #F3F3F3; }
+.lotusContent .lotusTags.lotusMeta:not([aria-expanded="true"]) li.lotusTag a,
+.lotusContent .lotusTags:not([aria-expanded="true"]) li.lotusTag a {
+    display: block;
+    position: relative; }
+.lotusContent .lotusTags.lotusMeta:not([aria-expanded="true"]) li.lotusTag a:after,
+.lotusContent .lotusTags:not([aria-expanded="true"]) li.lotusTag a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    width: 5px;
+    height: 60%;
+    background-color: #F3F3F3; }
+.lotusContent .lotusTags.lotusMeta form[style="display: inline;"],
+.lotusContent .lotusTags form[style="display: inline;"] {
+    display: block !important;
+    margin-top: 14px !important;
+    margin-bottom: 8px !important; }
+
+.lotusDialogContent div[class^="lotusFilters"] a.lotusFilter {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #F3F3F3 !important; }
+.lotusDialogContent div[class^="lotusFilters"] a.lotusFilter a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+.lotusDialogContent div[class^="lotusFilters"] a.lotusFilter:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+.lotusDialogContent div[class^="lotusFilters"] a.lotusFilter:focus {
+    text-decoration: underline !important; }
+.lotusDialogContent div[class^="lotusFilters"] a.lotusFilter:focus img {
+    border-bottom: 1px solid currentColor; }
+.lotusDialogContent div[class^="lotusFilters"] a.lotusFilter:hover {
+    text-decoration: none !important; }
+.lotusDialogContent div[class^="lotusFilters"] a[role="button"] img {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 height=%2212px%22 width=%2212px%22 viewBox=%220 0 12 12%22%3E%3Cpath fill=%22%23000000%22 d=%22M7.7,6l3.4-3.4c0.4-0.4,0.4-1.1,0-1.5l-0.2-0.2c-0.4-0.4-1.1-0.4-1.5,0L6,4.3L2.6,0.9c-0.4-0.4-1.1-0.4-1.5,0 L0.9,1.1c-0.4,0.4-0.4,1.1,0,1.5L4.3,6L0.9,9.4c-0.4,0.4-0.4,1.1,0,1.5l0.2,0.2c0.4,0.4,1.1,0.4,1.5,0L6,7.7l3.4,3.4 c0.4,0.4,1.1,0.4,1.5,0l0.2-0.2c0.4-0.4,0.4-1.1,0-1.5L7.7,6z%22/%3E%3C/svg%3E") !important;
+    background-position: 0px 0px !important;
+    width: 9px;
+    height: 9px;
+    background-size: contain !important; }
+
+#contactsTagWidget_tagListView {
+    max-height: 12.75rem;
+    overflow: auto; }
+
+.lotusContent form#entryform .lotusTags span[role="listitem"] {
+    overflow: visible !important;
+    position: relative; }
+.lotusContent form#entryform .lotusTags span[role="listitem"] a, .lotusContent form#entryform .lotusTags span[role="listitem"] a:hover, .lotusContent form#entryform .lotusTags span[role="listitem"] a:focus {
+    color: #595859 !important; }
+.lotusContent form#entryform .lotusTags span[role="listitem"]:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 100%;
+    height: 100%;
+    width: 7px;
+    background-color: #FFFFFF; }
+
+#forum .lotusPostContent .lotusMeta .lotusTags span,
+#topicList #forumTagEditer > span,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span {
+    font-size: 0; }
+#forum .lotusPostContent .lotusMeta .lotusTags span > span[role="listitem"],
+#topicList #forumTagEditer > span > span[role="listitem"],
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span > span[role="listitem"] {
+    cursor: default !important; }
+#forum .lotusPostContent .lotusMeta .lotusTags span span:not(.lotusAltText),
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"],
+#topicList #forumTagEditer > span span:not(.lotusAltText),
+#topicList #forumTagEditer > span a[role="listitem"],
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span:not(.lotusAltText),
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"] {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #F3F3F3 !important;
+    margin: .15rem !important; }
+#forum .lotusPostContent .lotusMeta .lotusTags span span:not(.lotusAltText) a,
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"] a,
+#topicList #forumTagEditer > span span:not(.lotusAltText) a,
+#topicList #forumTagEditer > span a[role="listitem"] a,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span:not(.lotusAltText) a,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"] a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+#forum .lotusPostContent .lotusMeta .lotusTags span span:not(.lotusAltText):hover,
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"]:hover,
+#topicList #forumTagEditer > span span:not(.lotusAltText):hover,
+#topicList #forumTagEditer > span a[role="listitem"]:hover,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span:not(.lotusAltText):hover,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"]:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+#forum .lotusPostContent .lotusMeta .lotusTags span span:not(.lotusAltText):focus,
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"]:focus,
+#topicList #forumTagEditer > span span:not(.lotusAltText):focus,
+#topicList #forumTagEditer > span a[role="listitem"]:focus,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span:not(.lotusAltText):focus,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"]:focus {
+    text-decoration: underline !important; }
+#forum .lotusPostContent .lotusMeta .lotusTags span span:not(.lotusAltText):focus img,
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"]:focus img,
+#topicList #forumTagEditer > span span:not(.lotusAltText):focus img,
+#topicList #forumTagEditer > span a[role="listitem"]:focus img,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span:not(.lotusAltText):focus img,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"]:focus img {
+    border-bottom: 1px solid currentColor; }
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"] + a[role="button"],
+#forum .lotusPostContent .lotusMeta .lotusTags span span[role="listitem"] + a[role="button"],
+#topicList #forumTagEditer > span a[role="listitem"] + a[role="button"],
+#topicList #forumTagEditer > span span[role="listitem"] + a[role="button"],
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"] + a[role="button"],
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span[role="listitem"] + a[role="button"] {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #F3F3F3 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    margin: .15rem !important;
+    margin-left: -.75rem !important;
+    padding: 0 1rem 0 0 !important; }
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"] + a[role="button"] a,
+#forum .lotusPostContent .lotusMeta .lotusTags span span[role="listitem"] + a[role="button"] a,
+#topicList #forumTagEditer > span a[role="listitem"] + a[role="button"] a,
+#topicList #forumTagEditer > span span[role="listitem"] + a[role="button"] a,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"] + a[role="button"] a,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span[role="listitem"] + a[role="button"] a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"] + a[role="button"]:hover,
+#forum .lotusPostContent .lotusMeta .lotusTags span span[role="listitem"] + a[role="button"]:hover,
+#topicList #forumTagEditer > span a[role="listitem"] + a[role="button"]:hover,
+#topicList #forumTagEditer > span span[role="listitem"] + a[role="button"]:hover,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"] + a[role="button"]:hover,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span[role="listitem"] + a[role="button"]:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"] + a[role="button"]:focus,
+#forum .lotusPostContent .lotusMeta .lotusTags span span[role="listitem"] + a[role="button"]:focus,
+#topicList #forumTagEditer > span a[role="listitem"] + a[role="button"]:focus,
+#topicList #forumTagEditer > span span[role="listitem"] + a[role="button"]:focus,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"] + a[role="button"]:focus,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span[role="listitem"] + a[role="button"]:focus {
+    text-decoration: underline !important; }
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"] + a[role="button"]:focus img,
+#forum .lotusPostContent .lotusMeta .lotusTags span span[role="listitem"] + a[role="button"]:focus img,
+#topicList #forumTagEditer > span a[role="listitem"] + a[role="button"]:focus img,
+#topicList #forumTagEditer > span span[role="listitem"] + a[role="button"]:focus img,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"] + a[role="button"]:focus img,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span[role="listitem"] + a[role="button"]:focus img {
+    border-bottom: 1px solid currentColor; }
+#forum .lotusPostContent .lotusMeta .lotusTags span a[role="listitem"] + a[role="button"] img,
+#forum .lotusPostContent .lotusMeta .lotusTags span span[role="listitem"] + a[role="button"] img,
+#topicList #forumTagEditer > span a[role="listitem"] + a[role="button"] img,
+#topicList #forumTagEditer > span span[role="listitem"] + a[role="button"] img,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span a[role="listitem"] + a[role="button"] img,
+.lotusContent span[id^="lconn_forums_TagEditor_"] > span span[role="listitem"] + a[role="button"] img {
+    height: 100% !important;
+    width: 12px !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 height=%2212px%22 width=%2212px%22 viewBox=%220 0 12 12%22%3E%3Cpath fill=%22%23595859%22 d=%22M7.7,6l3.4-3.4c0.4-0.4,0.4-1.1,0-1.5l-0.2-0.2c-0.4-0.4-1.1-0.4-1.5,0L6,4.3L2.6,0.9c-0.4-0.4-1.1-0.4-1.5,0 L0.9,1.1c-0.4,0.4-0.4,1.1,0,1.5L4.3,6L0.9,9.4c-0.4,0.4-0.4,1.1,0,1.5l0.2,0.2c0.4,0.4,1.1,0.4,1.5,0L6,7.7l3.4,3.4 c0.4,0.4,1.1,0.4,1.5,0l0.2-0.2c0.4-0.4,0.4-1.1,0-1.5L7.7,6z%22/%3E%3C/svg%3E") !important;
+    background-position: center center !important;
+    background-size: 9px 9px; }
+
+#topicList .lotusFilters a {
+    color: #000000 !important;
+    border-radius: 0.75rem !important;
+    line-height: 1.5rem !important;
+    font-size: 0.75rem !important;
+    height: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: auto !important;
+    max-width: 100%;
+    display: inline-block !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    border: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #F3F3F3 !important;
+    cursor: default !important; }
+#topicList .lotusFilters a a {
+    color: #000000 !important;
+    font-weight: normal !important; }
+#topicList .lotusFilters a:hover {
+    text-decoration: none !important;
+    color: #000000 !important; }
+#topicList .lotusFilters a:focus {
+    text-decoration: underline !important; }
+#topicList .lotusFilters a:focus img {
+    border-bottom: 1px solid currentColor; }
+#topicList .lotusFilters a .lotusClose {
+    cursor: pointer !important;
+    text-indent: -999px;
+    display: inline-block;
+    height: 100% !important;
+    width: 12px !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 height=%2212px%22 width=%2212px%22 viewBox=%220 0 12 12%22%3E%3Cpath fill=%22%23595859%22 d=%22M7.7,6l3.4-3.4c0.4-0.4,0.4-1.1,0-1.5l-0.2-0.2c-0.4-0.4-1.1-0.4-1.5,0L6,4.3L2.6,0.9c-0.4-0.4-1.1-0.4-1.5,0 L0.9,1.1c-0.4,0.4-0.4,1.1,0,1.5L4.3,6L0.9,9.4c-0.4,0.4-0.4,1.1,0,1.5l0.2,0.2c0.4,0.4,1.1,0.4,1.5,0L6,7.7l3.4,3.4 c0.4,0.4,1.1,0.4,1.5,0l0.2-0.2c0.4-0.4,0.4-1.1,0-1.5L7.7,6z%22/%3E%3C/svg%3E") !important;
+    background-position: center center !important;
+    background-size: 9px 9px;
+    background-repeat: no-repeat; }
+
+.lconnWikis .lotusContent .lotusTags li.lotusTag {
+    margin: .15rem !important; }
+
+.lotusMain #lotusColLeft .dijitTreeNode {
+    position: relative; }
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode {
+    padding: 0 !important;
+    margin: 0 !important; }
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li a,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode a {
+    padding: 14px 24px !important;
+    padding-left: calc((15px + 24px)) !important;
+    margin: 0 !important;
+    display: block;
+    border: none !important;
+    transition: border 0.23s ease, padding 0.23s ease !important; }
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li a:hover, .lotusMain #lotusColLeft .lotusMenuSection > ul > li a:focus,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode a:hover,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode a:focus {
+    background-color: #d8d8d8 !important;
+    border: none !important; }
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li .dijitTreeNodeSelected,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeNodeSelected {
+    border: none !important; }
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li .dijitTreeNodeSelected span,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeNodeSelected span {
+    border: none !important;
+    padding: 0 !important; }
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li.lotusSelected, .lotusMain #lotusColLeft .lotusMenuSection > ul > li:focus,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode.lotusSelected,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode:focus {
+    border: none !important; }
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li.lotusSelected a, .lotusMain #lotusColLeft .lotusMenuSection > ul > li:focus a,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode.lotusSelected a,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode:focus a {
+    border: none !important;
+    border-left: 4px solid #75263b !important;
+    padding-left: calc((15px + 24px) - 4px) !important;
+    font-weight: 700 !important; }
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li.lotusSelected a span, .lotusMain #lotusColLeft .lotusMenuSection > ul > li:focus a span,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode.lotusSelected a span,
+.lotusMain #lotusColLeft .lotusSection .dijitTreeNode:focus a span {
+    border: none !important;
     padding: 0 !important; }
 
 .lotusInner > .lotusMenuSection {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important; }
 
-.lotusColLeft .lotusSection {
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] {
+    margin: 0 !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection h2,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] h2 {
     margin-left: 0 !important;
     padding-left: 42px !important;
     padding-right: 24px !important;
     margin-bottom: 0 !important;
     padding-top: calc(14px + 2px) !important;
     padding-bottom: calc(14px - 2px) !important; }
-.lotusColLeft .lotusSection:hover:not([id^="section_"], [id^="#lconnTagCloudFilter"]) {
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection h2:not([aria-labelledby^="lconnTagCloudFilter_"]):hover, .sc.hikari.lotusui30 #lotusColLeft .lotusSection h2:not([aria-labelledby^="lconnTagCloudFilter_"]):focus,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] h2:not([aria-labelledby^="lconnTagCloudFilter_"]):hover,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] h2:not([aria-labelledby^="lconnTagCloudFilter_"]):focus {
     background-color: #d8d8d8 !important; }
-.lotusColLeft .lotusSection > h2 {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    height: 20 !important; }
-
-.myDriveNavigation {
-    margin-bottom: 0 !important; }
-
-.lotusui30_layout .lotusContent .filesList > div {
-    width: calc(100% - 50px) !important; }
-
-#body #lotusColLeft #lconnSideNavBody .lotusArrow.lotusSprite:focus {
-    outline: 1px solid black !important; }
-
-#pinnedfiles:focus span,
-#favoritefolders:focus span,
-#trash:focus span {
-    text-decoration: underline !important; }
-
-#body .headerSelector:focus {
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection h2 span,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] h2 span {
+    font-size: 0.875rem !important;
+    font-weight: normal !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .lotusSectionBody,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody {
+    padding: 0 !important;
+    max-width: 100%;
+    margin: 0 !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .lotusSectionBody #contactsTagWidget,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody #contactsTagWidget {
+    padding-left: calc((15px + 24px)) !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .lotusSectionBody > div,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody > div {
+    padding: 0 !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .lotusSectionBody > div *:focus, .sc.hikari.lotusui30 #lotusColLeft .lotusSection .lotusSectionBody > div *:active,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody > div *:focus,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody > div *:active {
+    outline: 0 !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .lotusSprite:focus,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSprite:focus {
+    outline: 1px solid #75263b !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeRow,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .dijitTreeNode .dijitTreeRow {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-left: calc((15px + 24px) + 21px) !important;
+    border: none !important;
+    transition: font-weight .23s ease; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected {
+    padding-left: calc(((15px + 24px) - 4px) + 21px) !important;
+    transition: border 0.23s ease, padding 0.23s ease;
+    border-left: 4px solid #75263b !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected a,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected a {
+    margin-left: 0 !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeRow span:focus, .sc.hikari.lotusui30 #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeRow span:active, .sc.hikari.lotusui30 #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected span:focus, .sc.hikari.lotusui30 #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected span:active,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .dijitTreeNode .dijitTreeRow span:focus,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .dijitTreeNode .dijitTreeRow span:active,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected span:focus,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .dijitTreeNode .dijitTreeRow.dijitTreeNodeSelected span:active {
+    outline: 0 !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .dijitTreeNode .dijitTreeRow span.dijitTreeContent,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .dijitTreeNode .dijitTreeRow span.dijitTreeContent {
+    padding: 0 !important; }
+.sc.hikari.lotusui30 #lotusColLeft .groupActionBar,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody .groupActionBar {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-left: calc((15px + 24px) + 21px) !important; }
+.sc.hikari.lotusui30 #lotusColLeft .groupActionBar a,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody .groupActionBar a {
+    color: #000000 !important;
+    font-weight: 500 !important; }
+.sc.hikari.lotusui30 #lotusColLeft .groupActionBar a:visited,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody .groupActionBar a:visited {
+    color: #000000 !important; }
+.sc.hikari.lotusui30 #lotusColLeft .groupActionBar a:active, .sc.hikari.lotusui30 #lotusColLeft .groupActionBar a:hover, .sc.hikari.lotusui30 #lotusColLeft .groupActionBar a:focus,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody .groupActionBar a:active,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody .groupActionBar a:hover,
+.sc.hikari.lotusui30 #lotusColLeft div[id^="scGroupTree"] .lotusSectionBody .groupActionBar a:focus {
+    text-decoration-line: underline !important;
+    text-decoration-color: #000000 !important;
+    text-decoration: underline !important;
     outline: none !important; }
-#body .headerSelector:focus .title > span {
-    text-decoration: underline !important; }
 
-.lotusMenuSubsection .headerSelector:focus {
-    outline: none !important; }
-.lotusMenuSubsection .headerSelector:focus > .header .title span {
-    text-decoration: underline !important; }
-
-.lotusMain #lotusColLeft #menu_fileSync_childContainer .tree .header .title,
-.lotusMain #lotusColLeft #menu_allfolders .tree .header .title {
-    display: inline-block;
-    word-wrap: break-word;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: calc(100% - 40px) !important;
+#profilePaneLeft {
+    padding: 14px 24px !important;
+    width: 264px !important;
     box-sizing: border-box; }
 
-.lotusui30 .lotusContent .lotusHeader .lotusMeta {
-    padding-top: 0px !important; }
-
-#lotusContentHeaderTitleBar {
-    margin-left: 3px;
-    padding-left: 48px; }
-#lotusContentHeaderTitleBar #scene-title {
-    padding-top: 9px !important; }
-
-.lotusui30_layout .lotusContent .filesList > div {
-    padding-left: 3px !important;
-    margin-left: 0 !important; }
-
-.filesList div[dojoattachpoint="streamNode"] > div {
-    margin-left: -4px !important; }
-.filesList div[dojoattachpoint="streamNode"] table {
-    margin-left: -14px !important; }
-.filesList div[dojoattachpoint="streamNode"] table:not(.lotusTable) {
-    margin-left: -4px !important;
-    background-color: transparent; }
-
-.lotusPlaceBar {
-    margin-right: 0 !important;
-    width: 100% !important; }
-.lotusPlaceBar div[role="toolbar"] {
-    text-align: center;
-    width: 100% !important; }
-
-.lotusColLeft {
-    margin-right: 0 !important;
-    width: 240px !important;
-    padding: 0 !important; }
-
-.widgetContainer[style] + div .lotusContent.wpthemeNarrow.wpthemeNarrowPlus {
-    padding-left: 48px !important; }
-
-.lotusRightCorner {
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .lotusSectionBody#lconnTagCloudContent {
+    padding: 14px 24px !important;
+    padding-left: calc((15px + 24px)) !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .lotusSectionBody#lconnTagCloudContent > div {
+    padding-left: 24px !important; }
+.sc.hikari.lotusui30 #lotusColLeft .lotusSection .lotusSectionBody#lconnTagCloudContent #contactsTagWidget {
     padding-left: 0 !important; }
 
-#lotusContentSceneActions {
-    margin-bottom: 3px !important; }
-#lotusContentSceneActions .lotusBtn:not(.lotusBtnDisabled) {
-    margin-bottom: 0px !important;
-    margin-left: 0 !important;
-    margin-right: 12px !important; }
-#lotusContentSceneActions .lotusBtn:not(.lotusBtnDisabled):last-child {
-    margin-right: 0 !important; }
-
-#qkrViewControl a.lotusView {
-    border-color: #75263b !important; }
-
-.lconnFilesGridItem {
-    margin-top: 12px !important;
-    margin-bottom: 12px !important;
-    margin-right: 22px !important; }
-
-.lotusPaging[dojoattachpoint="bottomPageNode"] {
-    border-top: 1px solid #d8d8d8 !important;
-    padding-top: 40px !important; }
-
-.card-back .title, .card-back .desc {
-    position: relative !important;
-    top: 8px !important; }
-
-.lotusFeed.lotusAction {
-    margin-left: 3px !important; }
-
-.lotusTileOn, .lotusDetailsOn, .lotusSummaryOn {
-    border: none !important;
-    border-bottom: 2px solid !important;
-    position: relative !important;
-    top: 1px !important; }
-
-.lotusTable tr[id^="dojoUnique"], .lotusTable#filesByUserFeedContentContainerFeedTableContainer tr {
-    border-top: 1px solid #d8d8d8 !important; }
-.lotusTable tr[id^="dojoUnique"] td, .lotusTable#filesByUserFeedContentContainerFeedTableContainer tr td {
-    padding-top: 12px !important;
-    padding-bottom: 12px !important; }
-
-div[dojoattachpoint="streamNode"] {
-    position: relative;
-    top: 1px; }
-div[dojoattachpoint="streamNode"] > div {
-    padding-bottom: 12px !important; }
-
-#listcustomizer > div {
-    padding-left: 0px !important; }
-
-#listcustomizer .lotusFormFooter input[role="button"] {
-    margin-right: 8px !important;
-    margin-left: 0px !important; }
-
-.filesList .lotusPerson.vcard .menu_drop_icon {
-    position: relative !important;
-    top: 2px !important;
-    left: 2px !important; }
-
-div[dojoattachpoint="streamNode"] {
-    margin-top: 1rem !important; }
-
-.lotusTable tr.hentry:nth-child(2) {
-    border-top: 1px solid #75263b !important; }
-
-tr.lotusSort {
-    text-transform: uppercase !important; }
-tr.lotusSort span:not(.lotusAltText), tr.lotusSort a, tr.lotusSort ul li {
-    color: #595859 !important;
-    font-weight: normal !important;
-    border: 1px solid transparent !important; }
-tr.lotusSort span[hastooltip^="dijit"]:not(.lotusAltText), tr.lotusSort a {
-    padding: 0.5rem 1.2rem !important; }
-tr.lotusSort span:not(.lotusAltText) {
-    display: inline-block !important; }
-tr.lotusSort ul li:nth-child(1) {
-    padding-left: 0 !important; }
-tr.lotusSort a {
-    background-position: calc(100% - 10px) 13px !important;
-    padding-right: 1.5rem !important;
-    padding-left: 0.9rem !important; }
-tr.lotusSort a:hover {
-    background-color: #75263b !important;
-    color: white !important;
-    border-radius: 2px !important;
-    text-decoration: none !important; }
-tr.lotusSort a:focus {
-    text-decoration: none !important;
-    border: 1px solid #75263b !important;
-    border-radius: 2px !important; }
-tr.lotusSort a.lotusDescending, tr.lotusSort a.lotusAscending {
-    background-size: 8px 8px !important; }
-tr.lotusSort a.lotusDescending {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23595859%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
-tr.lotusSort a.lotusDescending:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
-tr.lotusSort a.lotusAscending {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23595859%22 d=%22M1.4,7.5L6,2.8l4.6,4.7L12,6.1L6,0L0,6.1L1.4,7.5z%22/%3E%3C/svg%3E") !important; }
-tr.lotusSort a.lotusAscending:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23FFFFFF%22 d=%22M1.4,7.5L6,2.8l4.6,4.7L12,6.1L6,0L0,6.1L1.4,7.5z%22/%3E%3C/svg%3E") !important; }
-
-tr.lotusSort td.lotusFirstCell {
-    position: relative !important;
-    top: 5px !important;
-    padding-bottom: 24px !important; }
-
-tr.hentry td.lotusAlignRight {
-    padding-right: 1.5rem !important; }
-tr.hentry td:not(.lotusFirstCell):not(.lotusAlignRight) {
-    padding-left: 0.9rem !important; }
-
-div[dojoattachpoint="streamNode"] ul > li:nth-child(1) {
-    padding-right: 1rem !important; }
-
-.lotusTable tbody tr.dojoDndItem:not(.hentry):not(.lotusDetails) td:nth-child(4) {
-    padding-top: 19px !important; }
-.lotusTable tbody tr.dojoDndItem:not(.hentry):not(.lotusDetails) td:nth-child(5),
-.lotusTable tbody tr.dojoDndItem:not(.hentry):not(.lotusDetails) td:nth-child(6),
-.lotusTable tbody tr.dojoDndItem:not(.hentry):not(.lotusDetails) td:nth-child(7) {
-    padding-top: 22px !important; }
-
-a#withme {
-    color: #292929 !important; }
-
-.filesList .lotusPaging + div[dojoattachpoint="streamNode"] > div,
-.filesList .lotusPaging + div[dojoattachpoint="streamNode"] table.lotusTable {
-    margin-left: 0 !important; }
-
-.lotusui30 .lotusSyncViewWelcomeBox {
-    background-color: transparent !important;
-    background-image: none;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 207.8 160.02%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23f6f6f6;}.cls-2,.cls-3,.cls-5{fill:%23fff;}.cls-2,.cls-5,.cls-6{stroke:%23777677;}.cls-2,.cls-6{stroke-miterlimit:10;}.cls-4,.cls-6{fill:%23777677;}.cls-5{stroke-linecap:round;stroke-linejoin:round;}%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 1%3C/title%3E%3Cg id=%22Layer_2%22 data-name=%22Layer 2%22%3E%3Cg id=%22Layer_1-2%22 data-name=%22Layer 1%22%3E%3Ccircle class=%22cls-1%22 cx=%2280.51%22 cy=%2280.01%22 r=%2280%22 transform=%22translate(-11.25 13.2) rotate(-8.76)%22/%3E%3Ccircle class=%22cls-2%22 cx=%22171.93%22 cy=%2229.34%22 r=%222%22/%3E%3Ccircle class=%22cls-2%22 cx=%2218.71%22 cy=%224.86%22 r=%222%22/%3E%3Ccircle class=%22cls-2%22 cx=%2239.71%22 cy=%2229.34%22 r=%224%22/%3E%3Ccircle class=%22cls-2%22 cx=%22194.31%22 cy=%2260.26%22 r=%224%22/%3E%3Ccircle class=%22cls-2%22 cx=%228.5%22 cy=%2252.49%22 r=%228%22/%3E%3Ccircle class=%22cls-2%22 cx=%22199.3%22 cy=%2223.33%22 r=%228%22/%3E%3Crect class=%22cls-3%22 x=%2249.81%22 y=%2239.51%22 width=%22129%22 height=%2281%22 rx=%221.18%22 ry=%221.18%22/%3E%3Cpath class=%22cls-4%22 d=%22M177.63,40a.68.68,0,0,1,.68.68v78.64a.68.68,0,0,1-.68.68H51a.68.68,0,0,1-.68-.68V40.69A.68.68,0,0,1,51,40H177.63m0-1H51a1.68,1.68,0,0,0-1.68,1.68v78.64A1.68,1.68,0,0,0,51,121H177.63a1.68,1.68,0,0,0,1.68-1.68V40.69A1.68,1.68,0,0,0,177.63,39Z%22/%3E%3Crect class=%22cls-3%22 x=%2254.81%22 y=%2244.39%22 width=%22119%22 height=%2271%22 rx=%221.18%22 ry=%221.18%22/%3E%3Cpath class=%22cls-4%22 d=%22M172.63,44.89a.68.68,0,0,1,.68.68v68.64a.68.68,0,0,1-.68.68H56a.68.68,0,0,1-.68-.68V45.57a.68.68,0,0,1,.68-.68H172.63m0-1H56a1.68,1.68,0,0,0-1.68,1.68v68.64A1.68,1.68,0,0,0,56,115.89H172.63a1.68,1.68,0,0,0,1.68-1.68V45.57a1.68,1.68,0,0,0-1.68-1.68Z%22/%3E%3Cpath class=%22cls-2%22 d=%22M89.18,104.48h53c10.27.29,18-8.09,17.09-16.33-.8-7.25-8.17-13.44-17.09-13.06,0-2.47-.55-10.44-6.83-16.33-9-8.44-25.27-8.25-34.17,0a22.75,22.75,0,0,0-6.83,14.7c-.92-.53-8.15-4.56-15.38-1.63-8,3.25-11.58,13.28-8.54,21.23C73.08,100.11,80.71,104.82,89.18,104.48Z%22/%3E%3Cpath class=%22cls-5%22 d=%22M38.31,120.74h152a0,0,0,0,1,0,0v2a4,4,0,0,1-4,4h-144a4,4,0,0,1-4-4v-2a0,0,0,0,1,0,0Z%22/%3E%3Crect class=%22cls-5%22 x=%22103.31%22 y=%22120.74%22 width=%2222%22 height=%223%22 rx=%220.7%22 ry=%220.7%22/%3E%3Cpath class=%22cls-5%22 d=%22M113.56,56.86a20.24,20.24,0,0,1,23.51,11.39%22/%3E%3Cpath class=%22cls-5%22 d=%22M137.95,70.38l.34,1.24%22/%3E%3Crect class=%22cls-2%22 x=%2218.71%22 y=%2271.94%22 width=%2224%22 height=%2240%22 rx=%221.79%22 ry=%221.79%22/%3E%3Crect class=%22cls-2%22 x=%2221.71%22 y=%2274.94%22 width=%2218%22 height=%2232%22 rx=%221.79%22 ry=%221.79%22/%3E%3Ccircle class=%22cls-6%22 cx=%2230.71%22 cy=%22109.45%22 r=%220.75%22/%3E%3Ccircle class=%22cls-2%22 cx=%22166.53%22 cy=%2271.62%22 r=%222%22/%3E%3Ccircle class=%22cls-2%22 cx=%2239.71%22 cy=%2264.94%22 r=%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
-    background-repeat: no-repeat !important;
-    background-position: center;
-    background-position-y: 0px;
-    background-size: 300px 300px;
-    padding-top: 300px !important; }
-.lotusui30 .lotusSyncViewWelcomeBox .lotusSyncHeading {
-    color: #75263b; }
-.lotusui30 .lotusSyncViewWelcomeBox p {
-    font-weight: normal;
-    color: #000000 !important; }
-.lotusui30 .lotusSyncViewWelcomeBox .lotusSyncLinkSpan {
-    font-weight: normal;
-    color: #000000 !important; }
-.lotusui30 .lotusSyncViewWelcomeBox .lotusSyncLinkSpan a {
-    color: #75263b !important;
-    margin-left: 10px; }
-.lotusui30 .lotusSyncViewWelcomeBox .lotusSyncButtonDiv .lotusSyncInstallButton {
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover {
     border-radius: 2rem !important;
     border-width: 1px !important;
     border-style: solid !important;
@@ -6132,41 +7347,116 @@ a#withme {
     background-color: #75263b !important;
     border-color: #75263b !important;
     color: #FFFFFF !important; }
-.lotusui30 .lotusSyncViewWelcomeBox .lotusSyncButtonDiv .lotusSyncInstallButton:hover, .lotusui30 .lotusSyncViewWelcomeBox .lotusSyncButtonDiv .lotusSyncInstallButton:active {
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:active {
     text-decoration: none !important;
     outline: none; }
-.lotusui30 .lotusSyncViewWelcomeBox .lotusSyncButtonDiv .lotusSyncInstallButton:focus {
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:focus {
     box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
     outline: none !important; }
-.dj_a11y .lotusui30 .lotusSyncViewWelcomeBox .lotusSyncButtonDiv .lotusSyncInstallButton:focus, .dijit_a11y .lotusui30 .lotusSyncViewWelcomeBox .lotusSyncButtonDiv .lotusSyncInstallButton:focus {
+.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:focus {
     box-shadow: none !important;
     outline: 1px solid #75263b !important;
     outline-offset: 1px; }
-.lotusui30 .lotusSyncViewWelcomeBox .lotusSyncButtonDiv .lotusSyncInstallButton:active, .lotusui30 .lotusSyncViewWelcomeBox .lotusSyncButtonDiv .lotusSyncInstallButton:hover {
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:hover {
     background-color: #FFFFFF !important;
     color: #75263b !important;
     border-color: #75263b !important; }
-.lotusui30 .lotusSyncViewWelcomeBox #lotusSyncPicBackground {
-    display: none; }
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"], div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"] {
+    border-radius: 2rem !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    box-shadow: none !important;
+    transform: translateZ(0) !important;
+    -webkit-font-smoothing: antialiased !important;
+    cursor: pointer !important;
+    -webkit-box-align: center !important;
+    -webkit-box-pack: center !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+    white-space: nowrap !important;
+    padding: 9px 20px !important;
+    font-weight: 500 !important;
+    background-image: none !important;
+    margin: 2px 4px 3px 2px !important;
+    background-color: #FFFFFF !important;
+    border-color: #75263b !important;
+    color: #75263b !important; }
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:active {
+    text-decoration: none !important;
+    outline: none; }
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:focus, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:focus {
+    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
+    outline: none !important; }
+.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:focus, .dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:focus {
+    box-shadow: none !important;
+    outline: 1px solid #75263b !important;
+    outline-offset: 1px; }
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:hover {
+    background-color: #75263b !important;
+    color: #FFFFFF !important;
+    border-color: #75263b !important; }
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover {
+    border-radius: 2rem !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    box-shadow: none !important;
+    transform: translateZ(0) !important;
+    -webkit-font-smoothing: antialiased !important;
+    cursor: pointer !important;
+    -webkit-box-align: center !important;
+    -webkit-box-pack: center !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+    white-space: nowrap !important;
+    padding: 9px 20px !important;
+    font-weight: 500 !important;
+    background-image: none !important;
+    margin: 2px 4px 3px 2px !important;
+    background-color: #75263b !important;
+    border-color: #75263b !important;
+    color: #FFFFFF !important; }
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:active {
+    text-decoration: none !important;
+    outline: none; }
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:focus, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:focus {
+    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
+    outline: none !important; }
+.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:focus, .dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:focus {
+    box-shadow: none !important;
+    outline: 1px solid #75263b !important;
+    outline-offset: 1px; }
+div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:hover {
+    background-color: #FFFFFF !important;
+    color: #75263b !important;
+    border-color: #75263b !important; }
 
-#body .filesList table tbody tr td:nth-child(4) a[role="button"] {
-    position: relative !important;
-    top: 2px !important; }
-#body .filesList table tbody tr td:nth-child(4) a[role="button"] img.lconnSprite {
-    background-position: 0 0 !important;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23595859%22 d=%22M12,0C5.4,0,0,5.4,0,12s5.4,12,12,12s12-5.4,12-12S18.6,0,12,0z M12,22C6.5,22,2,17.5,2,12S6.5,2,12,2s10,4.5,10,10 S17.5,22,12,22z%22/%3E%3Cpolygon fill=%22%23595859%22 points=%2218.1,9.1 12,15.2 5.9,9.1 4.5,10.5 12,18 13.4,16.6 13.4,16.6 19.5,10.5%22/%3E%3C/svg%3E"); }
-#body .filesList table tbody tr td:nth-child(4) a[role="button"]:hover img.lconnSprite {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23595859%22 d=%22M12,0C5.4,0,0,5.4,0,12s5.4,12,12,12s12-5.4,12-12S18.6,0,12,0z M13.4,16.6L12,18l-7.5-7.5l1.4-1.4l6.1,6.1l6.1-6.1 l1.4,1.4L13.4,16.6L13.4,16.6z%22/%3E%3C/svg%3E"); }
+.lotusSearch.lconn_directorySearchBox .lotusBtnImg.lconn_searchIcon {
+    margin-top: 0 !important; }
+.lotusSearch.lconn_directorySearchBox .lotusBtnImg.lconn_searchIcon input {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%23000000%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E") top left no-repeat !important; }
 
-.lotusTable tr.lotusDetails a {
-    font-weight: normal !important; }
+.lconn_directoryPage .lconn_content {
+    border: none !important;
+    padding: 0 !important; }
+.lconn_directoryPage .lconn_content .lconn_resultContainer.lconnSearchHighlight > div {
+    display: flex;
+    flex-direction: row;
+    margin: 0 !important; }
+.lconn_directoryPage .lconn_content .lconn_resultContainer.lconnSearchHighlight > div:first-child {
+    margin-bottom: 2rem !important; }
+.lconn_directoryPage .lconn_content .lconn_resultContainer.lconnSearchHighlight > div:first-child .lconn_personContainer {
+    width: calc(50% - 1rem) !important; }
+.lconn_directoryPage .lconn_content .lconn_resultContainer.lconnSearchHighlight > div .lconn_personContainer {
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+    margin: .5rem !important;
+    width: calc(33.3333% - 1rem) !important; }
+.lconn_directoryPage .lconn_content .lconn_resultContainer.lconnSearchHighlight > div .lconn_personContainer.pfSelected {
+    background-color: transparent !important;
+    border-color: #75263b; }
 
-.lconnFiles .ic-thumb-widget-flip-card {
-     border: none;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-/*# sourceMappingURL=files.css.map */
+/*# sourceMappingURL=profiles.css.map */
