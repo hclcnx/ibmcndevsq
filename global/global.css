@@ -23,6 +23,34 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
 #lotusFrame .activityStreamPage {
   background: #f1f1f1; }
 
+#lotusFrame #lotusMain #lotusColLeft:not(.wpthemeNarrow), #lotusFrame #lotusMain .lotusColLeft:not(.wpthemeNarrow), #lotusFrame .lotusMain #lotusColLeft:not(.wpthemeNarrow), #lotusFrame .lotusMain .lotusColLeft:not(.wpthemeNarrow), .lotusFrame #lotusMain #lotusColLeft:not(.wpthemeNarrow), .lotusFrame #lotusMain .lotusColLeft:not(.wpthemeNarrow), .lotusFrame .lotusMain #lotusColLeft:not(.wpthemeNarrow), .lotusFrame .lotusMain .lotusColLeft:not(.wpthemeNarrow) {
+  width: 240px; }
+
+.lotusMain #lotusColLeft:not(.wpthemeNarrow) * {
+  max-width: 100% !important; }
+
+.lotusMain #lotusColLeft:not(.wpthemeNarrow) #lotusSidenav {
+  margin: 0 !important; }
+
+.lotusMain #lotusColLeft:not(.wpthemeNarrow) {
+  width: 240px;
+  padding: 1rem 0 0 !important;
+  margin: 0 !important; }
+
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li.lotusSelected a, .lotusMain #lotusColLeft .lotusMenuSection > ul > li:focus a, .lotusMain #lotusColLeft .lotusSection .dijitTreeNode.lotusSelected a, .lotusMain #lotusColLeft .lotusSection .dijitTreeNode:focus a {
+  border: none !important;
+  border-left: 4px solid #75263b !important;
+  padding-left: calc((15px + 24px) - 4px) !important;
+  font-weight: 700 !important; }
+
+.lotusMain #lotusColLeft .lotusMenuSection > ul > li a, .lotusMain #lotusColLeft .lotusSection .dijitTreeNode a {
+  padding: 14px 24px !important;
+  padding-left: calc((15px + 24px)) !important;
+  margin: 0 !important;
+  display: block;
+  border: none !important;
+  transition: border 0.23s ease, padding 0.23s ease !important; }
+
 .lotusLoading {
   background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 41.2 41.2%22%3E%3Cpath fill=%22%2375263b%22 d=%22M38.7,10.7l-3.3,1.8c1.4,2.5,2.1,5.2,2.1,8.1c0,9.3-7.6,16.9-16.9,16.9c-9.3,0-16.8-7.6-16.8-16.9 c0-9.3,7.5-16.8,16.8-16.8V0C9.3,0,0,9.3,0,20.6C0,32,9.3,41.3,20.6,41.3c11.4,0,20.7-9.3,20.7-20.7C41.3,17.1,40.4,13.7,38.7,10.7z%22/%3E%3C/svg%3E") !important;
   animation-name: rotate;
@@ -604,7 +632,7 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
   background-size: 9px 9px !important; }
 
 .lotusui30_body .ics-viewer .ics-viewer-toolbar .ics-viewer-action.dropdown-menu:not(.ics-viewer-more-actions):hover .dropdown-menu-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%#75263b%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23#75263b%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important; }
 
 #body .ics-viewer-toolbar .ics-viewer-action-download img, .lotusProfiles .ics-viewer-toolbar .ics-viewer-action-download img, .lotusui.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action-download img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22download_24%22 fill=%22%23595859%22%3E%3Cg id=%22download%22 transform=%22translate(0.000000, 2.000000)%22%3E%3Cpolygon id=%22Fill-1%22 points=%2211.5002 0.0003 11.5002 15.1143 5.7002 9.2993 4.9932 10.0063 11.9992 17.0313 19.0182 10.0183 18.3102 9.3113 12.5002 15.1173 12.5002 0.0003%22%3E%3C/polygon%3E%3Cpath d=%22M22.0001,2 L16.0001,2 L16.0001,3 L22.0001,3 C22.5511,3 23.0001,3.449 23.0001,4 L23.0001,18 C23.0001,18.551 22.5511,19 22.0001,19 L2.0001,19 C1.4491,19 1.0001,18.551 1.0001,18 L1.0001,4 C1.0001,3.449 1.4491,3 2.0001,3 L8.0001,3 L8.0001,2 L2.0001,2 C0.8951,2 0.0001,2.895 0.0001,4 L0.0001,18 C0.0001,19.105 0.8951,20 2.0001,20 L22.0001,20 C23.1051,20 24.0001,19.105 24.0001,18 L24.0001,4 C24.0001,2.895 23.1051,2 22.0001,2%22 id=%22Fill-2%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
@@ -614,11 +642,11 @@ div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStr
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%233C6DF0%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important; }
 
 #body .ics-viewer-toolbar .ics-viewer-action-like .checked img, .lotusProfiles .ics-viewer-toolbar .ics-viewer-action-like .checked img, .lotusui.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action-like .checked img {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%#75263b%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23#75263b%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1%22/%3E%3C/svg%3E") !important;
   background-position: 0 !important; }
 
 #body .ics-viewer-toolbar .ics-viewer-action-like .unchecked img, .lotusProfiles .ics-viewer-toolbar .ics-viewer-action-like .unchecked img, .lotusui.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action-like .unchecked img {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%#75263b%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23#75263b%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important;
   background-position: 0 !important; }
 
 #body .ics-viewer-toolbar .ics-viewer-action-close img, .lotusProfiles .ics-viewer-toolbar .ics-viewer-action-close img, .lotusui.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action-close img {
