@@ -390,6 +390,9 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
 .lotusui30_body.cke_editable {
   background: #f6f9fc !important; }
 
+.cke_editable {
+  overflow: hidden; }
+
 #activitiesMain {
   background: #f1f1f1; }
 
