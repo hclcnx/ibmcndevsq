@@ -14,18 +14,6 @@
 	 * implied. See the License for the specific language governing
 	 * permissions and limitations under the License.
 */
-/*FILES STYLE SHEET*/
-/* Variable and mixin Imports*/
-/* Border radius */
-/* Box Shadows */
-/* Link Mix-ins */
-/* Large close icon */
-/* Note - May also need to include a display:none on an existing button img */
-/* Tag mixin */
-/*Component Imports*/
-#notificationsMenu #headerPopupNode, #notificationsMenu .icBanner-popover-footer ul {
-  padding: 18px 24px 18px 24px !important; }
-
 #notificationsMenu .header-left {
   font-weight: 700 !important;
   padding: 0px !important;
@@ -34,135 +22,163 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
-
-#notificationsMenu .header-right span, #notificationsMenu .header-right a {
-  color: #75263b !important;
-  padding: 0px !important;
-  margin: 0px !important; }
-
-#notificationsMenu .header-right span:hover, #notificationsMenu .header-right span:focus, #notificationsMenu .header-right a:hover, #notificationsMenu .header-right a:focus {
-  text-decoration: underline !important;
-  outline: none; }
-
 #notificationsMenu .header-right {
   padding: 0px !important; }
-
-#notificationsMenu .header-right #separator {
-  display: none !important; }
-
-#notificationsMenu .header-right a.icBanner-popover-notificationSettings {
-  position: absolute !important;
-  bottom: 17px !important;
-  right: 24px !important; }
-
-#notificationsMenu .header-right span.icBanner-popover-notificationReadAll {
-  position: absolute !important;
-  right: 24px;
-  top: 22px;
-  text-align: right;
-  width: 32%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis; }
-
+  #notificationsMenu .header-right span, #notificationsMenu .header-right a {
+    color: #75263b !important;
+    padding: 0px !important;
+    margin: 0px !important; }
+    #notificationsMenu .header-right span:hover, #notificationsMenu .header-right span:focus, #notificationsMenu .header-right a:hover, #notificationsMenu .header-right a:focus {
+      text-decoration: underline !important;
+      outline: none; }
+  #notificationsMenu .header-right a.icBanner-popover-notificationSettings {
+    position: absolute !important;
+    bottom: 17px !important;
+    right: 24px !important; }
+  #notificationsMenu .header-right span.icBanner-popover-notificationReadAll {
+    position: absolute !important;
+    right: 24px;
+    top: 22px;
+    text-align: right;
+    width: 32%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  #notificationsMenu .header-right #separator {
+    display: none !important; }
 #notificationsMenu .icBanner-popover-header {
   border-bottom: 1px solid #F3F3F3; }
-
 #notificationsMenu .icBanner-popover-footer {
   border-top: 1px solid #F3F3F3; }
-
-#notificationsMenu .icBanner-popover-footer ul {
-  padding-bottom: 16px !important; }
-
-#notificationsMenu .icBanner-popover-footer .icBanner-footer-link {
-  font-size: 14px !important;
-  color: #75263b !important; }
-
-#notificationsMenu .icBanner-popover-footer .icBanner-footer-link:hover {
-  text-decoration: underline !important; }
-
+  #notificationsMenu .icBanner-popover-footer ul {
+    padding: 18px 24px 18px 24px !important;
+    padding-bottom: 16px !important; }
+  #notificationsMenu .icBanner-popover-footer .icBanner-footer-link {
+    font-size: 14px !important;
+    color: #75263b !important; }
+    #notificationsMenu .icBanner-popover-footer .icBanner-footer-link:hover {
+      text-decoration: underline !important; }
+#notificationsMenu #headerPopupNode {
+  padding: 18px 24px 18px 24px !important; }
 #notificationsMenu .icBanner-popover-content .icNotification-post {
   padding-left: 14px !important;
   padding-top: 16px !important;
   padding-bottom: 16px !important; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post:before {
+    width: 100% !important; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post:hover {
+    background-color: #F3F3F3 !important; }
+    #notificationsMenu .icBanner-popover-content .icNotification-post:hover .icNote-summary p:after {
+      background-color: #F3F3F3 !important; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-time abbr {
+    text-decoration: none !important;
+    font-weight: normal !important;
+    color: #595859 !important; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title {
+    font-weight: 600 !important; }
+    #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a {
+      color: #75263b !important;
+      font-weight: bold !important; }
+      #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:active, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:hover, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:focus {
+        text-decoration-line: underline !important;
+        text-decoration-color: #75263b !important;
+        text-decoration: underline !important;
+        outline: none !important; }
+      #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:visited {
+        color: #75263b !important; }
+      #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a.fn.url {
+        color: black !important;
+        display: block; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-summary {
+    text-overflow: ellipsis !important; }
+    #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-summary img {
+      height: auto;
+      width: auto;
+      max-width: 100%;
+      clear: both;
+      float: left; }
+    #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-summary p:lang(en):after {
+      content: 'No comment provided';
+      color: #595859;
+      font-weight: 400;
+      position: relative;
+      bottom: 0;
+      left: -13px;
+      width: 400px;
+      height: 10px;
+      background: #FFFFFF;
+      display: inline-block; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post .bluedot {
+    border-color: #75263b !important;
+    top: 19px !important;
+    left: 45px !important;
+    width: 8px !important;
+    height: 8px !important; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body:not(.selected) .bluedot {
+    background-color: #75263b !important; }
+    #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body:not(.selected) .bluedot:hover {
+      border-color: #75263b !important; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .bluedot {
+    display: none !important; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title a {
+    font-weight: 400 !important; }
+  #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title.fn.url, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title a.fn.url {
+    color: #595859 !important; }
 
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body:not(.selected) .bluedot {
-  background-color: #75263b !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body:not(.selected) .bluedot:hover {
-  border-color: #75263b !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .bluedot {
-  display: none !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title a {
-  font-weight: 400 !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title.fn.url, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title a.fn.url {
-  color: #595859 !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-summary {
-  text-overflow: ellipsis !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-summary img {
-  height: auto;
-  width: auto;
-  max-width: 100%;
-  clear: both;
-  float: left; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-summary p:lang(en):after {
-  content: 'No comment provided';
-  color: #595859;
-  font-weight: 400;
-  position: relative;
-  bottom: 0;
-  left: -13px;
-  width: 400px;
-  height: 10px;
-  background: #FFFFFF;
-  display: inline-block; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .bluedot {
-  border-color: #75263b !important;
-  top: 19px !important;
-  left: 45px !important;
-  width: 8px !important;
-  height: 8px !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title {
-  font-weight: 600 !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a {
-  color: #75263b !important;
-  font-weight: bold !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:visited {
-  color: #75263b !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:active, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:hover, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a:focus {
-  text-decoration-line: underline !important;
-  text-decoration-color: #75263b !important;
-  text-decoration: underline !important;
-  outline: none !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-title a.fn.url {
-  color: black !important;
-  display: block; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post .icNote-time abbr {
-  text-decoration: none !important;
-  font-weight: normal !important;
-  color: #595859 !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post:before {
-  width: 100% !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post:hover {
-  background-color: #F3F3F3 !important; }
-
-#notificationsMenu .icBanner-popover-content .icNotification-post:hover .icNote-summary p:after {
-  background-color: #F3F3F3 !important; }
+#javlinDiv .personMenu {
+  width: 320px !important; }
+  #javlinDiv .personMenu a {
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 600 !important;
+    color: #75263b !important; }
+  #javlinDiv .personMenu .topActionHolder .topAction {
+    display: inline-block;
+    padding-right: 10px;
+    border: 0;
+    padding-left: 0; }
+    #javlinDiv .personMenu .topActionHolder .topAction::before {
+      content: none; }
+  #javlinDiv .personMenu .topActionHolder .photoCard {
+    height: 75px !important;
+    width: 75px !important; }
+  #javlinDiv .personMenu .topActionHolder img {
+    height: 75px !important;
+    width: 75px !important; }
+  #javlinDiv .personMenu .topActionHolder .businessCard {
+    margin-left: 0rem !important;
+    width: 180px !important;
+    margin-right: 1.2rem !important;
+    margin-bottom: 1rem !important; }
+  #javlinDiv .personMenu .personMenuActionsCompact {
+    border-top: 1px solid #d8d8d8 !important;
+    padding: 0.5rem 0 !important;
+    margin: 0 1rem !important; }
+    #javlinDiv .personMenu .personMenuActionsCompact span {
+      color: #d8d8d8 !important; }
+  #javlinDiv .personMenu ul.topActionHolder {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #d8d8d8 !important;
+    margin: 0 1rem 1rem 1rem !important;
+    padding: 0.5rem 0 !important; }
+    #javlinDiv .personMenu ul.topActionHolder li.topActionClose {
+      padding-right: 0 !important; }
+    #javlinDiv .personMenu ul.topActionHolder li.topAction a {
+      color: #75263b !important; }
+      #javlinDiv .personMenu ul.topActionHolder li.topAction a:hover {
+        text-decoration-color: #75263b !important; }
+      #javlinDiv .personMenu ul.topActionHolder li.topAction a::after {
+        content: "";
+        padding-left: 1px;
+        margin-left: 8px !important;
+        background-color: #d8d8d8 !important;
+        margin-top: 3px !important; }
+      #javlinDiv .personMenu ul.topActionHolder li.topAction a::before {
+        padding: 0 !important; }
+    #javlinDiv .personMenu ul.topActionHolder li.topAction:nth-child(2) a::after, #javlinDiv .personMenu ul.topActionHolder li.topAction:last-child a::after {
+      margin-left: 0 !important;
+      padding-left: 0 !important; }
+  #javlinDiv .personMenu li.lotusBreakWord:nth-child(4) {
+    margin-top: 1rem !important; }
 
 /*Notificaiton panel full length*/
 .navsimplelist.notificationCenterContainer {
@@ -235,63 +251,6 @@ a:visited.lotusPerson,
   background-repeat: no-repeat !important;
   margin-left: 0px !important;
   margin-right: 5px !important; }
-
-#javlinDiv .personMenu {
-  width: 320px !important; }
-
-#javlinDiv .personMenu .photoCard {
-  height: 75px !important;
-  width: 75px !important; }
-
-#javlinDiv .personMenu img {
-  height: 75px !important;
-  width: 75px !important; }
-
-#javlinDiv .personMenu .businessCard {
-  margin-left: 0rem !important;
-  width: 180px !important;
-  margin-right: 1.2rem !important;
-  margin-bottom: 1rem !important; }
-
-#javlinDiv .personMenu li.lotusBreakWord:nth-child(4) {
-  margin-top: 1rem !important; }
-
-#javlinDiv .personMenu ul.topActionHolder {
-  background-color: white !important;
-  border-bottom: 1px solid #d8d8d8 !important;
-  margin: 0 1rem 1rem 1rem !important;
-  padding: 0.5rem 0 !important; }
-
-#javlinDiv .personMenu ul.topActionHolder li.topAction a {
-  color: #75263b !important; }
-
-#javlinDiv .personMenu ul.topActionHolder li.topAction a:hover {
-  text-decoration-color: #75263b !important; }
-
-#javlinDiv .personMenu ul.topActionHolder li.topAction a::after {
-  content: "";
-  padding-left: 1px;
-  margin-left: 8px !important;
-  background-color: #d8d8d8 !important;
-  margin-top: 3px !important; }
-
-#javlinDiv .personMenu ul.topActionHolder li.topAction::before {
-  padding: 0 !important; }
-
-#javlinDiv .personMenu ul.topActionHolder li.topAction:nth-child(2) a::after, #javlinDiv .personMenu ul.topActionHolder li.topAction:last-child a::after {
-  margin-left: 0 !important;
-  padding-left: 0 !important; }
-
-#javlinDiv .personMenu ul.topActionHolder li.topActionClose {
-  padding-right: 0 !important; }
-
-#javlinDiv .personMenu .personMenuActionsCompact {
-  border-top: 1px solid #d8d8d8 !important;
-  padding: 0.5rem 0 !important;
-  margin: 0 1rem !important; }
-
-#javlinDiv .personMenu .personMenuActionsCompact span {
-  color: #d8d8d8 !important; }
 
 .ics-viewer-splitbutton .actionLink,
 .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink,
