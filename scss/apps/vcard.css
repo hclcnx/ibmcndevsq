@@ -1,0 +1,55 @@
+#javlinDiv .personMenu {
+  width: 320px !important; }
+  #javlinDiv .personMenu a {
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 600 !important; }
+  #javlinDiv .personMenu .topActionHolder .topAction {
+    display: inline-block;
+    padding-right: 10px;
+    border: 0;
+    padding-left: 0; }
+    #javlinDiv .personMenu .topActionHolder .topAction::before {
+      content: none; }
+  #javlinDiv .personMenu .topActionHolder .photoCard {
+    height: 75px !important;
+    width: 75px !important; }
+  #javlinDiv .personMenu .topActionHolder img {
+    height: 75px !important;
+    width: 75px !important; }
+  #javlinDiv .personMenu .topActionHolder .businessCard {
+    margin-left: 0rem !important;
+    width: 180px !important;
+    margin-right: 1.2rem !important;
+    margin-bottom: 1rem !important; }
+  #javlinDiv .personMenu .personMenuActionsCompact {
+    border-top: 1px solid #d8d8d8 !important;
+    padding: 0.5rem 0 !important;
+    margin: 0 1rem !important; }
+    #javlinDiv .personMenu .personMenuActionsCompact span {
+      color: #d8d8d8 !important; }
+  #javlinDiv .personMenu ul.topActionHolder {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #d8d8d8 !important;
+    margin: 0 1rem 1rem 1rem !important;
+    padding: 0.5rem 0 !important; }
+    #javlinDiv .personMenu ul.topActionHolder li.topActionClose {
+      padding-right: 0 !important; }
+    #javlinDiv .personMenu ul.topActionHolder li.topAction a {
+      color: #75263b !important; }
+      #javlinDiv .personMenu ul.topActionHolder li.topAction a:hover {
+        text-decoration-color: #75263b !important; }
+      #javlinDiv .personMenu ul.topActionHolder li.topAction a::after {
+        content: "";
+        padding-left: 1px;
+        margin-left: 8px !important;
+        background-color: #d8d8d8 !important;
+        margin-top: 3px !important; }
+      #javlinDiv .personMenu ul.topActionHolder li.topAction a::before {
+        padding: 0 !important; }
+    #javlinDiv .personMenu ul.topActionHolder li.topAction:nth-child(2) a::after, #javlinDiv .personMenu ul.topActionHolder li.topAction:last-child a::after {
+      margin-left: 0 !important;
+      padding-left: 0 !important; }
+  #javlinDiv .personMenu li.lotusBreakWord:nth-child(4) {
+    margin-top: 1rem !important; }
+
+/*# sourceMappingURL=vcard.css.map */
