@@ -1,26 +1,4 @@
-.lotusui30 .lotusDetailsOn, .lotusui30 .lotusFolderOn, .lotusui30 .lotusSummaryOn, .lotusui30 .lotusTileOn, .lotusui30 .lotusTreeOn {
-	border-color: #75263b;
-}
 
-.lotusui30 .lotusPlaceBar .lotusInlinelist li {
-	border-left-color: #75263b;
-}
-
-.lconnFilesTree .node .highlight {
-	border-left: 4px solid #75263b;
-}
-
-.lotusui30 .lotusPaging .lotusInlinelist li {
-	border-left: none !important;
-}
-
-.lotusui30 .lotusDialog .lotusDialogHeader {
-	background: #75263b;
-}
-
-.lotusui30 .lotusColLeft .lconnNavTreeSelector.lotusSelected {
-	border-left: 4px solid #75263b;
-}
 
 .personMenu .topActionHolder {
 	background: #75263b !important;
@@ -38,13 +16,6 @@
 	color: gray;
 }
 
-.lotusui30 .lotusTitleBar2 .lotusNavTabs {
-	border-bottom: none;
-}
-
-.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab {
-	border-bottom: 2px solid #75263b;
-}
 
 #memberPane div[role=list], .MoveActivity .selection .itemNotSelected, .lotusui30 .list {
 	background-color: #f1f1f1;
