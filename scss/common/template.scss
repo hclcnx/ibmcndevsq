@@ -20,3 +20,8 @@
   border-bottom: 0.0625rem solid $bordeaux !important;
   border-top: 0.0625rem solid $bordeaux !important;
 }
+
+@mixin size($width, $height) {
+    width: $width !important;
+    height: $height !important;
+}
