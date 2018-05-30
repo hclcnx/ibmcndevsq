@@ -1,0 +1,200 @@
+@import "../common/var";
+// Notifications
+#notificationsMenu {
+    .header-left {
+        font-weight: 700 !important;
+        padding: 0px !important;
+        font-size: 1rem;
+        width: 63%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .header-right {
+        padding: 0px !important;
+
+        span, a {
+            color: $bordeaux !important;
+            padding: 0px !important;
+            margin: 0px !important;
+
+            &:hover, &:focus {
+                text-decoration: underline !important;
+                outline: none;
+            }
+        }
+
+        a {
+            &.icBanner-popover-notificationSettings {
+                position: absolute !important;
+                bottom: 17px !important;
+                right: 24px !important;
+            }
+        }
+
+        span {
+            &.icBanner-popover-notificationReadAll {
+                position: absolute !important;
+                right: 24px;
+                top: 22px;
+                text-align: right;
+                width: 32%;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+
+        #separator {
+            display: none !important;
+        }
+    }
+
+    .icBanner-popover-header {
+        border-bottom: 1px solid #F3F3F3;
+    }
+
+    .icBanner-popover-footer {
+        border-top: 1px solid #F3F3F3;
+
+        ul {
+            padding: 18px 24px 18px 24px !important;
+            padding-bottom: 16px !important;
+        }
+
+        .icBanner-footer-link {
+            font-size: 14px !important;
+            color: $bordeaux !important;
+
+            &:hover {
+                text-decoration: underline !important;
+            }
+        }
+    }
+
+    #headerPopupNode {
+        padding: 18px 24px 18px 24px !important;
+    }
+
+    .icBanner-popover-content {
+        .icNotification-post {
+            padding-left: 14px !important;
+            padding-top: 16px !important;
+            padding-bottom: 16px !important;
+
+            &:before {
+                width: 100% !important;
+            }
+
+            &:hover {
+                background-color: #F3F3F3 !important;
+
+                .icNote-summary {
+                    p {
+                        &:after {
+                            background-color: #F3F3F3 !important;
+                        }
+                    }
+                }
+            }
+
+            .icNote-time {
+                abbr {
+                    text-decoration: none !important;
+                    font-weight: normal !important;
+                    color: #595859 !important;
+                }
+            }
+
+            .icNote-title {
+                font-weight: 600 !important;
+
+                a {
+                    color: $bordeaux !important;
+                    font-weight: bold !important;
+
+                    &:active, &:hover, &:focus {
+                        text-decoration-line: underline !important;
+                        text-decoration-color: $bordeaux !important;
+                        text-decoration: underline !important;
+                        outline: none !important;
+                    }
+
+                    &:visited {
+                        color: $bordeaux !important;
+                    }
+
+                    &.fn.url {
+                        color: black !important;
+                        display: block;
+                    }
+                }
+            }
+
+            .icNote-summary {
+                text-overflow: ellipsis !important;
+
+                img {
+                    height: auto;
+                    width: auto;
+                    max-width: 100%;
+                    clear: both;
+                    float: left;
+                }
+
+                p {
+                    &:lang(en):after {
+                        content: 'No comment provided';
+                        color: #595859;
+                        font-weight: 400;
+                        position: relative;
+                        bottom: 0;
+                        left: -13px;
+                        width: 400px;
+                        height: 10px;
+                        background: #FFFFFF;
+                        display: inline-block;
+                    }
+                }
+            }
+
+            .bluedot {
+                border-color: $bordeaux !important;
+                top: 19px !important;
+                left: 45px !important;
+                width: 8px !important;
+                height: 8px !important;
+            }
+
+            .icNote-body {
+                &:not(.selected) {
+                    .bluedot {
+                        background-color: $bordeaux !important;
+
+                        &:hover {
+                            border-color: $bordeaux !important;
+                        }
+                    }
+                }
+
+                &.selected {
+                    .bluedot {
+                        display: none !important;
+                    }
+
+                    .icNote-title, .icNote-title a {
+                        font-weight: 400 !important;
+                    }
+
+                    .icNote-title {
+                        &.fn.url, a.fn.url {
+                            color: #595859 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// End notifications 
