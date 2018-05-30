@@ -1,4 +1,4 @@
-dojo.require("dojo.NodeList-manipulate");
+
 
 if(typeof(dojo) != "undefined") {
 

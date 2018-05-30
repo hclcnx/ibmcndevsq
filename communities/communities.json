@@ -4,7 +4,7 @@
       "application": "Communities Customization SQ",
       "payload": {
         "include-files": [
-          "communities/communities.min.css"
+          "communities/communities.css"
         ],
 	"include-repo":{
 	  "name": "ibmcndevsq"
