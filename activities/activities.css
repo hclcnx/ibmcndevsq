@@ -24,3 +24,7 @@
 .lotusui30 div.lotusPlaceBar.lconnSharedExternalPlaceBar h2 {
 	min-height: 50px;
 }
+
+.lotusui30 .list {
+	background-color: #f1f1f1;
+}
