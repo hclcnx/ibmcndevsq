@@ -120,13 +120,13 @@ html .ic-orient, html .ic-orient button, html .ic-orient input, html .ic-orient 
   font-style: italic;
   font-weight: 700;
   src: url("../fonts/IBMPlexSans-BoldItalic-V01.1.woff2?repoName=cnx-custom-theme") format("woff2"), url("../fonts/IBMPlexSans-BoldItalic-V01.1.woff?repoName=cnx-custom-theme") format("woff"), url("../fonts/IBMPlexSans-BoldItalic-V01.1.eot?repoName=cnx-custom-theme") format("eot"); }
-body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scbanner > a, body .hikari.ics-scbanner > a:visited, body .gen4.ics-scbanner > a:visited, body .colour.ics-scbanner > a:visited, body .hikari.ics-scbanner > a:hover, body .gen4.ics-scbanner > a:hover, body .colour.ics-scbanner > a:hover, body .hikari.ics-scbanner > a:active, body .gen4.ics-scbanner > a:active, body .colour.ics-scbanner > a:active, body .hikari.ics-scbanner > a:focus, body .gen4.ics-scbanner > a:focus, body .colour.ics-scbanner > a:focus, #ics-scbanner-home, #communitiesMenu_container, #nav_bar_include .files, #nav_bar_include .activities, .icBanner-notif-center .icBanner-popover-notificationReadAll, .icBanner-notif-center .icBanner-popover-notificationReadAll:hover, .lotusui30 a, .lotusui30 a:visited, .lotusui30 a:focus, .lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:visited, .lotusui30 .streamMore:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a, .lotusui30 .lotusBoard .lotusStream .lotusPostHover .lotusInlinelist a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:active, .lotusui30 .lotusFeeds a.lotusFeed {
+body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scbanner > a, body .hikari.ics-scbanner > a:visited, body .hikari.ics-scbanner > a:hover, body .hikari.ics-scbanner > a:active, body .hikari.ics-scbanner > a:focus, body .gen4.ics-scbanner > a:visited, body .gen4.ics-scbanner > a:hover, body .gen4.ics-scbanner > a:active, body .gen4.ics-scbanner > a:focus, body .colour.ics-scbanner > a:visited, body .colour.ics-scbanner > a:hover, body .colour.ics-scbanner > a:active, body .colour.ics-scbanner > a:focus, #ics-scbanner-home, #communitiesMenu_container, #nav_bar_include .files, #nav_bar_include .activities, .icBanner-notif-center .icBanner-popover-notificationReadAll, .icBanner-notif-center .icBanner-popover-notificationReadAll:hover, .lotusui30 a, .lotusui30 a:visited, .lotusui30 a:focus, .lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:visited, .lotusui30 .streamMore:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a, .lotusui30 .lotusBoard .lotusStream .lotusPostHover .lotusInlinelist a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:active, .lotusui30 .lotusFeeds a.lotusFeed {
   color: #75263b !important; }
 
 .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky .streamHeaderInner, .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button, .onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemSelected, .onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemHover .dijitMenuItemSelected, .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled) {
   background: #75263b !important; }
 
-.lotusui30 .ics-scbanner.isfixed .joinmeeting, .lotusui30 .ics-scbanner.isfixed .org._myorg, .lotusSection2.homepage-widget :first-child {
+.ics-scbanner.isfixed .joinmeeting, .ics-scbanner.isfixed .org._myorg, .lotusSection2.homepage-widget :first-child {
   display: none; }
 
 .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after, .ics-scbanner > .selected::after {
@@ -6444,60 +6444,57 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title.fn.url, #notificationsMenu .icBanner-popover-content .icNotification-post .icNote-body.selected .icNote-title a.fn.url {
     color: #595859 !important; }
 
-#javlinDiv .personMenu {
-  width: 320px !important; }
-  #javlinDiv .personMenu a {
-    -webkit-font-smoothing: antialiased !important;
-    font-weight: 600 !important;
-    color: #75263b !important; }
-  #javlinDiv .personMenu .topActionHolder .topAction {
-    display: inline-block;
-    padding-right: 10px;
-    border: 0;
-    padding-left: 0; }
-    #javlinDiv .personMenu .topActionHolder .topAction::before {
-      content: none; }
-  #javlinDiv .personMenu .topActionHolder .photoCard {
-    height: 75px !important;
-    width: 75px !important; }
-  #javlinDiv .personMenu .topActionHolder img {
-    height: 75px !important;
-    width: 75px !important; }
-  #javlinDiv .personMenu .topActionHolder .businessCard {
-    margin-left: 0rem !important;
-    width: 180px !important;
-    margin-right: 1.2rem !important;
-    margin-bottom: 1rem !important; }
-  #javlinDiv .personMenu .personMenuActionsCompact {
-    border-top: 1px solid #d8d8d8 !important;
-    padding: 0.5rem 0 !important;
-    margin: 0 1rem !important; }
-    #javlinDiv .personMenu .personMenuActionsCompact span {
-      color: #d8d8d8 !important; }
-  #javlinDiv .personMenu ul.topActionHolder {
-    background-color: #FFFFFF !important;
-    border-bottom: 1px solid #d8d8d8 !important;
-    margin: 0 1rem 1rem 1rem !important;
-    padding: 0.5rem 0 !important; }
-    #javlinDiv .personMenu ul.topActionHolder li.topActionClose {
-      padding-right: 0 !important; }
-    #javlinDiv .personMenu ul.topActionHolder li.topAction a {
-      color: #75263b !important; }
-      #javlinDiv .personMenu ul.topActionHolder li.topAction a:hover {
-        text-decoration-color: #75263b !important; }
-      #javlinDiv .personMenu ul.topActionHolder li.topAction a::after {
-        content: "";
-        padding-left: 1px;
-        margin-left: 8px !important;
-        background-color: #d8d8d8 !important;
-        margin-top: 3px !important; }
-      #javlinDiv .personMenu ul.topActionHolder li.topAction a::before {
-        padding: 0 !important; }
-    #javlinDiv .personMenu ul.topActionHolder li.topAction:nth-child(2) a::after, #javlinDiv .personMenu ul.topActionHolder li.topAction:last-child a::after {
-      margin-left: 0 !important;
-      padding-left: 0 !important; }
-  #javlinDiv .personMenu li.lotusBreakWord:nth-child(4) {
-    margin-top: 1rem !important; }
+body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scbanner > a, body .hikari.ics-scbanner > a:visited, body .hikari.ics-scbanner > a:hover, body .hikari.ics-scbanner > a:active, body .hikari.ics-scbanner > a:focus, body .gen4.ics-scbanner > a:visited, body .gen4.ics-scbanner > a:hover, body .gen4.ics-scbanner > a:active, body .gen4.ics-scbanner > a:focus, body .colour.ics-scbanner > a:visited, body .colour.ics-scbanner > a:hover, body .colour.ics-scbanner > a:active, body .colour.ics-scbanner > a:focus, #ics-scbanner-home, #communitiesMenu_container, #nav_bar_include .files, #nav_bar_include .activities, .icBanner-notif-center .icBanner-popover-notificationReadAll, .icBanner-notif-center .icBanner-popover-notificationReadAll:hover, .lotusui30 a, .lotusui30 a:visited, .lotusui30 a:focus, .lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:visited, .lotusui30 .streamMore:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a, .lotusui30 .lotusBoard .lotusStream .lotusPostHover .lotusInlinelist a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:active, .lotusui30 .lotusFeeds a.lotusFeed {
+  color: #75263b !important; }
+
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky .streamHeaderInner, .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button, .onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemSelected, .onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemHover .dijitMenuItemSelected, .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled) {
+  background: #75263b !important; }
+
+.ics-scbanner.isfixed .joinmeeting, .ics-scbanner.isfixed .org._myorg, .lotusSection2.homepage-widget :first-child {
+  display: none; }
+
+.ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after, .ics-scbanner > .selected::after {
+  border-bottom: 0.125rem solid #FF7000 !important; }
+
+.ics-scbanner .navsimplelist > li a:focus, .ics-scbanner .submenu:focus, .lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemFocused td.dijitMenuItemLabel, .lotusui30 .lotusColLeft .lotusMenu li a:focus {
+  border-bottom: 0.0625rem solid #75263b !important;
+  border-top: 0.0625rem solid #75263b !important; }
+
+.ics-scbanner {
+  color: #75263b !important;
+  background-color: #FFFFFF !important;
+  transition: none; }
+  .ics-scbanner .navsimplelist > li a:hover::before, .ics-scbanner .navsimplelist > li a:hover::after {
+    background-color: #e5e5e5 !important;
+    content: "";
+    height: 0.0625rem;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 85%; }
+  .ics-scbanner .navmenu.rd .navsimplelist > li a.selected {
+    border-left: 4px solid #75263b !important; }
+  .ics-scbanner .notifications .navmenu-button {
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22notification_24%22 fill=%22%2375263b%22%3E%3Cg id=%22notification%22 transform=%22translate(2.000000, 1.000000)%22%3E                %3Cpath d=%22M10,18 C8.895,18 8,18.895 8,20 C8,21.105 8.895,22 10,22 C11.105,22 12,21.105 12,20 C12,18.895 11.105,18 10,18 M10,19 C10.551,19 11,19.449 11,20 C11,20.551 10.551,21 10,21 C9.449,21 9,20.551 9,20 C9,19.449 9.449,19 10,19%22 id=%22Fill-4%22%3E%3C/path%3E%3Cpath d=%22M10.0113,0 C6.1513,0 3.0223,3.129 3.0223,6.989 C3.0223,6.992 3.0233,6.996 3.0233,7 L3.0003,7 L3.0003,10 C1.3433,10 0.0003,11.343 0.0003,13 C0.0003,14.657 1.3433,16 3.0003,16 L17.0003,16 C18.6573,16 20.0003,14.657 20.0003,13 C20.0003,11.343 18.6573,10 17.0003,10 L17.0003,7 L16.9993,7 C16.9993,6.996 17.0003,6.992 17.0003,6.989 C17.0003,3.129 13.8713,0 10.0113,0 M10.0113,1 C13.3133,1 16.0003,3.687 16.0013,6.944 L15.9963,7.048 L16.0003,7.072 L16.0003,10 L16.0003,11 L17.0003,11 C18.1033,11 19.0003,11.897 19.0003,13 C19.0003,14.103 18.1033,15 17.0003,15 L3.0003,15 C1.8973,15 1.0003,14.103 1.0003,13 C1.0003,11.897 1.8973,11 3.0003,11 L4.0003,11 L4.0003,10 L4.0003,8 L4.0233,8 L4.0233,7 L4.0223,6.958 L4.0223,6.955 C4.0403,3.668 6.7203,1 10.0113,1%22 id=%22Fill-1%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+    background-size: 20px 20px; }
+    .ics-scbanner .notifications .navmenu-button .nav-icon {
+      visibility: hidden !important; }
+  .ics-scbanner .user .avatar {
+    height: 1.75rem !important;
+    width: 1.75rem !important; }
+  .ics-scbanner .help, .ics-scbanner #headerHelpLi a {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22helo_24%22 fill=%22%2375263b%22%3E%3Cg id=%22help%22%3E%3Cpath d=%22M12,0 C5.373,0 0,5.364 0,11.98 C0,18.596 5.373,23.96 12,23.96 C18.627,23.96 24,18.596 24,11.98 C24,5.364 18.627,0 12,0 M12,1 C18.065,1 23,5.926 23,11.98 C23,18.034 18.065,22.96 12,22.96 C5.935,22.96 1,18.034 1,11.98 C1,5.926 5.935,1 12,1%22 id=%22Fill-1%22%3E%3C/path%3E%3Cpath d=%22M10.6582,18.003 L10.6582,17.711 C10.6582,17.01 11.0482,16.504 11.9452,16.504 C12.8422,16.504 13.2322,17.01 13.2322,17.711 L13.2322,18.003 C13.2322,18.704 12.8422,19.21 11.9452,19.21 C11.0482,19.21 10.6582,18.704 10.6582,18.003 L10.6582,18.003 Z M11.1062,14.83 L11.1062,11.675 C13.2122,11.597 14.4602,10.702 14.4602,9.105 L14.4602,8.833 C14.4602,7.567 13.5832,6.769 12.2962,6.769 C10.8922,6.769 10.0342,7.684 9.7212,8.93 L8.1032,8.307 C8.5912,6.652 9.8782,5.153 12.3542,5.153 C14.8112,5.153 16.3912,6.632 16.3912,8.891 C16.3912,11.325 14.5772,12.532 12.8422,12.863 L12.8422,14.83 L11.1062,14.83 Z%22 id=%22Fill-4%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3Cg id=%22labels%22 transform=%22translate(-88.000000, -334.000000)%22%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+    background-size: 20px 20px !important; }
+    .ics-scbanner .help .help-image, .ics-scbanner #headerHelpLi a .help-image {
+      visibility: hidden !important; }
+    .ics-scbanner .help .menu-image, .ics-scbanner #headerHelpLi a .menu-image {
+      position: relative;
+      left: 6px; }
 
 :focus-within {
   outline: none; }
@@ -6551,25 +6548,8 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   .lotusui30_body .lotusMain {
     background: #f1f1f1 !important; }
 
-.ics-scbanner {
-  color: #75263b !important;
-  background-color: #FFFFFF !important;
-  transition: none; }
-
 .icBanner-badge {
   background: none repeat scroll 0 0 #FF7000 !important; }
-
-.ics-scbanner .navsimplelist > li a:hover::before, .ics-scbanner .navsimplelist > li a:hover::after {
-  background-color: #e5e5e5 !important;
-  content: "";
-  height: 0.0625rem;
-  left: 50%;
-  position: absolute;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 85%; }
-.ics-scbanner .navmenu.rd .navsimplelist > li a.selected {
-  border-left: 4px solid #75263b !important; }
 
 .icNote-message .bluedot {
   background-color: #FF7000 !important;
@@ -6639,32 +6619,6 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
       top: -20px !important; }
     .icSearchPaneButton.icSearchBarMode .icSearchBar {
       padding-top: 0 !important; }
-
-.ics-scbanner .notifications .navmenu-button {
-  background-position: center;
-  background-repeat: no-repeat !important;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22notification_24%22 fill=%22%2375263b%22%3E%3Cg id=%22notification%22 transform=%22translate(2.000000, 1.000000)%22%3E                %3Cpath d=%22M10,18 C8.895,18 8,18.895 8,20 C8,21.105 8.895,22 10,22 C11.105,22 12,21.105 12,20 C12,18.895 11.105,18 10,18 M10,19 C10.551,19 11,19.449 11,20 C11,20.551 10.551,21 10,21 C9.449,21 9,20.551 9,20 C9,19.449 9.449,19 10,19%22 id=%22Fill-4%22%3E%3C/path%3E%3Cpath d=%22M10.0113,0 C6.1513,0 3.0223,3.129 3.0223,6.989 C3.0223,6.992 3.0233,6.996 3.0233,7 L3.0003,7 L3.0003,10 C1.3433,10 0.0003,11.343 0.0003,13 C0.0003,14.657 1.3433,16 3.0003,16 L17.0003,16 C18.6573,16 20.0003,14.657 20.0003,13 C20.0003,11.343 18.6573,10 17.0003,10 L17.0003,7 L16.9993,7 C16.9993,6.996 17.0003,6.992 17.0003,6.989 C17.0003,3.129 13.8713,0 10.0113,0 M10.0113,1 C13.3133,1 16.0003,3.687 16.0013,6.944 L15.9963,7.048 L16.0003,7.072 L16.0003,10 L16.0003,11 L17.0003,11 C18.1033,11 19.0003,11.897 19.0003,13 C19.0003,14.103 18.1033,15 17.0003,15 L3.0003,15 C1.8973,15 1.0003,14.103 1.0003,13 C1.0003,11.897 1.8973,11 3.0003,11 L4.0003,11 L4.0003,10 L4.0003,8 L4.0233,8 L4.0233,7 L4.0223,6.958 L4.0223,6.955 C4.0403,3.668 6.7203,1 10.0113,1%22 id=%22Fill-1%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
-  background-size: 20px 20px; }
-
-.ics-scbanner .notifications .navmenu-button .nav-icon {
-  visibility: hidden !important; }
-
-.ics-scbanner .user .avatar {
-  height: 1.75rem !important;
-  width: 1.75rem !important; }
-
-.ics-scbanner .help, .ics-scbanner #headerHelpLi a {
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22helo_24%22 fill=%22%2375263b%22%3E%3Cg id=%22help%22%3E%3Cpath d=%22M12,0 C5.373,0 0,5.364 0,11.98 C0,18.596 5.373,23.96 12,23.96 C18.627,23.96 24,18.596 24,11.98 C24,5.364 18.627,0 12,0 M12,1 C18.065,1 23,5.926 23,11.98 C23,18.034 18.065,22.96 12,22.96 C5.935,22.96 1,18.034 1,11.98 C1,5.926 5.935,1 12,1%22 id=%22Fill-1%22%3E%3C/path%3E%3Cpath d=%22M10.6582,18.003 L10.6582,17.711 C10.6582,17.01 11.0482,16.504 11.9452,16.504 C12.8422,16.504 13.2322,17.01 13.2322,17.711 L13.2322,18.003 C13.2322,18.704 12.8422,19.21 11.9452,19.21 C11.0482,19.21 10.6582,18.704 10.6582,18.003 L10.6582,18.003 Z M11.1062,14.83 L11.1062,11.675 C13.2122,11.597 14.4602,10.702 14.4602,9.105 L14.4602,8.833 C14.4602,7.567 13.5832,6.769 12.2962,6.769 C10.8922,6.769 10.0342,7.684 9.7212,8.93 L8.1032,8.307 C8.5912,6.652 9.8782,5.153 12.3542,5.153 C14.8112,5.153 16.3912,6.632 16.3912,8.891 C16.3912,11.325 14.5772,12.532 12.8422,12.863 L12.8422,14.83 L11.1062,14.83 Z%22 id=%22Fill-4%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3Cg id=%22labels%22 transform=%22translate(-88.000000, -334.000000)%22%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
-  background-size: 20px 20px !important; }
-
-.ics-scbanner .help .help-image, .ics-scbanner #headerHelpLi a .help-image {
-  visibility: hidden !important; }
-
-.ics-scbanner .help .menu-image, .ics-scbanner #headerHelpLi a .menu-image {
-  position: relative;
-  left: 6px; }
 
 .search-history-view-ui .icSearchPane .pfEntry:hover, .search-history-view-ui .icSearchPane .pfEntry.spSelected {
   border-color: #75263b !important; }
@@ -9617,7 +9571,6 @@ body.meetingBody,
   .lotusui30_body .lotusWidget_3columnsWithBannerTopMenuLayout #tabNavBar {
     padding-left: 0 !important;
     padding-right: 0 !important; } }
-/*# sourceMappingURL=global.css.map */
 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusBoard .lotusStreamUpdate {
   padding: 5px; }
 
@@ -9630,21 +9583,39 @@ body.meetingBody,
 .search-history-view-ui .lotusui30 .icSearchPaneButton.icSearchBarMode .icSearchBar .dijitTextBox, .search-history-view-ui .lotusui30 .icSearchPane .icTopSection .icSearchBar .dijitTextBox {
   border-bottom-color: #75263b !important; }
 
+body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scbanner > a, body .hikari.ics-scbanner > a:visited, body .hikari.ics-scbanner > a:hover, body .hikari.ics-scbanner > a:active, body .hikari.ics-scbanner > a:focus, body .gen4.ics-scbanner > a:visited, body .gen4.ics-scbanner > a:hover, body .gen4.ics-scbanner > a:active, body .gen4.ics-scbanner > a:focus, body .colour.ics-scbanner > a:visited, body .colour.ics-scbanner > a:hover, body .colour.ics-scbanner > a:active, body .colour.ics-scbanner > a:focus, #ics-scbanner-home, #communitiesMenu_container, #nav_bar_include .files, #nav_bar_include .activities, .icBanner-notif-center .icBanner-popover-notificationReadAll, .icBanner-notif-center .icBanner-popover-notificationReadAll:hover, .lotusui30 a, .lotusui30 a:visited, .lotusui30 a:focus, .lotusui30 a.icBanner-footer-link, .lotusui30 a.icBanner-footer-link:active, .lotusui30 a.icBanner-footer-link:visited, .lotusui30 .streamMore:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a, .lotusui30 .lotusBoard .lotusStream .lotusPostHover .lotusInlinelist a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a, .lotusui30 .lotusFlyout .lotusFlyoutHeader table tbody .flyoutTitle .flyoutTitleOuter .flyoutTitleInner span a:active, .lotusui30 .lotusFeeds a.lotusFeed {
+  color: #75263b !important; }
+
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight, .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky .streamHeaderInner, .stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button, .onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemSelected, .onpremise .dijitMenuPopup .dijitMenuActive .dijitMenuItemHover .dijitMenuItemSelected, .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .dijitMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemHover:not(.dijitMenuItemDisabled), .oneui30 .lotusActionMenu:not(.toolbarMenu):not(.dijitMenuTable) .dijitMenuItemSelected:not(.dijitMenuItemDisabled) {
+  background: #75263b !important; }
+
+.ics-scbanner.isfixed .joinmeeting, .ics-scbanner.isfixed .org._myorg, .lotusSection2.homepage-widget :first-child {
+  display: none; }
+
+.ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after, .ics-scbanner > .selected::after {
+  border-bottom: 0.125rem solid #FF7000 !important; }
+
+.ics-scbanner .navsimplelist > li a:focus, .ics-scbanner .submenu:focus, .lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemFocused td.dijitMenuItemLabel, .lotusui30 .lotusColLeft .lotusMenu li a:focus {
+  border-bottom: 0.0625rem solid #75263b !important;
+  border-top: 0.0625rem solid #75263b !important; }
+
 .lotusMain {
   padding-left: 0 !important; }
-  .lotusMain #lotusColLeft {
+  .lotusMain #lotusColLeft, .lotusMain #dashboardColLeft, .lotusMain #recentUpdateColLeft {
     width: 240px;
     padding: 1rem 0 0 !important;
     margin: 0 !important; }
-    .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li {
+    .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer h3 a, .lotusMain #lotusColLeft #dashNavPanel-activity-list h3 a, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list h3 a, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer h3 a, .lotusMain #dashboardColLeft #dashNavPanel-activity-list h3 a, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list h3 a, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer h3 a, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list h3 a, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list h3 a {
+      visibility: hidden; }
+    .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li, .lotusMain #lotusColLeft #dashNavPanel-activity-list li, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li {
       margin: 0px 0px; }
-      .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li.lotusSelected {
+      .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li.lotusSelected, .lotusMain #lotusColLeft #dashNavPanel-activity-list li.lotusSelected, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li.lotusSelected, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li.lotusSelected, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li.lotusSelected, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li.lotusSelected, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li.lotusSelected, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li.lotusSelected, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li.lotusSelected {
         border: none !important; }
-        .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li.lotusSelected a {
+        .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li.lotusSelected a, .lotusMain #lotusColLeft #dashNavPanel-activity-list li.lotusSelected a, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li.lotusSelected a, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li.lotusSelected a, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li.lotusSelected a, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li.lotusSelected a, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li.lotusSelected a, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li.lotusSelected a, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li.lotusSelected a {
           padding-left: calc((15px + 24px) - 4px) !important;
           font-weight: 700 !important;
           border-left: 4px solid #75263b !important; }
-      .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a {
+      .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a {
         padding-left: calc(15px + 24px) !important;
         padding-right: 24px;
         padding-top: 14px;
@@ -9654,11 +9625,11 @@ body.meetingBody,
         border: none !important;
         text-decoration: none !important;
         margin: 0px 0px; }
-        .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a:hover, .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a:focus {
+        .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a:hover, .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a:focus, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a:hover, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a:focus, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a:hover, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a:focus, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a:hover, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a:focus, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a:hover, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a:focus, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a:hover, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a:focus, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a:hover, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a:focus, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a:hover, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a:focus, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a:hover, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a:focus {
           background-color: #d8d8d8;
           text-decoration: none !important;
           border: none !important; }
-        .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a span.lotusUnreadBadge {
+        .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a span.lotusUnreadBadge, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a span.lotusUnreadBadge, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a span.lotusUnreadBadge, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a span.lotusUnreadBadge {
           background-color: #E62325;
           color: #FFFFFF;
           float: right;
@@ -9666,17 +9637,29 @@ body.meetingBody,
           text-align: center;
           border-radius: 10px; }
 
+.lotusSection.lconnTagCloudFilter a {
+  visibility: hidden; }
+
+.lotusFrame .lotusMain .lotusColLeft:not(.wpthemeNarrow) {
+  margin: 0px 0px;
+  width: 240px;
+  padding: 1rem 0 0 !important;
+  margin: 0 !important; }
+
+.lotusui30 .lotusColLeft .lotusSection h2 .lotusArrow {
+  visibility: hidden; }
+
 a.menu_drop_icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23595859%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
   background-position-x: 0px !important;
   background-position-y: 2px; }
 
-/*begin */
 #javlinDiv .personMenu {
   width: 320px !important; }
   #javlinDiv .personMenu a {
     -webkit-font-smoothing: antialiased !important;
-    font-weight: 600 !important; }
+    font-weight: 600 !important;
+    color: #75263b !important; }
   #javlinDiv .personMenu .topActionHolder .topAction {
     display: inline-block;
     padding-right: 10px;
@@ -9726,7 +9709,6 @@ a.menu_drop_icon {
   #javlinDiv .personMenu li.lotusBreakWord:nth-child(4) {
     margin-top: 1rem !important; }
 
-/*end */
 /* new home section */
 .people-set .ic-bizcard-section1 .selected {
   box-shadow: 0 0 0 3px #75263b; }
