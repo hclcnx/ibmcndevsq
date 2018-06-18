@@ -4,7 +4,7 @@
       "application": "Activities Customization SQ",
       "payload": {
         "include-files": [
-          "activities/activities.min.css"
+          "activities/activity.css"
         ],
 	"include-repo":{
 	  "name": "ibmcndevsq"
