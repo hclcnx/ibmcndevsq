@@ -43,16 +43,16 @@ if (typeof (dojo) != "undefined") {
             // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
             // before we proceed to customize the page...
             waitFor(function () {
-                // wait until the "loading..." node has been hidden
-                // indicating that we have loaded content.
-                var greetingPrefix = "";
-                if (lconn.core.locale.getLanguage() === "nl") {
-                    greetingPrefix = "Hallo ";
-                } else {
-                    greetingPrefix = "Hello ";
-                }
-                dojo.query("span.shareSome-title")[0].textContent = greetingPrefix + lconn.homepage.userName + " ";
-            },
+                    // wait until the "loading..." node has been hidden
+                    // indicating that we have loaded content.
+                    var greetingPrefix = "";
+                    if (lconn.core.locale.getLanguage() === "nl") {
+                        greetingPrefix = "Hallo ";
+                    } else {
+                        greetingPrefix = "Hello ";
+                    }
+                    dojo.query("span.shareSome-title")[0].textContent = greetingPrefix + lconn.homepage.userName + " ";
+                },
                 ".lotusStreamTopLoading div.loaderMain.lotusHidden");
         } catch (e) {
             alert("Exception occurred in helloWorld: " + e);

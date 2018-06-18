@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/*
+	 * © Copyright IBM Corp. 2017, 2018
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at:
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+	 * implied. See the License for the specific language governing
+	 * permissions and limitations under the License.
+*/
+@import "../scss/common/template";
+
+.lotusui30 {
+  .lotusTitleBar2 {
+    .lotusNavTabs {
+      border-bottom: none;
+
+      li {
+        &.lotusSelected {
+          .lotusTab {
+            border-bottom: 2px solid $bordeaux;
+          }
+        }
+      }
+    }
+  }
+
+  .list {
+    background-color: #f1f1f1;
+  }
+  div.lotusPlaceBar.lconnSharedExternalPlaceBar {
+    h2 {
+      min-height: 50px;
+    }
+  }
+
+  .lotusPlaceBar {
+    .lotusInlinelist {
+      li {
+        border-left-color: $bordeaux;
+      }
+    }
+  }
+
+  .lotusPaging {
+    .lotusInlinelist {
+      li {
+        border-left: none !important;
+      }
+    }
+  }
+
+  .lotusDialog {
+    .lotusDialogHeader {
+      background: $bordeaux;
+    }
+  }
+
+  .lotusColLeft {
+    .lconnNavTreeSelector {
+      &.lotusSelected {
+        border-left: 4px solid $bordeaux;
+      }
+    }
+  }
+
+  .lotusDetailsOn, .lotusFolderOn, .lotusSummaryOn, .lotusTileOn, .lotusTreeOn {
+    border-color: $bordeaux;
+  }
+}
+
+.lconnFilesTree {
+  .node {
+    .highlight {
+      border-left: 4px solid $bordeaux;
+    }
+
+  }
+}
+
+.personMenu .topActionHolder {
+  background: #75263b !important;
+}
+
+.personMenu .businessCard #javlinAwarenessIcon span[dojoattachpoint="livenameContainer"] span[dojoattachpoint="displayNameWrapper"] span[dojoattachpoint="displayNameNode"] {
+  display: none;
+}
+
+#javlinActionsExpanded a {
+  color: #75263b;
+}
+
+.personMenu .personMenuActions a.disabledLink {
+  color: gray;
+}
+
+#memberPane div[role=list], .MoveActivity .selection .itemNotSelected, .lotusui30 .list {
+  background-color: #f1f1f1;
+}
+
+.lotusui30 div.lotusPlaceBar.lconnSharedExternalPlaceBar h2 {
+  min-height: 50px;
+}
+
+.personMenu {
+  .topActionHolder {
+    background: #75263b !important;
+  }
+
+  .businessCard {
+    #javlinAwarenessIcon {
+      span[dojoattachpoint="livenameContainer"] {
+        span[dojoattachpoint="displayNameWrapper"] {
+          span[dojoattachpoint="displayNameNode"] {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .personMenuActions {
+    a.disabledLink {
+      color: gray;
+    }
+  }
+}
+
+#javlinActionsExpanded {
+  a {
+    color: $bordeaux;
+  }
+}
+
+#memberPane {
+  div[role=list] {
+    background-color: #f1f1f1;
+  }
+}
+
+.MoveActivity {
+  .selection {
+    .itemNotSelected {
+      background-color: #f1f1f1;
+    }
+  }
+}
+
+.lotusui30 .list {
+  background-color: #f1f1f1;
+}
+
+

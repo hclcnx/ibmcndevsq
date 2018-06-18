@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*
+	 * © Copyright IBM Corp. 2017, 2018
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at:
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+	 * implied. See the License for the specific language governing
+	 * permissions and limitations under the License.
+*/
+.lotusui30 .lotusTitleBar2 .lotusNavTabs {
+  border-bottom: none; }
+  .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab {
+    border-bottom: 2px solid #75263b; }
+.lotusui30 .list {
+  background-color: #f1f1f1; }
+.lotusui30 div.lotusPlaceBar.lconnSharedExternalPlaceBar h2 {
+  min-height: 50px; }
+.lotusui30 .lotusPlaceBar .lotusInlinelist li {
+  border-left-color: #75263b; }
+.lotusui30 .lotusPaging .lotusInlinelist li {
+  border-left: none !important; }
+.lotusui30 .lotusDialog .lotusDialogHeader {
+  background: #75263b; }
+.lotusui30 .lotusColLeft .lconnNavTreeSelector.lotusSelected {
+  border-left: 4px solid #75263b; }
+.lotusui30 .lotusDetailsOn, .lotusui30 .lotusFolderOn, .lotusui30 .lotusSummaryOn, .lotusui30 .lotusTileOn, .lotusui30 .lotusTreeOn {
+  border-color: #75263b; }
+
+.lconnFilesTree .node .highlight {
+  border-left: 4px solid #75263b; }
+
+.personMenu .topActionHolder {
+  background: #75263b !important; }
+
+.personMenu .businessCard #javlinAwarenessIcon span[dojoattachpoint="livenameContainer"] span[dojoattachpoint="displayNameWrapper"] span[dojoattachpoint="displayNameNode"] {
+  display: none; }
+
+#javlinActionsExpanded a {
+  color: #75263b; }
+
+.personMenu .personMenuActions a.disabledLink {
+  color: gray; }
+
+#memberPane div[role=list], .MoveActivity .selection .itemNotSelected, .lotusui30 .list {
+  background-color: #f1f1f1; }
+
+.lotusui30 div.lotusPlaceBar.lconnSharedExternalPlaceBar h2 {
+  min-height: 50px; }
+
+.personMenu .topActionHolder {
+  background: #75263b !important; }
+.personMenu .businessCard #javlinAwarenessIcon span[dojoattachpoint="livenameContainer"] span[dojoattachpoint="displayNameWrapper"] span[dojoattachpoint="displayNameNode"] {
+  display: none; }
+.personMenu .personMenuActions a.disabledLink {
+  color: gray; }
+
+#javlinActionsExpanded a {
+  color: #75263b; }
+
+#memberPane div[role=list] {
+  background-color: #f1f1f1; }
+
+.MoveActivity .selection .itemNotSelected {
+  background-color: #f1f1f1; }
+
+.lotusui30 .list {
+  background-color: #f1f1f1; }
+
+/*# sourceMappingURL=activity.css.map */

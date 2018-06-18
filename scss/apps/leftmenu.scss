@@ -1,0 +1,80 @@
+@import "../common/template";
+
+.lotusMain {
+  padding-left: 0 !important;
+  #lotusColLeft, #dashboardColLeft, #recentUpdateColLeft {
+
+    width: 240px;
+    padding: 1rem 0 0 !important;
+    margin: 0 !important;
+
+    #homepageLeftNavigationMenuContainer, #dashNavPanel-activity-list, #ruDashNavPanel-activity-list {
+
+      h3 {
+        a {
+          visibility: hidden;
+        }
+      }
+
+      li {
+
+        margin: 0px 0px;
+
+        &.lotusSelected {
+          border: none !important;
+
+          a {
+            padding-left: calc((15px + 24px) - 4px) !important;
+            font-weight: 700 !important;
+            border-left: 4px solid $bordeaux !important;
+          }
+        }
+        a {
+          padding-left: calc(15px + 24px) !important;
+          padding-right: 24px;
+          padding-top: 14px;
+          padding-bottom: 14px;
+          font-size: 14px !important;
+          font-weight: 400 !important;
+          border: none !important;
+          text-decoration: none !important;
+          margin: 0px 0px;
+
+          &:hover, &:focus {
+            background-color: #d8d8d8;
+            text-decoration: none !important;
+            border: none !important;
+          }
+
+          span {
+            &.lotusUnreadBadge {
+              background-color: #E62325;
+              color: $white;
+              float: right;
+              width: 20px;
+              text-align: center;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.lotusSection.lconnTagCloudFilter {
+  a {
+    visibility: hidden;
+  }
+}
+
+
+.lotusFrame .lotusMain .lotusColLeft:not(.wpthemeNarrow) {
+  margin: 0px 0px;
+  width: 240px;
+  padding: 1rem 0 0 !important;
+  margin: 0 !important; }
+
+.lotusui30 .lotusColLeft .lotusSection h2 .lotusArrow {
+  visibility:hidden;}

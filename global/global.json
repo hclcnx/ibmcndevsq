@@ -7,11 +7,7 @@
           "name": "ibmcndevsq"
         },
         "include-files": [
-          "global/AvenirLTStd-Book.eot",
-          "global/AvenirLTStd-Book.otf",
-          "global/AvenirLTStd-Book.svg",
-          "global/AvenirLTStd-Book.ttf",
-          "global/AvenirLTStd-Book.woff",
+          "user.greeting.js",
           "global/global.css"
         ]
       },

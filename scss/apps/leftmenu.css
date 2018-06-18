@@ -1,0 +1,51 @@
+.lotusMain {
+  padding-left: 0 !important; }
+  .lotusMain #lotusColLeft, .lotusMain #dashboardColLeft, .lotusMain #recentUpdateColLeft {
+    width: 240px;
+    padding: 1rem 0 0 !important;
+    margin: 0 !important; }
+    .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer h3 a, .lotusMain #lotusColLeft #dashNavPanel-activity-list h3 a, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list h3 a, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer h3 a, .lotusMain #dashboardColLeft #dashNavPanel-activity-list h3 a, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list h3 a, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer h3 a, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list h3 a, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list h3 a {
+      visibility: hidden; }
+    .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li, .lotusMain #lotusColLeft #dashNavPanel-activity-list li, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li {
+      margin: 0px 0px; }
+      .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li.lotusSelected, .lotusMain #lotusColLeft #dashNavPanel-activity-list li.lotusSelected, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li.lotusSelected, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li.lotusSelected, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li.lotusSelected, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li.lotusSelected, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li.lotusSelected, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li.lotusSelected, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li.lotusSelected {
+        border: none !important; }
+        .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li.lotusSelected a, .lotusMain #lotusColLeft #dashNavPanel-activity-list li.lotusSelected a, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li.lotusSelected a, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li.lotusSelected a, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li.lotusSelected a, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li.lotusSelected a, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li.lotusSelected a, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li.lotusSelected a, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li.lotusSelected a {
+          padding-left: calc((15px + 24px) - 4px) !important;
+          font-weight: 700 !important;
+          border-left: 4px solid #75263b !important; }
+      .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a {
+        padding-left: calc(15px + 24px) !important;
+        padding-right: 24px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        border: none !important;
+        text-decoration: none !important;
+        margin: 0px 0px; }
+        .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a:hover, .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a:focus, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a:hover, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a:focus, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a:hover, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a:focus, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a:hover, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a:focus, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a:hover, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a:focus, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a:hover, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a:focus, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a:hover, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a:focus, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a:hover, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a:focus, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a:hover, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a:focus {
+          background-color: #d8d8d8;
+          text-decoration: none !important;
+          border: none !important; }
+        .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a span.lotusUnreadBadge, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a span.lotusUnreadBadge, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a span.lotusUnreadBadge, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a span.lotusUnreadBadge, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a span.lotusUnreadBadge {
+          background-color: #E62325;
+          color: #FFFFFF;
+          float: right;
+          width: 20px;
+          text-align: center;
+          border-radius: 10px; }
+
+.lotusSection.lconnTagCloudFilter a {
+  visibility: hidden; }
+
+.lotusFrame .lotusMain .lotusColLeft:not(.wpthemeNarrow) {
+  margin: 0px 0px;
+  width: 240px;
+  padding: 1rem 0 0 !important;
+  margin: 0 !important; }
+
+.lotusui30 .lotusColLeft .lotusSection h2 .lotusArrow {
+  visibility: hidden; }
+
+/*# sourceMappingURL=leftmenu.css.map */
