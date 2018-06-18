@@ -897,21 +897,29 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
     width: 88px !important;
     height: 36px !important; }
 
+
 #lotusContentSceneActions {
-    min-height: 40px; }
-#lotusContentSceneActions .lotusBtnContainer {
-    padding-bottom: 0 !important; }
-#lotusContentSceneActions .lotusBtnDisabled {
-    width: 0 !important;
-    opacity: 0 !important;
-    cursor: default !important;
-    pointer-events: none;
-    margin: 0 !important;
-    padding: 0 !important;
-    color: #FFFFFF !important;
-    border: none !important; }
-#lotusContentSceneActions .lotusBtn:first-child {
-    display: inline-block !important; }
+    min-height: 40px;
+
+    .lotusBtnContainer {
+        padding-bottom: 0 !important; }
+
+    .lotusBtnDisabled {
+        width: 0 !important;
+        opacity: 0 !important;
+        cursor: default !important;
+        pointer-events: none;
+        margin: 0 !important;
+        padding: 0 !important;
+        color: #FFFFFF !important;
+        border: none !important; }
+
+
+    .lotusBtn:first-child {
+        display: inline-block !important; }
+
+}
+
 
 .lotusErrorBox.lotusError .lotusBtnContainer .lotusBtn a {
     color: #75263b !important;

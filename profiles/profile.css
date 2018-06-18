@@ -1087,19 +1087,19 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
 
 #lotusContentSceneActions {
   min-height: 40px; }
-
-#lotusContentSceneActions .lotusBtnContainer {
-  padding-bottom: 0 !important; }
-
-#lotusContentSceneActions .lotusBtnDisabled {
-  width: 0 !important;
-  opacity: 0 !important;
-  cursor: default !important;
-  pointer-events: none;
-  margin: 0 !important;
-  padding: 0 !important;
-  color: #FFFFFF !important;
-  border: none !important; }
+  #lotusContentSceneActions .lotusBtnContainer {
+    padding-bottom: 0 !important; }
+  #lotusContentSceneActions .lotusBtnDisabled {
+    width: 0 !important;
+    opacity: 0 !important;
+    cursor: default !important;
+    pointer-events: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #FFFFFF !important;
+    border: none !important; }
+  #lotusContentSceneActions .lotusBtn:first-child {
+    display: inline-block !important; }
 
 #lotusContentSceneActions .lotusBtn:first-child {
   display: inline-block !important; }
@@ -2416,7 +2416,7 @@ div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr:last-of-type {
   border-radius: 2px !important;
   border-color: #75263b !important; }
 
-#dfForumList .lotusTable tf r.lotusSort td a:hover,
+#dfForumList .lotusTable tr.lotusSort td a:hover,
 #dfTopicList .lotusTable tr.lotusSort td a:hover,
 #dfOpenQuestionList .lotusTable tr.lotusSort td a:hover,
 #dfAnsweredQuestionList .lotusTable tr.lotusSort td a:hover,
