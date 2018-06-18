@@ -1,4 +1,4 @@
-# IBM Cloud Connections Styling v1.5.0
+# IBM Cloud Connections Styling v1.5.1
 
 ### Getting started
 The default theme of IBM Connections is not entirely in alignment with Sanquin's style guide . Luckily does IBM offer the possibility to deliver custom stylesheets.
