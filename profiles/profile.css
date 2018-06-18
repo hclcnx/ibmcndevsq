@@ -180,7 +180,7 @@
   #javlinDiv .personMenu li.lotusBreakWord:nth-child(4) {
     margin-top: 1rem !important; }
 
-/*Notificaiton panel full length*/
+/* Notificaton panel full length */
 .navsimplelist.notificationCenterContainer {
   height: auto;
   right: -129px !important;
@@ -1100,9 +1100,6 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
     border: none !important; }
   #lotusContentSceneActions .lotusBtn:first-child {
     display: inline-block !important; }
-
-#lotusContentSceneActions .lotusBtn:first-child {
-  display: inline-block !important; }
 
 .lotusErrorBox.lotusError .lotusBtnContainer .lotusBtn a {
   color: #75263b !important;
