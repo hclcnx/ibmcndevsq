@@ -127,7 +127,7 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
   background: #75263b !important; }
 
 .ics-scbanner.isfixed .joinmeeting, .ics-scbanner.isfixed .org._myorg, .lotusSection2.homepage-widget :first-child {
-  display: none; }
+  display: nonee; }
 
 .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after, .ics-scbanner > .selected::after {
   border-bottom: 0.125rem solid #FF7000 !important; }
@@ -7128,6 +7128,26 @@ ul.ics-viewer-tabs li:focus {
 #body .ics-viewer-toolbar .ics-viewer-action-favorite div:not(.checked) img, .lotusProfiles .ics-viewer-toolbar .ics-viewer-action-favorite div:not(.checked) img, .lotusui.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action-favorite div:not(.checked) img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23595859%22 d=%22M15.9,4.9c0.3,0,0.5,0.1,0.7,0.3l2.1,2.1c0.4,0.4,0.4,1,0,1.4L14.5,13l-0.7,0.7l0.7,0.7c0.2,0.2,0.3,0.4,0.3,0.7 c0,0.3-0.1,0.5-0.3,0.7l-0.7,0.7l-0.7-0.7L11,13.7L10.3,13l0,0l0,0l-2.1-2.1l-0.7-0.7l0.7-0.7c0.2-0.2,0.4-0.3,0.7-0.3 c0.3,0,0.5,0.1,0.7,0.3l0.7,0.7L11,9.5l4.2-4.3C15.4,5,15.7,4.9,15.9,4.9 M15.9,3.9c-0.5,0-1,0.2-1.4,0.6c0,0,0,0,0,0l-4.2,4.2 C9.9,8.4,9.4,8.2,8.9,8.2c-0.5,0-1,0.2-1.4,0.6c0,0,0,0,0,0l-1.4,1.4l1.4,1.4l2.1,2.1l-5.6,5.7l0.7,0.7l5.7-5.7l2.1,2.1l1.4,1.4 l1.4-1.4c0.8-0.8,0.8-2,0-2.8c0,0,0,0,0,0l4.2-4.2c0.8-0.8,0.8-2,0-2.8l-2.1-2.1C17,4.1,16.5,3.9,15.9,3.9L15.9,3.9z%22/%3E%3C/svg%3E") !important;
   background-position: 0px !important; }
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input {
+  color: #6C2C3B; }
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch {
+  border-bottom: none;
+  border-bottom-color: #75263b; }
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover {
+  border-left-color: #75263b; }
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected {
+  border-color: #75263b; }
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable {
+  border-bottom: none;
+  border-top: none; }
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta {
+  color: #75263b; }
 
 /*
 	 * © Copyright IBM Corp. 2017, 2018

@@ -180,7 +180,516 @@
   #javlinDiv .personMenu li.lotusBreakWord:nth-child(4) {
     margin-top: 1rem !important; }
 
-/*Notificaiton panel full length*/
+.dj_a11y .lotusBtn:disabled:focus,
+.dijit_a11y .lotusBtn:disabled:focus,
+.dj_a11y .lotusBtn[disabled="disabled"]:focus,
+.dijit_a11y .lotusBtn[disabled="disabled"]:focus,
+.dj_a11y .lotusBtn.lotusBtnDisabled:focus,
+.dijit_a11y .lotusBtn.lotusBtnDisabled:focus,
+.dj_a11y .lotusFormButton:disabled:focus,
+.dijit_a11y .lotusFormButton:disabled:focus,
+.dj_a11y .lotusFormButton[disabled="disabled"]:focus,
+.dijit_a11y .lotusFormButton[disabled="disabled"]:focus,
+.dj_a11y .lotusFormButton.lotusBtnDisabled:focus,
+.dijit_a11y .lotusFormButton.lotusBtnDisabled:focus,
+.dj_a11y .ics-dialog-action #ok:disabled:focus,
+.dijit_a11y .ics-dialog-action #ok:disabled:focus,
+.dj_a11y .ics-dialog-action #ok[disabled="disabled"]:focus,
+.dijit_a11y .ics-dialog-action #ok[disabled="disabled"]:focus,
+.dj_a11y .ics-dialog-action #ok.lotusBtnDisabled:focus,
+.dijit_a11y .ics-dialog-action #ok.lotusBtnDisabled:focus,
+.dj_a11y .ics-dialog-action .cancel.neutral:disabled:focus,
+.dijit_a11y .ics-dialog-action .cancel.neutral:disabled:focus,
+.dj_a11y .ics-dialog-action .cancel.neutral[disabled="disabled"]:focus,
+.dijit_a11y .ics-dialog-action .cancel.neutral[disabled="disabled"]:focus,
+.dj_a11y .ics-dialog-action .cancel.neutral.lotusBtnDisabled:focus,
+.dijit_a11y .ics-dialog-action .cancel.neutral.lotusBtnDisabled:focus,
+.dj_a11y .filesList .lotusDetails .lotusBtnSmallGray:disabled:focus,
+.dijit_a11y .filesList .lotusDetails .lotusBtnSmallGray:disabled:focus,
+.dj_a11y .filesList .lotusDetails .lotusBtnSmallGray[disabled="disabled"]:focus,
+.dijit_a11y .filesList .lotusDetails .lotusBtnSmallGray[disabled="disabled"]:focus,
+.dj_a11y .filesList .lotusDetails .lotusBtnSmallGray.lotusBtnDisabled:focus,
+.dijit_a11y .filesList .lotusDetails .lotusBtnSmallGray.lotusBtnDisabled:focus,
+.dj_a11y .qkrEdit .lotusBtnSmall:disabled:focus,
+.dijit_a11y .qkrEdit .lotusBtnSmall:disabled:focus,
+.dj_a11y .qkrEdit .lotusBtnSmall[disabled="disabled"]:focus,
+.dijit_a11y .qkrEdit .lotusBtnSmall[disabled="disabled"]:focus,
+.dj_a11y .qkrEdit .lotusBtnSmall.lotusBtnDisabled:focus,
+.dijit_a11y .qkrEdit .lotusBtnSmall.lotusBtnDisabled:focus,
+.dj_a11y .entryEditTable .lotusBtnSmall:disabled:focus,
+.dijit_a11y .entryEditTable .lotusBtnSmall:disabled:focus,
+.dj_a11y .entryEditTable .lotusBtnSmall[disabled="disabled"]:focus,
+.dijit_a11y .entryEditTable .lotusBtnSmall[disabled="disabled"]:focus,
+.dj_a11y .entryEditTable .lotusBtnSmall.lotusBtnDisabled:focus,
+.dijit_a11y .entryEditTable .lotusBtnSmall.lotusBtnDisabled:focus,
+.dj_a11y .entryEditTable .lotusBtnSmallGray:disabled:focus,
+.dijit_a11y .entryEditTable .lotusBtnSmallGray:disabled:focus,
+.dj_a11y .entryEditTable .lotusBtnSmallGray[disabled="disabled"]:focus,
+.dijit_a11y .entryEditTable .lotusBtnSmallGray[disabled="disabled"]:focus,
+.dj_a11y .entryEditTable .lotusBtnSmallGray.lotusBtnDisabled:focus,
+.dijit_a11y .entryEditTable .lotusBtnSmallGray.lotusBtnDisabled:focus,
+.dj_a11y .wikiHeader .lotusBtnSmall:disabled:focus,
+.dijit_a11y .wikiHeader .lotusBtnSmall:disabled:focus,
+.dj_a11y .wikiHeader .lotusBtnSmall[disabled="disabled"]:focus,
+.dijit_a11y .wikiHeader .lotusBtnSmall[disabled="disabled"]:focus,
+.dj_a11y .wikiHeader .lotusBtnSmall.lotusBtnDisabled:focus,
+.dijit_a11y .wikiHeader .lotusBtnSmall.lotusBtnDisabled:focus,
+.dj_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction:disabled:focus,
+.dijit_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction:disabled:focus,
+.dj_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction[disabled="disabled"]:focus,
+.dijit_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction[disabled="disabled"]:focus,
+.dj_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction.lotusBtnDisabled:focus,
+.dijit_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction.lotusBtnDisabled:focus,
+.dj_a11y .blog .lotusBtn a:disabled:focus,
+.dijit_a11y .blog .lotusBtn a:disabled:focus,
+.dj_a11y .blog .lotusBtn a[disabled="disabled"]:focus,
+.dijit_a11y .blog .lotusBtn a[disabled="disabled"]:focus,
+.dj_a11y .blog .lotusBtn a.lotusBtnDisabled:focus,
+.dijit_a11y .blog .lotusBtn a.lotusBtnDisabled:focus,
+.dj_a11y .wikiHeader .lotusBtn a:disabled:focus,
+.dijit_a11y .wikiHeader .lotusBtn a:disabled:focus,
+.dj_a11y .wikiHeader .lotusBtn a[disabled="disabled"]:focus,
+.dijit_a11y .wikiHeader .lotusBtn a[disabled="disabled"]:focus,
+.dj_a11y .wikiHeader .lotusBtn a.lotusBtnDisabled:focus,
+.dijit_a11y .wikiHeader .lotusBtn a.lotusBtnDisabled:focus,
+.dj_a11y #topicList .lotusBtn a:disabled:focus,
+.dijit_a11y #topicList .lotusBtn a:disabled:focus,
+.dj_a11y #topicList .lotusBtn a[disabled="disabled"]:focus,
+.dijit_a11y #topicList .lotusBtn a[disabled="disabled"]:focus,
+.dj_a11y #topicList .lotusBtn a.lotusBtnDisabled:focus,
+.dijit_a11y #topicList .lotusBtn a.lotusBtnDisabled:focus,
+.dj_a11y #forum .lotusBtn a:disabled:focus,
+.dijit_a11y #forum .lotusBtn a:disabled:focus,
+.dj_a11y #forum .lotusBtn a[disabled="disabled"]:focus,
+.dijit_a11y #forum .lotusBtn a[disabled="disabled"]:focus,
+.dj_a11y #forum .lotusBtn a.lotusBtnDisabled:focus,
+.dijit_a11y #forum .lotusBtn a.lotusBtnDisabled:focus,
+.dj_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:disabled:focus,
+.dijit_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:disabled:focus,
+.dj_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a[disabled="disabled"]:focus,
+.dijit_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a[disabled="disabled"]:focus,
+.dj_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a.lotusBtnDisabled:focus,
+.dijit_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a.lotusBtnDisabled:focus,
+.dj_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):disabled:focus,
+.dijit_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):disabled:focus,
+.dj_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost)[disabled="disabled"]:focus,
+.dijit_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost)[disabled="disabled"]:focus,
+.dj_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost).lotusBtnDisabled:focus,
+.dijit_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost).lotusBtnDisabled:focus {
+  box-shadow: none !important;
+  outline: 1px solid #969696 !important;
+  outline-offset: 1px; }
+
+.dj_a11y #submit_button:focus, .dijit_a11y #submit_button:focus,
+.dj_a11y #btn_actn__personCardSendEMail:focus,
+.dijit_a11y #btn_actn__personCardSendEMail:focus,
+.dj_a11y #createPlaceButton a:focus,
+.dijit_a11y #createPlaceButton a:focus,
+.dj_a11y .lotusRightCorner button:focus,
+.dijit_a11y .lotusRightCorner button:focus,
+.dj_a11y .lotusBtn[name="submitButton"]:focus,
+.dijit_a11y .lotusBtn[name="submitButton"]:focus,
+.dj_a11y .ics-viewer-action-upload .actionLink:focus,
+.dijit_a11y .ics-viewer-action-upload .actionLink:focus,
+.dj_a11y .lotusBtn.submit.lotusButtonSubmit:focus,
+.dijit_a11y .lotusBtn.submit.lotusButtonSubmit:focus,
+.dj_a11y .filesList .lotusDetails .lotusBtnSmall:focus,
+.dijit_a11y .filesList .lotusDetails .lotusBtnSmall:focus,
+.dj_a11y #mainActions .lotusBtn:focus,
+.dijit_a11y #mainActions .lotusBtn:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y #submit_button:disabled:focus,
+.dijit_a11y #submit_button:disabled:focus,
+.dj_a11y #submit_button[disabled="disabled"]:focus,
+.dijit_a11y #submit_button[disabled="disabled"]:focus,
+.dj_a11y #submit_button.lotusBtnDisabled:focus,
+.dijit_a11y #submit_button.lotusBtnDisabled:focus,
+.dj_a11y #btn_actn__personCardSendEMail:disabled:focus,
+.dijit_a11y #btn_actn__personCardSendEMail:disabled:focus,
+.dj_a11y #btn_actn__personCardSendEMail[disabled="disabled"]:focus,
+.dijit_a11y #btn_actn__personCardSendEMail[disabled="disabled"]:focus,
+.dj_a11y #btn_actn__personCardSendEMail.lotusBtnDisabled:focus,
+.dijit_a11y #btn_actn__personCardSendEMail.lotusBtnDisabled:focus,
+.dj_a11y #createPlaceButton a:disabled:focus,
+.dijit_a11y #createPlaceButton a:disabled:focus,
+.dj_a11y #createPlaceButton a[disabled="disabled"]:focus,
+.dijit_a11y #createPlaceButton a[disabled="disabled"]:focus,
+.dj_a11y #createPlaceButton a.lotusBtnDisabled:focus,
+.dijit_a11y #createPlaceButton a.lotusBtnDisabled:focus,
+.dj_a11y .lotusRightCorner button:disabled:focus,
+.dijit_a11y .lotusRightCorner button:disabled:focus,
+.dj_a11y .lotusRightCorner button[disabled="disabled"]:focus,
+.dijit_a11y .lotusRightCorner button[disabled="disabled"]:focus,
+.dj_a11y .lotusRightCorner button.lotusBtnDisabled:focus,
+.dijit_a11y .lotusRightCorner button.lotusBtnDisabled:focus,
+.dj_a11y .lotusBtn[name="submitButton"]:disabled:focus,
+.dijit_a11y .lotusBtn[name="submitButton"]:disabled:focus,
+.dj_a11y .lotusBtn[name="submitButton"][disabled="disabled"]:focus,
+.dijit_a11y .lotusBtn[name="submitButton"][disabled="disabled"]:focus,
+.dj_a11y .lotusBtn[name="submitButton"].lotusBtnDisabled:focus,
+.dijit_a11y .lotusBtn[name="submitButton"].lotusBtnDisabled:focus,
+.dj_a11y .ics-viewer-action-upload .actionLink:disabled:focus,
+.dijit_a11y .ics-viewer-action-upload .actionLink:disabled:focus,
+.dj_a11y .ics-viewer-action-upload .actionLink[disabled="disabled"]:focus,
+.dijit_a11y .ics-viewer-action-upload .actionLink[disabled="disabled"]:focus,
+.dj_a11y .ics-viewer-action-upload .actionLink.lotusBtnDisabled:focus,
+.dijit_a11y .ics-viewer-action-upload .actionLink.lotusBtnDisabled:focus,
+.dj_a11y .lotusBtn.submit.lotusButtonSubmit:disabled:focus,
+.dijit_a11y .lotusBtn.submit.lotusButtonSubmit:disabled:focus,
+.dj_a11y .lotusBtn.submit.lotusButtonSubmit[disabled="disabled"]:focus,
+.dijit_a11y .lotusBtn.submit.lotusButtonSubmit[disabled="disabled"]:focus,
+.dj_a11y .lotusBtn.submit.lotusButtonSubmit.lotusBtnDisabled:focus,
+.dijit_a11y .lotusBtn.submit.lotusButtonSubmit.lotusBtnDisabled:focus,
+.dj_a11y .filesList .lotusDetails .lotusBtnSmall:disabled:focus,
+.dijit_a11y .filesList .lotusDetails .lotusBtnSmall:disabled:focus,
+.dj_a11y .filesList .lotusDetails .lotusBtnSmall[disabled="disabled"]:focus,
+.dijit_a11y .filesList .lotusDetails .lotusBtnSmall[disabled="disabled"]:focus,
+.dj_a11y .filesList .lotusDetails .lotusBtnSmall.lotusBtnDisabled:focus,
+.dijit_a11y .filesList .lotusDetails .lotusBtnSmall.lotusBtnDisabled:focus,
+.dj_a11y #mainActions .lotusBtn:disabled:focus,
+.dijit_a11y #mainActions .lotusBtn:disabled:focus,
+.dj_a11y #mainActions .lotusBtn[disabled="disabled"]:focus,
+.dijit_a11y #mainActions .lotusBtn[disabled="disabled"]:focus,
+.dj_a11y #mainActions .lotusBtn.lotusBtnDisabled:focus,
+.dijit_a11y #mainActions .lotusBtn.lotusBtnDisabled:focus {
+  box-shadow: none !important;
+  outline: 1px solid #FFFFFF !important;
+  outline-offset: 1px; }
+
+.dj_a11y .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:focus,
+.dijit_a11y .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:focus,
+.dj_a11y .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:hover:focus,
+.dijit_a11y .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:hover:focus {
+  box-shadow: none !important;
+  outline: 1px solid #FFFFFF !important;
+  outline-offset: 1px; }
+
+.dj_a11y .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn a:focus,
+.dj_a11y .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn a:focus,
+.dj_a11y .lotusCommunities #ideatoins_main span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #ideatoins_main span.lotusBtn a:focus,
+.dj_a11y .lotusCommunities #startActivity span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #startActivity span.lotusBtn a:focus,
+.dj_a11y .lotusCommunities div[id$="_FULLPAGE_listSection_controllerSection"] span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities div[id$="_FULLPAGE_listSection_controllerSection"] span.lotusBtn a:focus,
+.dj_a11y .lotusCommunities #calendar_view span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #calendar_view span.lotusBtn a:focus,
+.dj_a11y .lotusCommunities #calendarViews span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #calendarViews span.lotusBtn a:focus,
+.dj_a11y .lotusCommunities #fullRecomm span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #fullRecomm span.lotusBtn a:focus,
+.dj_a11y .lotusCommunities #bookmarkContentAreaSub #headline-content span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #bookmarkContentAreaSub #headline-content span.lotusBtn a:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn + .lotusBtn a:focus,
+.dijit_a11y .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn + .lotusBtn a:focus,
+.dj_a11y .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn + .lotusBtn a:focus,
+.dijit_a11y .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn + .lotusBtn a:focus,
+.dj_a11y .lotusCommunities #ideatoins_main span.lotusBtn + .lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #ideatoins_main span.lotusBtn + .lotusBtn a:focus,
+.dj_a11y .lotusCommunities #startActivity span.lotusBtn + .lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #startActivity span.lotusBtn + .lotusBtn a:focus,
+.dj_a11y .lotusCommunities div[id$="_FULLPAGE_listSection_controllerSection"] span.lotusBtn + .lotusBtn a:focus,
+.dijit_a11y .lotusCommunities div[id$="_FULLPAGE_listSection_controllerSection"] span.lotusBtn + .lotusBtn a:focus,
+.dj_a11y .lotusCommunities #calendar_view span.lotusBtn + .lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #calendar_view span.lotusBtn + .lotusBtn a:focus,
+.dj_a11y .lotusCommunities #calendarViews span.lotusBtn + .lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #calendarViews span.lotusBtn + .lotusBtn a:focus,
+.dj_a11y .lotusCommunities #fullRecomm span.lotusBtn + .lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #fullRecomm span.lotusBtn + .lotusBtn a:focus,
+.dj_a11y .lotusCommunities #bookmarkContentAreaSub #headline-content span.lotusBtn + .lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #bookmarkContentAreaSub #headline-content span.lotusBtn + .lotusBtn a:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y #memberAddForm #saveButton:focus,
+.dijit_a11y #memberAddForm #saveButton:focus,
+.dj_a11y #memberInviteForm .lotusFormButton[name="submit"]:focus,
+.dijit_a11y #memberInviteForm .lotusFormButton[name="submit"]:focus,
+.dj_a11y .dijitDialog .lotusFormButton.submit:focus,
+.dijit_a11y .dijitDialog .lotusFormButton.submit:focus,
+.dj_a11y div[id^="editBookmark"] input[type="submit"]:focus,
+.dijit_a11y div[id^="editBookmark"] input[type="submit"]:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:focus,
+.dijit_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:focus,
+.dijit_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y #lconn_btn_browse_files:focus,
+.dijit_a11y #lconn_btn_browse_files:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:focus,
+.dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:focus,
+.dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:focus,
+.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:focus,
+.dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:focus,
+.dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:focus, .dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:focus,
+.dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .ics-viewer-splitbutton .actionLink:focus,
+.dijit_a11y .ics-viewer-splitbutton .actionLink:focus,
+.dj_a11y .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:focus,
+.dijit_a11y .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:focus,
+.dj_a11y .ics-viewer-action-splitmenu span.dijitButtonNode:focus,
+.dijit_a11y .ics-viewer-action-splitmenu span.dijitButtonNode:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .lotusBtn:focus, .dijit_a11y .lotusBtn:focus,
+.dj_a11y .lotusFormButton:focus,
+.dijit_a11y .lotusFormButton:focus,
+.dj_a11y .ics-dialog-action #ok:focus,
+.dijit_a11y .ics-dialog-action #ok:focus,
+.dj_a11y .ics-dialog-action .cancel.neutral:focus,
+.dijit_a11y .ics-dialog-action .cancel.neutral:focus,
+.dj_a11y .filesList .lotusDetails .lotusBtnSmallGray:focus,
+.dijit_a11y .filesList .lotusDetails .lotusBtnSmallGray:focus,
+.dj_a11y .qkrEdit .lotusBtnSmall:focus,
+.dijit_a11y .qkrEdit .lotusBtnSmall:focus,
+.dj_a11y .entryEditTable .lotusBtnSmall:focus,
+.dijit_a11y .entryEditTable .lotusBtnSmall:focus,
+.dj_a11y .entryEditTable .lotusBtnSmallGray:focus,
+.dijit_a11y .entryEditTable .lotusBtnSmallGray:focus,
+.dj_a11y .wikiHeader .lotusBtnSmall:focus,
+.dijit_a11y .wikiHeader .lotusBtnSmall:focus,
+.dj_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction:focus,
+.dijit_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction:focus,
+.dj_a11y .blog .lotusBtn a:focus,
+.dijit_a11y .blog .lotusBtn a:focus,
+.dj_a11y .wikiHeader .lotusBtn a:focus,
+.dijit_a11y .wikiHeader .lotusBtn a:focus,
+.dj_a11y #topicList .lotusBtn a:focus,
+.dijit_a11y #topicList .lotusBtn a:focus,
+.dj_a11y #forum .lotusBtn a:focus,
+.dijit_a11y #forum .lotusBtn a:focus,
+.dj_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:focus,
+.dijit_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:focus,
+.dj_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):focus,
+.dijit_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .lotusStreamUpdate .lotusActions a[role="button"]:focus,
+.dijit_a11y .lotusStreamUpdate .lotusActions a[role="button"]:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:focus,
+.dijit_a11y .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:focus,
+.dj_a11y .lotusStreamUpdate .lotusActions a[role="button"][dojoattachevent="onclick:cancel"]:focus,
+.dijit_a11y .lotusStreamUpdate .lotusActions a[role="button"][dojoattachevent="onclick:cancel"]:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .lotusCommunities #memberAddButton span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #memberAddButton span.lotusBtn a:focus,
+.dj_a11y .lotusCommunities #inviteButtons span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities #inviteButtons span.lotusBtn a:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .lotusCommunities ~ .lotusDialog .lconnFileInput .lconnUploadContainer span.lotusBtn a:focus,
+.dijit_a11y .lotusCommunities ~ .lotusDialog .lconnFileInput .lconnUploadContainer span.lotusBtn a:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:focus, .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:focus {
+  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
+  outline: none !important; }
+
+.cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab:hover, .cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected:hover {
+  color: #FFFFFF !important;
+  background-color: #75263b !important;
+  border-color: #75263b !important;
+  font-weight: 500 !important; }
+
+.cke_dialog .cke_dialog_body .cke_dialog_title {
+  background-color: #FFFFFF; }
+.cke_dialog .cke_dialog_body .cke_dialog_tabs {
+  border-bottom: 1px solid #d8d8d8 !important;
+  padding: 20px 10px 12px 20px;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important; }
+  .cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab {
+    padding: 0.5rem 1rem !important;
+    line-height: 20px;
+    margin: 0 !important;
+    font-size: inherit !important;
+    color: #595859 !important;
+    border-radius: 2px !important;
+    border: 1px solid transparent !important;
+    font-weight: 500 !important;
+    text-transform: none !important; }
+    .cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab:focus {
+      color: #000000 !important;
+      background-color: transparent !important;
+      border-color: #75263b !important; }
+    .cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected {
+      border-bottom: 4px solid #75263b !important;
+      color: #000000 !important; }
+      .cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected:active, .cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected:focus {
+        text-decoration: none !important; }
+      .cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected:focus {
+        border-color: #75263b !important; }
+    .cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab[id^="cke_advanced_"] {
+      margin-left: 0.5rem !important; }
+.cke_dialog .cke_dialog_body [id^="cke_dialog_close_button"].cke_dialog_close_button {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22close_24%22 fill=%22%23595859%22%3E%3Cpolygon id=%22close%22 points=%2218 6 12.353 11.647 6.708 6 6 6.707 11.647 12.354 6 18 6.708 18.707 12.353 13.061 18 18.707 18.707 18 13.061 12.354 18.707 6.707%22%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  height: 24px !important;
+  width: 24px !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  padding: 0.25rem 0.25rem 0.125rem 0.25rem !important; }
+  .cke_dialog .cke_dialog_body [id^="cke_dialog_close_button"].cke_dialog_close_button:focus {
+    outline: 1px solid #75263b !important; }
+.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text div.cke_dialog_ui_input_text {
+  border: none; }
+.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text input.cke_dialog_ui_input_text {
+  line-height: 1.5 !important;
+  min-width: 10rem !important;
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+  font-size: 12.8px !important;
+  padding-right: 2rem !important;
+  padding-bottom: .375rem !important;
+  box-sizing: border-box !important; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text input.cke_dialog_ui_input_text:focus, .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text input.cke_dialog_ui_input_text .dijitTextBoxFocused {
+    outline: none !important;
+    border-color: #75263b !important;
+    box-shadow: 0 1px 0 #75263b !important; }
+.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text.cke_disabled {
+  background: transparent !important; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text.cke_disabled div.cke_dialog_ui_input_text {
+    background-color: #F3F3F3 !important; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text.cke_disabled input.cke_dialog_ui_input_text {
+    background: transparent !important;
+    color: #969696 !important; }
+.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_input_select {
+  padding-bottom: .6rem !important; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_input_select:focus {
+    padding-bottom: .5375rem !important; }
+.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel {
+  border-radius: 2rem !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  box-shadow: none !important;
+  transform: translateZ(0) !important;
+  -webkit-font-smoothing: antialiased !important;
+  cursor: pointer !important;
+  -webkit-box-align: center !important;
+  -webkit-box-pack: center !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+  white-space: nowrap !important;
+  padding: 9px 20px !important;
+  font-weight: 500 !important;
+  background-image: none !important;
+  margin: 2px 4px 3px 2px !important;
+  background-color: #FFFFFF !important;
+  border-color: #75263b !important;
+  color: #75263b !important; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:hover, .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:active {
+    background-color: #75263b !important;
+    color: #FFFFFF !important;
+    border-color: #75263b !important;
+    text-decoration: none !important;
+    outline: none; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:hover span {
+    color: #FFFFFF !important; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel span {
+    color: #75263b !important; }
+.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok {
+  border-radius: 2rem !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  box-shadow: none !important;
+  transform: translateZ(0) !important;
+  -webkit-font-smoothing: antialiased !important;
+  cursor: pointer !important;
+  -webkit-box-align: center !important;
+  -webkit-box-pack: center !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
+  white-space: nowrap !important;
+  padding: 9px 20px !important;
+  font-weight: 500 !important;
+  background-image: none !important;
+  margin: 2px 4px 3px 2px !important;
+  background-color: #75263b !important;
+  border-color: #75263b !important;
+  color: #FFFFFF !important; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:hover span {
+    color: #75263b !important; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:hover, .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:active {
+    background-color: #FFFFFF !important;
+    color: #75263b !important;
+    border-color: #75263b !important;
+    text-decoration: none !important;
+    outline: none; }
+  .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok span {
+    color: #FFFFFF !important; }
+
+.dj_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:focus,
+.dijit_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+.dj_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:focus,
+.dijit_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:focus {
+  box-shadow: none !important;
+  outline: 1px solid #75263b !important;
+  outline-offset: 1px; }
+
+/* Notification panel full length */
 .navsimplelist.notificationCenterContainer {
   height: auto;
   right: -129px !important;
@@ -290,15 +799,6 @@ a:visited.lotusPerson,
 .ics-viewer-action-splitmenu span.dijitButtonNode:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
-
-.dj_a11y .ics-viewer-splitbutton .actionLink:focus, .dijit_a11y .ics-viewer-splitbutton .actionLink:focus,
-.dj_a11y .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:focus,
-.dijit_a11y .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:focus,
-.dj_a11y .ics-viewer-action-splitmenu span.dijitButtonNode:focus,
-.dijit_a11y .ics-viewer-action-splitmenu span.dijitButtonNode:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
 
 .ics-viewer-splitbutton .actionLink:active, .ics-viewer-splitbutton .actionLink:hover,
 .ics-viewer-splitbutton.ics-viewer-action-upload .actionLink:active,
@@ -426,41 +926,6 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
 div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
-
-.dj_a11y .lotusBtn:focus, .dijit_a11y .lotusBtn:focus,
-.dj_a11y .lotusFormButton:focus,
-.dijit_a11y .lotusFormButton:focus,
-.dj_a11y .ics-dialog-action #ok:focus,
-.dijit_a11y .ics-dialog-action #ok:focus,
-.dj_a11y .ics-dialog-action .cancel.neutral:focus,
-.dijit_a11y .ics-dialog-action .cancel.neutral:focus,
-.dj_a11y .filesList .lotusDetails .lotusBtnSmallGray:focus,
-.dijit_a11y .filesList .lotusDetails .lotusBtnSmallGray:focus,
-.dj_a11y .qkrEdit .lotusBtnSmall:focus,
-.dijit_a11y .qkrEdit .lotusBtnSmall:focus,
-.dj_a11y .entryEditTable .lotusBtnSmall:focus,
-.dijit_a11y .entryEditTable .lotusBtnSmall:focus,
-.dj_a11y .entryEditTable .lotusBtnSmallGray:focus,
-.dijit_a11y .entryEditTable .lotusBtnSmallGray:focus,
-.dj_a11y .wikiHeader .lotusBtnSmall:focus,
-.dijit_a11y .wikiHeader .lotusBtnSmall:focus,
-.dj_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction:focus,
-.dijit_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction:focus,
-.dj_a11y .blog .lotusBtn a:focus,
-.dijit_a11y .blog .lotusBtn a:focus,
-.dj_a11y .wikiHeader .lotusBtn a:focus,
-.dijit_a11y .wikiHeader .lotusBtn a:focus,
-.dj_a11y #topicList .lotusBtn a:focus,
-.dijit_a11y #topicList .lotusBtn a:focus,
-.dj_a11y #forum .lotusBtn a:focus,
-.dijit_a11y #forum .lotusBtn a:focus,
-.dj_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:focus,
-.dijit_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:focus,
-.dj_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):focus,
-.dijit_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
 
 .lotusBtn:active, .lotusBtn:hover,
 .lotusFormButton:active,
@@ -686,101 +1151,6 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
 div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost).lotusBtnDisabled:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #969696 !important; }
 
-.dj_a11y .lotusBtn:disabled:focus, .dijit_a11y .lotusBtn:disabled:focus, .dj_a11y .lotusBtn[disabled="disabled"]:focus, .dijit_a11y .lotusBtn[disabled="disabled"]:focus, .dj_a11y .lotusBtn.lotusBtnDisabled:focus, .dijit_a11y .lotusBtn.lotusBtnDisabled:focus,
-.dj_a11y .lotusFormButton:disabled:focus,
-.dijit_a11y .lotusFormButton:disabled:focus,
-.dj_a11y .lotusFormButton[disabled="disabled"]:focus,
-.dijit_a11y .lotusFormButton[disabled="disabled"]:focus,
-.dj_a11y .lotusFormButton.lotusBtnDisabled:focus,
-.dijit_a11y .lotusFormButton.lotusBtnDisabled:focus,
-.dj_a11y .ics-dialog-action #ok:disabled:focus,
-.dijit_a11y .ics-dialog-action #ok:disabled:focus,
-.dj_a11y .ics-dialog-action #ok[disabled="disabled"]:focus,
-.dijit_a11y .ics-dialog-action #ok[disabled="disabled"]:focus,
-.dj_a11y .ics-dialog-action #ok.lotusBtnDisabled:focus,
-.dijit_a11y .ics-dialog-action #ok.lotusBtnDisabled:focus,
-.dj_a11y .ics-dialog-action .cancel.neutral:disabled:focus,
-.dijit_a11y .ics-dialog-action .cancel.neutral:disabled:focus,
-.dj_a11y .ics-dialog-action .cancel.neutral[disabled="disabled"]:focus,
-.dijit_a11y .ics-dialog-action .cancel.neutral[disabled="disabled"]:focus,
-.dj_a11y .ics-dialog-action .cancel.neutral.lotusBtnDisabled:focus,
-.dijit_a11y .ics-dialog-action .cancel.neutral.lotusBtnDisabled:focus,
-.dj_a11y .filesList .lotusDetails .lotusBtnSmallGray:disabled:focus,
-.dijit_a11y .filesList .lotusDetails .lotusBtnSmallGray:disabled:focus,
-.dj_a11y .filesList .lotusDetails .lotusBtnSmallGray[disabled="disabled"]:focus,
-.dijit_a11y .filesList .lotusDetails .lotusBtnSmallGray[disabled="disabled"]:focus,
-.dj_a11y .filesList .lotusDetails .lotusBtnSmallGray.lotusBtnDisabled:focus,
-.dijit_a11y .filesList .lotusDetails .lotusBtnSmallGray.lotusBtnDisabled:focus,
-.dj_a11y .qkrEdit .lotusBtnSmall:disabled:focus,
-.dijit_a11y .qkrEdit .lotusBtnSmall:disabled:focus,
-.dj_a11y .qkrEdit .lotusBtnSmall[disabled="disabled"]:focus,
-.dijit_a11y .qkrEdit .lotusBtnSmall[disabled="disabled"]:focus,
-.dj_a11y .qkrEdit .lotusBtnSmall.lotusBtnDisabled:focus,
-.dijit_a11y .qkrEdit .lotusBtnSmall.lotusBtnDisabled:focus,
-.dj_a11y .entryEditTable .lotusBtnSmall:disabled:focus,
-.dijit_a11y .entryEditTable .lotusBtnSmall:disabled:focus,
-.dj_a11y .entryEditTable .lotusBtnSmall[disabled="disabled"]:focus,
-.dijit_a11y .entryEditTable .lotusBtnSmall[disabled="disabled"]:focus,
-.dj_a11y .entryEditTable .lotusBtnSmall.lotusBtnDisabled:focus,
-.dijit_a11y .entryEditTable .lotusBtnSmall.lotusBtnDisabled:focus,
-.dj_a11y .entryEditTable .lotusBtnSmallGray:disabled:focus,
-.dijit_a11y .entryEditTable .lotusBtnSmallGray:disabled:focus,
-.dj_a11y .entryEditTable .lotusBtnSmallGray[disabled="disabled"]:focus,
-.dijit_a11y .entryEditTable .lotusBtnSmallGray[disabled="disabled"]:focus,
-.dj_a11y .entryEditTable .lotusBtnSmallGray.lotusBtnDisabled:focus,
-.dijit_a11y .entryEditTable .lotusBtnSmallGray.lotusBtnDisabled:focus,
-.dj_a11y .wikiHeader .lotusBtnSmall:disabled:focus,
-.dijit_a11y .wikiHeader .lotusBtnSmall:disabled:focus,
-.dj_a11y .wikiHeader .lotusBtnSmall[disabled="disabled"]:focus,
-.dijit_a11y .wikiHeader .lotusBtnSmall[disabled="disabled"]:focus,
-.dj_a11y .wikiHeader .lotusBtnSmall.lotusBtnDisabled:focus,
-.dijit_a11y .wikiHeader .lotusBtnSmall.lotusBtnDisabled:focus,
-.dj_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction:disabled:focus,
-.dijit_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction:disabled:focus,
-.dj_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction[disabled="disabled"]:focus,
-.dijit_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction[disabled="disabled"]:focus,
-.dj_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction.lotusBtnDisabled:focus,
-.dijit_a11y #blogCommentPanel [dojoattachpoint='addCommentLinkAP'].lotusAction.lotusBtnDisabled:focus,
-.dj_a11y .blog .lotusBtn a:disabled:focus,
-.dijit_a11y .blog .lotusBtn a:disabled:focus,
-.dj_a11y .blog .lotusBtn a[disabled="disabled"]:focus,
-.dijit_a11y .blog .lotusBtn a[disabled="disabled"]:focus,
-.dj_a11y .blog .lotusBtn a.lotusBtnDisabled:focus,
-.dijit_a11y .blog .lotusBtn a.lotusBtnDisabled:focus,
-.dj_a11y .wikiHeader .lotusBtn a:disabled:focus,
-.dijit_a11y .wikiHeader .lotusBtn a:disabled:focus,
-.dj_a11y .wikiHeader .lotusBtn a[disabled="disabled"]:focus,
-.dijit_a11y .wikiHeader .lotusBtn a[disabled="disabled"]:focus,
-.dj_a11y .wikiHeader .lotusBtn a.lotusBtnDisabled:focus,
-.dijit_a11y .wikiHeader .lotusBtn a.lotusBtnDisabled:focus,
-.dj_a11y #topicList .lotusBtn a:disabled:focus,
-.dijit_a11y #topicList .lotusBtn a:disabled:focus,
-.dj_a11y #topicList .lotusBtn a[disabled="disabled"]:focus,
-.dijit_a11y #topicList .lotusBtn a[disabled="disabled"]:focus,
-.dj_a11y #topicList .lotusBtn a.lotusBtnDisabled:focus,
-.dijit_a11y #topicList .lotusBtn a.lotusBtnDisabled:focus,
-.dj_a11y #forum .lotusBtn a:disabled:focus,
-.dijit_a11y #forum .lotusBtn a:disabled:focus,
-.dj_a11y #forum .lotusBtn a[disabled="disabled"]:focus,
-.dijit_a11y #forum .lotusBtn a[disabled="disabled"]:focus,
-.dj_a11y #forum .lotusBtn a.lotusBtnDisabled:focus,
-.dijit_a11y #forum .lotusBtn a.lotusBtnDisabled:focus,
-.dj_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:disabled:focus,
-.dijit_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a:disabled:focus,
-.dj_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a[disabled="disabled"]:focus,
-.dijit_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a[disabled="disabled"]:focus,
-.dj_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a.lotusBtnDisabled:focus,
-.dijit_a11y #pageDetails .qkrTabBody div[dojoattachpoint="toggleNode"] a.lotusBtnDisabled:focus,
-.dj_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):disabled:focus,
-.dijit_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost):disabled:focus,
-.dj_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost)[disabled="disabled"]:focus,
-.dijit_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost)[disabled="disabled"]:focus,
-.dj_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost).lotusBtnDisabled:focus,
-.dijit_a11y div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"]:not(.ublogPost).lotusBtnDisabled:focus {
-  box-shadow: none !important;
-  outline: 1px solid #969696 !important;
-  outline-offset: 1px; }
-
 div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.ublogActionsList) a[role="button"].share-attachAction:not(.ublogPost):focus {
   box-shadow: none !important; }
 
@@ -845,27 +1215,6 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
 #mainActions .lotusBtn:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
-
-.dj_a11y #submit_button:focus, .dijit_a11y #submit_button:focus,
-.dj_a11y #btn_actn__personCardSendEMail:focus,
-.dijit_a11y #btn_actn__personCardSendEMail:focus,
-.dj_a11y #createPlaceButton a:focus,
-.dijit_a11y #createPlaceButton a:focus,
-.dj_a11y .lotusRightCorner button:focus,
-.dijit_a11y .lotusRightCorner button:focus,
-.dj_a11y .lotusBtn[name="submitButton"]:focus,
-.dijit_a11y .lotusBtn[name="submitButton"]:focus,
-.dj_a11y .ics-viewer-action-upload .actionLink:focus,
-.dijit_a11y .ics-viewer-action-upload .actionLink:focus,
-.dj_a11y .lotusBtn.submit.lotusButtonSubmit:focus,
-.dijit_a11y .lotusBtn.submit.lotusButtonSubmit:focus,
-.dj_a11y .filesList .lotusDetails .lotusBtnSmall:focus,
-.dijit_a11y .filesList .lotusDetails .lotusBtnSmall:focus,
-.dj_a11y #mainActions .lotusBtn:focus,
-.dijit_a11y #mainActions .lotusBtn:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
 
 #submit_button:active, #submit_button:hover,
 #btn_actn__personCardSendEMail:active,
@@ -993,59 +1342,6 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
 #mainActions .lotusBtn.lotusBtnDisabled:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #969696 !important; }
 
-.dj_a11y #submit_button:disabled:focus, .dijit_a11y #submit_button:disabled:focus, .dj_a11y #submit_button[disabled="disabled"]:focus, .dijit_a11y #submit_button[disabled="disabled"]:focus, .dj_a11y #submit_button.lotusBtnDisabled:focus, .dijit_a11y #submit_button.lotusBtnDisabled:focus,
-.dj_a11y #btn_actn__personCardSendEMail:disabled:focus,
-.dijit_a11y #btn_actn__personCardSendEMail:disabled:focus,
-.dj_a11y #btn_actn__personCardSendEMail[disabled="disabled"]:focus,
-.dijit_a11y #btn_actn__personCardSendEMail[disabled="disabled"]:focus,
-.dj_a11y #btn_actn__personCardSendEMail.lotusBtnDisabled:focus,
-.dijit_a11y #btn_actn__personCardSendEMail.lotusBtnDisabled:focus,
-.dj_a11y #createPlaceButton a:disabled:focus,
-.dijit_a11y #createPlaceButton a:disabled:focus,
-.dj_a11y #createPlaceButton a[disabled="disabled"]:focus,
-.dijit_a11y #createPlaceButton a[disabled="disabled"]:focus,
-.dj_a11y #createPlaceButton a.lotusBtnDisabled:focus,
-.dijit_a11y #createPlaceButton a.lotusBtnDisabled:focus,
-.dj_a11y .lotusRightCorner button:disabled:focus,
-.dijit_a11y .lotusRightCorner button:disabled:focus,
-.dj_a11y .lotusRightCorner button[disabled="disabled"]:focus,
-.dijit_a11y .lotusRightCorner button[disabled="disabled"]:focus,
-.dj_a11y .lotusRightCorner button.lotusBtnDisabled:focus,
-.dijit_a11y .lotusRightCorner button.lotusBtnDisabled:focus,
-.dj_a11y .lotusBtn[name="submitButton"]:disabled:focus,
-.dijit_a11y .lotusBtn[name="submitButton"]:disabled:focus,
-.dj_a11y .lotusBtn[name="submitButton"][disabled="disabled"]:focus,
-.dijit_a11y .lotusBtn[name="submitButton"][disabled="disabled"]:focus,
-.dj_a11y .lotusBtn[name="submitButton"].lotusBtnDisabled:focus,
-.dijit_a11y .lotusBtn[name="submitButton"].lotusBtnDisabled:focus,
-.dj_a11y .ics-viewer-action-upload .actionLink:disabled:focus,
-.dijit_a11y .ics-viewer-action-upload .actionLink:disabled:focus,
-.dj_a11y .ics-viewer-action-upload .actionLink[disabled="disabled"]:focus,
-.dijit_a11y .ics-viewer-action-upload .actionLink[disabled="disabled"]:focus,
-.dj_a11y .ics-viewer-action-upload .actionLink.lotusBtnDisabled:focus,
-.dijit_a11y .ics-viewer-action-upload .actionLink.lotusBtnDisabled:focus,
-.dj_a11y .lotusBtn.submit.lotusButtonSubmit:disabled:focus,
-.dijit_a11y .lotusBtn.submit.lotusButtonSubmit:disabled:focus,
-.dj_a11y .lotusBtn.submit.lotusButtonSubmit[disabled="disabled"]:focus,
-.dijit_a11y .lotusBtn.submit.lotusButtonSubmit[disabled="disabled"]:focus,
-.dj_a11y .lotusBtn.submit.lotusButtonSubmit.lotusBtnDisabled:focus,
-.dijit_a11y .lotusBtn.submit.lotusButtonSubmit.lotusBtnDisabled:focus,
-.dj_a11y .filesList .lotusDetails .lotusBtnSmall:disabled:focus,
-.dijit_a11y .filesList .lotusDetails .lotusBtnSmall:disabled:focus,
-.dj_a11y .filesList .lotusDetails .lotusBtnSmall[disabled="disabled"]:focus,
-.dijit_a11y .filesList .lotusDetails .lotusBtnSmall[disabled="disabled"]:focus,
-.dj_a11y .filesList .lotusDetails .lotusBtnSmall.lotusBtnDisabled:focus,
-.dijit_a11y .filesList .lotusDetails .lotusBtnSmall.lotusBtnDisabled:focus,
-.dj_a11y #mainActions .lotusBtn:disabled:focus,
-.dijit_a11y #mainActions .lotusBtn:disabled:focus,
-.dj_a11y #mainActions .lotusBtn[disabled="disabled"]:focus,
-.dijit_a11y #mainActions .lotusBtn[disabled="disabled"]:focus,
-.dj_a11y #mainActions .lotusBtn.lotusBtnDisabled:focus,
-.dijit_a11y #mainActions .lotusBtn.lotusBtnDisabled:focus {
-  box-shadow: none !important;
-  outline: 1px solid #FFFFFF !important;
-  outline-offset: 1px; }
-
 #submit_button .lotusArrow.lotusDropDownSprite,
 #btn_actn__personCardSendEMail .lotusArrow.lotusDropDownSprite,
 #createPlaceButton a .lotusArrow.lotusDropDownSprite,
@@ -1100,9 +1396,6 @@ div[id^="lconn_news_microblogging_sharebox_InputForm_"][id$="_myactions"] :not(.
     border: none !important; }
   #lotusContentSceneActions .lotusBtn:first-child {
     display: inline-block !important; }
-
-#lotusContentSceneActions .lotusBtn:first-child {
-  display: inline-block !important; }
 
 .lotusErrorBox.lotusError .lotusBtnContainer .lotusBtn a {
   color: #75263b !important;
@@ -1185,11 +1478,6 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"]:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
 
-.dj_a11y .lotusStreamUpdate .lotusActions a[role="button"]:focus, .dijit_a11y .lotusStreamUpdate .lotusActions a[role="button"]:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
-
 .lotusStreamUpdate .lotusActions a[role="button"]:active, .lotusStreamUpdate .lotusActions a[role="button"]:hover {
   background-color: #FFFFFF !important;
   color: #75263b !important;
@@ -1228,11 +1516,6 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"]:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
 
-.dj_a11y .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:focus, .dijit_a11y .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:focus, .dj_a11y .lotusStreamUpdate .lotusActions a[role="button"][dojoattachevent="onclick:cancel"]:focus, .dijit_a11y .lotusStreamUpdate .lotusActions a[role="button"][dojoattachevent="onclick:cancel"]:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
-
 .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:active, .lotusStreamUpdate .lotusActions a[role="button"][data-dojo-attach-event="onclick: doCancel"]:hover, .lotusStreamUpdate .lotusActions a[role="button"][dojoattachevent="onclick:cancel"]:active, .lotusStreamUpdate .lotusActions a[role="button"][dojoattachevent="onclick:cancel"]:hover {
   background-color: #75263b !important;
   color: #FFFFFF !important;
@@ -1250,13 +1533,6 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"]:focus {
 .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:focus,
 .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:hover:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #969696 !important; }
-
-.dj_a11y .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:focus, .dijit_a11y .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:focus,
-.dj_a11y .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:hover:focus,
-.dijit_a11y .lotusStreamUpdate .lotusActions.lotusInactive a[role="button"]:hover:focus {
-  box-shadow: none !important;
-  outline: 1px solid #FFFFFF !important;
-  outline-offset: 1px; }
 
 .filesList .lotusDetails td:not(.lotusFirst) ul {
   margin-top: 12px !important;
@@ -1405,13 +1681,6 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"]:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
 
-.dj_a11y .lotusCommunities #memberAddButton span.lotusBtn a:focus, .dijit_a11y .lotusCommunities #memberAddButton span.lotusBtn a:focus,
-.dj_a11y .lotusCommunities #inviteButtons span.lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #inviteButtons span.lotusBtn a:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
-
 .lotusCommunities #memberAddButton span.lotusBtn a:active, .lotusCommunities #memberAddButton span.lotusBtn a:hover,
 .lotusCommunities #inviteButtons span.lotusBtn a:active,
 .lotusCommunities #inviteButtons span.lotusBtn a:hover {
@@ -1541,27 +1810,6 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"]:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
 
-.dj_a11y .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn a:focus, .dijit_a11y .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn a:focus,
-.dj_a11y .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn a:focus,
-.dijit_a11y .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn a:focus,
-.dj_a11y .lotusCommunities #ideatoins_main span.lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #ideatoins_main span.lotusBtn a:focus,
-.dj_a11y .lotusCommunities #startActivity span.lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #startActivity span.lotusBtn a:focus,
-.dj_a11y .lotusCommunities div[id$="_FULLPAGE_listSection_controllerSection"] span.lotusBtn a:focus,
-.dijit_a11y .lotusCommunities div[id$="_FULLPAGE_listSection_controllerSection"] span.lotusBtn a:focus,
-.dj_a11y .lotusCommunities #calendar_view span.lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #calendar_view span.lotusBtn a:focus,
-.dj_a11y .lotusCommunities #calendarViews span.lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #calendarViews span.lotusBtn a:focus,
-.dj_a11y .lotusCommunities #fullRecomm span.lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #fullRecomm span.lotusBtn a:focus,
-.dj_a11y .lotusCommunities #bookmarkContentAreaSub #headline-content span.lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #bookmarkContentAreaSub #headline-content span.lotusBtn a:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
-
 .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn a:active, .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn a:hover,
 .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn a:active,
 .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn a:hover,
@@ -1645,27 +1893,6 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"]:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
 
-.dj_a11y .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn + .lotusBtn a:focus, .dijit_a11y .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn + .lotusBtn a:focus,
-.dj_a11y .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn + .lotusBtn a:focus,
-.dijit_a11y .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn + .lotusBtn a:focus,
-.dj_a11y .lotusCommunities #ideatoins_main span.lotusBtn + .lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #ideatoins_main span.lotusBtn + .lotusBtn a:focus,
-.dj_a11y .lotusCommunities #startActivity span.lotusBtn + .lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #startActivity span.lotusBtn + .lotusBtn a:focus,
-.dj_a11y .lotusCommunities div[id$="_FULLPAGE_listSection_controllerSection"] span.lotusBtn + .lotusBtn a:focus,
-.dijit_a11y .lotusCommunities div[id$="_FULLPAGE_listSection_controllerSection"] span.lotusBtn + .lotusBtn a:focus,
-.dj_a11y .lotusCommunities #calendar_view span.lotusBtn + .lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #calendar_view span.lotusBtn + .lotusBtn a:focus,
-.dj_a11y .lotusCommunities #calendarViews span.lotusBtn + .lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #calendarViews span.lotusBtn + .lotusBtn a:focus,
-.dj_a11y .lotusCommunities #fullRecomm span.lotusBtn + .lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #fullRecomm span.lotusBtn + .lotusBtn a:focus,
-.dj_a11y .lotusCommunities #bookmarkContentAreaSub #headline-content span.lotusBtn + .lotusBtn a:focus,
-.dijit_a11y .lotusCommunities #bookmarkContentAreaSub #headline-content span.lotusBtn + .lotusBtn a:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
-
 .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn + .lotusBtn a:active, .lotusCommunities .dfCommunityForums #dfTopicList span.lotusBtn + .lotusBtn a:hover,
 .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn + .lotusBtn a:active,
 .lotusCommunities .dfCommunityForums #dfForumList span.lotusBtn + .lotusBtn a:hover,
@@ -1722,11 +1949,6 @@ body:not(.lotusImagesOff) button[id^="com_ibm_sc_action_moreaction_"]:focus {
 .lotusCommunities ~ .lotusDialog .lconnFileInput .lconnUploadContainer span.lotusBtn a:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
-
-.dj_a11y .lotusCommunities ~ .lotusDialog .lconnFileInput .lconnUploadContainer span.lotusBtn a:focus, .dijit_a11y .lotusCommunities ~ .lotusDialog .lconnFileInput .lconnUploadContainer span.lotusBtn a:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
 
 .lotusCommunities ~ .lotusDialog .lconnFileInput .lconnUploadContainer span.lotusBtn a:active, .lotusCommunities ~ .lotusDialog .lconnFileInput .lconnUploadContainer span.lotusBtn a:hover {
   background-color: #FFFFFF !important;
@@ -1789,17 +2011,6 @@ div[id^="editBookmark"] input[type="submit"]:active {
 div[id^="editBookmark"] input[type="submit"]:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
-
-.dj_a11y #memberAddForm #saveButton:focus, .dijit_a11y #memberAddForm #saveButton:focus,
-.dj_a11y #memberInviteForm .lotusFormButton[name="submit"]:focus,
-.dijit_a11y #memberInviteForm .lotusFormButton[name="submit"]:focus,
-.dj_a11y .dijitDialog .lotusFormButton.submit:focus,
-.dijit_a11y .dijitDialog .lotusFormButton.submit:focus,
-.dj_a11y div[id^="editBookmark"] input[type="submit"]:focus,
-.dijit_a11y div[id^="editBookmark"] input[type="submit"]:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
 
 #memberAddForm #saveButton:active, #memberAddForm #saveButton:hover,
 #memberInviteForm .lotusFormButton[name="submit"]:active,
@@ -1897,197 +2108,6 @@ tbody .lotusFirstCell {
 #memberAddFormDiv #addAllParentMembersRow > td input[type="checkbox"], #memberAddFormDiv #addAllParentMembersRow > td label {
   display: inline-block;
   vertical-align: middle; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_title {
-  background-color: #FFFFFF; }
-
-.cke_dialog .cke_dialog_body [id^="cke_dialog_close_button"].cke_dialog_close_button {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22close_24%22 fill=%22%23595859%22%3E%3Cpolygon id=%22close%22 points=%2218 6 12.353 11.647 6.708 6 6 6.707 11.647 12.354 6 18 6.708 18.707 12.353 13.061 18 18.707 18.707 18 13.061 12.354 18.707 6.707%22%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
-  background-position-x: center !important;
-  background-position-y: center !important;
-  height: 24px !important;
-  width: 24px !important;
-  top: 1rem !important;
-  right: 1rem !important;
-  padding: 0.25rem 0.25rem 0.125rem 0.25rem !important; }
-
-.cke_dialog .cke_dialog_body [id^="cke_dialog_close_button"].cke_dialog_close_button:focus {
-  outline: 1px solid #75263b !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_tabs {
-  border-bottom: 1px solid #d8d8d8 !important;
-  padding: 20px 10px 12px 20px;
-  font-size: 0.875rem !important;
-  font-weight: 500 !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab {
-  padding: 0.5rem 1rem !important;
-  line-height: 20px;
-  margin: 0 !important;
-  font-size: inherit !important;
-  color: #595859 !important;
-  border-radius: 2px !important;
-  border: 1px solid transparent !important;
-  font-weight: 500 !important;
-  text-transform: none !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab:hover {
-  color: #FFFFFF !important;
-  background-color: #75263b !important;
-  border-color: #75263b !important;
-  font-weight: 500 !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab:focus {
-  color: #000000 !important;
-  background-color: transparent !important;
-  border-color: #75263b !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected {
-  border-bottom: 4px solid #75263b !important;
-  color: #000000 !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected:hover {
-  color: #FFFFFF !important;
-  background-color: #75263b !important;
-  border-color: #75263b !important;
-  font-weight: 500 !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected:focus {
-  border-color: #75263b !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected:active, .cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab.cke_dialog_tab_selected:focus {
-  text-decoration: none !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_tabs .cke_dialog_tab[id^="cke_advanced_"] {
-  margin-left: 0.5rem !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text div.cke_dialog_ui_input_text {
-  border: none; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text input.cke_dialog_ui_input_text {
-  line-height: 1.5 !important;
-  min-width: 10rem !important;
-  padding: 0 !important;
-  background: none !important;
-  border: none !important;
-  border-bottom: 1px solid #d8d8d8 !important;
-  font-size: 12.8px !important;
-  padding-right: 2rem !important;
-  padding-bottom: .375rem !important;
-  box-sizing: border-box !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text input.cke_dialog_ui_input_text:focus, .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text input.cke_dialog_ui_input_text .dijitTextBoxFocused {
-  outline: none !important;
-  border-color: #75263b !important;
-  box-shadow: 0 1px 0 #75263b !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text.cke_disabled {
-  background: transparent !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text.cke_disabled div.cke_dialog_ui_input_text {
-  background-color: #F3F3F3 !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_text.cke_disabled input.cke_dialog_ui_input_text {
-  background: transparent !important;
-  color: #969696 !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_input_select {
-  padding-bottom: .6rem !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_input_select:focus {
-  padding-bottom: .5375rem !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok {
-  border-radius: 2rem !important;
-  border-width: 1px !important;
-  border-style: solid !important;
-  box-shadow: none !important;
-  transform: translateZ(0) !important;
-  -webkit-font-smoothing: antialiased !important;
-  cursor: pointer !important;
-  -webkit-box-align: center !important;
-  -webkit-box-pack: center !important;
-  text-align: center !important;
-  text-decoration: none !important;
-  transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
-  white-space: nowrap !important;
-  padding: 9px 20px !important;
-  font-weight: 500 !important;
-  background-image: none !important;
-  margin: 2px 4px 3px 2px !important;
-  background-color: #75263b !important;
-  border-color: #75263b !important;
-  color: #FFFFFF !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:hover, .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:active {
-  text-decoration: none !important;
-  outline: none; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:focus {
-  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
-  outline: none !important; }
-
-.dj_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:focus, .dijit_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:active, .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:hover {
-  background-color: #FFFFFF !important;
-  color: #75263b !important;
-  border-color: #75263b !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok span {
-  color: #FFFFFF !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_ok:hover span {
-  color: #75263b !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel {
-  border-radius: 2rem !important;
-  border-width: 1px !important;
-  border-style: solid !important;
-  box-shadow: none !important;
-  transform: translateZ(0) !important;
-  -webkit-font-smoothing: antialiased !important;
-  cursor: pointer !important;
-  -webkit-box-align: center !important;
-  -webkit-box-pack: center !important;
-  text-align: center !important;
-  text-decoration: none !important;
-  transition: background-color 150ms ease-in, color 150ms ease-in, border-color 150ms ease-in !important;
-  white-space: nowrap !important;
-  padding: 9px 20px !important;
-  font-weight: 500 !important;
-  background-image: none !important;
-  margin: 2px 4px 3px 2px !important;
-  background-color: #FFFFFF !important;
-  border-color: #75263b !important;
-  color: #75263b !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:hover, .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:active {
-  text-decoration: none !important;
-  outline: none; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:focus {
-  box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
-  outline: none !important; }
-
-.dj_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:focus, .dijit_a11y .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:active, .cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:hover {
-  background-color: #75263b !important;
-  color: #FFFFFF !important;
-  border-color: #75263b !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel span {
-  color: #75263b !important; }
-
-.cke_dialog .cke_dialog_body .cke_dialog_contents .cke_dialog_ui_button.cke_dialog_ui_button_cancel:hover span {
-  color: #FFFFFF !important; }
 
 div#list .lotusTable.lotusFixedTable.qkrFixedWidth th, div#list .lotusTable.lotusFixedTable.qkrFixedWidth th a, div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort td, div#list .lotusTable.lotusFixedTable.qkrFixedWidth tr.lotusSort td a {
   font-size: 12px !important;
@@ -3699,8 +3719,7 @@ div.lotusPostIndicator a:focus {
   display: none !important; }
 
 .lotusDialogClose,
-.dijitDialogCloseIcon
-.lotusPaletteClose {
+.dijitDialogCloseIcon .lotusPaletteClose {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22close_24%22 fill=%22%23595859%22%3E%3Cpolygon id=%22close%22 points=%2218 6 12.353 11.647 6.708 6 6 6.707 11.647 12.354 6 18 6.708 18.707 12.353 13.061 18 18.707 18.707 18 13.061 12.354 18.707 6.707%22%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
   background-position-x: center !important;
   background-position-y: center !important;
@@ -3728,8 +3747,7 @@ div.lotusPostIndicator a:focus {
 	} */ }
 
 .lotusDialogClose:focus,
-.dijitDialogCloseIcon
-.lotusPaletteClose:focus {
+.dijitDialogCloseIcon .lotusPaletteClose:focus {
   outline: 1px solid #75263b !important; }
 
 img.lconnPickerSourceLabelIconCloud {
@@ -3852,11 +3870,6 @@ div.qkrMovePageList {
 #lconn_btn_browse_files:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
-
-.dj_a11y #lconn_btn_browse_files:focus, .dijit_a11y #lconn_btn_browse_files:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
 
 #lconn_btn_browse_files:active, #lconn_btn_browse_files:hover {
   background-color: #FFFFFF !important;
@@ -4084,7 +4097,7 @@ div[id^="lconn_share_widget_Dialog_"] .lotusDialog .BrowseGroups {
   margin-bottom: -1.35rem !important; }
 
 .app_palette_modal .app_palette_modal_header {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   height: 90px;
   border: 0 !important; }
 
@@ -8378,11 +8391,6 @@ div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:focus
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
 
-.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
-
 div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn.lotusBtnDisabled:hover:hover {
   background-color: #FFFFFF !important;
   color: #75263b !important;
@@ -8418,11 +8426,6 @@ div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="canc
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
 
-.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:focus, .dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
-
 div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:hover {
   background-color: #75263b !important;
   color: #FFFFFF !important;
@@ -8457,11 +8460,6 @@ div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="canc
 div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:focus, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:focus {
   box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #75263b !important;
   outline: none !important; }
-
-.dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:focus, .dj_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:focus, .dijit_a11y div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:focus {
-  box-shadow: none !important;
-  outline: 1px solid #75263b !important;
-  outline-offset: 1px; }
 
 div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="cancelBtn"]:not([disabled]):hover:hover, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:active, div[id^="com_ibm_sc_widget_SlideDialog_"] .lotusBtn[data-dojo-attach-point="previousBtn"]:not([disabled]):hover:hover {
   background-color: #FFFFFF !important;
