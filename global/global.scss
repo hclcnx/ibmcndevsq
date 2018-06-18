@@ -1164,6 +1164,36 @@ ul.ics-viewer-tabs li:focus {
   background-position: 0px !important;
 }
 
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input {
+  color: #6C2C3B;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch {
+  border-bottom: none;
+  border-bottom-color: $bordeaux;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover {
+  border-left-color: $bordeaux;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected {
+  border-color: $bordeaux;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable {
+  border-bottom: none;
+  border-top: none;
+}
+
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr.icSearchResultSelected .lotusMeta {
+  color: $bordeaux;
+}
+
+
+
+
 //Global customization from IBM visual update 1
 
 /*
