@@ -1,14 +1,14 @@
 {
   "extensions": [
     {
-      "application": "Global Customization",
+      "application": "Sanquin Global Customization",
       "payload": {
         "include-repo": {
           "name": "ibmcndevsq"
         },
         "include-files": [
           "user.greeting.js",
-          "global/global.css"
+          "global/global.min.css"
         ]
       },
       "name": "Global Customization Extension",
@@ -16,10 +16,10 @@
       "path": "global"
     }
   ],
-  "name": "Global Customization",
+  "name": "Sanquin Global Customization",
   "description": "Global Customization",
   "services": [
     "Customizer"
   ],
-  "title": "Global Customization"
+  "title": "Sanquin Global Customization"
 }

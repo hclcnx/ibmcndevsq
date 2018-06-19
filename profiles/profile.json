@@ -1,23 +1,23 @@
 {
   "extensions": [
     {
-      "application": "Profiles Customization SQ",
+      "application": "Sanquin Profiles Customization",
       "payload": {
         "include-files": [
-          "profiles/profile.css"
+          "profiles/profile.min.css"
         ],
-	"include-repo":{
-	  "name": "ibmcndevsq"
-	}
+        "include-repo": {
+          "name": "ibmcndevsq"
+        }
       },
       "name": "Profiles Customization Extension",
       "type": "com.ibm.customizer.ui",
-	  "path": "mycontacts"
+      "path": "mycontacts"
     }
   ],
-  "name": "Profiles Customization SQ",
+  "name": "Sanquin Profiles Customization",
   "description": "Alternative Profiles Page Design & Layout",
-  "title": "Profiles Customization SQ",
+  "title": "Sanquin Profiles Customization",
   "services": [
     "Customizer"
   ]

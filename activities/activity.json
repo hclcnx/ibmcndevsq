@@ -1,23 +1,23 @@
 {
   "extensions": [
     {
-      "application": "Activities Customization SQ",
+      "application": "Sanquin Activities Customization",
       "payload": {
         "include-files": [
-          "activities/activity.css"
+          "activities/activity.min.css"
         ],
-	"include-repo":{
-	  "name": "ibmcndevsq"
-	}
+        "include-repo": {
+          "name": "ibmcndevsq"
+        }
       },
       "name": "Activities Customization Extension",
       "type": "com.ibm.customizer.ui",
-	  "path": "activities"
+      "path": "activities"
     }
   ],
-  "name": "Activities Customization SQ",
+  "name": "Sanquin Activities Customization",
   "description": "Alternative Activities Page Design & Layout",
-  "title": "Activities Customization SQ",
+  "title": "Sanquin Activities Customization",
   "services": [
     "Customizer"
   ]

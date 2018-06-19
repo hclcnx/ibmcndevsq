@@ -85,7 +85,7 @@
 }
 
 .personMenu .topActionHolder {
-  background: #75263b !important;
+  background: $bordeaux !important;
 }
 
 .personMenu .businessCard #javlinAwarenessIcon span[dojoattachpoint="livenameContainer"] span[dojoattachpoint="displayNameWrapper"] span[dojoattachpoint="displayNameNode"] {
@@ -93,7 +93,7 @@
 }
 
 #javlinActionsExpanded a {
-  color: #75263b;
+  color: $bordeaux;
 }
 
 .personMenu .personMenuActions a.disabledLink {
@@ -110,7 +110,7 @@
 
 .personMenu {
   .topActionHolder {
-    background: #75263b !important;
+    background: $bordeaux !important;
   }
 
   .businessCard {
