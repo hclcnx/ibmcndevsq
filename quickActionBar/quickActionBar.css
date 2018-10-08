@@ -1,0 +1,7 @@
+#quick-action-bar{
+    margin-bottom: 1rem;
+}
+
+#quick-action-bar td a > img{
+    height: 3rem;
+}

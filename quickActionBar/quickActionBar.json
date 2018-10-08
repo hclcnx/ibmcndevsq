@@ -1,0 +1,30 @@
+{
+  "name": "quickActionBar",
+  "title": "Quick Action Bar",
+  "description": "Enables an actionbar on the homepage with actions to important topics",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "name": "Quick Action Bar",
+      "type": "com.ibm.customizer.ui",
+      "path": "homepage",
+      "payload": {
+        "match": {
+          "user-email": [
+            "j.blokker@sanquin.nl",
+            "i.weterings@sanquin.nl"
+          ]
+        },
+        "include-files": [
+          "quickActionBar/quickActionBar.js",
+          "quickActionBar/quickActionBar.css"
+        ],
+        "include-repo": {
+          "name": "global-samples"
+        }
+      }
+    }
+  ]
+}
