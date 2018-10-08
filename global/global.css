@@ -7822,6 +7822,8 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
 
 .lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a {
     color: #FFFFFF !important;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .icStream-search {
