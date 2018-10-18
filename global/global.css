@@ -155,7 +155,7 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
 }
 
 .ics-scbanner.isfixed .joinmeeting, .ics-scbanner.isfixed .org._myorg, .lotusSection2.homepage-widget :first-child {
-    display: nonee;
+    display: none;
 }
 
 .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after, .ics-scbanner > .selected::after {
@@ -7822,8 +7822,8 @@ body .hikari.ics-scbanner > a, body .gen4.ics-scbanner > a, body .colour.ics-scb
 
 .lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a {
     color: #FFFFFF !important;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
 }
 
 .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .icStream-search {
@@ -8233,11 +8233,11 @@ ul[dojoattachpoint~="filterHolderNode"] li > a {
     color: blue !important;
 }
 
-div[dojoattachpoint~=“commentInputTextBox”] {
+div[dojoattachpoint~="commentInputTextBox"] {
     border: 1px solid #dddddd;
 }
 
-div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
+div[dojoattachpoint~="commentInputTextBox"] .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
     border-radius: 0;
     margin-left: 0px;
     margin-right: 0px;
@@ -8497,7 +8497,7 @@ ul.ics-viewer-tabs li:focus {
 }
 
 /*
-	 * © Copyright IBM Corp. 2017, 2018
+	 *  Copyright IBM Corp. 2017, 2018
 	 *
 	 * Licensed under the Apache License, Version 2.0 (the "License");
 	 * you may not use this file except in compliance with the License.

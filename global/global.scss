@@ -317,6 +317,8 @@
 
               a {
                 color: $white !important;
+                font-size: 1rem !important;
+                line-height: 1.5rem !important;
               }
             }
           }
@@ -922,11 +924,11 @@ ul[dojoattachpoint~="filterHolderNode"] li > a {
   color: blue !important;
 }
 
-div[dojoattachpoint~=“commentInputTextBox”] {
+div[dojoattachpoint~="commentInputTextBox"] {
   border: 1px solid #dddddd;
 }
 
-div[dojoattachpoint~=“commentInputTextBox”] .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
+div[dojoattachpoint~="commentInputTextBox"] .lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
   border-radius: 0;
   margin-left: 0px;
   margin-right: 0px;
