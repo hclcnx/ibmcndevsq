@@ -1,23 +1,23 @@
 {
   "extensions": [
     {
-      "application": "Communities Customization SQ",
+      "application": "Sanquin Communities Customization",
       "payload": {
         "include-files": [
-          "communities/communities.css"
+          "communities/communities.min.css"
         ],
-	"include-repo":{
-	  "name": "ibmcndevsq"
-	}
+        "include-repo": {
+          "name": "ibmcndevsq"
+        }
       },
       "name": "Communities Customization Extension",
       "type": "com.ibm.customizer.ui",
-	  "path": "communities"
+      "path": "communities"
     }
   ],
-  "name": "Communities Customization SQ",
+  "name": "Sanquin Communities Customization",
   "description": "Alternative Communities Page Design & Layout",
-  "title": "Communities Customization SQ",
+  "title": "Sanquin Communities Customization",
   "services": [
     "Customizer"
   ]

@@ -1,24 +1,23 @@
-
 {
   "extensions": [
     {
-      "application": "Files Customization SQ",
+      "application": "Sanquin Files Customization",
       "payload": {
         "include-files": [
-          "files/files.css"
+          "files/files.min.css"
         ],
-	"include-repo":{
-	  "name": "ibmcndevsq"
-	}
+        "include-repo": {
+          "name": "ibmcndevsq"
+        }
       },
       "name": "Files Customization Extension",
       "type": "com.ibm.customizer.ui",
-	  "path": "files"
+      "path": "files"
     }
   ],
-  "name": "Files Customization SQ",
+  "name": "Sanquin Files Customization",
   "description": "Alternative Files Page Design & Layout",
-  "title": "Files Customization SQ",
+  "title": "Sanquin Files Customization",
   "services": [
     "Customizer"
   ]
