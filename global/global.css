@@ -8497,7 +8497,7 @@ ul.ics-viewer-tabs li:focus {
 }
 
 /*
-	 *  Copyright IBM Corp. 2017, 2018
+	 * ┬⌐ Copyright IBM Corp. 2017, 2018
 	 *
 	 * Licensed under the Apache License, Version 2.0 (the "License");
 	 * you may not use this file except in compliance with the License.
@@ -11014,7 +11014,6 @@ body.meetingBody,
 
     .lotusMain .lotusColRight,
     #lotusContent.wpthemeWide {
-        width: calc(100% - 270px - 1rem) !important;
         margin-left: 1rem !important;
         float: right;
     }
