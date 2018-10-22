@@ -1,0 +1,27 @@
+{
+  "name": "sanquinOrange",
+  "title": "Sanquin Orange",
+  "description": "New style according to new sanquinnl styleguide",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "id": "c2b6fff7-b9b0-472f-956a-540e6ef7412d",
+      "name": "Sanquin Orange",
+      "type": "com.ibm.customizer.ui",
+      "payload": {
+        "match": {
+          "user-email": "jeffrey.blokker@sanquin.nl"
+        },
+        "include-files": [
+          "sanquinOrange/sanquinOrange.css"
+        ],
+        "include-repo": {
+          "name": "ibmcndevsq"
+        }
+      },
+      "application": "sanquinOrange"
+    }
+  ]
+}
