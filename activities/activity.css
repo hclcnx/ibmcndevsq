@@ -19,7 +19,7 @@
 }
 
 .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab {
-    border-bottom: 2px solid #75263b;
+    border-bottom: 2px solid #962264;
 }
 
 .lotusui30 .list {
@@ -31,7 +31,7 @@
 }
 
 .lotusui30 .lotusPlaceBar .lotusInlinelist li {
-    border-left-color: #75263b;
+    border-left-color: #962264;
 }
 
 .lotusui30 .lotusPaging .lotusInlinelist li {
@@ -39,23 +39,23 @@
 }
 
 .lotusui30 .lotusDialog .lotusDialogHeader {
-    background: #75263b;
+    background: #962264;
 }
 
 .lotusui30 .lotusColLeft .lconnNavTreeSelector.lotusSelected {
-    border-left: 4px solid #75263b;
+    border-left: 4px solid #962264;
 }
 
 .lotusui30 .lotusDetailsOn, .lotusui30 .lotusFolderOn, .lotusui30 .lotusSummaryOn, .lotusui30 .lotusTileOn, .lotusui30 .lotusTreeOn {
-    border-color: #75263b;
+    border-color: #962264;
 }
 
 .lconnFilesTree .node .highlight {
-    border-left: 4px solid #75263b;
+    border-left: 4px solid #962264;
 }
 
 .personMenu .topActionHolder {
-    background: #75263b !important;
+    background: #962264 !important;
 }
 
 .personMenu .businessCard #javlinAwarenessIcon span[dojoattachpoint="livenameContainer"] span[dojoattachpoint="displayNameWrapper"] span[dojoattachpoint="displayNameNode"] {
@@ -63,7 +63,7 @@
 }
 
 #javlinActionsExpanded a {
-    color: #75263b;
+    color: #962264;
 }
 
 .personMenu .personMenuActions a.disabledLink {
@@ -79,7 +79,7 @@
 }
 
 .personMenu .topActionHolder {
-    background: #75263b !important;
+    background: #962264 !important;
 }
 
 .personMenu .businessCard #javlinAwarenessIcon span[dojoattachpoint="livenameContainer"] span[dojoattachpoint="displayNameWrapper"] span[dojoattachpoint="displayNameNode"] {
@@ -91,7 +91,7 @@
 }
 
 #javlinActionsExpanded a {
-    color: #75263b;
+    color: #962264;
 }
 
 #memberPane div[role=list] {
