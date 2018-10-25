@@ -10,6 +10,7 @@
       "id": "c2b6fff7-b9b0-472f-956a-540e6ef7412d",
       "name": "Sanquin Orange",
       "type": "com.ibm.customizer.ui",
+      "path": "global",
       "payload": {
         "match": {
           "user-email": "jeffrey.blokker@sanquin.nl"

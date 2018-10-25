@@ -1,24 +1,30 @@
-/* Global
+/* Global.css
 **************/
 html {
   font-size: 16px; }
 
-.ics-scbanner, .lotusui30 .ics-scbanner.isfixed {
+body {
+  font-size: 0.9rem !important; }
+
+body .ics-scbanner, body .lotusui30 .ics-scbanner.isfixed {
   height: 4rem !important;
   padding: 0;
   padding-left: 1.25rem;
   background-color: #FF7800 !important;
-  font-size: 1.5em;
+  font-size: 1.1rem;
   color: #fff !important; }
 
 body .hikari.ics-scbanner > a, #ics-scbanner-home, #communitiesMenu_container, #nav_bar_include .files, #nav_bar_include .activities {
   color: #fff !important; }
 
-.ics-scbanner > .navmenu + .navmenu {
+body #nav_bar_include .navsimplelist a {
+  color: #962264 !important; }
+
+.ics-scbanner > .navmenu + div.navmenu {
   margin: 0; }
 
 #nav_bar_include.ics-scbanner.hikari.isfixed > div.navcenter ~ div {
-  color: #000;
+  color: #962264;
   background-color: #fff; }
 
 #bss-adminMenu {
@@ -31,10 +37,10 @@ body .hikari.ics-scbanner > a, #ics-scbanner-home, #communitiesMenu_container, #
   fill: #FF7800 !important; }
 
 .ics-scbanner .notifications .navmenu-button {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22notification_24%22 fill=%22%23000000%22%3E%3Cg id=%22notification%22 transform=%22translate(2.000000, 1.000000)%22%3E                %3Cpath d=%22M10,18 C8.895,18 8,18.895 8,20 C8,21.105 8.895,22 10,22 C11.105,22 12,21.105 12,20 C12,18.895 11.105,18 10,18 M10,19 C10.551,19 11,19.449 11,20 C11,20.551 10.551,21 10,21 C9.449,21 9,20.551 9,20 C9,19.449 9.449,19 10,19%22 id=%22Fill-4%22%3E%3C/path%3E%3Cpath d=%22M10.0113,0 C6.1513,0 3.0223,3.129 3.0223,6.989 C3.0223,6.992 3.0233,6.996 3.0233,7 L3.0003,7 L3.0003,10 C1.3433,10 0.0003,11.343 0.0003,13 C0.0003,14.657 1.3433,16 3.0003,16 L17.0003,16 C18.6573,16 20.0003,14.657 20.0003,13 C20.0003,11.343 18.6573,10 17.0003,10 L17.0003,7 L16.9993,7 C16.9993,6.996 17.0003,6.992 17.0003,6.989 C17.0003,3.129 13.8713,0 10.0113,0 M10.0113,1 C13.3133,1 16.0003,3.687 16.0013,6.944 L15.9963,7.048 L16.0003,7.072 L16.0003,10 L16.0003,11 L17.0003,11 C18.1033,11 19.0003,11.897 19.0003,13 C19.0003,14.103 18.1033,15 17.0003,15 L3.0003,15 C1.8973,15 1.0003,14.103 1.0003,13 C1.0003,11.897 1.8973,11 3.0003,11 L4.0003,11 L4.0003,10 L4.0003,8 L4.0233,8 L4.0233,7 L4.0223,6.958 L4.0223,6.955 C4.0403,3.668 6.7203,1 10.0113,1%22 id=%22Fill-1%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important; }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22notification_24%22 fill=%22%23962264%22%3E%3Cg id=%22notification%22 transform=%22translate(2.000000, 1.000000)%22%3E                %3Cpath d=%22M10,18 C8.895,18 8,18.895 8,20 C8,21.105 8.895,22 10,22 C11.105,22 12,21.105 12,20 C12,18.895 11.105,18 10,18 M10,19 C10.551,19 11,19.449 11,20 C11,20.551 10.551,21 10,21 C9.449,21 9,20.551 9,20 C9,19.449 9.449,19 10,19%22 id=%22Fill-4%22%3E%3C/path%3E%3Cpath d=%22M10.0113,0 C6.1513,0 3.0223,3.129 3.0223,6.989 C3.0223,6.992 3.0233,6.996 3.0233,7 L3.0003,7 L3.0003,10 C1.3433,10 0.0003,11.343 0.0003,13 C0.0003,14.657 1.3433,16 3.0003,16 L17.0003,16 C18.6573,16 20.0003,14.657 20.0003,13 C20.0003,11.343 18.6573,10 17.0003,10 L17.0003,7 L16.9993,7 C16.9993,6.996 17.0003,6.992 17.0003,6.989 C17.0003,3.129 13.8713,0 10.0113,0 M10.0113,1 C13.3133,1 16.0003,3.687 16.0013,6.944 L15.9963,7.048 L16.0003,7.072 L16.0003,10 L16.0003,11 L17.0003,11 C18.1033,11 19.0003,11.897 19.0003,13 C19.0003,14.103 18.1033,15 17.0003,15 L3.0003,15 C1.8973,15 1.0003,14.103 1.0003,13 C1.0003,11.897 1.8973,11 3.0003,11 L4.0003,11 L4.0003,10 L4.0003,8 L4.0233,8 L4.0233,7 L4.0223,6.958 L4.0223,6.955 C4.0403,3.668 6.7203,1 10.0113,1%22 id=%22Fill-1%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important; }
 
 .ics-scbanner .help, .ics-scbanner #headerHelpLi a {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22helo_24%22 fill=%22%23000000%22%3E%3Cg id=%22help%22%3E%3Cpath d=%22M12,0 C5.373,0 0,5.364 0,11.98 C0,18.596 5.373,23.96 12,23.96 C18.627,23.96 24,18.596 24,11.98 C24,5.364 18.627,0 12,0 M12,1 C18.065,1 23,5.926 23,11.98 C23,18.034 18.065,22.96 12,22.96 C5.935,22.96 1,18.034 1,11.98 C1,5.926 5.935,1 12,1%22 id=%22Fill-1%22%3E%3C/path%3E%3Cpath d=%22M10.6582,18.003 L10.6582,17.711 C10.6582,17.01 11.0482,16.504 11.9452,16.504 C12.8422,16.504 13.2322,17.01 13.2322,17.711 L13.2322,18.003 C13.2322,18.704 12.8422,19.21 11.9452,19.21 C11.0482,19.21 10.6582,18.704 10.6582,18.003 L10.6582,18.003 Z M11.1062,14.83 L11.1062,11.675 C13.2122,11.597 14.4602,10.702 14.4602,9.105 L14.4602,8.833 C14.4602,7.567 13.5832,6.769 12.2962,6.769 C10.8922,6.769 10.0342,7.684 9.7212,8.93 L8.1032,8.307 C8.5912,6.652 9.8782,5.153 12.3542,5.153 C14.8112,5.153 16.3912,6.632 16.3912,8.891 C16.3912,11.325 14.5772,12.532 12.8422,12.863 L12.8422,14.83 L11.1062,14.83 Z%22 id=%22Fill-4%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3Cg id=%22labels%22 transform=%22translate(-88.000000, -334.000000)%22%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important; }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg id=%22helo_24%22 fill=%22%23962264%22%3E%3Cg id=%22help%22%3E%3Cpath d=%22M12,0 C5.373,0 0,5.364 0,11.98 C0,18.596 5.373,23.96 12,23.96 C18.627,23.96 24,18.596 24,11.98 C24,5.364 18.627,0 12,0 M12,1 C18.065,1 23,5.926 23,11.98 C23,18.034 18.065,22.96 12,22.96 C5.935,22.96 1,18.034 1,11.98 C1,5.926 5.935,1 12,1%22 id=%22Fill-1%22%3E%3C/path%3E%3Cpath d=%22M10.6582,18.003 L10.6582,17.711 C10.6582,17.01 11.0482,16.504 11.9452,16.504 C12.8422,16.504 13.2322,17.01 13.2322,17.711 L13.2322,18.003 C13.2322,18.704 12.8422,19.21 11.9452,19.21 C11.0482,19.21 10.6582,18.704 10.6582,18.003 L10.6582,18.003 Z M11.1062,14.83 L11.1062,11.675 C13.2122,11.597 14.4602,10.702 14.4602,9.105 L14.4602,8.833 C14.4602,7.567 13.5832,6.769 12.2962,6.769 C10.8922,6.769 10.0342,7.684 9.7212,8.93 L8.1032,8.307 C8.5912,6.652 9.8782,5.153 12.3542,5.153 C14.8112,5.153 16.3912,6.632 16.3912,8.891 C16.3912,11.325 14.5772,12.532 12.8422,12.863 L12.8422,14.83 L11.1062,14.83 Z%22 id=%22Fill-4%22%3E%3C/path%3E%3C/g%3E%3C/g%3E%3Cg id=%22labels%22 transform=%22translate(-88.000000, -334.000000)%22%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important; }
 
 .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after, .ics-scbanner > .selected::after {
   border-bottom: 0.125rem solid #FFFFFF !important; }
@@ -42,17 +48,49 @@ body .hikari.ics-scbanner > a, #ics-scbanner-home, #communitiesMenu_container, #
 .ics-scbanner > div.navcenter ~ div.navmenu:hover::after {
   border-bottom: 0.125rem solid #FF7800 !important; }
 
+.ics-scbanner > a + a, .ics-scbanner > a, .ics-scbanner > a + .navmenu {
+  margin-left: 0rem;
+  padding: 0 1rem; }
+
+.icSearchPaneButton {
+  top: 84px !important; }
+
+.sc.hikari.lotusui30 div.lotusTitleBar h2 {
+  padding-top: 0; }
+
+#lotusTitleBar .lotusHeading, body.lotusui30 .hikari.ics-scbanner .lotusTitleBar2 .lotusHeading .lotusText, .lotusui30 div.lotusTitleBar2 .lotusHeading, .lotusTitleBar2 h2 a {
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+  color: #676767 !important; }
+
+.lotusliveui, lotusliveui30, .scloud3 .lotusNavTabs .lotusTabInner {
+  font-size: 1rem; }
+
+.lotusui30 .lotusFooter {
+  max-width: inherit; }
+
+.lotusui30 #lotusFooter.lotusFooter a {
+  font-size: 0.7rem !important; }
+
+/* Communities.css
+************************************/
+.lotusui30_body.scloud3 {
+  margin-top: 64px !important; }
+
+.lotusui30 .tabNavBar div.lotusTitleBar2 .lotusWrapper .tabNavInner {
+  background-color: #fff; }
+
+.lotusui30 .lotusMenu li a, .lotusui30 .lotusMenu li a:visited,
+.lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a {
+  font-size: 1rem !important; }
+
+.lotusHeader .shareSome-desc {
+  font-size: 1.3rem; }
+
+/* Profile.css
+************************************/
 /* REMOVE RULES FROM CSS FILES
 *************************************
-[profile.css; communities.css; files.css; ]
-.ics-scbanner > div.navmenu, .ics-scbanner > a{
-    font-size: 12px;
-    font-weight: 400 !important;
-}
-
-.ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after, .ics-scbanner > .selected::after{
-    border-bottom: 0.125rem solid #FF7800 !important;
-}
 
 */
 
