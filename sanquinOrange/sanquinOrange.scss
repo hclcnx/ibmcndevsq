@@ -111,13 +111,20 @@ body .lotusStream .lotusWidgetBody#activityStreamMain .activityStreamNewsItemCon
 body.lotusui30 .lotusStream .filterArea .icStream-labelInner,
 body.lotusui30 .lotusPostContent .lotusPostAction .activityStreamSummary .vcard,
 body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusCommentItem .lotusPostContent .vcard *,
-body.lotusui30 .streamMore{
-  font-size: 0.9rem;
+body.lotusui30 .streamMore,
+body.lotusui30 input,
+body.lotusui30 .lotusPaging{
+  font-size: 0.9rem !important;
 }
 
 select{
   font-size: 0.9rem !important;
 }
+
+body.sc.hikari.lotusui30 div.lotusTitleBar h2{
+  padding-top: 0;
+}
+
 
 /* Communities.css
 ************************************/
@@ -129,9 +136,20 @@ select{
 
 /* Profile.css
 ************************************/
+@media only screen and (min-width: 830px){
+  .lotusResponsive .scdirectory .lotusFloatContent div{
+    font-size: 0.9rem !important;
+  }
 
 
+  .lotusResponsive .ccMember .lotusFloatContent .lotusPerson{
+    font-size: 1rem !important;
+  }
+}
 
+body.lotusui30 .lotusLeftLabels label{
+  word-wrap: normal;
+}
 
 /* REMOVE RULES FROM CSS FILES
 *************************************
