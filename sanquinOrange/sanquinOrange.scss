@@ -23,7 +23,7 @@ body #nav_bar_include .navsimplelist a{
   color: #962264 !important;
 }
 
-.ics-scbanner > .navmenu + div.navmenu{
+body .ics-scbanner > a + a, body .ics-scbanner > a + .navmenu, body .ics-scbanner > .navmenu + .navmenu, body .ics-scbanner > button + .navmenu, body .ics-scbanner > button + button{
   margin: 0;
 }
 
@@ -60,7 +60,7 @@ body #nav_bar_include .navsimplelist a{
 }
 
 .ics-scbanner > a + a, .ics-scbanner > a, .ics-scbanner > a + .navmenu{
-  margin-left: 0rem;
+  margin-left: 0;
   padding: 0 1rem;
 }
 
@@ -78,7 +78,7 @@ body #nav_bar_include .navsimplelist a{
   color: #676767 !important;
 }
 
-.lotusliveui, lotusliveui30, .scloud3 .lotusNavTabs .lotusTabInner{
+.lotusliveui, .lotusliveui30, .scloud3 .lotusNavTabs .lotusTabInner{
   font-size: 1rem;
 }
 
@@ -89,10 +89,8 @@ body #nav_bar_include .navsimplelist a{
   font-size: 0.7rem !important;
 }
 
-/* Communities.css
-************************************/
-.lotusui30_body.scloud3 {
-  margin-top: 64px !important;
+body a.menu_drop_icon{
+  height: 7px;
 }
 
 .lotusui30 .tabNavBar div.lotusTitleBar2 .lotusWrapper .tabNavInner{
@@ -104,9 +102,30 @@ body #nav_bar_include .navsimplelist a{
   font-size: 1rem !important;
 }
 
-.lotusHeader .shareSome-desc{
+body.lotusui30 .lotusHeader .shareSome-desc{
   font-size: 1.3rem;
 }
+
+body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
+body .lotusStream .lotusWidgetBody#activityStreamMain .activityStreamNewsItemContainer .lotusActions,
+body.lotusui30 .lotusStream .filterArea .icStream-labelInner,
+body.lotusui30 .lotusPostContent .lotusPostAction .activityStreamSummary .vcard,
+body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusCommentItem .lotusPostContent .vcard *,
+body.lotusui30 .streamMore{
+  font-size: 0.9rem;
+}
+
+select{
+  font-size: 0.9rem !important;
+}
+
+/* Communities.css
+************************************/
+.lotusui30_body.scloud3 {
+  margin-top: 64px !important;
+}
+
+
 
 /* Profile.css
 ************************************/

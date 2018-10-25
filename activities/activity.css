@@ -15,95 +15,62 @@
 	 * permissions and limitations under the License.
 */
 .lotusui30 .lotusTitleBar2 .lotusNavTabs {
-    border-bottom: none;
-}
-
-.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab {
-    border-bottom: 2px solid #962264;
-}
-
+  border-bottom: none; }
+  .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab {
+    border-bottom: 2px solid #962264; }
 .lotusui30 .list {
-    background-color: #f1f1f1;
-}
-
+  background-color: #f1f1f1; }
 .lotusui30 div.lotusPlaceBar.lconnSharedExternalPlaceBar h2 {
-    min-height: 50px;
-}
-
+  min-height: 50px; }
 .lotusui30 .lotusPlaceBar .lotusInlinelist li {
-    border-left-color: #962264;
-}
-
+  border-left-color: #962264; }
 .lotusui30 .lotusPaging .lotusInlinelist li {
-    border-left: none !important;
-}
-
+  border-left: none !important; }
 .lotusui30 .lotusDialog .lotusDialogHeader {
-    background: #962264;
-}
-
+  background: #962264; }
 .lotusui30 .lotusColLeft .lconnNavTreeSelector.lotusSelected {
-    border-left: 4px solid #962264;
-}
-
+  border-left: 4px solid #962264; }
 .lotusui30 .lotusDetailsOn, .lotusui30 .lotusFolderOn, .lotusui30 .lotusSummaryOn, .lotusui30 .lotusTileOn, .lotusui30 .lotusTreeOn {
-    border-color: #962264;
-}
+  border-color: #962264; }
 
 .lconnFilesTree .node .highlight {
-    border-left: 4px solid #962264;
-}
+  border-left: 4px solid #962264; }
 
 .personMenu .topActionHolder {
-    background: #962264 !important;
-}
+  background: #962264 !important; }
 
 .personMenu .businessCard #javlinAwarenessIcon span[dojoattachpoint="livenameContainer"] span[dojoattachpoint="displayNameWrapper"] span[dojoattachpoint="displayNameNode"] {
-    display: none;
-}
+  display: none; }
 
 #javlinActionsExpanded a {
-    color: #962264;
-}
+  color: #962264; }
 
 .personMenu .personMenuActions a.disabledLink {
-    color: gray;
-}
+  color: gray; }
 
 #memberPane div[role=list], .MoveActivity .selection .itemNotSelected, .lotusui30 .list {
-    background-color: #f1f1f1;
-}
+  background-color: #f1f1f1; }
 
 .lotusui30 div.lotusPlaceBar.lconnSharedExternalPlaceBar h2 {
-    min-height: 50px;
-}
+  min-height: 50px; }
 
 .personMenu .topActionHolder {
-    background: #962264 !important;
-}
-
+  background: #962264 !important; }
 .personMenu .businessCard #javlinAwarenessIcon span[dojoattachpoint="livenameContainer"] span[dojoattachpoint="displayNameWrapper"] span[dojoattachpoint="displayNameNode"] {
-    display: none;
-}
-
+  display: none; }
 .personMenu .personMenuActions a.disabledLink {
-    color: gray;
-}
+  color: gray; }
 
 #javlinActionsExpanded a {
-    color: #962264;
-}
+  color: #962264; }
 
 #memberPane div[role=list] {
-    background-color: #f1f1f1;
-}
+  background-color: #f1f1f1; }
 
 .MoveActivity .selection .itemNotSelected {
-    background-color: #f1f1f1;
-}
+  background-color: #f1f1f1; }
 
 .lotusui30 .list {
-    background-color: #f1f1f1;
-}
+  background-color: #f1f1f1; }
 
 /*# sourceMappingURL=activity.css.map */
