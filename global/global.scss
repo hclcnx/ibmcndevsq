@@ -56,7 +56,7 @@
 }
 
 .lotusLoading {
-  background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 41.2 41.2%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M38.7,10.7l-3.3,1.8c1.4,2.5,2.1,5.2,2.1,8.1c0,9.3-7.6,16.9-16.9,16.9c-9.3,0-16.8-7.6-16.8-16.9 c0-9.3,7.5-16.8,16.8-16.8V0C9.3,0,0,9.3,0,20.6C0,32,9.3,41.3,20.6,41.3c11.4,0,20.7-9.3,20.7-20.7C41.3,17.1,40.4,13.7,38.7,10.7z%22/%3E%3C/svg%3E") !important;
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 41.2 41.2%22%3E%3Cpath fill=%22%23962264%22 d=%22M38.7,10.7l-3.3,1.8c1.4,2.5,2.1,5.2,2.1,8.1c0,9.3-7.6,16.9-16.9,16.9c-9.3,0-16.8-7.6-16.8-16.9 c0-9.3,7.5-16.8,16.8-16.8V0C9.3,0,0,9.3,0,20.6C0,32,9.3,41.3,20.6,41.3c11.4,0,20.7-9.3,20.7-20.7C41.3,17.1,40.4,13.7,38.7,10.7z%22/%3E%3C/svg%3E") !important;
   animation-name: rotate;
   animation-duration: 500ms;
   animation-iteration-count: infinite;
@@ -121,7 +121,7 @@
     height: 16px !important;
     margin-top: 31px !important;
     margin-left: 9px !important;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%23962264%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E") !important;
     background-size: 18px 18px !important;
 
     svg {
@@ -184,7 +184,7 @@
     cursor: pointer !important;
 
     a {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 25 25%22%3E%3Cpath fill=%22%23962264%22 d=%22M24.7,23.3l-9.4-9.4c0,0,0,0-0.1,0c1.2-1.5,1.9-3.3,1.9-5.3c0-4.7-3.8-8.6-8.6-8.6S0,3.8,0,8.6s3.8,8.6,8.6,8.6c2,0,3.9-0.7,5.3-1.9c0,0,0,0,0,0.1l9.4,9.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3C25.1,24.3,25.1,23.7,24.7,23.3zM8.6,15.4c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9C15.4,12.4,12.4,15.4,8.6,15.4z%22/%3E%3C/svg%3E");
     }
   }
   &#bhc_com_searchForm {
@@ -892,7 +892,7 @@ select {
   border-radius: 0 !important;
   cursor: pointer !important;
   background-size: 0.75rem !important;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23962264%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
   background-size: 0.75rem !important;
   background-position: right .4rem !important;
   background-repeat: no-repeat !important;
@@ -1005,7 +1005,7 @@ div[dojoattachpoint~="commentInputTextBox"] .lotusui30 .lotusBoard .lotusStreamU
 }
 
 #body .ics-viewer-toolbar .ics-viewer-action-like .unchecked img, .lotusProfiles .ics-viewer-toolbar .ics-viewer-action-like .unchecked img, .lotusui.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action-like .unchecked img {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23962264%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important;
 }
 
 #body .ics-viewer-toolbar .ics-viewer-action-like .checked img, .lotusProfiles .ics-viewer-toolbar .ics-viewer-action-like .checked img, .lotusui.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action-like .checked img {
@@ -1746,14 +1746,14 @@ body#body .ics-viewer .ics-shelf .moreButton.select span, .ics-viewer .ics-shelf
 #body .ics-viewer-toolbar .lotusLike .lotusLikeCount .lotusIconLike:not([style='background-position: -1395px -8px;']), .lotusProfiles .ics-viewer-toolbar .lotusRating .lotusLikeCount .lotusIconLike:not([style='background-position: -1395px -8px;']),
 .lotusProfiles .ics-viewer-toolbar .lotusLike .lotusLikeCount .lotusIconLike:not([style='background-position: -1395px -8px;']), .lotusui.ics-viewer-open .ics-viewer-toolbar .lotusRating .lotusLikeCount .lotusIconLike:not([style='background-position: -1395px -8px;']),
 .lotusui.ics-viewer-open .ics-viewer-toolbar .lotusLike .lotusLikeCount .lotusIconLike:not([style='background-position: -1395px -8px;']) {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23962264%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1%22/%3E%3C/svg%3E") !important;
 }
 
 #body .ics-viewer-toolbar .lotusRating .lotusLikeCount .lotusIconLike[style='background-position: -1395px -8px;'],
 #body .ics-viewer-toolbar .lotusLike .lotusLikeCount .lotusIconLike[style='background-position: -1395px -8px;'], .lotusProfiles .ics-viewer-toolbar .lotusRating .lotusLikeCount .lotusIconLike[style='background-position: -1395px -8px;'],
 .lotusProfiles .ics-viewer-toolbar .lotusLike .lotusLikeCount .lotusIconLike[style='background-position: -1395px -8px;'], .lotusui.ics-viewer-open .ics-viewer-toolbar .lotusRating .lotusLikeCount .lotusIconLike[style='background-position: -1395px -8px;'],
 .lotusui.ics-viewer-open .ics-viewer-toolbar .lotusLike .lotusLikeCount .lotusIconLike[style='background-position: -1395px -8px;'] {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23962264%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important;
 }
 
 .lconnWikis #list .lotusTable #body .ics-viewer-toolbar .lotusRating .lotusLikeCount.lotusLikeSimple .lotusIconLike, .lconnWikis #list .lotusTable
@@ -1771,11 +1771,11 @@ body#body .ics-viewer .ics-shelf .moreButton.select span, .ics-viewer .ics-shelf
 }
 
 #body .ics-viewer-toolbar .ics-viewer-action-like .unchecked img, .lotusProfiles .ics-viewer-toolbar .ics-viewer-action-like .unchecked img, .lotusui.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action-like .unchecked img {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23962264%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1 M17.3,2 C20.4,2,23,4.6,23,7.9c0,1.3-0.4,2.6-1.3,3.7l0,0l0,0c-0.3,0.3-0.6,0.6-0.9,0.9l0,0l0,0l-8.8,9l-8.8-9l0,0l0,0 c-0.3-0.3-0.6-0.6-0.9-0.9l0,0l0,0C1.4,10.5,1,9.2,1,7.9C1,4.6,3.6,2,6.7,2c1.8,0,3.4,0.8,4.5,2.3L12,5.3l0.8-1.1 C13.9,2.8,15.5,2,17.3,2%22/%3E%3C/svg%3E") !important;
 }
 
 #body .ics-viewer-toolbar .ics-viewer-action-like .checked img, .lotusProfiles .ics-viewer-toolbar .ics-viewer-action-like .checked img, .lotusui.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action-like .checked img {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23962264%22 d=%22M17.3,1c-2.2,0-4.1,1-5.3,2.7C10.8,2,8.9,1,6.7,1C3,1,0,4.1,0,7.9c0,1.6,0.6,3.1,1.5,4.3l-0.1-0.1l0.1,0.1 c0.3,0.4,0.7,0.8,1,1.1L12,23l9.5-9.7c0.4-0.3,0.7-0.7,1-1.1l0.1-0.1l-0.1,0.1C23.4,11,24,9.5,24,7.9C24,4.1,21,1,17.3,1%22/%3E%3C/svg%3E") !important;
 }
 
 #body .ics-viewer-toolbar #section_relatedblogs .lotusLike:hover,
@@ -1961,7 +1961,7 @@ body#body .ics-viewer .ics-shelf .moreButton.select span, .ics-viewer .ics-shelf
 }
 
 .multiAddContainer .actionLink img {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 16 16%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M8,0C3.6,0,0,3.6,0,8c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8C16,3.6,12.4,0,8,0z M8,15.1c-3.9,0-7.1-3.2-7.1-7.1S4.1,0.9,8,0.9 s7.1,3.2,7.1,7.1S11.9,15.1,8,15.1z%22/%3E%3Cpolygon fill=%22#{$secundary}%22 points=%228.5,3.9 7.5,3.9 7.5,7.5 3.9,7.5 3.9,8.5 7.5,8.5 7.5,12.1 8.5,12.1 8.5,8.5 12.1,8.5 12.1,7.5 8.5,7.5%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 16 16%22%3E%3Cpath fill=%22%23962264%22 d=%22M8,0C3.6,0,0,3.6,0,8c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8C16,3.6,12.4,0,8,0z M8,15.1c-3.9,0-7.1-3.2-7.1-7.1S4.1,0.9,8,0.9 s7.1,3.2,7.1,7.1S11.9,15.1,8,15.1z%22/%3E%3Cpolygon fill=%22%23962264%22 points=%228.5,3.9 7.5,3.9 7.5,7.5 3.9,7.5 3.9,8.5 7.5,8.5 7.5,12.1 8.5,12.1 8.5,8.5 12.1,8.5 12.1,7.5 8.5,7.5%22/%3E%3C/svg%3E") !important;
   position: relative !important;
   top: 2px !important;
 }
@@ -2081,7 +2081,7 @@ ul[data-dojo-attach-point="tagList"] li a:hover {
 }
 
 .ics-editBox .ics-viewer-cancel img {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M12,0.1C5.4,0.1,0.1,5.4,0.1,12S5.4,23.9,12,23.9S23.9,18.6,23.9,12S18.6,0.1,12,0.1z M12,21.9c-5.5,0-9.9-4.4-9.9-9.9S6.5,2.1,12,2.1s9.9,4.4,9.9,9.9S17.5,21.9,12,21.9z%22/%3E%3Cpolygon fill=%22#{$secundary}%22 points=%2217.4,8 16,6.6 12,10.6 8,6.6 6.6,8 10.6,12 6.6,16 8,17.4 12,13.4 16,17.4 17.4,16 13.4,12 %22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 x=%220px%22 y=%220px%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23962264%22 d=%22M12,0.1C5.4,0.1,0.1,5.4,0.1,12S5.4,23.9,12,23.9S23.9,18.6,23.9,12S18.6,0.1,12,0.1z M12,21.9c-5.5,0-9.9-4.4-9.9-9.9S6.5,2.1,12,2.1s9.9,4.4,9.9,9.9S17.5,21.9,12,21.9z%22/%3E%3Cpolygon fill=%22%23962264%22 points=%2217.4,8 16,6.6 12,10.6 8,6.6 6.6,8 10.6,12 6.6,16 8,17.4 12,13.4 16,17.4 17.4,16 13.4,12 %22/%3E%3C/svg%3E") !important;
   height: 20px !important;
   width: 20px !important;
 }
@@ -2322,7 +2322,7 @@ body.ics-viewer-open .ics-viewer-toolbar .ics-viewer-action:not(.ics-viewer-acti
 }
 
 .lotusui30_body .ics-viewer .ics-viewer-toolbar .ics-viewer-action.dropdown-menu:not(.ics-viewer-more-actions):hover .dropdown-menu-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22#{$secundary}%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 version=%221.1%22 x=%220px%22 y=%220px%22 viewBox=%220 0 12 7.5%22%3E%3Cpath fill=%22%23962264%22 d=%22M10.6,0L6,4.7L1.4,0L0,1.4l6,6.1l6-6.1L10.6,0z%22/%3E%3C/svg%3E") !important;
 }
 
 .ics-viewer-title-name-container {
@@ -3971,7 +3971,7 @@ a.menu_drop_icon {
 
 .ic-tile .ic-thumbnail .ic-file-thumbnail.ic-icon-document {
   background-color: transparent;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22#{$secundary}%22 fill-rule=%22evenodd%22%3E%3Cg id=%22Artboard-Copy-8%22%3E%3Cg id=%22Group-Copy%22 fill=%22%23000000%22%3E%3Cpath d=%22M24,12 C24,18.62775 18.62775,24 12,24 C5.37225,24 0,18.62775 0,12 C0,5.37225 5.37225,0 12,0 C18.62775,0 24,5.37225 24,12%22 id=%22Fill-1%22%3E%3C/path%3E%3C/g%3E%3Cg id=%22Group%22 transform=%22translate(6.000000, 9.000000)%22 fill=%22%23FFFFFF%22%3E%3Crect id=%22Rectangle-15%22 x=%220%22 y=%220%22 width=%2212%22 height=%221%22%3E%3C/rect%3E%3Crect id=%22Rectangle-15-Copy%22 x=%220%22 y=%222%22 width=%2212%22 height=%221%22%3E%3C/rect%3E%3Crect id=%22Rectangle-15-Copy-2%22 x=%220%22 y=%224%22 width=%2212%22 height=%221%22%3E%3C/rect%3E%3Crect id=%22Rectangle-15-Copy-3%22 x=%220%22 y=%226%22 width=%226%22 height=%221%22%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width=%2224px%22 height=%2224px%22 viewBox=%220 0 24 24%22 version=%221.1%22 xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Cg id=%22Icons-24-x-24px%22 stroke=%22none%22 stroke-width=%221%22 fill=%22%23962264%22 fill-rule=%22evenodd%22%3E%3Cg id=%22Artboard-Copy-8%22%3E%3Cg id=%22Group-Copy%22 fill=%22%23000000%22%3E%3Cpath d=%22M24,12 C24,18.62775 18.62775,24 12,24 C5.37225,24 0,18.62775 0,12 C0,5.37225 5.37225,0 12,0 C18.62775,0 24,5.37225 24,12%22 id=%22Fill-1%22%3E%3C/path%3E%3C/g%3E%3Cg id=%22Group%22 transform=%22translate(6.000000, 9.000000)%22 fill=%22%23FFFFFF%22%3E%3Crect id=%22Rectangle-15%22 x=%220%22 y=%220%22 width=%2212%22 height=%221%22%3E%3C/rect%3E%3Crect id=%22Rectangle-15-Copy%22 x=%220%22 y=%222%22 width=%2212%22 height=%221%22%3E%3C/rect%3E%3Crect id=%22Rectangle-15-Copy-2%22 x=%220%22 y=%224%22 width=%2212%22 height=%221%22%3E%3C/rect%3E%3Crect id=%22Rectangle-15-Copy-3%22 x=%220%22 y=%226%22 width=%226%22 height=%221%22%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
 }
 
 .ic-tile .ic-thumbnail .ic-file-thumbnail.ic-icon-flash {
