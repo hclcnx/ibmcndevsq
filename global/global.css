@@ -9848,6 +9848,9 @@ a.menu_drop_icon {
 .circle-set-focus:focus:not(.dragging):before {
   border: 1px solid #962264 !important; }
 
+body .ics-scbanner .invite {
+  display: none; }
+
 /*end new home section */
 
 /*# sourceMappingURL=global.css.map */
