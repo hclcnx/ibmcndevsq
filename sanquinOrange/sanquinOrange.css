@@ -126,69 +126,55 @@ body.lotusui30 .lotusLeftLabels label {
 
 /* Communities.css
 ************************************/
-.lotusui30_body.scloud3 {
+body .lotusui30_body.scloud3 {
   margin-top: 64px !important; }
-
-.lotusContent div[id^="lconn_communities_catalog_widgets_ResultsDisplayWidget_"] .placeRow td h4 {
+body .lotusContent div[id^="lconn_communities_catalog_widgets_ResultsDisplayWidget_"] .placeRow td h4 {
   font-size: 1.1rem !important;
   max-height: 128px; }
-
-.contactsSearch > span, #searchInfo > span, .lotusMeta > span, .lotusSearchFilterSection > span {
+body .contactsSearch > span, body #searchInfo > span, body .lotusMeta > span, body .lotusSearchFilterSection > span {
   font-size: 0.75rem;
   max-height: 128px; }
-
-.lotusContent div[id^="lconn_communities_catalog_widgets_ResultsDisplayWidget_"] .placeRow td div[dojoattachpoint="detailsSection"] p {
+body .lotusContent div[id^="lconn_communities_catalog_widgets_ResultsDisplayWidget_"] .placeRow td div[dojoattachpoint="detailsSection"] p {
   font-size: 0.9rem !important;
   max-height: 128px; }
-
-.lotusFeeds a {
+body .lotusFeeds a {
   font-size: 0.75rem !important;
   max-height: 128px; }
-
-body .lotusMeta > span {
+body body .lotusMeta > span {
   font-size: 0.8rem;
   max-height: 128px;
   margin-bottom: 0; }
-
-.communities-widget-appearance body.lotusui30 .lotusWidget2 .lotusMeta {
+body .communities-widget-appearance body.lotusui30 .lotusWidget2 .lotusMeta {
   line-height: 2; }
-
-.lotusContent,
-.lotusui30_layout .lotusMain .lotusContent {
+body .lotusContent,
+body .lotusui30_layout .lotusMain .lotusContent {
   padding-left: 2rem; }
-
-.lotusContent .lotusTags span[role="listitem"] {
+body .lotusContent .lotusTags span[role="listitem"] {
   margin-bottom: 1rem; }
-
-.lotusMeta .lotusPerson.vcard a.menu_drop_icon {
+body .lotusMeta .lotusPerson.vcard a.menu_drop_icon {
   top: 0 !important; }
-
-#dfTopicList .lotusMeta, #dfOpenQuestionList .lotusMeta, #dfAnsweredQuestionList .lotusMeta, #topicList .lotusMeta, #dfForumList .lotusMeta {
+body #dfTopicList .lotusMeta, body #dfOpenQuestionList .lotusMeta, body #dfAnsweredQuestionList .lotusMeta, body #topicList .lotusMeta, body #dfForumList .lotusMeta {
   font-size: 0.8rem !important; }
 
 /* Files.css
 ************************************/
-input.lotusText,
-.lotusDialogContent .lotusFormFieldRow .lotusFormLabel label,
-input[id^="lconn_share_widget_Dialog_"][id$="_name"],
-.lotusDialogContent .lotusFormFieldRow .lotusFormLabel span {
+body input.lotusText,
+body .lotusDialogContent .lotusFormFieldRow .lotusFormLabel label,
+body input[id^="lconn_share_widget_Dialog_"][id$="_name"],
+body .lotusDialogContent .lotusFormFieldRow .lotusFormLabel span {
   font-size: 1rem !important; }
 
 /* Activity.css
 ************************************/
-.MiniNode, .MiniNode h4 {
+body .MiniNode, body .MiniNode h4 {
   font-size: 0.9rem !important; }
-
-.MiniNode .miniAssignedTo {
+body .MiniNode .miniAssignedTo {
   width: 210px; }
-
-.MiniNode .cnxsDueDateLate {
+body .MiniNode .cnxsDueDateLate {
   font-size: 1rem !important; }
-
-.MiniNode .nodeTypeTodo {
+body .MiniNode .nodeTypeTodo {
   margin-top: 5px; }
-
-.MiniNode .miniPerson .lotusPerson {
+body .MiniNode .miniPerson .lotusPerson {
   vertical-align: text-top; }
 
 /* REMOVE RULES FROM CSS FILES
