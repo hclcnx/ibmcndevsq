@@ -60,7 +60,7 @@ body .ics-scbanner > a + a, body .ics-scbanner > a + .navmenu, body .ics-scbanne
   border-bottom: 0.125rem solid #FF7800 !important;
 }
 
-.ics-scbanner > a + a, .ics-scbanner > a, .ics-scbanner > a + .navmenu{
+body .ics-scbanner > a + a, .ics-scbanner > a, .ics-scbanner > a + .navmenu{
   margin-left: 0;
   padding: 0 1rem;
 }
@@ -183,7 +183,7 @@ body{
     max-height: 128px;
   }
 
-  body .lotusMeta > span{
+  .lotusMeta > span{
     font-size: 0.8rem;
     max-height: 128px;
     margin-bottom: 0;
