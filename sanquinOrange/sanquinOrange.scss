@@ -1,3 +1,5 @@
+@import "../scss/common/var.scss";
+
 /* Global.css
 **************/
 html {
@@ -5,32 +7,39 @@ html {
 }
 
 body{
-  font-size: 0.9rem !important;
+  font-size: 0.8rem !important;
+  min-height: 100%;
   max-height: 128px;
 }
 
 body .ics-scbanner, body .lotusui30 .ics-scbanner.isfixed{
-  height: 4rem !important;
+  height: 3.25rem !important;
   padding: 0;
   padding-left: 1.25rem;
-  background-color: #FF7800 !important;
-  font-size: 1.1rem;
-  color: #fff !important;
+  background-color: $primary !important;
+  font-size: 1rem;
+  color: $white !important;
 }
 body .hikari.ics-scbanner > a, #ics-scbanner-home, #communitiesMenu_container, #nav_bar_include .files, #nav_bar_include .activities{
-  color: #fff !important;
+  color: $white !important;
 }
 body #nav_bar_include .navsimplelist a{
-  color: #962264 !important;
+  color: $secundary !important;
 }
 
 body .ics-scbanner > a + a, body .ics-scbanner > a + .navmenu, body .ics-scbanner > .navmenu + .navmenu, body .ics-scbanner > button + .navmenu, body .ics-scbanner > button + button{
   margin: 0;
 }
 
+body img.orglogo{
+  content: url("https://www.sanquin.nl/webfiles/1541167050780/assets/images/logo_sanquin_long.svg");
+  width: 8rem;
+  margin-right: 1rem;
+}
+
 #nav_bar_include.ics-scbanner.hikari.isfixed > div.navcenter ~ div{
-  color: #962264;
-  background-color: #fff;
+  color: $secundary;
+  background-color: $white;
 }
 
 #bss-adminMenu{
@@ -42,7 +51,7 @@ body .ics-scbanner > a + a, body .ics-scbanner > a + .navmenu, body .ics-scbanne
 }
 
 .ics-scbanner svg:not(.menu-image){
-  fill: #FF7800 !important;
+  fill: $primary !important;
 }
 
 .ics-scbanner .notifications .navmenu-button{
@@ -54,10 +63,10 @@ body .ics-scbanner > a + a, body .ics-scbanner > a + .navmenu, body .ics-scbanne
 }
 
 .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after, .ics-scbanner > .selected::after{
-  border-bottom: 0.125rem solid #FFFFFF !important;
+  border-bottom: 0.125rem solid $white !important;
 }
 .ics-scbanner > div.navcenter ~ div.navmenu:hover::after{
-  border-bottom: 0.125rem solid #FF7800 !important;
+  border-bottom: 0.125rem solid $primary !important;
 }
 
 body .ics-scbanner > a + a, .ics-scbanner > a, .ics-scbanner > a + .navmenu{
@@ -96,17 +105,17 @@ body a.menu_drop_icon{
 }
 
 .lotusui30 .tabNavBar div.lotusTitleBar2 .lotusWrapper .tabNavInner{
-  background-color: #fff;
+  background-color: $white;
 }
 
 .lotusui30 .lotusMenu li a, .lotusui30 .lotusMenu li a:visited,
 .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #lotusColLeft #dashNavPanel-activity-list li a, .lotusMain #lotusColLeft #ruDashNavPanel-activity-list li a, .lotusMain #dashboardColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #dashboardColLeft #dashNavPanel-activity-list li a, .lotusMain #dashboardColLeft #ruDashNavPanel-activity-list li a, .lotusMain #recentUpdateColLeft #homepageLeftNavigationMenuContainer li a, .lotusMain #recentUpdateColLeft #dashNavPanel-activity-list li a, .lotusMain #recentUpdateColLeft #ruDashNavPanel-activity-list li a{
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
   max-height: 128px;
 }
 
 body.lotusui30 .lotusHeader .shareSome-desc{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   max-height: 128px;
 }
 
@@ -123,6 +132,12 @@ body.lotusui30 .lotusSort{
   max-height: 128px;
 }
 
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a {
+  color: $white !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5rem !important;
+}
+
 select{
   font-size: 0.9rem !important;
   max-height: 128px;
@@ -134,6 +149,94 @@ body.sc.hikari.lotusui30 div.lotusTitleBar h2{
 
 .lotusui30 .lotusMeta{
   font-size: 0.9rem !important;
+}
+
+body, body.meetingBody, .lotusui30_body .lotusFrame, .lotusui30_body .lotusMain, .lotusui30_body .lotusMain, .lotusui30 .lotusTitleBar2 .lotusWrapper, .lotusui30 .lotusTitleBar .lotusRightCorner {
+  min-width: inherit !important;
+  max-width: 100%;
+}
+
+body .lotusContent, body .lotusui30_layout .lotusMain .lotusContent{
+  padding-left: 0;
+}
+
+#lotusFrame .activityStreamPage, body.lotusui30_body .lotusMain, #lotusFrame .lotusWrapper, body .lotusColLeft, body .lotusContent.lotusBoard, .lotusui30 .lotusHeader .shareSome-desc, body .lotusStream .lotusWidgetBody#activityStreamMain .streamHeaderWrapper, body.lotusui30 .streamMore, body.lotusui30 .lotusBoard .lotusStream, html body.lotusui30, body #lotusFrame.lotusWidget_3columnsWithBannerTopMenuLayout,
+body.lotusui30 .lotusTitleBar, .lotusui30 .lotusTitleBar2,
+body .lotusFrame.lotusui30_layout.activities{
+  background: #fefefe !important;
+}
+
+body .lotusui30_layout .lotusColLeft:after{
+  border: 0;
+}
+
+body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem, body .lotusCommentItem.lotusFirst{
+  background: #f7f7f7;
+}
+
+.communities-widget-appearance body.lotusui30 div:not(#profilePaneLeft):not(#profilePaneRight):not(#profileBody):not(#tabsWidget1_widgetId_container)>.lotusWidget2 {
+  box-shadow: 0 0 4px rgba(0,0,0,.3);
+}
+
+body .lotusWidget_3columnsWithBannerTopMenuLayout .lotusColLeft .lotusWidget2, body .lotusWidget_3columnsWithBannerTopMenuLayout #lotusContent .lotusWidget2, body .lotusWidget_3columnsWithBannerTopMenuLayout .lotusColRight .lotusWidget2, body .lotusWidget_3columnsWithBannerTopMenuLayout #lotusColBanner .lotusWidget2{
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.lotusMain #lotusColLeft{
+  padding: 0 !important;
+}
+
+body .widgetContainer{
+  margin: 5px;
+}
+
+.lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li a:hover, .lotusMain #lotusColLeft .lotusMenuSection > ul > li a:hover{
+  background: #F4F5F6;
+}
+
+body.lotusui30 .lotusTitleBar2 .lotusInner .titleBarBody img,
+body #imgProfilePhoto,
+body img.usersRadius,
+body #bss-usersMenu img.avatar,
+body .lotusPostAvatar > img,
+body img.icNote-authorImg,
+body #profilePaneLeft .topContainer span img,
+body .otherPeople32, body .otherPeople48,
+body .lotusContent div[id^="lconn_communities_catalog_widgets_ResultsDisplayWidget_"] .placeRow td[dojoattachpoint="communityIcon"] img{
+  border: 0;
+  border-radius: 5rem;
+  box-shadow: 0 0 5px #777;
+}
+body .lotusPostAvatar > img{ margin-left: 5px; }
+
+body .lotusSectionBody{
+  padding-left: 42px !important;
+}
+
+body .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li.lotusSelected a,
+body .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li.lotusSelected a:hover{
+  border-left: 6px solid $secundary !important;
+}
+
+body .ics-scbanner a.selected, body .ics-scbanner div.selected{
+  font-weight: bold !important;
+}
+
+/* Media query for flyout popup on homepage
+*************************************/
+body.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleInner{
+  height: 1rem;
+  line-height: 1.1;
+  padding: 0;
+}
+
+body.lotusui30 .lotusFlyout .lotusFlyoutHeader .lotusMeta.flyoutTime{
+  line-height: 1.1;
+}
+
+body.lotusui30 .lotusFlyoutInner p > img {
+  width: 100%;
 }
 
 /* Profile.css
@@ -155,6 +258,18 @@ body.lotusui30 .lotusLeftLabels label{
   word-wrap: normal;
 }
 
+body .dijitPlaceHolder.dijitInputField{ margin-top: 0; }
+body.lotusui30 .actions .lotusFormButton{ font-size: 0.8rem; }
+
+.lotusTabContainer .lotusTabs li.lotusSelected{ background-color: #fefefe !important; }
+
+td.lotusFormLabel, .lotusFormPlain .lotusTable, .lotusFormPlain .lotusFormTable td{ background: #fefefe !important; }
+textarea{
+  padding: 1rem 0.5rem !important;
+  background: $white !important;
+  border: 1px solid #D8D8D8 !important;
+  border-radius: 0.5rem;
+}
 
 /* Communities.css
 ************************************/
@@ -195,7 +310,7 @@ body{
 
   .lotusContent,
   .lotusui30_layout .lotusMain .lotusContent{
-    padding-left: 2rem;
+    //padding-left: 2rem;
   }
 
   .lotusContent .lotusTags span[role="listitem"]{
@@ -210,6 +325,15 @@ body{
     font-size: 0.8rem !important;
   }
 }
+
+body.lotusui30 .dijitMenuPopup .dijitMenuTable tr:focus td.dijitMenuItemIconCell,
+body.lotusui30 .dijitMenuPopup .dijitMenuTable tr.dijitMenuItemHover td.dijitMenuItemIconCell{
+  border-left: 4px solid $white !important;
+}
+
+body .pickerDropfilesHorizentalPrompt.lconnFileInput.lconnUploadMultiple{ width: calc(100% - 4px) !important; }
+
+.lconnFiles.files-enable-refine-panel #qkrViewControl .viewOn:after{ border-bottom: 3px solid $secundary !important; }
 
 /* Files.css
 ************************************/
