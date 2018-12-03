@@ -151,9 +151,11 @@ body.sc.hikari.lotusui30 div.lotusTitleBar h2{
   font-size: 0.9rem !important;
 }
 
-body, body.meetingBody, .lotusui30_body .lotusFrame, .lotusui30_body .lotusMain, .lotusui30_body .lotusMain, .lotusui30 .lotusTitleBar2 .lotusWrapper, .lotusui30 .lotusTitleBar .lotusRightCorner {
-  min-width: inherit !important;
-  max-width: 100%;
+html {
+  body, body.meetingBody, .lotusui30_body .lotusFrame, .lotusui30_body .lotusMain, .lotusui30_body .lotusMain, .lotusui30 .lotusTitleBar2 .lotusWrapper, .lotusui30 .lotusTitleBar .lotusRightCorner {
+    min-width: inherit !important;
+    max-width: 100%;
+  }
 }
 
 body .lotusContent, body .lotusui30_layout .lotusMain .lotusContent{
@@ -323,6 +325,34 @@ body{
 
   #dfTopicList .lotusMeta, #dfOpenQuestionList .lotusMeta, #dfAnsweredQuestionList .lotusMeta, #topicList .lotusMeta, #dfForumList .lotusMeta{
     font-size: 0.8rem !important;
+  }
+
+  #dfForumList .lotusTable tr:nth-child(4n+2), #dfForumList .lotusTable tr:nth-child(4n+2) th, #dfForumList .lotusTable tr:nth-child(4n+2) td, #dfForumList .lotusTable tr:nth-child(4n+3), #dfForumList .lotusTable tr:nth-child(4n+3) th, #dfForumList .lotusTable tr:nth-child(4n+3) td,
+  #dfTopicList .lotusTable tr:nth-child(4n+2),
+  #dfTopicList .lotusTable tr:nth-child(4n+2) th,
+  #dfTopicList .lotusTable tr:nth-child(4n+2) td,
+  #dfTopicList .lotusTable tr:nth-child(4n+3),
+  #dfTopicList .lotusTable tr:nth-child(4n+3) th,
+  #dfTopicList .lotusTable tr:nth-child(4n+3) td,
+  #dfOpenQuestionList .lotusTable tr:nth-child(4n+2),
+  #dfOpenQuestionList .lotusTable tr:nth-child(4n+2) th,
+  #dfOpenQuestionList .lotusTable tr:nth-child(4n+2) td,
+  #dfOpenQuestionList .lotusTable tr:nth-child(4n+3),
+  #dfOpenQuestionList .lotusTable tr:nth-child(4n+3) th,
+  #dfOpenQuestionList .lotusTable tr:nth-child(4n+3) td,
+  #dfAnsweredQuestionList .lotusTable tr:nth-child(4n+2),
+  #dfAnsweredQuestionList .lotusTable tr:nth-child(4n+2) th,
+  #dfAnsweredQuestionList .lotusTable tr:nth-child(4n+2) td,
+  #dfAnsweredQuestionList .lotusTable tr:nth-child(4n+3),
+  #dfAnsweredQuestionList .lotusTable tr:nth-child(4n+3) th,
+  #dfAnsweredQuestionList .lotusTable tr:nth-child(4n+3) td,
+  #topicList .lotusTable tr:nth-child(4n+2),
+  #topicList .lotusTable tr:nth-child(4n+2) th,
+  #topicList .lotusTable tr:nth-child(4n+2) td,
+  #topicList .lotusTable tr:nth-child(4n+3),
+  #topicList .lotusTable tr:nth-child(4n+3) th,
+  #topicList .lotusTable tr:nth-child(4n+3) td {
+    background-color: #fefefe;
   }
 }
 
