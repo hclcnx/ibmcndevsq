@@ -5,8 +5,7 @@ html {
 
 body {
   font-size: 0.8rem !important;
-  min-height: 100%;
-  max-height: 128px; }
+  min-height: 100%; }
 
 body .ics-scbanner, body .lotusui30 .ics-scbanner.isfixed {
   height: 3.25rem !important;
@@ -129,7 +128,7 @@ html body, html body.meetingBody, html .lotusui30_body .lotusFrame, html .lotusu
 body .lotusContent, body .lotusui30_layout .lotusMain .lotusContent {
   padding-left: 0; }
 
-#lotusFrame .activityStreamPage, body.lotusui30_body .lotusMain, #lotusFrame .lotusWrapper, body .lotusColLeft, body .lotusContent.lotusBoard, .lotusui30 .lotusHeader .shareSome-desc, body .lotusStream .lotusWidgetBody#activityStreamMain .streamHeaderWrapper, body.lotusui30 .streamMore, body.lotusui30 .lotusBoard .lotusStream, html body.lotusui30, body #lotusFrame.lotusWidget_3columnsWithBannerTopMenuLayout,
+#lotusFrame, #lotusFrame .activityStreamPage, body.lotusui30_body .lotusMain, #lotusFrame .lotusWrapper, body .lotusColLeft, body .lotusContent.lotusBoard, .lotusui30 .lotusHeader .shareSome-desc, body .lotusStream .lotusWidgetBody#activityStreamMain .streamHeaderWrapper, body.lotusui30 .streamMore, body.lotusui30 .lotusBoard .lotusStream, html body.lotusui30, body #lotusFrame.lotusWidget_3columnsWithBannerTopMenuLayout,
 body.lotusui30 .lotusTitleBar, .lotusui30 .lotusTitleBar2,
 body .lotusFrame.lotusui30_layout.activities {
   background: #fefefe !important; }
@@ -181,6 +180,24 @@ body .lotusMain #lotusColLeft #homepageLeftNavigationMenuContainer li.lotusSelec
 
 body .ics-scbanner a.selected, body .ics-scbanner div.selected {
   font-weight: bold !important; }
+
+#pickerDnDDescription {
+  width: 420px; }
+
+#ic-root ~ .icSearchPaneButton {
+  top: 165px !important; }
+
+body .template-homepage .setSideBar.itm {
+  background: #f7f7f7; }
+body .template-homepage a.menu_drop_icon {
+  width: 10px !important;
+  height: 10px !important; }
+body .template-homepage .ic-summary {
+  font-size: 1rem; }
+body .template-homepage .ic-comment-content, body .template-homepage .template-homepage .ic-comment-content p {
+  font-size: 0.9rem; }
+body .template-homepage .ic-comment .ic-comment-box .ic-comment-entry .ic-comment-author-name {
+  padding-right: 0; }
 
 /* Media query for flyout popup on homepage
 *************************************/
@@ -311,13 +328,5 @@ body .MiniNode .nodeTypeTodo {
   margin-top: 5px; }
 body .MiniNode .miniPerson .lotusPerson {
   vertical-align: text-top; }
-
-/* REMOVE RULES FROM CSS FILES
-*************************************
-
-
-
-
-*/
 
 /*# sourceMappingURL=sanquinOrange.css.map */
