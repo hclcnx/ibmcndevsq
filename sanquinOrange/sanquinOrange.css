@@ -199,6 +199,12 @@ body .template-homepage .ic-comment-content, body .template-homepage .template-h
 body .template-homepage .ic-comment .ic-comment-box .ic-comment-entry .ic-comment-author-name {
   padding-right: 0; }
 
+ul.lotusInlinelist:not(.lotusRight):not(.lotusLeft) li, ul.lotusInlinelist div.lotusPaging span {
+  font-weight: bold !important; }
+
+ul.lotusInlinelist a {
+  font-weight: normal !important; }
+
 /* Media query for flyout popup on homepage
 *************************************/
 body.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleInner {

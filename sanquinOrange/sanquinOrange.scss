@@ -253,6 +253,13 @@ body .template-homepage{
   }
 }
 
+ul.lotusInlinelist:not(.lotusRight):not(.lotusLeft) li, ul.lotusInlinelist div.lotusPaging span{
+  font-weight: bold !important;
+}
+ul.lotusInlinelist a{
+  font-weight: normal !important;
+}
+
 /* Media query for flyout popup on homepage
 *************************************/
 body.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleInner{
