@@ -205,6 +205,12 @@ ul.lotusInlinelist:not(.lotusRight):not(.lotusLeft) li, ul.lotusInlinelist div.l
 ul.lotusInlinelist a {
   font-weight: normal !important; }
 
+.lotusContent.downloads {
+  margin-left: 1rem; }
+
+.lotusHelp > .lotusInfoBox p {
+  font-size: 1rem; }
+
 /* Media query for flyout popup on homepage
 *************************************/
 body.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleInner {
@@ -315,7 +321,7 @@ body .pickerDropfilesHorizentalPrompt.lconnFileInput.lconnUploadMultiple {
   border-bottom: 3px solid #962264 !important; }
 
 .icCatalogFilter input:active, .icCatalogFilter input:focus, .icCatalogFilter input:hover {
-  border-bottom: solid 2px #962264; }
+  border-bottom: solid 2px #962264 !important; }
 .icCatalogFilter .searchFilter {
   width: 16px !important;
   height: 16px !important;
@@ -325,7 +331,7 @@ body .pickerDropfilesHorizentalPrompt.lconnFileInput.lconnUploadMultiple {
 
 .lotusMain #lotusColLeft:not(.wpthemeNarrow) {
   position: sticky !important;
-  padding: 0.5rem 0 0 1rem !important; }
+  padding: 0.5rem 0 0 0 !important; }
   .lotusMain #lotusColLeft:not(.wpthemeNarrow) .lotusHeading {
     padding-left: 1rem;
     margin-bottom: 1.5rem; }
@@ -350,5 +356,8 @@ body .MiniNode .nodeTypeTodo {
   margin-top: 5px; }
 body .MiniNode .miniPerson .lotusPerson {
   vertical-align: text-top; }
+
+.lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected] {
+  border-left: 4px solid #962264 !important; }
 
 /*# sourceMappingURL=sanquinOrange.css.map */

@@ -260,6 +260,14 @@ ul.lotusInlinelist a{
   font-weight: normal !important;
 }
 
+.lotusContent.downloads{
+  margin-left: 1rem;
+}
+
+.lotusHelp > .lotusInfoBox p{
+  font-size: 1rem;
+}
+
 /* Media query for flyout popup on homepage
 *************************************/
 body.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleInner{
@@ -397,7 +405,7 @@ body .pickerDropfilesHorizentalPrompt.lconnFileInput.lconnUploadMultiple{ width:
 
 .icCatalogFilter{
   input:active, & input:focus, & input:hover{
-    border-bottom: solid 2px #962264;
+    border-bottom: solid 2px #962264 !important;
   }
 
   .searchFilter{
@@ -413,7 +421,7 @@ body .pickerDropfilesHorizentalPrompt.lconnFileInput.lconnUploadMultiple{ width:
 
 .lotusMain #lotusColLeft:not(.wpthemeNarrow){
   position: sticky !important;
-  padding: 0.5rem 0 0 1rem !important;
+  padding: 0.5rem 0 0 0 !important;
 
   .lotusHeading{
     padding-left: 1rem;
@@ -457,4 +465,8 @@ body {
       vertical-align: text-top;
     }
   }
+}
+
+.lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected]{
+  border-left: 4px solid #962264 !important;
 }
